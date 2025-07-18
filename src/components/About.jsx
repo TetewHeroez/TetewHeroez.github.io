@@ -534,7 +534,7 @@ const JourneyTimeline = ({
         }
     `}</style>
     <h3 className="text-2xl font-bold text-slate-800 mb-8 flex items-center">
-      <span className="w-2 h-2 bg-gradient-to-r from-sky-500 to-blue-500 rounded-full mr-3"></span>
+      <GoGear className="h-7 mr-2" />
       Work Experience
     </h3>
     <div className="relative">

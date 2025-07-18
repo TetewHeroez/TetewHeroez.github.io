@@ -282,7 +282,7 @@ const AnimatedBackground = () => (
 const ProjectsHeader = () => (
   <div className="text-center mb-16 scroll-animate" id="projects-header">
     <div className="inline-block">
-      <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 via-cyan-600 to-teal-600 bg-clip-text text-transparent mb-4">
+      <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 via-cyan-600 to-teal-600 bg-clip-text text-transparent mb-2 border-2 pb-2">
         My Projects
       </h2>
       <div className="w-32 h-0.5 bg-gradient-to-r from-blue-400 via-cyan-400 to-teal-400 mx-auto rounded-full mb-6"></div>
@@ -860,8 +860,8 @@ const Projects = () => {
     const elements = document.querySelectorAll(".scroll-animate");
     elements.forEach((el) => observer.observe(el));
 
-    return () => elements.forEach((el) => observer.unobserve(el));
-  }, []);
+    return () => observer.disconnect(); // lebih bersih
+  }, [activeCategory]); // ← tambahkan ini
 
   // Close popup on ESC key
   useEffect(() => {
