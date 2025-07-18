@@ -238,7 +238,7 @@ const HeroContentLeft = ({ visibleElements, scrollToSection }) => (
 // ============================================================================
 const getImagePath = (imageName) => {
   const isDev = process.env.NODE_ENV === "development";
-  const base = isDev ? "" : "/portfolio-website";
+  const base = isDev ? "" : "";
   return `${base}/images/${imageName}`;
 };
 
