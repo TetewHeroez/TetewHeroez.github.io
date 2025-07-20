@@ -1,6 +1,6 @@
 {
   "name": "tetew-heroez-website",
-  "homepage": "https://tetewheroez.github.io",
+  "homepage": "https://tetewheroez.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,15 +10,18 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "fetch-data": "node --experimental-modules scripts/fetch-data.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "@tsparticles/react": "^3.0.0",
+    "glob": "^11.0.3",
     "lucide-react": "^0.525.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
+    "sharp": "^0.34.3",
     "tailwindcss": "^4.1.11",
     "tsparticles": "^3.8.1",
     "typewriter-effect": "^2.22.0"
@@ -28,11 +31,13 @@
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
+    "dotenv": "^17.2.0",
     "eslint": "^9.30.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
+    "node-fetch": "^2.7.0",
     "vite": "^7.0.3"
   }
 }

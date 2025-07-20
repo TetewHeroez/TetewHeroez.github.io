@@ -303,7 +303,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
+                {/* <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-blue-400/20 rounded-full flex items-center justify-center mt-1">
                     <Phone className="w-5 h-5 text-blue-300" />
                   </div>
@@ -313,7 +313,7 @@ const Contact = () => {
                       Available 9AM - 6PM
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -324,7 +324,7 @@ const Contact = () => {
               </h3>
               <div className="grid grid-cols-2 gap-4">
                 <a
-                  href="https://github.com/depichan18"
+                  href="https://github.com/TetewHeroez"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col items-center gap-3 p-4 rounded-xl border border-gray-400/20 hover:border-gray-300/40 hover:bg-white/20 transition-all duration-300 group"
@@ -338,7 +338,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/devirosa"
+                  href="https://linkedin.com/in/teosofihidayahagung"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col items-center gap-3 p-4 rounded-xl border border-cyan-200/20 hover:border-cyan-300/40 hover:bg-cyan-500/20 transition-all duration-300 group"
@@ -352,7 +352,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="mailto:depichan18@gmail.com"
+                  href="mailto:teosofihidayahagung@gmail.com"
                   className="flex flex-col items-center gap-3 p-4 rounded-xl border border-teal-200/20 hover:border-teal-300/40 hover:bg-teal-500/20 transition-all duration-300 group"
                 >
                   <div className="w-12 h-12 bg-teal-400/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -364,7 +364,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="https://instagram.com/devirosaa24"
+                  href="https://instagram.com/tetewheroez"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col items-center gap-3 p-4 rounded-xl border border-pink-200/20 hover:border-pink-300/40 hover:bg-pink-500/20 transition-all duration-300 group"
@@ -393,18 +393,19 @@ const Contact = () => {
           <div className="inline-flex items-center gap-4 text-gray-300">
             <span className="text-2xl text-cyan-400">∂</span>
             <p className="font-light italic">
-              "Mathematics is the language in which God has written the
-              universe"
+              "Mathematics is the most beautiful and most powerful creation of
+              the human spirit."
             </p>
             <span className="text-2xl text-teal-400">∫</span>
           </div>
-          <p className="text-sm text-gray-400 mt-2">- Galileo Galilei</p>
+          <p className="text-sm text-gray-400 mt-2">- Stefan Banach</p>
         </div>
 
         {/* Footer */}
         <div className="text-center pt-8">
           <p className="text-gray-400 font-light">
-            © {new Date().getFullYear()} Devi Rosa Aprilla. All rights reserved.
+            © {new Date().getFullYear()} Teosofi Hidayah Agung. All rights
+            reserved.
           </p>
         </div>
       </div>

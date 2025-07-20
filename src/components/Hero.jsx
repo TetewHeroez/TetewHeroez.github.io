@@ -66,7 +66,7 @@ const VectorArrow = React.memo(
             opacity: opacity,
             filter: "drop-shadow(0 1px 1px rgba(0,0,0,0.6))",
           }}
-          color="#3b82f6"
+          color="#004cff"
           size={16}
         />
       </div>
@@ -158,7 +158,7 @@ const HeroContentLeft = ({ visibleElements, scrollToSection }) => (
         </div>
       </h1>
       <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-        <span className="bg-gradient-to-r bg-cyan-400 inline-block text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r bg-cyan-400 inline-block text-transparent bg-clip-text pb-1">
           <Typewriter
             options={{
               strings: ["Mathematics", "Programming", "Game"],
@@ -465,7 +465,7 @@ const Hero = () => {
         </div>
         <ProfileCard visibleElements={visibleElements} />
       </div>
-      <div className="hidden sm:block absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
+      <div className="hidden lg:block absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
         <button
           onClick={() => scrollToSection("about")}
           className="w-14 h-14 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-white hover:text-cyan-900 transition-all duration-300 border border-white/20"

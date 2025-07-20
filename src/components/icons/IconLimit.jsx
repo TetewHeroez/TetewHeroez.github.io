@@ -6,7 +6,6 @@ const IconLimit = ({ className }) => (
       dominantBaseline="middle"
       textAnchor="middle"
       fontSize="14"
-      fontFamily="Poppins, sans-serif"
       fontWeight="bold"
     >
       lim
@@ -17,7 +16,6 @@ const IconLimit = ({ className }) => (
       dominantBaseline="middle"
       textAnchor="middle"
       fontSize="10"
-      fontFamily="Poppins, sans-serif"
       fontWeight="bold"
     >
       x→

@@ -189,6 +189,8 @@ const categories = {
   personal: "Personal",
   academic: "Academic",
   committee: "Committee",
+  research: "Research",
+  work: "Work",
 };
 
 const projectIcons = {
@@ -298,7 +300,8 @@ const CategoryFilter = ({ activeCategory, onSelectCategory }) => (
     className="flex justify-center mb-12 scroll-animate scroll-animate-delay-1"
     id="category-filter"
   >
-    <div className="flex gap-2 p-2 bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200/50">
+    {/* Modifikasi ada di baris di bawah ini */}
+    <div className="grid grid-cols-3 sm:flex sm:flex-wrap sm:justify-center gap-2 p-2 bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200/50">
       {Object.entries(categories).map(([key, label]) => (
         <button
           key={key}

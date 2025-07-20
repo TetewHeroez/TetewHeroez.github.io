@@ -129,7 +129,7 @@ const Navbar = () => {
                   onClick={() => scrollToSection("contact")}
                   className={`w-full px-6 py-3 rounded-full font-medium transition-all duration-300 ${
                     isScrolled
-                      ? "bg-gradient-to-r from-cyan-600 to-teal-600 text-white hover:from-cyan-700 hover:to-teal-700"
+                      ? "bg-gradient-to-r from-cyan-400 to-sky-600 text-white hover:from-cyan-700 hover:to-sky-700 hover:scale-105"
                       : "border-2 border-white text-white hover:bg-white hover:text-cyan-900"
                   }`}
                 >

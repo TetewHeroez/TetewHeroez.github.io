@@ -6,7 +6,6 @@ const IconGroup = ({ className }) => (
       dominantBaseline="middle"
       textAnchor="middle"
       fontSize="16"
-      fontFamily="Poppins, sans-serif"
       fontWeight="bold"
     >
       <tspan fontStyle="italic">G</tspan>

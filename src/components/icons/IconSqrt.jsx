@@ -15,7 +15,6 @@ const IconSqrt = ({ className }) => (
       fill="currentColor"
       stroke="none"
       fontSize="10"
-      fontFamily="Poppins, sans-serif"
       fontWeight="bold"
     >
       -1

@@ -10,7 +10,7 @@ import {
 } from "react-icons/si";
 import { FaJava, FaTrophy, FaMedal } from "react-icons/fa";
 import { PiMedal } from "react-icons/pi";
-import { LuBraces } from "react-icons/lu";
+import { VscVscode } from "react-icons/vsc";
 import { ChevronLeft, ChevronRight, SquareSigma } from "lucide-react";
 import { GoGear } from "react-icons/go";
 
@@ -31,9 +31,13 @@ const getImagePath = (imageName) => {
   return `${base}/images/${imageName}`;
 };
 
-const getAllImagePaths = (imageNames) => {
-  return imageNames.map((name) => getImagePath(name));
-};
+const images = import.meta.glob("/public/images/exp/*.{jpg,png,jpeg,JPG}", {
+  eager: true,
+  as: "url",
+});
+
+const imagePaths = Object.values(images);
+console.log(imagePaths);
 
 const experiencesData = [
   {
@@ -45,67 +49,67 @@ const experiencesData = [
     documentation: [
       {
         imageSrc: getImagePath("exp/kalkulus1.jpg"),
-        altText: "ML Project Documentation 1",
+        altText: "Documentation 1",
       },
       {
         imageSrc: getImagePath("exp/kalkulus2.png"),
-        altText: "ML Project Documentation 2",
+        altText: "Documentation 2",
       },
     ],
   },
   {
     id: 2,
-    role: "Mathwork AI Virtual Intern",
-    organization: "Mathwork | AICTE",
-    period: "Completed May 2023",
-    logo: "https://placehold.co/40x40/000000/FFFFFF?text=MW",
+    role: "Assistant Laboratory of Algorithm and Programming Computer",
+    organization: "Mathematics Department ITS",
+    period: "2024 - 2025",
+    logo: getImagePath("logo/provikom.png"),
     documentation: [
       {
-        imageSrc:
-          "https://placehold.co/800x500/222222/FFFFFF?text=MATLAB+Signal+Processing",
-        altText: "MATLAB Signal Processing",
+        imageSrc: getImagePath("exp/aslab1.png"),
+        altText: "Documentation 1",
+      },
+      {
+        imageSrc: getImagePath("exp/aslab2.jpg"),
+        altText: "Documentation 2",
       },
     ],
   },
   {
     id: 3,
-    role: "Data Analyst",
-    organization: "DataCamp",
-    period: "Completed Jan 2023",
-    logo: "https://placehold.co/40x40/05192D/FFFFFF?text=DC",
+    role: "Olimpiade Matematika ITS (OMITS)",
+    organization: "HIMATIKA ITS",
+    period: "Mar 2023 - Oct 2024",
+    logo: getImagePath("logo/omits.png"),
     documentation: [
       {
-        imageSrc:
-          "https://placehold.co/800x500/03EF7B/05192D?text=Data+Analysis+Portfolio",
-        altText: "Data Analysis Portfolio",
+        imageSrc: getImagePath("exp/omits1.jpeg"),
+        altText: "Documentation 1",
+      },
+      {
+        imageSrc: getImagePath("exp/omits2.jpeg"),
+        altText: "Documentation 2",
+      },
+      {
+        imageSrc: getImagePath("exp/omits3.JPG"),
+        altText: "Documentation 3",
+      },
+      {
+        imageSrc: getImagePath("exp/omits4.jpg"),
+        altText: "Documentation 4",
       },
     ],
   },
   {
     id: 4,
-    role: "Quantitative Researcher",
-    organization: "Personal Projects",
-    period: "2022 - Present",
-    logo: "https://placehold.co/40x40/4F46E5/FFFFFF?text=QR",
+    role: "PT Gagas Energi Indonesia",
+    organization: "Internship",
+    period: "July 2025 - Aug 2025",
+    logo: getImagePath("logo/gagas-pgn.jpg"),
     documentation: [
       {
         imageSrc:
           "https://placehold.co/800x500/4F46E5/FFFFFF?text=Algorithmic+Trading+Strategy",
         altText: "Algorithmic Trading Strategy",
-      },
-    ],
-  },
-  {
-    id: 5,
-    role: "Teaching Assistant",
-    organization: "University Math Department",
-    period: "Aug 2022 - Dec 2022",
-    logo: "https://placehold.co/40x40/881337/FFFFFF?text=U",
-    documentation: [
-      {
-        imageSrc:
-          "https://placehold.co/800x500/881337/FFFFFF?text=Calculus+I+Syllabus",
-        altText: "Calculus I Syllabus",
       },
     ],
   },
@@ -217,19 +221,14 @@ const achievementsData = [
     rank: "other",
   },
   {
-    title: "National Mathematics Olympiad",
-    detail: "Top 10 Finalist, 2023",
-    rank: "gold",
-  },
-  {
-    title: "University Dean's List",
-    detail: "4 Consecutive Semesters",
-    rank: "silver",
-  },
-  {
-    title: "Best Paper Award",
-    detail: "Student Conference on Financial Modeling",
+    title: "3'rd Place Sanata Dharma Calculus Cup 2024",
+    detail: "Bronze Medal Sadharcall 2024",
     rank: "bronze",
+  },
+  {
+    title: "1'st Place Calculus Cup HIMATIKA ITS 2024",
+    detail: "ASCI HIMATIKA ITS 2024",
+    rank: "gold",
   },
 ];
 
@@ -249,8 +248,8 @@ const MedalIcon = ({ variant }) => {
     },
     bronze: {
       Icon: FaMedal,
-      iconColor: "text-orange-600",
-      bgColor: "bg-orange-200",
+      iconColor: "text-amber-800",
+      bgColor: "bg-amber-400",
       shadow: "drop-shadow-[0_0_1px_#b87333]",
     },
     other: {
@@ -475,7 +474,7 @@ const TimelineItem = ({ experience, isFlipped, onExperienceClick }) => {
       <div className="lg:grid lg:grid-cols-2 lg:gap-6 lg:items-center">
         {/* Flippable Card Container (for mobile/tablet) and Info Card (for PC) */}
         <div
-          className="w-full h-48 lg:h-full"
+          className="w-full h-48 lg:h-full md:h-85"
           style={{ perspective: "1000px" }}
           onClick={() => onExperienceClick(experience.id)}
         >
@@ -527,12 +526,6 @@ const JourneyTimeline = ({
       isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
     }`}
   >
-    <style>{`
-        @keyframes move-dot {
-            0% { transform: translateY(10px); }
-            100% { transform: translateY(calc(100% - 10px)); }
-        }
-    `}</style>
     <h3 className="text-2xl font-bold text-slate-800 mb-8 flex items-center">
       <GoGear className="h-7 mr-2" />
       Work Experience
@@ -540,10 +533,7 @@ const JourneyTimeline = ({
     <div className="relative">
       <div className="absolute left-4 top-0 h-full w-0.5 bg-slate-300">
         <div className="absolute w-full h-full bg-gradient-to-b from-sky-400 to-teal-400 opacity-50 animate-pulse"></div>
-        <div
-          className="absolute left-1/2 -translate-x-1/2 top-0 w-2 h-2 rounded-full bg-sky-500 shadow-lg"
-          style={{ animation: "move-dot 8s ease-in-out infinite alternate" }}
-        ></div>
+        <div className="absolute left-1/2 -translate-x-1/2 top-0 w-2 h-2 rounded-full bg-sky-500 shadow-lg"></div>
       </div>
       {experiencesData.map((exp) => (
         <TimelineItem
@@ -564,8 +554,8 @@ const ProgrammingSkills = ({ isVisible }) => (
       isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
     }`}
   >
-    <h3 className="text-2xl font-bold text-amber-600 mb-6 flex items-center">
-      <LuBraces className={"h-7 mr-2 "} />
+    <h3 className="text-2xl font-bold text-cyan-500 mb-6 flex items-center">
+      <VscVscode className={"h-7 mr-2 "} />
       Programming Skills
     </h3>
     <div className="flex flex-wrap gap-3">
@@ -575,7 +565,7 @@ const ProgrammingSkills = ({ isVisible }) => (
           <span
             key={skill.name}
             className={`group px-4 py-2 text-slate-700 rounded-lg text-sm font-medium border border-slate-200 flex items-center gap-2 transition-colors duration-300
-              ${skill.bgColor} hover:text-slate-200`}
+              ${skill.bgColor} hover:text-slate-200 hover:scale-105`}
           >
             <SkillIcon
               className={`h-5 w-5 ${skill.color} group-hover:text-slate-200 transition-colors duration-300`}
@@ -649,7 +639,11 @@ const MathProficiency = ({ isVisible }) => {
                   }`}
                 />
               </div>
-              <span className="text-sm font-medium text-sky-800 flex-grow">
+              <span
+                className={`text-sm font-medium flex-grow ${
+                  hoveredField === field.name ? field.textColor : "text-sky-800"
+                }`}
+              >
                 {field.name}
               </span>
             </div>
@@ -740,7 +734,7 @@ const About = () => {
       `}</style>
       <div
         id="about"
-        className="min-h-screen py-20 pt-32 relative overflow-hidden bg-gradient-to-br from-zinc-100 via-sky-200 to-blue-400 font-[Poppins,sans-serif]"
+        className="min-h-screen py-20 pt-32 relative overflow-hidden bg-gradient-to-br from-zinc-100 via-sky-200 to-blue-400"
       >
         <AnimatedBackground />
 
