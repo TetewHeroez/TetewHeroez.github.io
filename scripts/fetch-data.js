@@ -109,23 +109,31 @@ async function getGitHubData() {
           // --- PERUBAHAN DIMULAI DI SINI ---
 
           // 1. Ambil data tree DAN data bahasa secara paralel untuk efisiensi
-          const [treeNodes, languagesData] = await Promise.all([
-            getRepoTreeData(GITHUB_USERNAME, repo.name),
-            fetchGitHubAPI(`/repos/${GITHUB_USERNAME}/${repo.name}/languages`), // Panggilan API baru
-          ]);
+          const [treeNodes, languagesData, repoDetails, readmeData] =
+            await Promise.all([
+              getRepoTreeData(GITHUB_USERNAME, repo.name),
+              fetchGitHubAPI(
+                `/repos/${GITHUB_USERNAME}/${repo.name}/languages`
+              ), // Panggilan API baru
+              fetchGitHubAPI(`/repos/${GITHUB_USERNAME}/${repo.name}`), // Untuk 'topics'
+              fetchGitHubAPI(`/repos/${GITHUB_USERNAME}/${repo.name}/readme`),
+            ]);
 
-          // 2. Ubah array node tree menjadi objek bersarang
+          const readmeContent = readmeData
+            ? Buffer.from(readmeData.content, "base64").toString("utf-8")
+            : "";
           const nestedTree = buildFileTree(treeNodes);
 
           return {
             name: repo.name,
             description: repo.description,
-            url: repo.html_url,
             stars: repo.stargazers_count,
             forks: repo.forks_count,
-            // 3. Simpan objek bahasa, bukan string tunggal
-            //    Properti 'language' diganti menjadi 'languages'
             languages: languagesData,
+            html_url: repo.html_url,
+            topics: repoDetails.topics || [],
+            languages: languagesData || {},
+            readmeContent: readmeContent,
             tree: nestedTree,
           };
 
@@ -134,16 +142,6 @@ async function getGitHubData() {
           console.error(
             `Could not fetch data for ${repo.name}. Skipping. Reason: ${error.message}`
           );
-          // Jika gagal, tetap kembalikan data dasar dengan tree dan languages kosong
-          return {
-            name: repo.name,
-            description: repo.description,
-            url: repo.html_url,
-            stars: repo.stargazers_count,
-            forks: repo.forks_count,
-            languages: {}, // Kembalikan objek kosong
-            tree: {}, // Kembalikan objek kosong
-          };
         }
       })
     );
@@ -161,9 +159,9 @@ async function getGitHubData() {
       repos: reposWithTree,
     };
 
-    fs.writeFileSync("public/data.json", JSON.stringify(data, null, 2));
+    fs.writeFileSync("public/raw-data.json", JSON.stringify(data, null, 2));
     console.log(
-      "✅ data.json has been created with language objects and nested tree objects."
+      "✅ raw-data.json has been created with language objects and nested tree objects."
     );
   } catch (error) {
     console.error("Error during GitHub data fetch process:", error);

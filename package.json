@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "predeploy": "pnpm run build",
     "deploy": "gh-pages -d dist",
-    "fetch-data": "node --experimental-modules scripts/fetch-data.js"
+    "fetch-data": "node scripts/fetch-data.js && node scripts/transform-data.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",

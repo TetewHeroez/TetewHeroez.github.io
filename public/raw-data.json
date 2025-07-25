@@ -1,0 +1,4883 @@
+{
+  "profile": {
+    "name": "Teosofi Hidayah Agung",
+    "avatar_url": "https://avatars.githubusercontent.com/u/132694090?v=4",
+    "bio": "NPC who wants to become MC",
+    "followers": 13,
+    "following": 10
+  },
+  "repos": [
+    {
+      "name": "Asisten-things",
+      "description": null,
+      "stars": 1,
+      "forks": 0,
+      "languages": {
+        "TeX": 607852,
+        "Java": 14143
+      },
+      "html_url": "https://github.com/TetewHeroez/Asisten-things",
+      "topics": [],
+      "readmeContent": "Test\n\n<!-- PORTFOLIO-METADATA\n{\n  \"icon\": \"📦\",\n  \"images\": [\n    \"https://url-hosting-gambar.com/depistore-1.png\",\n    \"https://url-hosting-gambar.com/depistore-2.png\"\n  ],\n  \"features\": [\n    \"Manajemen produk dan stok (CRUD)\",\n    \"Pencatatan penjualan otomatis\",\n    \"Dasbor bisnis dengan analitik\"\n  ],\n  \"detailedDescription\": \"Depi Store Manager adalah aplikasi desktop yang dirancang untuk menyederhanakan operasi harian di toko ritel kecil. Aplikasi ini menawarkan fitur untuk mengelola data produk, mengotomatiskan transaksi, dan menghasilkan laporan bisnis yang mendalam.\"\n}\n-->\n",
+      "tree": {
+        ".gitignore": {
+          "type": "file"
+        },
+        "Asisten Dosen": {
+          "type": "folder",
+          "children": {
+            "Bahas Soal": {
+              "type": "folder",
+              "children": {
+                "Soal Evaluasi": {
+                  "type": "folder",
+                  "children": {
+                    "EAS Kalkulus I 2023": {
+                      "type": "folder",
+                      "children": {
+                        "EAS Kalkulus I 2023.pdf": {
+                          "type": "file"
+                        },
+                        "EAS Kalkulus I 2023.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "EAS Kalkulus I 2024": {
+                      "type": "folder",
+                      "children": {
+                        "EAS Kalkulus 1 2024.pdf": {
+                          "type": "file"
+                        },
+                        "EAS Kalkulus 1 2024.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "EAS Kalkulus II 2023": {
+                      "type": "folder",
+                      "children": {
+                        "EAS Kalkulus II 2023.pdf": {
+                          "type": "file"
+                        },
+                        "EAS Kalkulus II 2023.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "ETS Kalkulus I 2023": {
+                      "type": "folder",
+                      "children": {
+                        "ETS Kalkulus I 2023.pdf": {
+                          "type": "file"
+                        },
+                        "ETS Kalkulus I 2023.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "ETS Kalkulus II 2023": {
+                      "type": "folder",
+                      "children": {
+                        "ETS Kalkulus II 2023.pdf": {
+                          "type": "file"
+                        },
+                        "ETS Kalkulus II 2023.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Quis 2 Kalkulus I-30": {
+                      "type": "folder",
+                      "children": {
+                        "Quis 2 Kalkulus I-30.pdf": {
+                          "type": "file"
+                        },
+                        "Quis 2 Kalkulus I-30.tex": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "Soal-soal Buku": {
+                  "type": "folder",
+                  "children": {
+                    "Pembahasan Video YouTube": {
+                      "type": "folder",
+                      "children": {
+                        "PembahasanYT.pdf": {
+                          "type": "file"
+                        },
+                        "PembahasanYT.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Script Video Asdos": {
+                      "type": "folder",
+                      "children": {
+                        "Script Video Asdos.pdf": {
+                          "type": "file"
+                        },
+                        "Script Video Asdos.tex": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "Tes Asdos Kalkulus I": {
+                  "type": "folder",
+                  "children": {
+                    "Tes Asdos Ganjil.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "PPT Kalkulus": {
+              "type": "folder",
+              "children": {
+                "Gambar & Logo": {
+                  "type": "folder",
+                  "children": {
+                    "ITS.png": {
+                      "type": "file"
+                    },
+                    "M.png": {
+                      "type": "file"
+                    },
+                    "Slide_Matematika_Statistika (5).pdf": {
+                      "type": "file"
+                    },
+                    "WoN ML.png": {
+                      "type": "file"
+                    },
+                    "arona class.jpg": {
+                      "type": "file"
+                    },
+                    "motivated.jpg": {
+                      "type": "file"
+                    },
+                    "sudah saatnya.jpg": {
+                      "type": "file"
+                    },
+                    "yuuka s.jpeg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kalkulus 1": {
+                  "type": "folder",
+                  "children": {
+                    "Bab 1": {
+                      "type": "folder",
+                      "children": {
+                        "PPT Kalkulus 1 Bab1.pdf": {
+                          "type": "file"
+                        },
+                        "PPT Kalkulus 1 Bab1.run.xml": {
+                          "type": "file"
+                        },
+                        "PPT Kalkulus 1 Bab1.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Bab 2": {
+                      "type": "folder",
+                      "children": {
+                        "Fungsi.pdf": {
+                          "type": "file"
+                        },
+                        "Fungsi.tex": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Template Soal Evaluasi": {
+              "type": "folder",
+              "children": {
+                "Template SKPB #1": {
+                  "type": "folder",
+                  "children": {
+                    "Template SKPB.pdf": {
+                      "type": "file"
+                    },
+                    "Template SKPB.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Template SKPB #2": {
+                  "type": "folder",
+                  "children": {
+                    "Template SKPB.pdf": {
+                      "type": "file"
+                    },
+                    "Template SKPB.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Asisten Laboratorium": {
+          "type": "folder",
+          "children": {
+            "Alpro 1": {
+              "type": "folder",
+              "children": {
+                "Assigment": {
+                  "type": "folder",
+                  "children": {
+                    "Mock EAS": {
+                      "type": "folder",
+                      "children": {
+                        "Mock EAS Alpro 1.pdf": {
+                          "type": "file"
+                        },
+                        "Mock EAS Alpro 1.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 1 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 1.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 1.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 2 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 2.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 2.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 3 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 3.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 3.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 4 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 4.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 4.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 5 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 5.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 5.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 6 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 6.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 6.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 7 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 7.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 7.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 8 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 8.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 8.tex": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "PPT": {
+                  "type": "folder",
+                  "children": {
+                    "Array": {
+                      "type": "folder",
+                      "children": {
+                        "Array.pdf": {
+                          "type": "file"
+                        },
+                        "Array.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Control Flow": {
+                      "type": "folder",
+                      "children": {
+                        "Control Flow.pdf": {
+                          "type": "file"
+                        },
+                        "Control Flow.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Graphicx": {
+                      "type": "folder",
+                      "children": {
+                        "Arisu Dance": {
+                          "type": "folder",
+                          "children": {
+                            "Arisu Dance-0.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-1.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-10.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-100.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-101.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-102.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-103.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-104.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-105.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-106.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-107.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-108.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-109.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-11.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-110.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-111.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-112.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-113.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-114.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-115.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-116.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-117.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-118.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-119.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-12.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-120.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-121.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-122.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-123.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-124.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-125.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-126.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-127.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-128.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-129.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-13.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-130.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-131.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-132.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-133.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-134.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-135.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-136.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-137.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-138.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-139.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-14.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-140.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-141.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-142.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-143.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-144.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-145.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-146.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-147.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-148.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-149.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-15.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-150.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-151.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-152.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-153.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-154.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-155.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-156.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-157.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-158.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-159.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-16.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-160.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-161.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-162.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-163.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-164.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-165.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-166.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-167.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-168.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-169.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-17.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-170.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-171.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-172.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-173.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-174.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-175.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-176.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-177.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-178.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-179.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-18.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-180.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-181.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-182.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-183.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-184.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-185.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-186.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-19.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-2.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-20.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-21.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-22.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-23.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-24.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-25.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-26.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-27.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-28.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-29.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-3.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-30.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-31.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-32.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-33.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-34.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-35.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-36.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-37.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-38.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-39.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-4.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-40.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-41.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-42.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-43.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-44.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-45.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-46.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-47.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-48.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-49.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-5.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-50.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-51.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-52.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-53.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-54.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-55.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-56.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-57.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-58.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-59.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-6.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-60.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-61.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-62.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-63.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-64.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-65.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-66.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-67.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-68.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-69.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-7.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-70.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-71.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-72.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-73.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-74.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-75.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-76.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-77.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-78.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-79.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-8.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-80.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-81.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-82.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-83.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-84.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-85.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-86.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-87.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-88.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-89.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-9.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-90.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-91.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-92.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-93.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-94.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-95.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-96.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-97.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-98.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-99.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance.gif": {
+                              "type": "file"
+                            }
+                          }
+                        },
+                        "Java bg.jpg": {
+                          "type": "file"
+                        },
+                        "Java code.jpg": {
+                          "type": "file"
+                        },
+                        "Java logo.png": {
+                          "type": "file"
+                        },
+                        "M.png": {
+                          "type": "file"
+                        },
+                        "Provicom.png": {
+                          "type": "file"
+                        },
+                        "bg_2.png": {
+                          "type": "file"
+                        },
+                        "bg_22.jpg": {
+                          "type": "file"
+                        },
+                        "choice.jpg": {
+                          "type": "file"
+                        },
+                        "code_bg.jpeg": {
+                          "type": "file"
+                        },
+                        "genshin showcase.png": {
+                          "type": "file"
+                        },
+                        "heker.jpg": {
+                          "type": "file"
+                        },
+                        "jojo.jpg": {
+                          "type": "file"
+                        },
+                        "motivated.jpg": {
+                          "type": "file"
+                        },
+                        "plana class.jpg": {
+                          "type": "file"
+                        },
+                        "soro soro jikanda.jpg": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Input & Casting": {
+                      "type": "folder",
+                      "children": {
+                        "InputCasting.pdf": {
+                          "type": "file"
+                        },
+                        "InputCasting.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Introduction Java": {
+                      "type": "folder",
+                      "children": {
+                        "Data Bahasa Pemrograman.jpg": {
+                          "type": "file"
+                        },
+                        "Intro Java.pdf": {
+                          "type": "file"
+                        },
+                        "Intro Java.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Looping": {
+                      "type": "folder",
+                      "children": {
+                        "Looping.pdf": {
+                          "type": "file"
+                        },
+                        "Looping.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Method": {
+                      "type": "folder",
+                      "children": {
+                        "Method.pdf": {
+                          "type": "file"
+                        },
+                        "Method.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Struktur Kontrol": {
+                      "type": "folder",
+                      "children": {
+                        "Struktur Kontrol.pdf": {
+                          "type": "file"
+                        },
+                        "Struktur Kontrol.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Variable": {
+                      "type": "folder",
+                      "children": {
+                        "Variable.pdf": {
+                          "type": "file"
+                        },
+                        "Variable.tex": {
+                          "type": "file"
+                        },
+                        "genshin.mp4": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "Solution": {
+                  "type": "folder",
+                  "children": {
+                    "Mock EAS Solution": {
+                      "type": "folder",
+                      "children": {
+                        "Solusi Latihan EAS Kelompok 1 Alpro 1.pdf": {
+                          "type": "file"
+                        },
+                        "Solusi Latihan EAS Kelompok 1 Alpro 1.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 2 Solution": {
+                      "type": "folder",
+                      "children": {
+                        "No1.java": {
+                          "type": "file"
+                        },
+                        "No2.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 5 Solution": {
+                      "type": "folder",
+                      "children": {
+                        "Energy.java": {
+                          "type": "file"
+                        },
+                        "Hypergeometric.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 6 Solution": {
+                      "type": "folder",
+                      "children": {
+                        "NormalDistribution.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 7 Solution": {
+                      "type": "folder",
+                      "children": {
+                        "CekGaris.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 8 Solution": {
+                      "type": "folder",
+                      "children": {
+                        "Derivative.java": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Alpro 2": {
+              "type": "folder",
+              "children": {
+                "Assigment": {
+                  "type": "folder",
+                  "children": {
+                    "Week 1 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 1.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 1.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 2 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 2.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 2.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 3 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 3.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 3.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 4 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 4.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 4.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 5 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 5.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 5.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 7 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 7.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 7.tex": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "PPT": {
+                  "type": "folder",
+                  "children": {
+                    "Abstract Class & Interface": {
+                      "type": "folder",
+                      "children": {
+                        "Abstract Class & Interface.pdf": {
+                          "type": "file"
+                        },
+                        "Abstract Class & Interface.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Analisis Algoritma": {
+                      "type": "folder",
+                      "children": {
+                        "Analisis Algoritma.pdf": {
+                          "type": "file"
+                        },
+                        "Analisis Algoritma.tex": {
+                          "type": "file"
+                        },
+                        "Nilai Siakad.png": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Class & Object": {
+                      "type": "folder",
+                      "children": {
+                        "Class & Object.pdf": {
+                          "type": "file"
+                        },
+                        "Class & Object.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Enkapsulasi": {
+                      "type": "folder",
+                      "children": {
+                        "Enkapsulasi.pdf": {
+                          "type": "file"
+                        },
+                        "Enkapsulasi.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Exception Handling": {
+                      "type": "folder",
+                      "children": {
+                        "Exception Handling.pdf": {
+                          "type": "file"
+                        },
+                        "Exception Handling.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Inheritance & Polymorphism": {
+                      "type": "folder",
+                      "children": {
+                        "Inheritance & Polymorphism.pdf": {
+                          "type": "file"
+                        },
+                        "Inheritance & Polymorphism.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Kompleksitas": {
+                      "type": "folder",
+                      "children": {
+                        "Kompleksitas.pdf": {
+                          "type": "file"
+                        },
+                        "Kompleksitas.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Searching & Sorting": {
+                      "type": "folder",
+                      "children": {
+                        "Searching & Sorting.pdf": {
+                          "type": "file"
+                        },
+                        "Searching & Sorting.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "praktikum-ppt.cls": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Solution": {
+                  "type": "folder",
+                  "children": {
+                    "Week_1_Solution": {
+                      "type": "folder",
+                      "children": {
+                        "FiboMatrix.java": {
+                          "type": "file"
+                        },
+                        "GCD_LCM.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week_4_Solution": {
+                      "type": "folder",
+                      "children": {
+                        "TryCatch.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week_5_Solution": {
+                      "type": "folder",
+                      "children": {
+                        "Main.java": {
+                          "type": "file"
+                        },
+                        "Matriks2x2.java": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "README.md": {
+          "type": "file"
+        }
+      }
+    },
+    {
+      "name": "Tugas-Kuliah",
+      "description": "A collection of assignments from my undergraduate and master's studies.",
+      "stars": 2,
+      "forks": 0,
+      "languages": {
+        "TeX": 1161791,
+        "Java": 198199,
+        "Jupyter Notebook": 69830,
+        "Python": 5909,
+        "MATLAB": 5776
+      },
+      "html_url": "https://github.com/TetewHeroez/Tugas-Kuliah",
+      "topics": [
+        "algebra",
+        "calculus",
+        "complex-analysis",
+        "differential-equations",
+        "linear-algebra",
+        "mathematics",
+        "personal",
+        "probability",
+        "programming",
+        "real-analysis",
+        "statistics"
+      ],
+      "readmeContent": "# Latex\nBahasa pemograman yang sering kupake saat mengerjakan tugas-tugas dari dosen. Awal kenalan sama $\\LaTeX$ adalah saat menjadi Staff Partner OMITS 16th di divisi QM. Karena aku orangnya males nulis dan tulisanku juga jelek (sering typo juga), jujur saja $\\LaTeX$ ini menjadi evolusi pengerjaan tugasku mulai dari semester 3.\n\n## Tugas Kuliah\nBerisi tugas-tugas kuliah yang kukerjakan dalam bentuk file `.tex` dan diconvert ke bentuk `.pdf`. Akan ku jelaskan deskripsi beberapa mata kuliah yang telah kuambil dan kujalani\n\n### [Semester 3](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%203)\nSayangnya disini hanya ada 2 mata kuliah yang kukerjakan pake `Latex` yaitu Aljabar 1 dan Analisis 1 (Ditambah Metnum yang baru kuambil di semester 5). Mungkin saat itu aku masih awam soal `Latex` yang menurutku lebih cepet ngerjain di kertas daripada ngetik.\n\n| Mata Kuliah | Deskripsi Singkat |\n| ------ | ------ |\n| [Aljabar 1](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%203/Aljabar%20I) | Mata kuliah abstrak, namun matkul ini lebih digemari kebanyakan mahasiswa karena tidak terlalu banyak definisi|\n| [Analisis 1](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%203/Analisis%20I) | \"**Real namun abstrak**\" kata yang cocok untuk menggambarkan mata kuliah yang seharusnya menjadi dasar dari kalkulus|\n| [Metode Numerik](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%203/Metode%20Numerik) | Matkul pengingat bahwa tidak semua permaslahan dalam matematika dapat diselesaikan secara eksak (non numerik) |\n\n### [Semester 4](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%204)\nSudah mulai menggunakan `Latex` dalam mengerjakan tugas perkuliahan sehari-hari\n| Mata Kuliah | Deskripsi Singkat |\n| ------ | ------ |\n| [Aljabar 2](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%204/Aljabar%20II) | Lanjutan Aljabar 1, materi yang mudah dipahami adalah ring polinomial (materi setelah ETS)|\n| [Analisis 2](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%204/Analisis%20II) | Bikin aku melek betapa pentingnya definisi dan teorema, yah tapi kalo dipikir-pikir ujung-ujungnya ya hafalan|\n| [Analisis Vektor](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%204/Analisis%20Vektor) | Kata \"Analisis\" bikin orang-orang agak takut sama matkul ini, padahal ini hanyalah lanjutan KPB|\n| [Metode Matematika](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%204/Metode%20Matematika) | Belajar shortcut integral, penyelesaian PD, dan beberapa fungsi khusus|\n| [Teori Peluang](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%204/Teori%20Peluang) | Apakah kalian hanya berpikir bahwa peluang bersifat diskrit saja? oh tentu saja tidak, disini lebih banyak menggunakan konsep kalkulus daripada kombinatorika |\n\n### [Semester 5](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%205)\nUdah mulai massive, namun masih belum ke tahap **pro** (dalam pov ku) karna masih belum belajar membuat class atau package sendiri😄\n| Mata Kuliah | Deskripsi Singkat |\n| ------ | ------ |\n| [Aljabar Linear](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%205/Aljabar%20Linear) | Lanjutan Aljabar Linear Element namun versi lebih abstrak karena memang mata kuliah prassyaratnya ada Aljabar 1 & 2 |\n| [Matematika Statistika](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%205/Matematika%20Statistika) | Statistika versi Analisis. Banyak teorema yang harus dihafalkan untuk menyelesaikan suatu soal|\n| [Pemodelan Matematika](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%205/Pemodelan%20Matematika) | Matkul bagus sebenernya, tapi karna dosennya gak jelas jadinya gk dapet apa2 disini |\n| [Penulisan Ilmiah Matematika](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%205/Penulisan%20Ilmiah%20Matematika) | Banyak diajari tentang cara penulisan ilmiah mulai dari diksi, kalimat efektif, dan etika |\n| [Teknik Simulasi](https://github.com/TetewHeroez/Tugas-Kuliah/tree/main/Semester%205/Teknik%20Simulasi) | Pengaplikasian statistika dengan menggunakan data real time, sungguh cocok untuk orang yang gk sukah keabstrakan |\n\n",
+      "tree": {
+        "README.md": {
+          "type": "file"
+        },
+        "Semester 1": {
+          "type": "folder",
+          "children": {
+            "Algoritma dan Pemrogaman Komputer 1": {
+              "type": "folder",
+              "children": {
+                "EAS 2024": {
+                  "type": "folder",
+                  "children": {
+                    "EAS Alpro 2024.pdf": {
+                      "type": "file"
+                    },
+                    "EAS Alpro 2024.tex": {
+                      "type": "file"
+                    },
+                    "No1.java": {
+                      "type": "file"
+                    },
+                    "No2.java": {
+                      "type": "file"
+                    },
+                    "No3.java": {
+                      "type": "file"
+                    },
+                    "No5.java": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "ETS 2024": {
+                  "type": "folder",
+                  "children": {
+                    "ETS 2024.pdf": {
+                      "type": "file"
+                    },
+                    "ETS 2024.tex": {
+                      "type": "file"
+                    },
+                    "no1.java": {
+                      "type": "file"
+                    },
+                    "no2.java": {
+                      "type": "file"
+                    },
+                    "no3.java": {
+                      "type": "file"
+                    },
+                    "no4.java": {
+                      "type": "file"
+                    },
+                    "no5.java": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Geometri Analitik": {
+              "type": "folder",
+              "children": {
+                "EAS 2023": {
+                  "type": "folder",
+                  "children": {
+                    "EAS geonal 2023.pdf": {
+                      "type": "file"
+                    },
+                    "EAS geonal 2023.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Semester 2": {
+          "type": "folder",
+          "children": {
+            "Algoritma dan Pemrogaman Komputer 2": {
+              "type": "folder",
+              "children": {
+                "Daniel Liang Ch.11": {
+                  "type": "folder",
+                  "children": {
+                    "Liang Ch11.pdf": {
+                      "type": "file"
+                    },
+                    "Liang Ch11.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "ETS": {
+                  "type": "folder",
+                  "children": {
+                    "ETS Alpro.pdf": {
+                      "type": "file"
+                    },
+                    "ETS Alpro.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Java Project": {
+                  "type": "folder",
+                  "children": {
+                    ".vscode": {
+                      "type": "folder",
+                      "children": {
+                        "settings.json": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Tubes_Praktikum": {
+                      "type": "folder",
+                      "children": {
+                        "src": {
+                          "type": "folder",
+                          "children": {
+                            "Border.form": {
+                              "type": "file"
+                            },
+                            "Border.java": {
+                              "type": "file"
+                            },
+                            "DebitPayment.form": {
+                              "type": "file"
+                            },
+                            "DebitPayment.java": {
+                              "type": "file"
+                            },
+                            "EwalletPayment.form": {
+                              "type": "file"
+                            },
+                            "EwalletPayment.java": {
+                              "type": "file"
+                            },
+                            "Gambar": {
+                              "type": "folder",
+                              "children": {
+                                "BCA.png": {
+                                  "type": "file"
+                                },
+                                "BNI.png": {
+                                  "type": "file"
+                                },
+                                "BRI.png": {
+                                  "type": "file"
+                                },
+                                "D LOGO.png": {
+                                  "type": "file"
+                                },
+                                "Dana.png": {
+                                  "type": "file"
+                                },
+                                "Danaa.png": {
+                                  "type": "file"
+                                },
+                                "Debit.png": {
+                                  "type": "file"
+                                },
+                                "Ewallet.png": {
+                                  "type": "file"
+                                },
+                                "G LOGO FIX.png": {
+                                  "type": "file"
+                                },
+                                "Gopay.png": {
+                                  "type": "file"
+                                },
+                                "Livin.png": {
+                                  "type": "file"
+                                },
+                                "Logo BNI.png": {
+                                  "type": "file"
+                                },
+                                "O LOGO.png": {
+                                  "type": "file"
+                                },
+                                "Ovo.png": {
+                                  "type": "file"
+                                },
+                                "Ovoo.png": {
+                                  "type": "file"
+                                },
+                                "S LOGO.png": {
+                                  "type": "file"
+                                },
+                                "Screenshot 2024-06-15 151857.png": {
+                                  "type": "file"
+                                },
+                                "Screenshot 2024-06-15 152916.png": {
+                                  "type": "file"
+                                },
+                                "ShopeePay.png": {
+                                  "type": "file"
+                                },
+                                "cash.png": {
+                                  "type": "file"
+                                },
+                                "pentolan.png": {
+                                  "type": "file"
+                                }
+                              }
+                            },
+                            "Menu.form": {
+                              "type": "file"
+                            },
+                            "Menu.java": {
+                              "type": "file"
+                            },
+                            "OrderSystem.form": {
+                              "type": "file"
+                            },
+                            "OrderSystem.java": {
+                              "type": "file"
+                            },
+                            "PaymentMethod.form": {
+                              "type": "file"
+                            },
+                            "PaymentMethod.java": {
+                              "type": "file"
+                            },
+                            "Struk.form": {
+                              "type": "file"
+                            },
+                            "Struk.java": {
+                              "type": "file"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "Week1": {
+                      "type": "folder",
+                      "children": {
+                        "Method.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week10": {
+                      "type": "folder",
+                      "children": {
+                        "projectBank": {
+                          "type": "folder",
+                          "children": {
+                            "TestRekening.java": {
+                              "type": "file"
+                            },
+                            "cRekening.java": {
+                              "type": "file"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "Week11": {
+                      "type": "folder",
+                      "children": {
+                        "Praktikum5": {
+                          "type": "folder",
+                          "children": {
+                            "HeroML.java": {
+                              "type": "file"
+                            },
+                            "HeroML.txt": {
+                              "type": "file"
+                            },
+                            "tesHeroML.java": {
+                              "type": "file"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "Week12": {
+                      "type": "folder",
+                      "children": {
+                        "Praktikum6": {
+                          "type": "folder",
+                          "children": {
+                            "Praktikum6.java": {
+                              "type": "file"
+                            },
+                            "Praktikum6.txt": {
+                              "type": "file"
+                            },
+                            "TestClass.java": {
+                              "type": "file"
+                            }
+                          }
+                        },
+                        "TestPecahan.java": {
+                          "type": "file"
+                        },
+                        "Titik_Garis": {
+                          "type": "folder",
+                          "children": {
+                            "cGaris.java": {
+                              "type": "file"
+                            },
+                            "cTestTitikGaris.java": {
+                              "type": "file"
+                            },
+                            "cTitik.java": {
+                              "type": "file"
+                            }
+                          }
+                        },
+                        "pecahan.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week14": {
+                      "type": "folder",
+                      "children": {
+                        "CheckMethod.java": {
+                          "type": "file"
+                        },
+                        "Liang_Ch11_15.java": {
+                          "type": "file"
+                        },
+                        "Liang_Ch11_16.java": {
+                          "type": "file"
+                        },
+                        "Liang_Ch11_4.java": {
+                          "type": "file"
+                        },
+                        "Liang_Ch11_9.java": {
+                          "type": "file"
+                        },
+                        "tesHeroML.txt": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week15": {
+                      "type": "folder",
+                      "children": {
+                        "Abstract": {
+                          "type": "folder",
+                          "children": {
+                            "Main.java": {
+                              "type": "file"
+                            },
+                            "cBentuk2D.java": {
+                              "type": "file"
+                            },
+                            "cCircle.java": {
+                              "type": "file"
+                            },
+                            "cRectangle.java": {
+                              "type": "file"
+                            }
+                          }
+                        },
+                        "Interface": {
+                          "type": "folder",
+                          "children": {
+                            "Animal.java": {
+                              "type": "file"
+                            },
+                            "Edible.java": {
+                              "type": "file"
+                            }
+                          }
+                        },
+                        "Latihan_Interface.zip": {
+                          "type": "file"
+                        },
+                        "Latihan_Interface": {
+                          "type": "folder",
+                          "children": {
+                            "Mobil": {
+                              "type": "folder",
+                              "children": {
+                                "Ambulance.java": {
+                                  "type": "file"
+                                },
+                                "Bus.java": {
+                                  "type": "file"
+                                },
+                                "Mobil.java": {
+                                  "type": "file"
+                                },
+                                "MobilNegara.java": {
+                                  "type": "file"
+                                },
+                                "MobilPolisi.java": {
+                                  "type": "file"
+                                },
+                                "MobilPribadi.java": {
+                                  "type": "file"
+                                },
+                                "MobilTransportasi.java": {
+                                  "type": "file"
+                                },
+                                "interfaceMobil.java": {
+                                  "type": "file"
+                                },
+                                "interfaceSirine.java": {
+                                  "type": "file"
+                                }
+                              }
+                            },
+                            "TV": {
+                              "type": "folder",
+                              "children": {
+                                "InterfaceElektronik.java": {
+                                  "type": "file"
+                                },
+                                "Radio.java": {
+                                  "type": "file"
+                                },
+                                "Televisi.java": {
+                                  "type": "file"
+                                },
+                                "interfaceChannelRadio.java": {
+                                  "type": "file"
+                                },
+                                "interfaceChannelTV.java": {
+                                  "type": "file"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "Week3": {
+                      "type": "folder",
+                      "children": {
+                        "LaprakNo1.java": {
+                          "type": "file"
+                        },
+                        "LaprakNo1.txt": {
+                          "type": "file"
+                        },
+                        "LaprakNo2.java": {
+                          "type": "file"
+                        },
+                        "LaprakNo2.txt": {
+                          "type": "file"
+                        },
+                        "Praktikum1.java": {
+                          "type": "file"
+                        },
+                        "Praktikum2.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week4": {
+                      "type": "folder",
+                      "children": {
+                        "CombinatoricONMIPA.java": {
+                          "type": "file"
+                        },
+                        "LaprakFungsi.txt": {
+                          "type": "file"
+                        },
+                        "PraktikumFungsi.java": {
+                          "type": "file"
+                        },
+                        "Searching.java": {
+                          "type": "file"
+                        },
+                        "Sorting.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week5": {
+                      "type": "folder",
+                      "children": {
+                        "SelectionSort.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week6": {
+                      "type": "folder",
+                      "children": {
+                        "LaprakSort.txt": {
+                          "type": "file"
+                        },
+                        "Praktikum3.java": {
+                          "type": "file"
+                        },
+                        "Tugas3AlproCSV.csv": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week7": {
+                      "type": "folder",
+                      "children": {
+                        "Praktikum4": {
+                          "type": "folder",
+                          "children": {
+                            "GUI.java": {
+                              "type": "file"
+                            },
+                            "GUI.txt": {
+                              "type": "file"
+                            },
+                            "MethodFIbbonacci.java": {
+                              "type": "file"
+                            },
+                            "MethodFIbbonacci.txt": {
+                              "type": "file"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "Week8": {
+                      "type": "folder",
+                      "children": {
+                        "ETSno2.java": {
+                          "type": "file"
+                        },
+                        "ETSno3.java": {
+                          "type": "file"
+                        },
+                        "ETSno4a.java": {
+                          "type": "file"
+                        },
+                        "ETSno4b.java": {
+                          "type": "file"
+                        },
+                        "ETSno5.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week9": {
+                      "type": "folder",
+                      "children": {
+                        "KalkulatorBilanganKompleks": {
+                          "type": "folder",
+                          "children": {
+                            "BilanganKompleks.java": {
+                              "type": "file"
+                            },
+                            "GUIkompleks.java": {
+                              "type": "file"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "Tutor EAS": {
+                  "type": "folder",
+                  "children": {
+                    "ABC.class": {
+                      "type": "file"
+                    },
+                    "Circle.class": {
+                      "type": "file"
+                    },
+                    "EFG.class": {
+                      "type": "file"
+                    },
+                    "GeometricObject.class": {
+                      "type": "file"
+                    },
+                    "Main.class": {
+                      "type": "file"
+                    },
+                    "Main.java": {
+                      "type": "file"
+                    },
+                    "Main2.class": {
+                      "type": "file"
+                    },
+                    "Main2.java": {
+                      "type": "file"
+                    },
+                    "Main3.class": {
+                      "type": "file"
+                    },
+                    "Main3.java": {
+                      "type": "file"
+                    },
+                    "PQR.class": {
+                      "type": "file"
+                    },
+                    "XYZ.class": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Aljabar Linear Elementer": {
+              "type": "folder",
+              "children": {
+                "ALE EAS 2025": {
+                  "type": "folder",
+                  "children": {
+                    "ALE EAS 2025.pdf": {
+                      "type": "file"
+                    },
+                    "ALE EAS 2025.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kuis Kelas D": {
+                  "type": "folder",
+                  "children": {
+                    "Kuis Kelas D.pdf": {
+                      "type": "file"
+                    },
+                    "Kuis Kelas D.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Matematika Diskrit": {
+              "type": "folder",
+              "children": {
+                "TreeTranversal": {
+                  "type": "folder",
+                  "children": {
+                    "BinaryTree.java": {
+                      "type": "file"
+                    },
+                    "Main.java": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Semester 3": {
+          "type": "folder",
+          "children": {
+            "Aljabar I": {
+              "type": "folder",
+              "children": {
+                "EAS 2023": {
+                  "type": "folder",
+                  "children": {
+                    "EAS Aljabar 2023.pdf": {
+                      "type": "file"
+                    },
+                    "EAS Aljabar 2023.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "EAS 2024": {
+                  "type": "folder",
+                  "children": {
+                    "EAS Aljabar 2024.pdf": {
+                      "type": "file"
+                    },
+                    "EAS Aljabar 2024.synctex(busy)": {
+                      "type": "file"
+                    },
+                    "EAS Aljabar 2024.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "ETS 2023": {
+                  "type": "folder",
+                  "children": {
+                    "ETS 2023.pdf": {
+                      "type": "file"
+                    },
+                    "ETS 2023.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "ETS 2024": {
+                  "type": "folder",
+                  "children": {
+                    "ETS 2024.pdf": {
+                      "type": "file"
+                    },
+                    "ETS 2024.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Grup Dihedral": {
+                  "type": "folder",
+                  "children": {
+                    "Grup Dihedral.pdf": {
+                      "type": "file"
+                    },
+                    "Grup Dihedral.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Grup Permutasi": {
+                  "type": "folder",
+                  "children": {
+                    "Grup Permutasi.pdf": {
+                      "type": "file"
+                    },
+                    "Grup Permutasi.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Grup": {
+                  "type": "folder",
+                  "children": {
+                    "Grup.pdf": {
+                      "type": "file"
+                    },
+                    "Grup.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Homomorpisma": {
+                  "type": "folder",
+                  "children": {
+                    "Homomorpisma.pdf": {
+                      "type": "file"
+                    },
+                    "Homomorpisma.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Isomorpisma": {
+                  "type": "folder",
+                  "children": {
+                    "Isomorpisma.pdf": {
+                      "type": "file"
+                    },
+                    "Isomorpisma.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Relasi Ekivalen": {
+                  "type": "folder",
+                  "children": {
+                    "Relasi Ekivalen.pdf": {
+                      "type": "file"
+                    },
+                    "Relasi Ekivalen.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Subgrup (part 2)": {
+                  "type": "folder",
+                  "children": {
+                    "Subgrup (part 2).pdf": {
+                      "type": "file"
+                    },
+                    "Subgrup (part 2).tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Subgrup": {
+                  "type": "folder",
+                  "children": {
+                    "Subgrup.pdf": {
+                      "type": "file"
+                    },
+                    "Subgrup.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas Video": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas Video.nav": {
+                      "type": "file"
+                    },
+                    "Tugas Video.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas Video.snm": {
+                      "type": "file"
+                    },
+                    "Tugas Video.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Analisis I": {
+              "type": "folder",
+              "children": {
+                "ETS 2023": {
+                  "type": "folder",
+                  "children": {
+                    "ETS.pdf": {
+                      "type": "file"
+                    },
+                    "ETS.tex": {
+                      "type": "file"
+                    },
+                    "ITS.png": {
+                      "type": "file"
+                    },
+                    "M.png": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "ETS 2024": {
+                  "type": "folder",
+                  "children": {
+                    "ETS 2024.pdf": {
+                      "type": "file"
+                    },
+                    "ETS 2024.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 2": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 2.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 2.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Metode Numerik": {
+              "type": "folder",
+              "children": {
+                "Akar Persamaan": {
+                  "type": "folder",
+                  "children": {
+                    "MetodeBiseksi.py": {
+                      "type": "file"
+                    },
+                    "NewtonRaphson.py": {
+                      "type": "file"
+                    },
+                    "RegulaFalsi.py": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Catatan Metnum": {
+                  "type": "folder",
+                  "children": {
+                    "Catatan Metnum.pdf": {
+                      "type": "file"
+                    },
+                    "Catatan Metnum.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Diferensiasi Numerik": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 1.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Persamaan Diferensial Biasa": {
+              "type": "folder",
+              "children": {
+                "Solusi akar kembar": {
+                  "type": "folder",
+                  "children": {
+                    "PDB UT akar kembar NxN.pdf": {
+                      "type": "file"
+                    },
+                    "PDB UT akar kembar NxN.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Solusi akar kompleks": {
+                  "type": "folder",
+                  "children": {
+                    "PDB UT akar kompleks NxN.pdf": {
+                      "type": "file"
+                    },
+                    "PDB UT akar kompleks NxN.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Semester 4": {
+          "type": "folder",
+          "children": {
+            "Aljabar II": {
+              "type": "folder",
+              "children": {
+                "1st Homework": {
+                  "type": "folder",
+                  "children": {
+                    "1st Homework.pdf": {
+                      "type": "file"
+                    },
+                    "1st Homework.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Quis Bu Dian": {
+                  "type": "folder",
+                  "children": {
+                    "Quis Bu Dian.pdf": {
+                      "type": "file"
+                    },
+                    "Quis Bu Dian.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Quis Pak Komar": {
+                  "type": "folder",
+                  "children": {
+                    "ITS.png": {
+                      "type": "file"
+                    },
+                    "M.png": {
+                      "type": "file"
+                    },
+                    "Quis Pak Komar.pdf": {
+                      "type": "file"
+                    },
+                    "Quis Pak Komar.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Analisis II": {
+              "type": "folder",
+              "children": {
+                "EAS": {
+                  "type": "folder",
+                  "children": {
+                    "EAS.pdf": {
+                      "type": "file"
+                    },
+                    "EAS.tex": {
+                      "type": "file"
+                    },
+                    "ITS.png": {
+                      "type": "file"
+                    },
+                    "M.png": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kuis 2": {
+                  "type": "folder",
+                  "children": {
+                    "Kuis 2.pdf": {
+                      "type": "file"
+                    },
+                    "Kuis 2.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 1": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 1.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas online": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas online.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas online.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tutor ETS": {
+                  "type": "folder",
+                  "children": {
+                    "ITS.png": {
+                      "type": "file"
+                    },
+                    "M.png": {
+                      "type": "file"
+                    },
+                    "Tutor ETS.pdf": {
+                      "type": "file"
+                    },
+                    "Tutor ETS.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Analisis Vektor": {
+              "type": "folder",
+              "children": {
+                "Buat 6 soal": {
+                  "type": "folder",
+                  "children": {
+                    "Buat 6 soal.pdf": {
+                      "type": "file"
+                    },
+                    "Buat 6 soal.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "EAS": {
+                  "type": "folder",
+                  "children": {
+                    "EAS.pdf": {
+                      "type": "file"
+                    },
+                    "EAS.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "ETS": {
+                  "type": "folder",
+                  "children": {
+                    "ETS anvek.pdf": {
+                      "type": "file"
+                    },
+                    "ETS anvek.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Evaluasi pertemuan 1&2": {
+                  "type": "folder",
+                  "children": {
+                    "Evaluasi pertemuan 1&2.pdf": {
+                      "type": "file"
+                    },
+                    "Evaluasi pertemuan 1&2.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kuis 2 Pak Suhud": {
+                  "type": "folder",
+                  "children": {
+                    "Kuis 2 Pak Suhud.pdf": {
+                      "type": "file"
+                    },
+                    "Kuis 2 Pak Suhud.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kuis 2": {
+                  "type": "folder",
+                  "children": {
+                    "Kuis 2.pdf": {
+                      "type": "file"
+                    },
+                    "Kuis 2.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Latihan 2.5": {
+                  "type": "folder",
+                  "children": {
+                    "Latihan 2.5.pdf": {
+                      "type": "file"
+                    },
+                    "Latihan 2.5.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "PPT Bab 4": {
+                  "type": "folder",
+                  "children": {
+                    "GAMBAR 7.png": {
+                      "type": "file"
+                    },
+                    "PPT Bab 4.nav": {
+                      "type": "file"
+                    },
+                    "PPT Bab 4.pdf": {
+                      "type": "file"
+                    },
+                    "PPT Bab 4.snm": {
+                      "type": "file"
+                    },
+                    "PPT Bab 4.tex": {
+                      "type": "file"
+                    },
+                    "logoITS.png": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 4.5 12-16": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas no 12-16.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas no 12-16.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas kelas Bu Nur": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas kelas Bu Nur.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas kelas Bu Nur.tex": {
+                      "type": "file"
+                    },
+                    "logoITS.png": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Metode Matematika": {
+              "type": "folder",
+              "children": {
+                "Fungsi Bessel": {
+                  "type": "folder",
+                  "children": {
+                    "Fungsi Bessel.pdf": {
+                      "type": "file"
+                    },
+                    "Fungsi Bessel.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 15 mei": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 15 mei.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 15 mei.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 17 april": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 17 april.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 17 april.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 25 mar": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 25 mar.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 25 mar.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 28 feb": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 28 feb.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 28 feb.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 6 maret": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 6 Maret.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 6 Maret.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 6 mei": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 6 mei.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 6 mei.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas Legendre": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas Legendre.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas Legendre.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Persamaan Diferensial Parsial": {
+              "type": "folder",
+              "children": {
+                "Cheatsheet PDP": {
+                  "type": "folder",
+                  "children": {
+                    "Cheatsheet PDP.pdf": {
+                      "type": "file"
+                    },
+                    "Cheatsheet PDP.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "EAS PDP 2025": {
+                  "type": "folder",
+                  "children": {
+                    "EAS PDP 2025.pdf": {
+                      "type": "file"
+                    },
+                    "EAS PDP 2025.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "ETS PDP 2025": {
+                  "type": "folder",
+                  "children": {
+                    "ETS PDP 2025.pdf": {
+                      "type": "file"
+                    },
+                    "ETS PDP 2025.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kuis 2": {
+                  "type": "folder",
+                  "children": {
+                    "Kuis 2.pdf": {
+                      "type": "file"
+                    },
+                    "Kuis 2.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 1": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 1.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 2": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 2 PDP.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 2 PDP.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 3": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 3.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 3.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Teori Peluang": {
+              "type": "folder",
+              "children": {
+                "Cheatsheet Teopel": {
+                  "type": "folder",
+                  "children": {
+                    "Cheatsheet Teopel.pdf": {
+                      "type": "file"
+                    },
+                    "Cheatsheet Teopel.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Exercise 4": {
+                  "type": "folder",
+                  "children": {
+                    "Exercise 4.pdf": {
+                      "type": "file"
+                    },
+                    "Exercise 4.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Semester 5": {
+          "type": "folder",
+          "children": {
+            "Aljabar Linear": {
+              "type": "folder",
+              "children": {
+                "Orthogonality": {
+                  "type": "folder",
+                  "children": {
+                    "Theorem 6.nav": {
+                      "type": "file"
+                    },
+                    "Theorem 6.pdf": {
+                      "type": "file"
+                    },
+                    "Theorem 6.snm": {
+                      "type": "file"
+                    },
+                    "Theorem 6.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Matematika Statistika": {
+              "type": "folder",
+              "children": {
+                "Cheatsheet Matstat": {
+                  "type": "folder",
+                  "children": {
+                    "Cheatsheet Matstat.pdf": {
+                      "type": "file"
+                    },
+                    "Cheatsheet Matstat.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Distribusi Sampel": {
+                  "type": "folder",
+                  "children": {
+                    "Bab 8 No.2, 6,7.pdf": {
+                      "type": "file"
+                    },
+                    "Bab 8 No.2, 6,7.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Estimasi Interval": {
+                  "type": "folder",
+                  "children": {
+                    "Bain bab 11 no.2,7,8.pdf": {
+                      "type": "file"
+                    },
+                    "Bain bab 11 no.2,7,8.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Statistik Cukup": {
+                  "type": "folder",
+                  "children": {
+                    "Bain Bab 10 No. 8-11.pdf": {
+                      "type": "file"
+                    },
+                    "Bain Bab 10 No. 8-11.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Statistik Lengkap": {
+                  "type": "folder",
+                  "children": {
+                    "Bain bab 10 no. 16,17,18,26.pdf": {
+                      "type": "file"
+                    },
+                    "Bain bab 10 no. 16,17,18,26.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Statistik Order": {
+                  "type": "folder",
+                  "children": {
+                    "Bain Bab 6 no.28,29,31.pdf": {
+                      "type": "file"
+                    },
+                    "Bain Bab 6 no.28,29,31.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Teori Sampel Besar": {
+                  "type": "folder",
+                  "children": {
+                    "Bain bab 9 no.31-35.pdf": {
+                      "type": "file"
+                    },
+                    "Bain bab 9 no.31-35.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Pemodelan Matematika": {
+              "type": "folder",
+              "children": {
+                "1 Soal PD Linear non-Homogen": {
+                  "type": "folder",
+                  "children": {
+                    "PD non-Homogen.pdf": {
+                      "type": "file"
+                    },
+                    "PD non-Homogen.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "1 Soal Pelinearan PD": {
+                  "type": "folder",
+                  "children": {
+                    "1 Soal Pelinearan PD.pdf": {
+                      "type": "file"
+                    },
+                    "1 Soal Pelinearan PD.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "1 Soal SIstem PD": {
+                  "type": "folder",
+                  "children": {
+                    "Contoh Soal dan Penyelesaian.pdf": {
+                      "type": "file"
+                    },
+                    "Contoh Soal dan Penyelesaian.tex": {
+                      "type": "file"
+                    },
+                    "autonomus.jpg": {
+                      "type": "file"
+                    },
+                    "kompleks_autonomus.m": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "1 Soal Sistem PD Non Linear Non-Homogen": {
+                  "type": "folder",
+                  "children": {
+                    "PD non linear non homogen.pdf": {
+                      "type": "file"
+                    },
+                    "PD non linear non homogen.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "EAS": {
+                  "type": "folder",
+                  "children": {
+                    "EAS Nomor 1.png": {
+                      "type": "file"
+                    },
+                    "EAS Nomor 2 u1 u2.png": {
+                      "type": "file"
+                    },
+                    "EAS Nomor 2 x y.png": {
+                      "type": "file"
+                    },
+                    "EAS pemod.pdf": {
+                      "type": "file"
+                    },
+                    "EAS pemod.tex": {
+                      "type": "file"
+                    },
+                    "EAS_pemod_no_1.m": {
+                      "type": "file"
+                    },
+                    "EAS_pemod_no_2.m": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kalkulus Variasi": {
+                  "type": "folder",
+                  "children": {
+                    "Matkul gadungan.pdf": {
+                      "type": "file"
+                    },
+                    "Matkul gadungan.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kuis 1": {
+                  "type": "folder",
+                  "children": {
+                    "Kuis 1.pdf": {
+                      "type": "file"
+                    },
+                    "Kuis 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Minimum Pontryagin": {
+                  "type": "folder",
+                  "children": {
+                    "gk tau tugas apa.pdf": {
+                      "type": "file"
+                    },
+                    "gk tau tugas apa.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Quiz 2": {
+                  "type": "folder",
+                  "children": {
+                    "1c.png": {
+                      "type": "file"
+                    },
+                    "1d.png": {
+                      "type": "file"
+                    },
+                    "2cd.jpg": {
+                      "type": "file"
+                    },
+                    "Qpemod_no1c.m": {
+                      "type": "file"
+                    },
+                    "Qpemod_no1d.m": {
+                      "type": "file"
+                    },
+                    "Quiz 2 Pemod.pdf": {
+                      "type": "file"
+                    },
+                    "Quiz 2 Pemod.tex": {
+                      "type": "file"
+                    },
+                    "TEOSOFI HIDAYAH AGUNG_Q2MODEL.docx": {
+                      "type": "file"
+                    },
+                    "TEOSOFI HIDAYAH AGUNG_Q2MODEL.pdf": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Penulisan Ilmiah Matematika": {
+              "type": "folder",
+              "children": {
+                "PPT TA": {
+                  "type": "folder",
+                  "children": {
+                    "PPT_TA.nav": {
+                      "type": "file"
+                    },
+                    "PPT_TA.pdf": {
+                      "type": "file"
+                    },
+                    "PPT_TA.snm": {
+                      "type": "file"
+                    },
+                    "PPT_TA.tex": {
+                      "type": "file"
+                    },
+                    "foto": {
+                      "type": "folder",
+                      "children": {
+                        "Suroboyo bus.png": {
+                          "type": "file"
+                        },
+                        "rute suroboyo bus.png": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "reference.bib": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Proposal TA": {
+                  "type": "folder",
+                  "children": {
+                    "Proposal TA.pdf": {
+                      "type": "file"
+                    },
+                    "Proposal TA.tex": {
+                      "type": "file"
+                    },
+                    "references.bib": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Proposal Tugas Akhir": {
+                  "type": "folder",
+                  "children": {
+                    "TA Tetew.lof": {
+                      "type": "file"
+                    },
+                    "TA Tetew.pdf": {
+                      "type": "file"
+                    },
+                    "TA Tetew.tex": {
+                      "type": "file"
+                    },
+                    "file": {
+                      "type": "folder",
+                      "children": {
+                        "TA-ITS.cls": {
+                          "type": "file"
+                        },
+                        "TA-data.tex": {
+                          "type": "file"
+                        },
+                        "daftarPustaka.bib": {
+                          "type": "file"
+                        },
+                        "picins.sty": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "foto": {
+                      "type": "folder",
+                      "children": {
+                        "BlockDiagram.png": {
+                          "type": "file"
+                        },
+                        "Diagram alir max plus.jpg": {
+                          "type": "file"
+                        },
+                        "FotoRidho.jpg": {
+                          "type": "file"
+                        },
+                        "logoITS.png": {
+                          "type": "file"
+                        },
+                        "logoITSBiru.png": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Teknik Simulasi": {
+              "type": "folder",
+              "children": {
+                "Model Statistika": {
+                  "type": "folder",
+                  "children": {
+                    "Statistic Model.pdf": {
+                      "type": "file"
+                    },
+                    "Statistic Model.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Random Number Generator": {
+                  "type": "folder",
+                  "children": {
+                    "RNG.pdf": {
+                      "type": "file"
+                    },
+                    "RNG.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Teknik Invers": {
+                  "type": "folder",
+                  "children": {
+                    "InversCDF.pdf": {
+                      "type": "file"
+                    },
+                    "InversCDF.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Semester 6": {
+          "type": "folder",
+          "children": {
+            "Analisis Kombinatorik": {
+              "type": "folder",
+              "children": {
+                "Homework 1": {
+                  "type": "folder",
+                  "children": {
+                    "Homework 1.pdf": {
+                      "type": "file"
+                    },
+                    "Homework 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Kerja Praktek": {
+              "type": "folder",
+              "children": {
+                "Laporan KP": {
+                  "type": "folder",
+                  "children": {
+                    "5002221132_Teosofi Hidayah Agung_Laporan KP.lof": {
+                      "type": "file"
+                    },
+                    "5002221132_Teosofi Hidayah Agung_Laporan KP.pdf": {
+                      "type": "file"
+                    },
+                    "5002221132_Teosofi Hidayah Agung_Laporan KP.tex": {
+                      "type": "file"
+                    },
+                    "file": {
+                      "type": "folder",
+                      "children": {
+                        "KP-ITS.cls": {
+                          "type": "file"
+                        },
+                        "KP-data.tex": {
+                          "type": "file"
+                        },
+                        "daftarPustaka.bib": {
+                          "type": "file"
+                        },
+                        "picins.sty": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "foto": {
+                      "type": "folder",
+                      "children": {
+                        "FotoPenulis.png": {
+                          "type": "file"
+                        },
+                        "IsiJawaban.png": {
+                          "type": "file"
+                        },
+                        "JawabanBenar1.png": {
+                          "type": "file"
+                        },
+                        "JawabanBenar2.png": {
+                          "type": "file"
+                        },
+                        "KomponenWeb.png": {
+                          "type": "file"
+                        },
+                        "LatihanBox.png": {
+                          "type": "file"
+                        },
+                        "LightDarkMode.png": {
+                          "type": "file"
+                        },
+                        "LihatSolusi.png": {
+                          "type": "file"
+                        },
+                        "LogoPerusahaan.png": {
+                          "type": "file"
+                        },
+                        "SidebarBuka.png": {
+                          "type": "file"
+                        },
+                        "SidebarTutup.png": {
+                          "type": "file"
+                        },
+                        "logoITS.png": {
+                          "type": "file"
+                        },
+                        "logoITSBiru.png": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "PPT KP": {
+                  "type": "folder",
+                  "children": {
+                    "PPT KP.nav": {
+                      "type": "file"
+                    },
+                    "PPT KP.pdf": {
+                      "type": "file"
+                    },
+                    "PPT KP.snm": {
+                      "type": "file"
+                    },
+                    "PPT KP.tex": {
+                      "type": "file"
+                    },
+                    "beamerthemeUfg.sty": {
+                      "type": "file"
+                    },
+                    "figs": {
+                      "type": "folder",
+                      "children": {
+                        "Fotbar1.jpg": {
+                          "type": "file"
+                        },
+                        "Fotbar2.jpg": {
+                          "type": "file"
+                        },
+                        "FotbarHabisJaga.jpg": {
+                          "type": "file"
+                        },
+                        "FotbarLobby.jpg": {
+                          "type": "file"
+                        },
+                        "FotbarSKPBLantaiG.jpg": {
+                          "type": "file"
+                        },
+                        "FotoLobbySKPB.jpg": {
+                          "type": "file"
+                        },
+                        "Hasil1.png": {
+                          "type": "file"
+                        },
+                        "Hasil2.png": {
+                          "type": "file"
+                        },
+                        "Hasil3.png": {
+                          "type": "file"
+                        },
+                        "Hasil4.png": {
+                          "type": "file"
+                        },
+                        "Jaga1.jpg": {
+                          "type": "file"
+                        },
+                        "Jaga2.jpg": {
+                          "type": "file"
+                        },
+                        "Jaga3.jpg": {
+                          "type": "file"
+                        },
+                        "Koreksi1.jpg": {
+                          "type": "file"
+                        },
+                        "Koreksi2.jpg": {
+                          "type": "file"
+                        },
+                        "Koreksi3.jpg": {
+                          "type": "file"
+                        },
+                        "Koreksi4.jpg": {
+                          "type": "file"
+                        },
+                        "Koreksi5.jpg": {
+                          "type": "file"
+                        },
+                        "PemaparanProgres.jpg": {
+                          "type": "file"
+                        },
+                        "Web1.jpg": {
+                          "type": "file"
+                        },
+                        "Web2.jpg": {
+                          "type": "file"
+                        },
+                        "Web3.jpg": {
+                          "type": "file"
+                        },
+                        "Web4.png": {
+                          "type": "file"
+                        },
+                        "Web5.png": {
+                          "type": "file"
+                        },
+                        "Web6.png": {
+                          "type": "file"
+                        },
+                        "Web7.png": {
+                          "type": "file"
+                        },
+                        "Web8.png": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "lib": {
+                      "type": "folder",
+                      "children": {
+                        "layouts": {
+                          "type": "folder",
+                          "children": {
+                            "horizontal_bg.pdf": {
+                              "type": "file"
+                            },
+                            "intro_bg.pdf": {
+                              "type": "file"
+                            },
+                            "title_bg.pdf": {
+                              "type": "file"
+                            },
+                            "vertical_bg.pdf": {
+                              "type": "file"
+                            }
+                          }
+                        },
+                        "logos": {
+                          "type": "folder",
+                          "children": {
+                            "ITSMath.pdf": {
+                              "type": "file"
+                            },
+                            "LogoPerusahaan.png": {
+                              "type": "file"
+                            },
+                            "LogoSKPB.png": {
+                              "type": "file"
+                            },
+                            "M.png": {
+                              "type": "file"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Logika Formal": {
+              "type": "folder",
+              "children": {
+                "Chromatic Number": {
+                  "type": "folder",
+                  "children": {
+                    "Edge Coloring.ipynb": {
+                      "type": "file"
+                    },
+                    "Graph Cromathic Number.ipynb": {
+                      "type": "file"
+                    },
+                    "graph.svg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "EAS Project": {
+                  "type": "folder",
+                  "children": {
+                    "EAS Logfor.ipynb": {
+                      "type": "file"
+                    },
+                    "EASproject.py": {
+                      "type": "file"
+                    },
+                    "Record.mkv": {
+                      "type": "file"
+                    },
+                    "Report": {
+                      "type": "folder",
+                      "children": {
+                        "Report Final Project.pdf": {
+                          "type": "file"
+                        },
+                        "Report Final Project.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "grid.png": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Linear Equation": {
+                  "type": "folder",
+                  "children": {
+                    "LE Tutorial.ipynb": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Polynomials": {
+                  "type": "folder",
+                  "children": {
+                    "Polynomial.ipynb": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Quiz 1": {
+                  "type": "folder",
+                  "children": {
+                    "Quiz 1 Number 4.ipynb": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tutorial": {
+                  "type": "folder",
+                  "children": {
+                    "tutorial.ipynb": {
+                      "type": "file"
+                    },
+                    "tutorial.py": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Pengantar Analisis Fungsional": {
+              "type": "folder",
+              "children": {
+                "EAS": {
+                  "type": "folder",
+                  "children": {
+                    "EAS anfung.pdf": {
+                      "type": "file"
+                    },
+                    "EAS anfung.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "ETS": {
+                  "type": "folder",
+                  "children": {
+                    "ETS anfung.pdf": {
+                      "type": "file"
+                    },
+                    "ETS anfung.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kuis 1": {
+                  "type": "folder",
+                  "children": {
+                    "Kuis 1 Anfung.nav": {
+                      "type": "file"
+                    },
+                    "Kuis 1 Anfung.pdf": {
+                      "type": "file"
+                    },
+                    "Kuis 1 Anfung.snm": {
+                      "type": "file"
+                    },
+                    "Kuis 1 Anfung.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kuis 2": {
+                  "type": "folder",
+                  "children": {
+                    "Kuis 2 Anfung.nav": {
+                      "type": "file"
+                    },
+                    "Kuis 2 Anfung.pdf": {
+                      "type": "file"
+                    },
+                    "Kuis 2 Anfung.snm": {
+                      "type": "file"
+                    },
+                    "Kuis 2 Anfung.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 1": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 1.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 2": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 2.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 2.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 3": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 3.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 3.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 4": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 4.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 4.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Pengantar Teori Graf": {
+              "type": "folder",
+              "children": {
+                "Labeling": {
+                  "type": "folder",
+                  "children": {
+                    "Labeling.pdf": {
+                      "type": "file"
+                    },
+                    "Labeling.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Rangkuman": {
+                  "type": "folder",
+                  "children": {
+                    "Rangkuman.pdf": {
+                      "type": "file"
+                    },
+                    "Rangkuman.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 2": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 2.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 2.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Pengantar Verifikasi Sistem": {
+              "type": "folder",
+              "children": {
+                "NuSMV": {
+                  "type": "folder",
+                  "children": {
+                    "ex1.smv": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas Sistem Transisi": {
+                  "type": "folder",
+                  "children": {
+                    "Exercise 2.1.pdf": {
+                      "type": "file"
+                    },
+                    "Exercise 2.1.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas Trace dan Linear Time Properties": {
+                  "type": "folder",
+                  "children": {
+                    "Exercise 3.1 & 3.5.pdf": {
+                      "type": "file"
+                    },
+                    "Exercise 3.1 & 3.5.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Template Math Depart": {
+          "type": "folder",
+          "children": {
+            "HIMATIKA ITS.png": {
+              "type": "file"
+            },
+            "Honey Pie": {
+              "type": "folder",
+              "children": {
+                "honey pie-0.png": {
+                  "type": "file"
+                },
+                "honey pie-1.png": {
+                  "type": "file"
+                },
+                "honey pie-10.png": {
+                  "type": "file"
+                },
+                "honey pie-11.png": {
+                  "type": "file"
+                },
+                "honey pie-12.png": {
+                  "type": "file"
+                },
+                "honey pie-13.png": {
+                  "type": "file"
+                },
+                "honey pie-14.png": {
+                  "type": "file"
+                },
+                "honey pie-15.png": {
+                  "type": "file"
+                },
+                "honey pie-16.png": {
+                  "type": "file"
+                },
+                "honey pie-17.png": {
+                  "type": "file"
+                },
+                "honey pie-18.png": {
+                  "type": "file"
+                },
+                "honey pie-19.png": {
+                  "type": "file"
+                },
+                "honey pie-2.png": {
+                  "type": "file"
+                },
+                "honey pie-20.png": {
+                  "type": "file"
+                },
+                "honey pie-21.png": {
+                  "type": "file"
+                },
+                "honey pie-22.png": {
+                  "type": "file"
+                },
+                "honey pie-23.png": {
+                  "type": "file"
+                },
+                "honey pie-24.png": {
+                  "type": "file"
+                },
+                "honey pie-25.png": {
+                  "type": "file"
+                },
+                "honey pie-26.png": {
+                  "type": "file"
+                },
+                "honey pie-27.png": {
+                  "type": "file"
+                },
+                "honey pie-28.png": {
+                  "type": "file"
+                },
+                "honey pie-29.png": {
+                  "type": "file"
+                },
+                "honey pie-3.png": {
+                  "type": "file"
+                },
+                "honey pie-30.png": {
+                  "type": "file"
+                },
+                "honey pie-31.png": {
+                  "type": "file"
+                },
+                "honey pie-32.png": {
+                  "type": "file"
+                },
+                "honey pie-33.png": {
+                  "type": "file"
+                },
+                "honey pie-34.png": {
+                  "type": "file"
+                },
+                "honey pie-35.png": {
+                  "type": "file"
+                },
+                "honey pie-36.png": {
+                  "type": "file"
+                },
+                "honey pie-37.png": {
+                  "type": "file"
+                },
+                "honey pie-38.png": {
+                  "type": "file"
+                },
+                "honey pie-39.png": {
+                  "type": "file"
+                },
+                "honey pie-4.png": {
+                  "type": "file"
+                },
+                "honey pie-40.png": {
+                  "type": "file"
+                },
+                "honey pie-41.png": {
+                  "type": "file"
+                },
+                "honey pie-42.png": {
+                  "type": "file"
+                },
+                "honey pie-43.png": {
+                  "type": "file"
+                },
+                "honey pie-44.png": {
+                  "type": "file"
+                },
+                "honey pie-45.png": {
+                  "type": "file"
+                },
+                "honey pie-46.png": {
+                  "type": "file"
+                },
+                "honey pie-47.png": {
+                  "type": "file"
+                },
+                "honey pie-48.png": {
+                  "type": "file"
+                },
+                "honey pie-49.png": {
+                  "type": "file"
+                },
+                "honey pie-5.png": {
+                  "type": "file"
+                },
+                "honey pie-6.png": {
+                  "type": "file"
+                },
+                "honey pie-7.png": {
+                  "type": "file"
+                },
+                "honey pie-8.png": {
+                  "type": "file"
+                },
+                "honey pie-9.png": {
+                  "type": "file"
+                },
+                "honey pie.gif": {
+                  "type": "file"
+                }
+              }
+            },
+            "ITS.png": {
+              "type": "file"
+            },
+            "Kita Ikuyo Doodle": {
+              "type": "folder",
+              "children": {
+                "Kita Ikuyo Doodle-0.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-1.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-10.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-11.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-12.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-13.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-14.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-15.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-16.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-17.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-18.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-19.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-2.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-20.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-21.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-22.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-23.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-24.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-25.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-26.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-27.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-28.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-29.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-3.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-30.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-31.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-32.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-33.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-34.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-35.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-36.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-37.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-38.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-39.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-4.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-40.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-41.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-42.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-43.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-44.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-45.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-46.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-47.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-48.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-49.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-5.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-50.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-51.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-52.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-53.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-54.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-55.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-56.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-57.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-58.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-59.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-6.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-60.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-61.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-62.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-63.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-64.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-65.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-66.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-67.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-68.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-69.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-7.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-70.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-71.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-72.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-73.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-74.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-75.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-76.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-77.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-78.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-79.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-8.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-80.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-81.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-82.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-83.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-84.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-85.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle-9.png": {
+                  "type": "file"
+                },
+                "Kita Ikuyo Doodle.gif": {
+                  "type": "file"
+                }
+              }
+            },
+            "Kuru Kuru Herta": {
+              "type": "folder",
+              "children": {
+                "kuru kuru-0.png": {
+                  "type": "file"
+                },
+                "kuru kuru-1.png": {
+                  "type": "file"
+                },
+                "kuru kuru-2.png": {
+                  "type": "file"
+                },
+                "kuru kuru-3.png": {
+                  "type": "file"
+                },
+                "kuru kuru-4.png": {
+                  "type": "file"
+                },
+                "kuru kuru-5.png": {
+                  "type": "file"
+                },
+                "kuru kuru.gif": {
+                  "type": "file"
+                }
+              }
+            },
+            "LogoLatex.png": {
+              "type": "file"
+            },
+            "M.png": {
+              "type": "file"
+            },
+            "Provicom.png": {
+              "type": "file"
+            },
+            "Shiroko Wo Ai Ni": {
+              "type": "folder",
+              "children": {
+                "Shiroko Wo Ai Ni-0.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-1.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-10.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-100.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-101.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-102.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-103.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-104.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-105.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-106.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-107.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-108.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-109.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-11.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-110.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-111.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-112.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-113.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-114.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-115.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-116.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-117.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-118.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-119.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-12.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-120.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-121.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-122.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-123.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-124.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-125.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-126.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-127.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-128.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-129.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-13.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-130.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-131.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-132.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-133.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-134.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-135.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-136.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-137.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-138.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-139.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-14.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-140.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-141.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-142.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-143.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-144.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-145.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-146.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-147.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-148.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-149.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-15.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-150.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-151.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-152.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-153.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-154.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-155.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-156.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-157.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-16.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-17.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-18.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-19.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-2.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-20.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-21.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-22.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-23.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-24.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-25.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-26.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-27.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-28.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-29.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-3.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-30.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-31.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-32.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-33.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-34.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-35.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-36.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-37.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-38.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-39.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-4.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-40.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-41.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-42.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-43.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-44.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-45.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-46.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-47.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-48.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-49.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-5.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-50.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-51.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-52.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-53.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-54.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-55.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-56.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-57.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-58.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-59.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-6.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-60.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-61.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-62.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-63.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-64.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-65.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-66.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-67.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-68.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-69.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-7.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-70.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-71.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-72.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-73.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-74.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-75.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-76.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-77.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-78.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-79.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-8.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-80.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-81.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-82.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-83.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-84.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-85.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-86.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-87.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-88.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-89.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-9.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-90.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-91.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-92.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-93.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-94.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-95.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-96.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-97.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-98.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni-99.png": {
+                  "type": "file"
+                },
+                "Shiroko Wo Ai Ni.gif": {
+                  "type": "file"
+                }
+              }
+            },
+            "Template 0": {
+              "type": "folder",
+              "children": {
+                "Template Word.pdf": {
+                  "type": "file"
+                },
+                "Template Word.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Template 1": {
+              "type": "folder",
+              "children": {
+                "Template Math ITS.pdf": {
+                  "type": "file"
+                },
+                "Template Math ITS.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Template 2": {
+              "type": "folder",
+              "children": {
+                "Template Math #2.pdf": {
+                  "type": "file"
+                },
+                "Template Math #2.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "logoITS.png": {
+              "type": "file"
+            },
+            "logoITSBiru.png": {
+              "type": "file"
+            },
+            "provicomIG.png": {
+              "type": "file"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "CP-Training",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "languages": {
+        "TeX": 104055,
+        "C++": 4685
+      },
+      "html_url": "https://github.com/TetewHeroez/CP-Training",
+      "topics": [],
+      "readmeContent": "# Memory Tipe Data Primitif\n## Bilangan Bulat\n| Tipe Data | Bits | Interval | $10^n$ |\n| ------ | ------ | ------ | ------ | \n| char | 8 | $[0,255]$ | $10^2$ | \n| short | 16 | $[0,65.535]$ | $10^4$ | \n| int | 32 | $[0,4.294.967.295]$ | $10^9$ | \n| long | 64 | $[0,18.446.744.073.709.551.616]$ | $10^{20}$ | \n\n## Bilangan Real\n| Tipe Data | Bits | Interval | $10^n$ |\n| ------ | ------ | ------ | ------ | \n| float | 32 | $[-1.7\\times 10^{38},1.7\\times 10^{38}]$ | $10^{38}$ | \n| double | 64 | $[-1.7\\times 10^{308},1.7\\times 10^{308}]$ | $10^{308}$ | \n",
+      "tree": {
+        "Gemastik 2024": {
+          "type": "folder",
+          "children": {
+            "[A] Makan Lumpia": {
+              "type": "folder",
+              "children": {
+                "MakanLumpia.cpp": {
+                  "type": "file"
+                },
+                "MakanLumpia.exe": {
+                  "type": "file"
+                }
+              }
+            },
+            "[B] Lumpia Rebung": {
+              "type": "folder",
+              "children": {
+                "LumpiaRebung.cpp": {
+                  "type": "file"
+                },
+                "LumpiaRebung.exe": {
+                  "type": "file"
+                }
+              }
+            },
+            "[C] Piknik": {
+              "type": "folder",
+              "children": {
+                "Piknik.cpp": {
+                  "type": "file"
+                },
+                "Piknik.exe": {
+                  "type": "file"
+                }
+              }
+            },
+            "[D] Biner": {
+              "type": "folder",
+              "children": {
+                "Biner.cpp": {
+                  "type": "file"
+                },
+                "Biner.exe": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "Math": {
+          "type": "folder",
+          "children": {
+            "Combinatoric": {
+              "type": "folder",
+              "children": {
+                "Combinatoric.cpp": {
+                  "type": "file"
+                },
+                "Combinatoric.exe": {
+                  "type": "file"
+                }
+              }
+            },
+            "PascalTriangle": {
+              "type": "folder",
+              "children": {
+                "PascalTriangle.cpp": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "Pembinaan OSK SMA Puri": {
+          "type": "folder",
+          "children": {
+            "Aritmatika Modular": {
+              "type": "folder",
+              "children": {
+                "Aritmatika Modular.nav": {
+                  "type": "file"
+                },
+                "Aritmatika Modular.pdf": {
+                  "type": "file"
+                },
+                "Aritmatika Modular.snm": {
+                  "type": "file"
+                },
+                "Aritmatika Modular.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Graf": {
+              "type": "folder",
+              "children": {
+                "Graf.nav": {
+                  "type": "file"
+                },
+                "Graf.pdf": {
+                  "type": "file"
+                },
+                "Graf.snm": {
+                  "type": "file"
+                },
+                "Graf.tex": {
+                  "type": "file"
+                },
+                "Ilustrasi Jembatan.png": {
+                  "type": "file"
+                },
+                "Seven Bridges of Konigsberg.png": {
+                  "type": "file"
+                }
+              }
+            },
+            "Kombinatorika": {
+              "type": "folder",
+              "children": {
+                "Kombinatorika.nav": {
+                  "type": "file"
+                },
+                "Kombinatorika.pdf": {
+                  "type": "file"
+                },
+                "Kombinatorika.snm": {
+                  "type": "file"
+                },
+                "Kombinatorika.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Pigeonhole Principle": {
+              "type": "folder",
+              "children": {
+                "Pigeonhole Principle.nav": {
+                  "type": "file"
+                },
+                "Pigeonhole Principle.pdf": {
+                  "type": "file"
+                },
+                "Pigeonhole Principle.snm": {
+                  "type": "file"
+                },
+                "Pigeonhole Principle.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Soal-soal": {
+              "type": "folder",
+              "children": {
+                "Aritmatika Modular": {
+                  "type": "folder",
+                  "children": {
+                    "Soal Latihan OSK TIK.pdf": {
+                      "type": "file"
+                    },
+                    "Soal Latihan OSK TIK.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Graf & Pohon": {
+                  "type": "folder",
+                  "children": {
+                    "Graf & Pohon.pdf": {
+                      "type": "file"
+                    },
+                    "Graf & Pohon.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kombinatorik": {
+                  "type": "folder",
+                  "children": {
+                    "Soal latihan kombin.pdf": {
+                      "type": "file"
+                    },
+                    "Soal latihan kombin.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Pigeonhole Principle": {
+                  "type": "folder",
+                  "children": {
+                    "Soal Latihan PHP.pdf": {
+                      "type": "file"
+                    },
+                    "Soal Latihan PHP.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Try out 1": {
+                  "type": "folder",
+                  "children": {
+                    "Try out1.pdf": {
+                      "type": "file"
+                    },
+                    "Try out1.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Try out 2": {
+                  "type": "folder",
+                  "children": {
+                    "Try out 2.pdf": {
+                      "type": "file"
+                    },
+                    "Try out 2.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "README.md": {
+          "type": "file"
+        }
+      }
+    }
+  ]
+}

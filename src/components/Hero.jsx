@@ -161,7 +161,7 @@ const HeroContentLeft = ({ visibleElements, scrollToSection }) => (
         <span className="bg-gradient-to-r bg-cyan-400 inline-block text-transparent bg-clip-text pb-1">
           <Typewriter
             options={{
-              strings: ["Mathematics", "Programming", "Game"],
+              strings: ["Mathematics", "Programming", "Games"],
               autoStart: true,
               loop: true,
               loopCount: Infinity,

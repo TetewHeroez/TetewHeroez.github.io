@@ -525,6 +525,37 @@ const ProjectCard = ({ project, onImageClick }) => {
   );
 };
 
+const useResponsiveProjects = () => {
+  const getProjectsPerPage = () => {
+    if (typeof window === "undefined") {
+      return 3; // Default untuk server-side rendering
+    }
+    if (window.innerWidth < 768) {
+      // Mobile (Tailwind's 'md' breakpoint)
+      return 1;
+    }
+    if (window.innerWidth < 1024) {
+      // Tablet (Tailwind's 'lg' breakpoint)
+      return 2;
+    }
+    return 3; // Desktop
+  };
+
+  const [projectsPerPage, setProjectsPerPage] = useState(getProjectsPerPage());
+
+  useEffect(() => {
+    const handleResize = () => {
+      setProjectsPerPage(getProjectsPerPage());
+    };
+
+    window.addEventListener("resize", handleResize);
+    // Cleanup listener saat komponen di-unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return projectsPerPage;
+};
+
 const ProjectCarousel = ({
   projects,
   currentPage,
@@ -535,17 +566,27 @@ const ProjectCarousel = ({
   prevPage,
   goToPage,
 }) => {
+  // Menentukan kelas lebar dinamis berdasarkan projectsPerPage
+  const widthClass =
+    {
+      1: "w-full",
+      2: "w-1/2",
+      3: "w-1/3",
+    }[projectsPerPage] || "w-1/3";
+
+  // Kalkulasi untuk menggeser slide
+  const slideWidthPercentage = 100 / projectsPerPage;
   return (
-    <div className="relative">
+    <div className="relative w-full">
       <div className="overflow-hidden">
         <div
           className="flex transition-transform duration-700 ease-in-out"
           style={{
-            transform: `translateX(-${currentPage * (100 / projectsPerPage)}%)`,
+            transform: `translateX(-${currentPage * slideWidthPercentage}%)`,
           }}
         >
           {projects.map((project) => (
-            <div key={project.id} className="w-1/3 flex-shrink-0">
+            <div key={project.id} className={`${widthClass} flex-shrink-0`}>
               <ProjectCard project={project} onImageClick={onImageClick} />
             </div>
           ))}
@@ -883,12 +924,9 @@ const Projects = () => {
       ? projectsData
       : projectsData.filter((p) => p.category === activeCategory);
 
-  const projectsPerPage = 3;
+  const projectsPerPage = useResponsiveProjects();
   const slideStep = 1;
-  const totalSlides = Math.max(
-    1,
-    filteredProjects.length - projectsPerPage + 1
-  );
+  const totalSlides = Math.ceil(filteredProjects.length / projectsPerPage);
 
   // Page navigation logic
   const nextPage = () =>
