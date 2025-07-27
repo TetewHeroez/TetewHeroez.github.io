@@ -8,18 +8,12 @@
   },
   "repos": [
     {
+      "id": 795128736,
       "name": "Tugas-Kuliah",
       "description": "A collection of assignments from my undergraduate and master's studies.",
-      "stars": 2,
-      "forks": 0,
-      "languages": {
-        "TeX": 1161791,
-        "Java": 198199,
-        "Jupyter Notebook": 69830,
-        "Python": 5909,
-        "MATLAB": 5776
-      },
+      "stargazers_count": 2,
       "html_url": "https://github.com/TetewHeroez/Tugas-Kuliah",
+      "pushed_at": "2025-07-27T09:04:08Z",
       "homepage": "",
       "topics": [
         "academic",
@@ -35,6 +29,13 @@
         "school",
         "statistics"
       ],
+      "languages": {
+        "TeX": 1161791,
+        "Java": 198199,
+        "Jupyter Notebook": 69830,
+        "Python": 5909,
+        "MATLAB": 5776
+      },
       "readmeContent": "# 🎓 ITS Mathematics Coursework Repository\n<!-- PORTFOLIO-START: detailedDescription -->\nThis repository contains various academic assignments and coursework I completed throughout my undergraduate studies in the **Department of Mathematics**, Institut Teknologi Sepuluh Nopember (ITS). Most of the documents are written in **LaTeX** and exported as PDF files.\n<!-- PORTFOLIO-END: detailedDescription -->\n## 🖋 Why LaTeX?\n<!-- PORTFOLIO-START: detailedDescription -->\nI first got introduced to $\\LaTeX$ while working as a **Staff Partner for OMITS 16th** in the Quality Management division. As someone who doesn’t enjoy handwriting (and often makes typos too!), LaTeX has become a game-changer in how I handle assignments—especially since my third semester. It offers clean, professional formatting and allows me to focus on content without worrying about layout.\n\nSince then, LaTeX has been my primary tool for writing mathematical reports, papers, and homework assignments.\n<!-- PORTFOLIO-END: detailedDescription -->\n## 📂 What’s Inside?\n\nThis repository is organized into folders, each representing a different course. Inside each folder, you'll typically find:\n<!-- PORTFOLIO-START: features -->\n- **`.tex` source files**\n- **Final `.pdf` versions**\n- **Supporting figures or code (if applicable)**\n<!-- PORTFOLIO-END: features -->\nCourses include, but are not limited to:\n\n- **Calculus**\n- **Linear Algebra**\n- **Real Analysis**\n- **Numerical Methods**\n- **Abstract Algebra**\n- **Probability & Statistics**\n- **Mathematical Modeling**\n\nI’ve also included short descriptions or reflections in some folders to help readers understand the focus and learning outcomes of each course.\n\n## 📌 Notes\n\n- All files are for educational and archival purposes only.\n- Please don’t copy-paste the work directly. Instead, use it as a reference or inspiration.\n- If you’re a fellow math student, I hope you find something helpful here!\n\n## 📜 License\n\nThis repository is open-source and shared under the MIT License. Feel free to explore, learn, and build upon the work here—with credit appreciated.\n",
       "tree": {
         "README.md": {
@@ -3306,18 +3307,18 @@
             }
           }
         }
+      },
+      "owner": {
+        "login": "TetewHeroez"
       }
     },
     {
+      "id": 902331146,
       "name": "Asisten-things",
       "description": "Assigment and material for my assistance to students ",
-      "stars": 1,
-      "forks": 0,
-      "languages": {
-        "TeX": 607852,
-        "Java": 14143
-      },
+      "stargazers_count": 1,
       "html_url": "https://github.com/TetewHeroez/Asisten-things",
+      "pushed_at": "2025-07-26T17:54:59Z",
       "homepage": "",
       "topics": [
         "algorithm",
@@ -3329,6 +3330,10 @@
         "programming",
         "work"
       ],
+      "languages": {
+        "TeX": 607852,
+        "Java": 14143
+      },
       "readmeContent": "# 📘 Academic Assistant Materials Repository\n\n<!-- PORTFOLIO-START: detailedDescription -->\nThis repository serves as a personal archive of academic resources that I created and compiled during my tenure as a **teaching assistant** for two university-level courses: **Calculus** and **Programming Algorithm**.\n\nAll materials in this repository were developed using **LaTeX**, particularly the Beamer document class for presentations, to ensure professional layout, clarity, and consistency. The use of LaTeX allows for precise formatting of mathematical notation and structured document design, making the content suitable for academic and teaching purposes.\n<!-- PORTFOLIO-END: detailedDescription -->\n\n## 📂 Contents\n<!-- PORTFOLIO-START: features -->\n- 📊 **Lecture Presentations**  \n  Carefully crafted Beamer-based presentation slides used to deliver or assist in class explanations. These materials are designed to be visually clear, concise, and pedagogically effective.\n\n- 📝 **Assignments and Exercises**  \n  Various problem sets and assignments, either given to students or used for practice sessions.\n\n- ✅ **Solution Discussions**  \n  Fully worked-out solutions and walkthroughs for selected problems, including explanations of the reasoning and methodology behind each solution.\n\n- 🧠 **Supplementary Notes**  \n  Additional summaries or concept explanations that were used to support students' understanding beyond what was covered in lectures.\n  <!-- PORTFOLIO-END: features -->\n\n<p align=\"center\">\n  <img src=\"https://github.com/user-attachments/assets/bce9d7f1-f1d9-4c9b-9f66-390606327f60\" width=\"600\"/>\n  <br/><br/>\n  <img src=\"https://github.com/user-attachments/assets/82cbf678-37a5-49c8-bf16-67c3912d20ca\" width=\"600\"/>\n</p>\n\n## 🛠️ Technical Info\n\nThese materials were written primarily in **LaTeX** and are organized by course and topic. They reflect my effort to enhance the learning experience of students, encourage critical thinking, and provide structured resources for independent study.\n\n> 📌 **Note**: This repository does not include any confidential or unpublished course material from the institution. All shared content is either created independently or adapted with permission.\n\n<p align=\"center\">\n  <img src=\"https://github.com/user-attachments/assets/54898da8-bcc4-4639-afe9-e58675b83069\" width=\"250\" style=\"margin: 5px;\" />\n  <img src=\"https://github.com/user-attachments/assets/49e3310a-c04c-421a-a4b8-233bd4521ed2\" width=\"250\" style=\"margin: 5px;\" />\n  <img src=\"https://github.com/user-attachments/assets/0433fe9a-466e-4b34-8575-509d1de028d7\" width=\"250\" style=\"margin: 5px;\" />\n</p>\n",
       "tree": {
         ".gitignore": {
@@ -4648,20 +4653,24 @@
         "README.md": {
           "type": "file"
         }
+      },
+      "owner": {
+        "login": "TetewHeroez"
       }
     },
     {
+      "id": 897227250,
       "name": "CP-Training",
       "description": null,
-      "stars": 0,
-      "forks": 0,
+      "stargazers_count": 0,
+      "html_url": "https://github.com/TetewHeroez/CP-Training",
+      "pushed_at": "2025-07-20T11:21:39Z",
+      "homepage": null,
+      "topics": [],
       "languages": {
         "TeX": 104055,
         "C++": 4685
       },
-      "html_url": "https://github.com/TetewHeroez/CP-Training",
-      "homepage": null,
-      "topics": [],
       "readmeContent": "# Memory Tipe Data Primitif\n## Bilangan Bulat\n| Tipe Data | Bits | Interval | $10^n$ |\n| ------ | ------ | ------ | ------ | \n| char | 8 | $[0,255]$ | $10^2$ | \n| short | 16 | $[0,65.535]$ | $10^4$ | \n| int | 32 | $[0,4.294.967.295]$ | $10^9$ | \n| long | 64 | $[0,18.446.744.073.709.551.616]$ | $10^{20}$ | \n\n## Bilangan Real\n| Tipe Data | Bits | Interval | $10^n$ |\n| ------ | ------ | ------ | ------ | \n| float | 32 | $[-1.7\\times 10^{38},1.7\\times 10^{38}]$ | $10^{38}$ | \n| double | 64 | $[-1.7\\times 10^{308},1.7\\times 10^{308}]$ | $10^{308}$ | \n",
       "tree": {
         "Gemastik 2024": {
@@ -4890,6 +4899,976 @@
         "README.md": {
           "type": "file"
         }
+      },
+      "owner": {
+        "login": "TetewHeroez"
+      }
+    },
+    {
+      "id": 949272434,
+      "name": "KP-SKPB.github.io",
+      "description": "Interactive Calculus learning website built with vanilla HTML, CSS, JS. Equipped with KaTeX for math rendering and CortexJS for reactive modules.",
+      "stargazers_count": 0,
+      "html_url": "https://github.com/KP-SKPB/KP-SKPB.github.io",
+      "pushed_at": "2025-07-27T13:12:46Z",
+      "homepage": "https://kp-skpb.github.io/",
+      "topics": [
+        "website",
+        "work"
+      ],
+      "languages": {
+        "HTML": 1096518,
+        "CSS": 30499,
+        "JavaScript": 7557,
+        "TeX": 746
+      },
+      "readmeContent": "# 🌐 Interactive Calculus Learning Website\n<!-- PORTFOLIO-START: detailedDescription -->\nThis repository contains the source code for a lightweight, responsive educational website designed to help first-year university students understand Calculus concepts interactively. Built using vanilla **HTML**, **CSS**, and **JavaScript**, the site integrates **KaTeX** for high-quality math rendering and **CortexJS** for reactive user interaction.\n\nThis website was developed as part of a mandatory internship program (*Kerja Praktik*) in the Department of Mathematics, Institut Teknologi Sepuluh Nopember (ITS). The purpose of the program is to allow students to contribute to academic or institutional needs through practical, real-world projects.\n\nThe idea for this website emerged from observations that many new students struggle to grasp basic Calculus concepts such as limits, derivatives, and integrals. These difficulties are often due to abstract explanations and a lack of interactive, accessible learning media.\n<!-- PORTFOLIO-END: detailedDescription -->\nTo address this, the website was designed to provide:\n\n- Clear and concise explanations of fundamental Calculus topics\n- Well-rendered mathematical expressions using KaTeX\n- Interactive visual components powered by CortexJS, allowing students to explore concepts dynamically\n\nThis project aims to support independent learning and supplement traditional lectures with a modern, intuitive platform that can be accessed across devices.\n\n## ✨ Features\n<!-- PORTFOLIO-START: features -->\n- 📚 **Rich, readable content on core Calculus topics**\n- 📐 **Math rendering with KaTeX for clarity and precision**\n- ⚙️ **Reactive components using CortexJS**\n- 🧮 **Practice exercises with immediate feedback**\n<!-- PORTFOLIO-END: features -->\n## 📦 Built With\n\n- **HTML**, **CSS**, and **JavaScript**\n- [KaTeX](https://katex.org/) – Fast math typesetting in the browser\n- [CortexJS](https://github.com/millejoh/cortex-js) – Lightweight reactive engine for dynamic educational content\n\n## 🚀 Getting Started\n\nClone this repository and open `index.html` in your browser:\n\n```bash\ngit clone https://github.com/username/calculus-interactive.git\ncd calculus-interactive\nstart index.html\n```\n\n## 📁 Folder Structure\n\n```\n/\n├── index.html\n├── /css\n│   └── styles.css\n├── /js\n│   ├── main.js\n│   └── modules/\n│       └── calculusModule.js\n├── /assets\n│   └── images, icons, etc.\n```\n## 📸 Preview\n\n![Preview Screenshot](./assets/screenshot.png)\n",
+      "tree": {
+        "HTML": {
+          "type": "folder",
+          "children": {
+            "header.html": {
+              "type": "file"
+            },
+            "sidebar_1.html": {
+              "type": "file"
+            },
+            "sidebar_2.html": {
+              "type": "file"
+            }
+          }
+        },
+        "Js": {
+          "type": "folder",
+          "children": {
+            "import.js": {
+              "type": "file"
+            },
+            "import2.js": {
+              "type": "file"
+            },
+            "learn.js": {
+              "type": "file"
+            },
+            "main.js": {
+              "type": "file"
+            }
+          }
+        },
+        "Kalkulus 1": {
+          "type": "folder",
+          "children": {
+            "Bab 1": {
+              "type": "folder",
+              "children": {
+                "Bilangan_Real.html": {
+                  "type": "file"
+                },
+                "Grafik_Persamaan.html": {
+                  "type": "file"
+                },
+                "Nilai_Mutlak.html": {
+                  "type": "file"
+                },
+                "Persamaan_Garis_dan_Jarak.html": {
+                  "type": "file"
+                },
+                "Persamaan_Lingkaran_dan_Bola.html": {
+                  "type": "file"
+                },
+                "img": {
+                  "type": "folder",
+                  "children": {
+                    "1.1.1.svg": {
+                      "type": "file"
+                    },
+                    "1.1.10.svg": {
+                      "type": "file"
+                    },
+                    "1.1.11.svg": {
+                      "type": "file"
+                    },
+                    "1.1.12.svg": {
+                      "type": "file"
+                    },
+                    "1.1.2.svg": {
+                      "type": "file"
+                    },
+                    "1.1.3.svg": {
+                      "type": "file"
+                    },
+                    "1.1.4.svg": {
+                      "type": "file"
+                    },
+                    "1.1.5.svg": {
+                      "type": "file"
+                    },
+                    "1.1.6.svg": {
+                      "type": "file"
+                    },
+                    "1.1.7.svg": {
+                      "type": "file"
+                    },
+                    "1.1.8.svg": {
+                      "type": "file"
+                    },
+                    "1.1.9.svg": {
+                      "type": "file"
+                    },
+                    "1.2.1.svg": {
+                      "type": "file"
+                    },
+                    "1.2.2.svg": {
+                      "type": "file"
+                    },
+                    "1.3.1.svg": {
+                      "type": "file"
+                    },
+                    "1.3.10.svg": {
+                      "type": "file"
+                    },
+                    "1.3.11.svg": {
+                      "type": "file"
+                    },
+                    "1.3.12.svg": {
+                      "type": "file"
+                    },
+                    "1.3.13.svg": {
+                      "type": "file"
+                    },
+                    "1.3.14.svg": {
+                      "type": "file"
+                    },
+                    "1.3.2.svg": {
+                      "type": "file"
+                    },
+                    "1.3.3.svg": {
+                      "type": "file"
+                    },
+                    "1.3.4.svg": {
+                      "type": "file"
+                    },
+                    "1.3.5.svg": {
+                      "type": "file"
+                    },
+                    "1.3.6.svg": {
+                      "type": "file"
+                    },
+                    "1.3.7.svg": {
+                      "type": "file"
+                    },
+                    "1.3.8.svg": {
+                      "type": "file"
+                    },
+                    "1.3.9.svg": {
+                      "type": "file"
+                    },
+                    "1.4.1(2).svg": {
+                      "type": "file"
+                    },
+                    "1.4.1.svg": {
+                      "type": "file"
+                    },
+                    "1.4.2.svg": {
+                      "type": "file"
+                    },
+                    "1.4.3.svg": {
+                      "type": "file"
+                    },
+                    "1.5.1.svg": {
+                      "type": "file"
+                    },
+                    "1.5.2.svg": {
+                      "type": "file"
+                    },
+                    "1.5.3.svg": {
+                      "type": "file"
+                    },
+                    "1.5.4.svg": {
+                      "type": "file"
+                    },
+                    "1.5.5.svg": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Bab 2": {
+              "type": "folder",
+              "children": {
+                "Definisi_dan_Notasi_Fungsi.html": {
+                  "type": "file"
+                },
+                "Fungsi_Invers.html": {
+                  "type": "file"
+                },
+                "Grafik_Fungsi.html": {
+                  "type": "file"
+                },
+                "Operasi_pada_Fungsi.html": {
+                  "type": "file"
+                },
+                "img": {
+                  "type": "folder",
+                  "children": {
+                    "2.3.1.svg": {
+                      "type": "file"
+                    },
+                    "2.3.2.svg": {
+                      "type": "file"
+                    },
+                    "2.3.3.svg": {
+                      "type": "file"
+                    },
+                    "2.3.4.svg": {
+                      "type": "file"
+                    },
+                    "2.3.5.svg": {
+                      "type": "file"
+                    },
+                    "2.3.6.svg": {
+                      "type": "file"
+                    },
+                    "2.4.1.svg": {
+                      "type": "file"
+                    },
+                    "2.4.2.svg": {
+                      "type": "file"
+                    },
+                    "2.4.3.svg": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Bab 3": {
+              "type": "folder",
+              "children": {
+                "Kekontinuan.html": {
+                  "type": "file"
+                },
+                "Limit_di_Tak-Hingga.html": {
+                  "type": "file"
+                },
+                "Pengantar_Notasi_Limit.html": {
+                  "type": "file"
+                },
+                "Penghitungan_Limit.html": {
+                  "type": "file"
+                },
+                "img": {
+                  "type": "folder",
+                  "children": {
+                    "3.1.1.svg": {
+                      "type": "file"
+                    },
+                    "3.1.2.svg": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Bab 4": {
+              "type": "folder",
+              "children": {
+                "Aturan_Rantai_dan_Diferensiasi_Implisit.html": {
+                  "type": "file"
+                },
+                "Diferensiasi.html": {
+                  "type": "file"
+                },
+                "Fungsi_Turunan.html": {
+                  "type": "file"
+                },
+                "Garis_Singgung_dan_Laju_Perubahan.html": {
+                  "type": "file"
+                },
+                "img": {
+                  "type": "folder",
+                  "children": {
+                    "4.1.1.svg": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Bab 5": {
+              "type": "folder",
+              "children": {
+                "Aplikasi_Masalah_Maksimum_dan_Minimum.html": {
+                  "type": "file"
+                },
+                "Ekstrim_Relatif_Uji_Turunan_Pertama_dan_Kedua.html": {
+                  "type": "file"
+                },
+                "Grafik_Polinomial_dan_Fungsi_Rasional.html": {
+                  "type": "file"
+                },
+                "Interval_Naik_Turun_dan_Kecekungan_Fungsi.html": {
+                  "type": "file"
+                },
+                "Laju-laju_yang_Berkaitan.html": {
+                  "type": "file"
+                },
+                "Nilai_Maksimum_atau_Minimum_Suatu_Fungsi.html": {
+                  "type": "file"
+                },
+                "Teorema_Rolle_dan_Teorema_Nilai_Rata-Rata.html": {
+                  "type": "file"
+                },
+                "img": {
+                  "type": "folder",
+                  "children": {
+                    "5.2.1.svg": {
+                      "type": "file"
+                    },
+                    "5.2.2.svg": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Bab 6": {
+              "type": "folder",
+              "children": {
+                "Anti-turunan_Integral_TakTentu.html": {
+                  "type": "file"
+                },
+                "Integral_Tertentu.html": {
+                  "type": "file"
+                },
+                "Integral_Tertentu_dengan_Subtitusi.html": {
+                  "type": "file"
+                },
+                "Integrasi_dengan_Substitusi.html": {
+                  "type": "file"
+                },
+                "Luas_Sebagai_Limit.html": {
+                  "type": "file"
+                },
+                "Teorema_Fundamental_Kalkulus_Kedua.html": {
+                  "type": "file"
+                },
+                "Teorema_Fundamental_Kalkulus_Pertama.html": {
+                  "type": "file"
+                },
+                "img": {
+                  "type": "folder",
+                  "children": {
+                    "6.1.1.svg": {
+                      "type": "file"
+                    },
+                    "6.1.2.svg": {
+                      "type": "file"
+                    },
+                    "6.4.1.svg": {
+                      "type": "file"
+                    },
+                    "6.4.2.svg": {
+                      "type": "file"
+                    },
+                    "6.4.3.svg": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Sup A": {
+              "type": "folder",
+              "children": {
+                "Bilangan_Kompleks.html": {
+                  "type": "file"
+                },
+                "Teorema_De_Moivre.html": {
+                  "type": "file"
+                },
+                "img": {
+                  "type": "folder",
+                  "children": {
+                    "A.1.1.svg": {
+                      "type": "file"
+                    },
+                    "A.1.2.svg": {
+                      "type": "file"
+                    },
+                    "A.2.1.svg": {
+                      "type": "file"
+                    },
+                    "A.2.2.svg": {
+                      "type": "file"
+                    },
+                    "A.2.3.svg": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Sup B": {
+              "type": "folder",
+              "children": {
+                "Determinan.html": {
+                  "type": "file"
+                },
+                "Matriks_dan_Operasi_Matriks.html": {
+                  "type": "file"
+                },
+                "Nilai_Eigen_dan_Vektor_Eigen.html": {
+                  "type": "file"
+                },
+                "Operasi_Baris_Elementer_dan_Matriks_Invers.html": {
+                  "type": "file"
+                },
+                "Sistem_Persamaan_Linier.html": {
+                  "type": "file"
+                }
+              }
+            },
+            "index.html": {
+              "type": "file"
+            }
+          }
+        },
+        "Kalkulus 2": {
+          "type": "folder",
+          "children": {
+            "Bab 1": {
+              "type": "folder",
+              "children": {
+                "Eksponen_dan_Log.html": {
+                  "type": "file"
+                },
+                "Fungsi Hiperbola.html": {
+                  "type": "file"
+                },
+                "Fungsi_Transenden.html": {
+                  "type": "file"
+                },
+                "Invers n Trigono.html": {
+                  "type": "file"
+                }
+              }
+            },
+            "Bab 2": {
+              "type": "folder",
+              "children": {
+                "1Integrasi Parsial dan Integrasi Fungsi Trigonometri.html": {
+                  "type": "file"
+                },
+                "Integrasi Fungsi Rasional dan Pecahan Rasional.html": {
+                  "type": "file"
+                },
+                "Teknik-teknik integrasi yang lalu.html": {
+                  "type": "file"
+                }
+              }
+            },
+            "Bab 3": {
+              "type": "folder",
+              "children": {
+                "Integrasi Numerik.html": {
+                  "type": "file"
+                },
+                "Integrasi Tak Wajar.html": {
+                  "type": "file"
+                },
+                "Limit Bentuk Tak Tentu.html": {
+                  "type": "file"
+                },
+                "gambar": {
+                  "type": "folder",
+                  "children": {
+                    "3.1.svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (2).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (3).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (4).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (5).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (6).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (7).svg": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Bab 4": {
+              "type": "folder",
+              "children": {
+                "1Luas antara Dua Kurva.html": {
+                  "type": "file"
+                },
+                "2Menghitung Volume Benda Putar.html": {
+                  "type": "file"
+                },
+                "3Panjang suatu Kurva.html": {
+                  "type": "file"
+                },
+                "Luas Permukaan Benda Putar.html": {
+                  "type": "file"
+                },
+                "Titik Berat (Pusat Massa dan Centroid).html": {
+                  "type": "file"
+                },
+                "gambar 2": {
+                  "type": "folder",
+                  "children": {
+                    "gambar_kp (10).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (11).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (12).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (13).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (14).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (15).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (2).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (3).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (4).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (5).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (6).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (7).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (8).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (9).svg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "gambar 3": {
+                  "type": "folder",
+                  "children": {
+                    "gambar_kp (3)": {
+                      "type": "folder",
+                      "children": {
+                        "gambar_kp (3).svg": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "gambar 5 ke dua": {
+                  "type": "folder",
+                  "children": {
+                    "gambar_kp (2).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (3).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (4).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (5).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (6).svg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "gambar 5": {
+                  "type": "folder",
+                  "children": {
+                    "gambar_kp (2).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (3).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (4).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (5).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (6).svg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "gambar": {
+                  "type": "folder",
+                  "children": {
+                    "gambar_kp (2).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (3).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (4).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (5).svg": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Bab 5": {
+              "type": "folder",
+              "children": {
+                "1Persamaan Parametrik.html": {
+                  "type": "file"
+                },
+                "2Koordinat Kutub.html": {
+                  "type": "file"
+                },
+                "3Grafik dalam Koordinat Kutub.html": {
+                  "type": "file"
+                },
+                "4Luas dan Volume dalam Koordinat Kutub.html": {
+                  "type": "file"
+                },
+                "Garis Singgung dan Panjang Busur di Koordinat Kutub.html": {
+                  "type": "file"
+                },
+                "gambar 2": {
+                  "type": "folder",
+                  "children": {
+                    "gambar_kp (15).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (16).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (17).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (18).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (19).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (20).svg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "gambar 3": {
+                  "type": "folder",
+                  "children": {
+                    "gambar_kp (10).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (11).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (2).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (3).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (4).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (5).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (6).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (7).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (8).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (9).svg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "gambar 4 kedua": {
+                  "type": "folder",
+                  "children": {
+                    "gambar_kp (2).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (3).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (4).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (5).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (6).svg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "gambar 4": {
+                  "type": "folder",
+                  "children": {
+                    "gambar_kp (2).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (3).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (4).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (5).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (6).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (7).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (8).svg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "gambar": {
+                  "type": "folder",
+                  "children": {
+                    "gambar_kp (10).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (11).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (12).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (13).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (14).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (7).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (8).svg": {
+                      "type": "file"
+                    },
+                    "gambar_kp (9).svg": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Bab 6": {
+              "type": "folder",
+              "children": {
+                "1Barisan Tak Hingga.html": {
+                  "type": "file"
+                },
+                "2Deret Tak Hingga.html": {
+                  "type": "file"
+                },
+                "3Uji Konvergensi.html": {
+                  "type": "file"
+                },
+                "Deret Pangkat, Deret Taylor dan Mclaurin.html": {
+                  "type": "file"
+                },
+                "Diferensiasi dan Integrasi Deret Pangkat.html": {
+                  "type": "file"
+                },
+                "gambar 4": {
+                  "type": "folder",
+                  "children": {
+                    "gambar_kp (2).svg": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "gambar": {
+              "type": "folder",
+              "children": {
+                "gambar_1.1.1.svg": {
+                  "type": "file"
+                },
+                "gambar_1.1.2.svg": {
+                  "type": "file"
+                },
+                "gambar_1.1.3.svg": {
+                  "type": "file"
+                },
+                "gambar_1.2.1.svg": {
+                  "type": "file"
+                },
+                "gambar_1.2.2.svg": {
+                  "type": "file"
+                }
+              }
+            },
+            "index.html": {
+              "type": "file"
+            }
+          }
+        },
+        "README.md": {
+          "type": "file"
+        },
+        "images": {
+          "type": "folder",
+          "children": {
+            "Asu_no_Yozora_Shoukaihan.png": {
+              "type": "file"
+            },
+            "Exit-icon.svg": {
+              "type": "file"
+            },
+            "Rectorate of ITS.jpg": {
+              "type": "file"
+            },
+            "Tenki_no_Ko.jpg": {
+              "type": "file"
+            },
+            "Tenki_no_Ko_2.jpg": {
+              "type": "file"
+            },
+            "Tenki_no_Ko_3.jpg": {
+              "type": "file"
+            },
+            "check.svg": {
+              "type": "file"
+            },
+            "frieren.png": {
+              "type": "file"
+            },
+            "himmel.jpg": {
+              "type": "file"
+            },
+            "idea.svg": {
+              "type": "file"
+            },
+            "kimi_no_nawa_1.jpg": {
+              "type": "file"
+            },
+            "kimi_no_nawa_2.jpg": {
+              "type": "file"
+            },
+            "moon.svg": {
+              "type": "file"
+            },
+            "plus_times.svg": {
+              "type": "file"
+            },
+            "sun.svg": {
+              "type": "file"
+            }
+          }
+        },
+        "index.html": {
+          "type": "file"
+        },
+        "pdf to svg": {
+          "type": "folder",
+          "children": {
+            "tes.aux": {
+              "type": "file"
+            },
+            "tes.fdb_latexmk": {
+              "type": "file"
+            },
+            "tes.fls": {
+              "type": "file"
+            },
+            "tes.log": {
+              "type": "file"
+            },
+            "tes.pdf": {
+              "type": "file"
+            },
+            "tes.svg": {
+              "type": "file"
+            },
+            "tes.synctex.gz": {
+              "type": "file"
+            },
+            "tes.tex": {
+              "type": "file"
+            }
+          }
+        },
+        "settings.json": {
+          "type": "file"
+        },
+        "style": {
+          "type": "folder",
+          "children": {
+            "KurierCondHeavy-Regular.otf": {
+              "type": "file"
+            },
+            "about.css": {
+              "type": "file"
+            },
+            "calc.css": {
+              "type": "file"
+            },
+            "header.css": {
+              "type": "file"
+            },
+            "learn.css": {
+              "type": "file"
+            },
+            "styles.css": {
+              "type": "file"
+            },
+            "zhcn.ttf": {
+              "type": "file"
+            }
+          }
+        }
+      },
+      "owner": {
+        "login": "KP-SKPB"
       }
     }
   ]
