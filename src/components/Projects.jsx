@@ -21,168 +21,10 @@ import {
   MdSchool,
 } from "react-icons/md";
 import { HiOutlineDocumentText, HiOutlineHeart } from "react-icons/hi";
+import { Link } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
 
 // --- DATA & CONFIGURATION (Moved outside for clarity) ---
-
-const projectsData = [
-  {
-    id: 1,
-    title: "Depi Store Manager",
-    description:
-      "A modern store management app that streamlines inventory, sales, and reporting for small retail businesses.",
-    detailedDescription:
-      "Depi Store Manager is a desktop application designed to simplify daily operations in small retail stores. It offers features for managing product data, automating transactions, and generating insightful business reports. With a clean and user-friendly interface, store owners can efficiently track stock, monitor sales performance, and make data-driven decisions to grow their business.",
-    category: "personal",
-    tags: ["Java", "MySQL", "JavaFX", "Maven", "Apache POI", "OpenPDF"],
-    gradientColor: "from-cyan-400 to-teal-400",
-    icon: "📦",
-    link: "https://github.com/depichan18/depistore-manager",
-    github: "https://github.com/depichan18/depistore-manager",
-    images: [
-      "https://placehold.co/600x400/00FFFF/000000?text=Depi+Store+1",
-      "https://placehold.co/600x400/20B2AA/FFFFFF?text=Depi+Store+2",
-      "https://placehold.co/600x400/5F9EA0/FFFFFF?text=Depi+Store+3",
-    ],
-    features: [
-      "Product and stock management (CRUD)",
-      "Automated sales recording",
-      "Business dashboard with analytics",
-      "Printable daily, weekly, and monthly reports",
-      "Quick search and sort functions",
-    ],
-  },
-  {
-    id: 2,
-    title: "Paw Jump Game",
-    description:
-      "A 2D endless runner game where players dodge obstacles, collect fish, and level up to achieve high scores.",
-    detailedDescription:
-      "Paw Jump is an endless runner game inspired by the classic Dino Chrome experience. Players control a character that runs automatically and must jump or duck to avoid increasingly difficult obstacles while collecting fish to survive and progress. Every 250 meters, the game speeds up and introduces new challenges. With a lives system, level-up conditions, and special buff items, Paw Jump combines reflex-based gameplay with strategic item collection for a fun and addictive experience.",
-    category: "academic",
-    tags: ["Java", "Java Swing", "Game Development", "OOP", "2D Game"],
-    gradientColor: "from-cyan-400 to-green-400",
-    icon: "🐾",
-    link: "https://github.com/depichan18/paw-jump",
-    github: "https://github.com/depichan18/paw-jump",
-    images: [
-      "https://placehold.co/600x400/32CD32/FFFFFF?text=Paw+Jump+1",
-      "https://placehold.co/600x400/228B22/FFFFFF?text=Paw+Jump+2",
-      "https://placehold.co/600x400/006400/FFFFFF?text=Paw+Jump+3",
-    ],
-    features: [
-      "Dynamic level progression and speed scaling",
-      "Fish collection system for leveling up",
-      "Lives and buffs for strategic survival",
-      "Simple jump/drop controls with intuitive UI",
-    ],
-  },
-  {
-    id: 3,
-    title: "Bookkeeping Application",
-    description:
-      "A complete accounting application with double-entry bookkeeping, financial reports, and CSV data import — all in a clean, modern interface.",
-    detailedDescription:
-      "This project is a fully functional double-entry accounting system built for small to medium businesses. It supports full Chart of Accounts management, transaction tracking with automatic validation, and generation of key financial reports like Trial Balance, Balance Sheet, and Income Statement — all exportable to PDF. With bulk CSV import for accounts and transactions, plus a modern, user-friendly UI, this application streamlines financial management while maintaining accounting standards.",
-    category: "personal",
-    tags: ["JavaFX", "Accounting", "SQLite", "JPA", "Hibernate", "Maven"],
-    gradientColor: "from-green-400 to-green-400",
-    icon: "🔄",
-    link: "https://github.com/depichan18/bookkeeping-app",
-    github: "https://github.com/depichan18/bookkeeping-app",
-    images: [
-      "https://placehold.co/600x400/8FBC8F/FFFFFF?text=Bookkeeping+1",
-      "https://placehold.co/600x400/3CB371/FFFFFF?text=Bookkeeping+2",
-      "https://placehold.co/600x400/2E8B57/FFFFFF?text=Bookkeeping+3",
-    ],
-    features: [
-      "Full double-entry bookkeeping",
-      "Chart of Accounts & transaction tracking",
-      "Financial reports (PDF export)",
-      "CSV data import for bulk entries",
-    ],
-  },
-  {
-    id: 4,
-    title: "Portfolio Website",
-    description:
-      "A fast, responsive personal website to showcase projects, skills, and contact details with a clean, modern look.",
-    detailedDescription:
-      "This personal portfolio website is designed to highlight your work and skills in a professional yet creative way. Built for performance and responsiveness, it includes smooth animations, interactive visuals, and a unique mathematical theme that reflects analytical thinking. The interface adapts to all screen sizes and provides an engaging experience through subtle mouse interactions and floating elements.",
-    category: "personal",
-    tags: ["React", "JavaScript", "Vite.js", "Tailwind CSS", "Web Design"],
-    gradientColor: "from-green-400 to-green-400",
-    icon: "💰",
-    link: "https://github.com/depichan18/portfolio-website",
-    github: "https://github.com/depichan18/portfolio-website",
-    images: [
-      "https://placehold.co/600x400/6A5ACD/FFFFFF?text=Portfolio+1",
-      "https://placehold.co/600x400/483D8B/FFFFFF?text=Portfolio+2",
-      "https://placehold.co/600x400/7B68EE/FFFFFF?text=Portfolio+3",
-    ],
-    features: [
-      "Interactive hero section",
-      "Math-themed floating visuals",
-      "Fully responsive layout",
-      "Smooth animations with clean UI",
-    ],
-  },
-  {
-    id: 5,
-    title: "OMITS 18 Math Problems",
-    description:
-      "A curated set of elementary-level math problems designed for the 18th National Mathematics Olympiad at ITS (OMITS 18).",
-    detailedDescription:
-      "OMITS Math Problems is a personal collection of competition-style math questions created for the 18th edition of the National Mathematics Olympiad (OMITS) organized by ITS. Targeted at primary school participants, the set includes both easy and mid-to-high difficulty problems that challenge logical thinking, number sense, and creative problem solving. This project was developed as part of my committee responsibilities to support the academic quality of the event.",
-    category: "committee",
-    tags: [
-      "LaTeX",
-      "Math Olympiad",
-      "Mathematics",
-      "Education",
-      "Problem Design",
-    ],
-    gradientColor: "from-purple-400 to-cyan-400",
-    icon: "🧮",
-    link: "https://github.com/depichan18/OMITS-18",
-    github: "https://github.com/depichan18/OMITS-18",
-    images: [
-      "https://placehold.co/600x400/DA70D6/FFFFFF?text=OMITS+1",
-      "https://placehold.co/600x400/BA55D3/FFFFFF?text=OMITS+2",
-      "https://placehold.co/600x400/9932CC/FFFFFF?text=OMITS+3",
-    ],
-    features: [
-      "Custom-made math problems for elementary level",
-      "Covers easy to advanced competition difficulty",
-      "Designed for OMITS 18 national event",
-      "Supports critical and creative thinking",
-    ],
-  },
-  {
-    id: 6,
-    title: "Quant Roadmap",
-    description:
-      "An interactive web app documenting a personal 8-week journey to become a quantitative researcher — complete with tasks, tracking, and study tools in a playful, pastel-themed interface.",
-    detailedDescription:
-      "Quant Journey is a personalized learning platform designed to support my transition into quantitative research. It combines structured curriculum planning, progress tracking, and built-in study tools across topics like statistics, finance, and programming. With a vibrant pink-blue theme and engaging UI, the app offers daily task management, real-time analytics, and exportable reports. This tool reflects my self-guided exploration of quantitative finance and serves both as a study companion and a public portfolio of my learning path.",
-    category: "personal",
-    tags: ["Cute", "Quant", "React", "Productivity", "Tailwind CSS"],
-    gradientColor: "from-purple-400 to-cyan-400",
-    icon: "📘",
-    link: "https://github.com/depichan18/quant-roadmap",
-    github: "https://github.com/depichan18/quant-roadmap",
-    images: [
-      "https://placehold.co/600x400/FF69B4/FFFFFF?text=Quant+Roadmap+1",
-      "https://placehold.co/600x400/FFB6C1/000000?text=Quant+Roadmap+2",
-      "https://placehold.co/600x400/DB7093/FFFFFF?text=Quant+Roadmap+3",
-    ],
-    features: [
-      "Visual progress tracker & daily checklist",
-      "Built-in Pomodoro study timer",
-      "Exportable learning reports (JSON, CSV, HTML)",
-      "Fully responsive, local data storage",
-    ],
-  },
-];
 
 const categories = {
   all: "All Projects",
@@ -193,17 +35,32 @@ const categories = {
   work: "Work",
 };
 
-const projectIcons = {
-  1: FaStore,
-  2: FaGamepad,
-  3: MdAccountBalance,
-  4: MdWeb,
-  5: MdSchool,
-  6: FaBook,
-  7: FaLock,
-  8: HiOutlineDocumentText,
-  9: HiOutlineHeart,
-  10: FaShoppingCart,
+const projectMetadata = {
+  store: { icon: FaStore, gradientColor: "from-sky-400 to-cyan-400" },
+  gamepad: { icon: FaGamepad, gradientColor: "from-slate-500 to-slate-700" },
+  calculator: {
+    icon: FaCalculator,
+    gradientColor: "from-amber-500 to-orange-500",
+  },
+  account: {
+    icon: MdAccountBalance,
+    gradientColor: "from-emerald-500 to-green-600",
+  },
+  web: { icon: MdWeb, gradientColor: "from-indigo-500 to-blue-600" },
+  school: { icon: MdSchool, gradientColor: "from-blue-500 to-sky-600" },
+  book: { icon: FaBook, gradientColor: "from-orange-400 to-red-500" },
+  lock: { icon: FaLock, gradientColor: "from-rose-500 to-pink-600" },
+  document: { icon: FaFileAlt, gradientColor: "from-gray-500 to-gray-600" },
+  heart: { icon: FaHeart, gradientColor: "from-red-500 to-rose-500" },
+  cart: { icon: FaShoppingCart, gradientColor: "from-lime-500 to-green-500" },
+  chat: { icon: FaComments, gradientColor: "from-violet-500 to-purple-600" },
+  send: { icon: FaPaperPlane, gradientColor: "from-teal-400 to-emerald-500" },
+  dashboard: {
+    icon: MdDashboard,
+    gradientColor: "from-fuchsia-500 to-purple-600",
+  },
+  brain: { icon: FaBrain, gradientColor: "from-pink-500 to-rose-500" },
+  user: { icon: FaUser, gradientColor: "from-gray-400 to-gray-500" }, // Default
 };
 
 // --- REUSABLE & PRESENTATIONAL COMPONENTS ---
@@ -319,6 +176,10 @@ const CategoryFilter = ({ activeCategory, onSelectCategory }) => (
   </div>
 );
 
+const titleToSlug = (title) => {
+  return title.toLowerCase().replace(/\s+/g, "-");
+};
+
 const ProjectCard = ({ project, onImageClick }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -355,7 +216,13 @@ const ProjectCard = ({ project, onImageClick }) => {
     }
   };
 
-  const IconComponent = projectIcons[project.id] || FaUser;
+  const metadata = projectMetadata[project.icon] || projectMetadata.user;
+
+  // 2. Akses komponen ikon dan warna gradien dari objek metadata tersebut
+  const IconComponent = metadata.icon;
+  const gradientColor = metadata.gradientColor;
+
+  const projectSlug = titleToSlug(project.title);
 
   return (
     <div
@@ -370,7 +237,7 @@ const ProjectCard = ({ project, onImageClick }) => {
         onMouseLeave={handleMouseLeave}
       >
         <div
-          className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${project.gradientColor} z-10`}
+          className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${gradientColor} z-10`}
         ></div>
 
         {/* Image Section */}
@@ -448,22 +315,24 @@ const ProjectCard = ({ project, onImageClick }) => {
 
         {/* Content Section */}
         <div className="p-4 pt-0">
-          <div className="flex items-center mb-3 mt-4 px-4 justify-center">
+          <div className="flex items-center mb-3 mt-4 px-2 justify-center">
             <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center">
               <IconComponent className="text-lg text-cyan-600 group-hover:text-cyan-500 transition-colors duration-300" />
             </div>
-            <h3 className="flex-1 text-center text-lg font-bold text-cyan-800 group-hover:text-cyan-600 transition-colors duration-300 mx-2 truncate">
+            <h3 className="flex-1 text-left text-lg font-bold text-cyan-800 group-hover:text-cyan-600 transition-colors duration-300 mx-2 truncate">
               {project.title}
             </h3>
             <span
-              className={`flex-shrink-0 inline-block px-2 py-1 text-xs font-medium rounded-full text-white bg-gradient-to-r ${project.gradientColor}`}
+              className={`flex-shrink-0 inline-block px-2 py-1 text-xs font-medium rounded-full text-white bg-gradient-to-r ${gradientColor}`}
             >
               {project.category}
             </span>
           </div>
 
-          <p className="text-gray-600 text-sm leading-relaxed mb-3 font-light h-20 overflow-hidden">
-            {isHovered ? project.detailedDescription : project.description}
+          <p className="text-gray-600 text-sm leading-relaxed mb-3 font-light h-20 px-1 overflow-hidden">
+            <ReactMarkdown>
+              {isHovered ? project.detailedDescription : project.description}
+            </ReactMarkdown>
           </p>
 
           {isHovered ? (
@@ -479,14 +348,14 @@ const ProjectCard = ({ project, onImageClick }) => {
                     className="text-sm text-gray-600 flex items-center"
                   >
                     <span className="w-1 h-1 bg-cyan-400 rounded-full mr-2"></span>
-                    {feature}
+                    <ReactMarkdown>{feature}</ReactMarkdown>
                   </li>
                 ))}
               </ul>
             </div>
           ) : (
             // Tags List by Default
-            <div className="flex flex-wrap gap-1 mb-3 h-12 overflow-hidden">
+            <div className="flex flex-wrap gap-1 mb-3 h-full overflow-hidden">
               {project.tags.map((tag, index) => (
                 <span
                   key={index}
@@ -501,13 +370,13 @@ const ProjectCard = ({ project, onImageClick }) => {
           {/* Action Buttons on Hover */}
           {isHovered && (
             <div className="flex gap-2 mt-3 animate-fadein">
-              <a
-                href={project.link}
+              <Link
+                to={`/project/${projectSlug}`}
                 className="flex items-center justify-center gap-1.5 flex-1 px-3 py-2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-sm font-medium rounded-lg hover:from-cyan-600 hover:to-teal-600 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-cyan-200/50"
                 onClick={(e) => e.stopPropagation()}
               >
                 <MdWeb className="text-sm" /> View Project
-              </a>
+              </Link>
               {project.github && (
                 <a
                   href={project.github}
@@ -885,6 +754,21 @@ const Projects = () => {
   const [popupImage, setPopupImage] = useState(null);
   const [currentPage, setCurrentPage] = useState(0);
   const pageIntervalRef = useRef(null);
+  const [projectsData, setProjectsData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/projects-data.json");
+        const data = await response.json();
+        setProjectsData(data);
+      } catch (error) {
+        console.error("Gagal memuat data proyek:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   // Intersection Observer for scroll animations
   useEffect(() => {
@@ -905,7 +789,7 @@ const Projects = () => {
     elements.forEach((el) => observer.observe(el));
 
     return () => observer.disconnect(); // lebih bersih
-  }, [activeCategory]); // ← tambahkan ini
+  }, [activeCategory, projectsData]); // ← tambahkan ini
 
   // Close popup on ESC key
   useEffect(() => {

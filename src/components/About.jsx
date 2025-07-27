@@ -31,13 +31,14 @@ const getImagePath = (imageName) => {
   return `${base}/images/${imageName}`;
 };
 
-const images = import.meta.glob("/public/images/exp/*.{jpg,png,jpeg,JPG}", {
-  eager: true,
-  as: "url",
-});
+// const images = import.meta.glob("/images/exp/*.{jpg,png,jpeg,JPG}", {
+//   eager: true,
+//   query: "?url",
+//   import: "default",
+// });
 
-const imagePaths = Object.values(images);
-console.log(imagePaths);
+// const imagePaths = Object.values(images);
+// console.log(imagePaths);
 
 const experiencesData = [
   {

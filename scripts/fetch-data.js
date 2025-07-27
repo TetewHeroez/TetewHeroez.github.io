@@ -131,6 +131,7 @@ async function getGitHubData() {
             forks: repo.forks_count,
             languages: languagesData,
             html_url: repo.html_url,
+            homepage: repoDetails.homepage,
             topics: repoDetails.topics || [],
             languages: languagesData || {},
             readmeContent: readmeContent,

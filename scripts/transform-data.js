@@ -5,29 +5,43 @@ import path from "path";
 // Helper function untuk memastikan direktori ada
 const ensureDirectoryExistence = (filePath) => {
   const dirname = path.dirname(filePath);
-  if (fs.existsSync(dirname)) {
-    return true;
-  }
+  if (fs.existsSync(dirname)) return true;
   ensureDirectoryExistence(dirname);
   fs.mkdirSync(dirname);
 };
 
-/**
- * Mengekstrak blok JSON dari komentar metadata di dalam konten README.
- */
-const parseMetadataFromReadme = (readme) => {
-  if (!readme) return null;
-  const regex = /<!--\s*PORTFOLIO-METADATA\s*([\s\S]*?)\s*-->/;
-  const match = readme.match(regex);
-  if (match && match[1]) {
-    try {
-      return JSON.parse(match[1]);
-    } catch (error) {
-      console.error("Gagal mem-parsing JSON dari metadata README:", error);
-      return null;
-    }
+// --- PARSER HELPER (Tidak Berubah) ---
+const parseImagesFromReadme = (readme) => {
+  if (!readme) return [];
+  const imageUrls = [];
+  const regex = /!\[.*?\]\((.*?)\)|<img.*?src=["'](.*?)["']/g;
+  let match;
+  while ((match = regex.exec(readme)) !== null) {
+    if (match[1]) imageUrls.push(match[1]);
+    if (match[2]) imageUrls.push(match[2]);
   }
-  return null;
+  return imageUrls;
+};
+
+const parseSectionFromReadme = (readme, sectionName) => {
+  if (!readme) return null;
+  // Menambahkan flag 'g' (global) untuk menemukan semua kecocokan, bukan hanya yang pertama.
+  const regex = new RegExp(
+    `<!--\\s*PORTFOLIO-START:\\s*${sectionName}\\s*-->([\\s\\S]*?)<!--\\s*PORTFOLIO-END:\\s*${sectionName}\\s*-->`,
+    "gm"
+  );
+
+  const parts = [];
+  let match;
+
+  // Loop melalui semua blok yang cocok yang ditemukan oleh regex
+  while ((match = regex.exec(readme)) !== null) {
+    // match[1] berisi konten yang ditangkap di antara tag
+    parts.push(match[1].trim());
+  }
+
+  // Jika ada bagian yang ditemukan, gabungkan dengan jeda paragraf.
+  return parts.length > 0 ? parts.join("\n\n") : null;
 };
 
 /**
@@ -47,51 +61,97 @@ const transformApiDataToProjects = (githubApiData) => {
     "work",
   ];
 
+  const tagMetadataMap = {
+    store: "store",
+    game: "gamepad",
+    gamepad: "gamepad",
+    calculator: "calculator",
+    account: "account",
+    web: "web",
+    school: "school",
+    book: "book",
+    lock: "lock",
+    document: "document",
+    heart: "heart",
+    cart: "cart",
+    chat: "chat",
+    send: "send",
+    dashboard: "dashboard",
+    brain: "brain",
+    default: "user",
+  };
+
   return githubApiData
-    .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
-    .map((repo) => {
-      const metadata = parseMetadataFromReadme(repo.readmeContent);
+    .sort((a, b) => (b.stargazers_count || 0) - (a.stargazers_count || 0))
+    .map((repo, index) => {
+      const readme = repo.readmeContent || "";
+
+      const images = parseImagesFromReadme(readme);
+      let detailedDescription = parseSectionFromReadme(
+        readme,
+        "detailedDescription"
+      );
+      const featuresText = parseSectionFromReadme(readme, "features");
+
+      const features = featuresText
+        ? featuresText
+            .split("\n")
+            .map((line) => {
+              const match = line.match(/\*\*(.*?)\*\*/);
+              return match ? match[1].trim() : null;
+            })
+            .filter(Boolean)
+        : [];
+
+      if (detailedDescription) {
+        detailedDescription = detailedDescription.replace(/\*\*/g, "");
+      }
+
       const repoTopics = repo.topics || [];
+      let category = "personal";
+      const foundCategory = validCategories.find((cat) =>
+        repoTopics.includes(`${cat}`)
+      );
+      if (foundCategory) category = foundCategory;
 
-      let category = "personal"; // Default category
-      let categoryTopic = "";
+      const portfolioCategoryTopics = validCategories.map((c) => `${c}`);
+      const tagsToRemove = [...validCategories, ...portfolioCategoryTopics];
+      const finalTags = repoTopics.filter((t) => !tagsToRemove.includes(t));
 
-      for (const cat of validCategories) {
-        const potentialTopic = `portfolio-${cat}`;
-        if (repoTopics.includes(potentialTopic)) {
-          category = cat;
-          categoryTopic = potentialTopic;
+      let iconKey = tagMetadataMap.default;
+      for (const tag of finalTags) {
+        if (tagMetadataMap[tag]) {
+          iconKey = tagMetadataMap[tag];
           break;
         }
       }
 
-      const finalTags = repoTopics.filter((t) => t !== categoryTopic);
-
       return {
-        id: repo.id,
+        id: index + 1,
         title: repo.name
           .replace(/-/g, " ")
           .replace(/\b\w/g, (l) => l.toUpperCase()),
         description: repo.description || "No description provided.",
         detailedDescription:
-          metadata?.detailedDescription ||
+          detailedDescription ||
           repo.description ||
           "For more details, please see the repository's README.",
-        features: metadata?.features || [],
-        icon: metadata?.icon || "⭐",
-        images: metadata?.images || [
-          `https://placehold.co/600x400/cccccc/000000?text=${repo.name}`,
-        ],
+        features: features,
+        images:
+          images.length > 0
+            ? images
+            : [`https://placehold.co/600x400/cccccc/000000?text=${repo.name}`],
         category: category,
         tags: finalTags,
         link: repo.html_url,
         github: repo.html_url,
-        gradientColor: metadata?.gradientColor || "from-gray-400 to-gray-500",
+        homepage: repo.homepage,
+        icon: iconKey,
       };
     });
 };
 
-// --- FUNGSI UTAMA UNTUK MENJALANKAN TRANSFORMASI ---
+// --- FUNGSI UTAMA (Tidak Berubah) ---
 function runTransform() {
   try {
     console.log("Reading raw data from public/raw-data.json...");
@@ -99,12 +159,10 @@ function runTransform() {
     const rawDataContent = fs.readFileSync(rawDataPath, "utf-8");
     const rawData = JSON.parse(rawDataContent);
 
-    // Pastikan data yang dibaca adalah array dari repos
-    if (!rawData.repos) {
+    if (!rawData.repos)
       throw new Error("'repos' key not found in raw-data.json");
-    }
 
-    console.log("Transforming data...");
+    console.log("Transforming data using README content...");
     const projectsData = transformApiDataToProjects(rawData.repos);
 
     const outputPath = path.join(process.cwd(), "public/projects-data.json");
@@ -114,9 +172,8 @@ function runTransform() {
     console.log("✅ projects-data.json has been created successfully!");
   } catch (error) {
     console.error("Error during data transformation process:", error);
-    process.exit(1); // Keluar dengan kode error
+    process.exit(1);
   }
 }
 
-// Jalankan skrip
 runTransform();
