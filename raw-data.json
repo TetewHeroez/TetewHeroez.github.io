@@ -8,1575 +8,8 @@
   },
   "repos": [
     {
-      "name": "CP-Training",
-      "description": null,
-      "url": "https://github.com/TetewHeroez/CP-Training",
-      "stars": 0,
-      "forks": 0,
-      "languages": {
-        "TeX": 104055,
-        "C++": 4685
-      },
-      "tree": {
-        "Gemastik 2024": {
-          "type": "folder",
-          "children": {
-            "[A] Makan Lumpia": {
-              "type": "folder",
-              "children": {
-                "MakanLumpia.cpp": {
-                  "type": "file"
-                },
-                "MakanLumpia.exe": {
-                  "type": "file"
-                }
-              }
-            },
-            "[B] Lumpia Rebung": {
-              "type": "folder",
-              "children": {
-                "LumpiaRebung.cpp": {
-                  "type": "file"
-                },
-                "LumpiaRebung.exe": {
-                  "type": "file"
-                }
-              }
-            },
-            "[C] Piknik": {
-              "type": "folder",
-              "children": {
-                "Piknik.cpp": {
-                  "type": "file"
-                },
-                "Piknik.exe": {
-                  "type": "file"
-                }
-              }
-            },
-            "[D] Biner": {
-              "type": "folder",
-              "children": {
-                "Biner.cpp": {
-                  "type": "file"
-                },
-                "Biner.exe": {
-                  "type": "file"
-                }
-              }
-            }
-          }
-        },
-        "Math": {
-          "type": "folder",
-          "children": {
-            "Combinatoric": {
-              "type": "folder",
-              "children": {
-                "Combinatoric.cpp": {
-                  "type": "file"
-                },
-                "Combinatoric.exe": {
-                  "type": "file"
-                }
-              }
-            },
-            "PascalTriangle": {
-              "type": "folder",
-              "children": {
-                "PascalTriangle.cpp": {
-                  "type": "file"
-                }
-              }
-            }
-          }
-        },
-        "Pembinaan OSK SMA Puri": {
-          "type": "folder",
-          "children": {
-            "Aritmatika Modular": {
-              "type": "folder",
-              "children": {
-                "Aritmatika Modular.nav": {
-                  "type": "file"
-                },
-                "Aritmatika Modular.pdf": {
-                  "type": "file"
-                },
-                "Aritmatika Modular.snm": {
-                  "type": "file"
-                },
-                "Aritmatika Modular.tex": {
-                  "type": "file"
-                }
-              }
-            },
-            "Graf": {
-              "type": "folder",
-              "children": {
-                "Graf.nav": {
-                  "type": "file"
-                },
-                "Graf.pdf": {
-                  "type": "file"
-                },
-                "Graf.snm": {
-                  "type": "file"
-                },
-                "Graf.tex": {
-                  "type": "file"
-                },
-                "Ilustrasi Jembatan.png": {
-                  "type": "file"
-                },
-                "Seven Bridges of Konigsberg.png": {
-                  "type": "file"
-                }
-              }
-            },
-            "Kombinatorika": {
-              "type": "folder",
-              "children": {
-                "Kombinatorika.nav": {
-                  "type": "file"
-                },
-                "Kombinatorika.pdf": {
-                  "type": "file"
-                },
-                "Kombinatorika.snm": {
-                  "type": "file"
-                },
-                "Kombinatorika.tex": {
-                  "type": "file"
-                }
-              }
-            },
-            "Pigeonhole Principle": {
-              "type": "folder",
-              "children": {
-                "Pigeonhole Principle.nav": {
-                  "type": "file"
-                },
-                "Pigeonhole Principle.pdf": {
-                  "type": "file"
-                },
-                "Pigeonhole Principle.snm": {
-                  "type": "file"
-                },
-                "Pigeonhole Principle.tex": {
-                  "type": "file"
-                }
-              }
-            },
-            "Soal-soal": {
-              "type": "folder",
-              "children": {
-                "Aritmatika Modular": {
-                  "type": "folder",
-                  "children": {
-                    "Soal Latihan OSK TIK.pdf": {
-                      "type": "file"
-                    },
-                    "Soal Latihan OSK TIK.tex": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "Graf & Pohon": {
-                  "type": "folder",
-                  "children": {
-                    "Graf & Pohon.pdf": {
-                      "type": "file"
-                    },
-                    "Graf & Pohon.tex": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "Kombinatorik": {
-                  "type": "folder",
-                  "children": {
-                    "Soal latihan kombin.pdf": {
-                      "type": "file"
-                    },
-                    "Soal latihan kombin.tex": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "Pigeonhole Principle": {
-                  "type": "folder",
-                  "children": {
-                    "Soal Latihan PHP.pdf": {
-                      "type": "file"
-                    },
-                    "Soal Latihan PHP.tex": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "Try out 1": {
-                  "type": "folder",
-                  "children": {
-                    "Try out1.pdf": {
-                      "type": "file"
-                    },
-                    "Try out1.tex": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "Try out 2": {
-                  "type": "folder",
-                  "children": {
-                    "Try out 2.pdf": {
-                      "type": "file"
-                    },
-                    "Try out 2.tex": {
-                      "type": "file"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "README.md": {
-          "type": "file"
-        }
-      }
-    },
-    {
-      "name": "Asisten-things",
-      "description": null,
-      "url": "https://github.com/TetewHeroez/Asisten-things",
-      "stars": 1,
-      "forks": 0,
-      "languages": {
-        "TeX": 607852,
-        "Java": 14143
-      },
-      "tree": {
-        ".gitignore": {
-          "type": "file"
-        },
-        "Asisten Dosen": {
-          "type": "folder",
-          "children": {
-            "Bahas Soal": {
-              "type": "folder",
-              "children": {
-                "Soal Evaluasi": {
-                  "type": "folder",
-                  "children": {
-                    "EAS Kalkulus I 2023": {
-                      "type": "folder",
-                      "children": {
-                        "EAS Kalkulus I 2023.pdf": {
-                          "type": "file"
-                        },
-                        "EAS Kalkulus I 2023.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "EAS Kalkulus I 2024": {
-                      "type": "folder",
-                      "children": {
-                        "EAS Kalkulus 1 2024.pdf": {
-                          "type": "file"
-                        },
-                        "EAS Kalkulus 1 2024.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "EAS Kalkulus II 2023": {
-                      "type": "folder",
-                      "children": {
-                        "EAS Kalkulus II 2023.pdf": {
-                          "type": "file"
-                        },
-                        "EAS Kalkulus II 2023.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "ETS Kalkulus I 2023": {
-                      "type": "folder",
-                      "children": {
-                        "ETS Kalkulus I 2023.pdf": {
-                          "type": "file"
-                        },
-                        "ETS Kalkulus I 2023.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "ETS Kalkulus II 2023": {
-                      "type": "folder",
-                      "children": {
-                        "ETS Kalkulus II 2023.pdf": {
-                          "type": "file"
-                        },
-                        "ETS Kalkulus II 2023.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Quis 2 Kalkulus I-30": {
-                      "type": "folder",
-                      "children": {
-                        "Quis 2 Kalkulus I-30.pdf": {
-                          "type": "file"
-                        },
-                        "Quis 2 Kalkulus I-30.tex": {
-                          "type": "file"
-                        }
-                      }
-                    }
-                  }
-                },
-                "Soal-soal Buku": {
-                  "type": "folder",
-                  "children": {
-                    "Pembahasan Video YouTube": {
-                      "type": "folder",
-                      "children": {
-                        "PembahasanYT.pdf": {
-                          "type": "file"
-                        },
-                        "PembahasanYT.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Script Video Asdos": {
-                      "type": "folder",
-                      "children": {
-                        "Script Video Asdos.pdf": {
-                          "type": "file"
-                        },
-                        "Script Video Asdos.tex": {
-                          "type": "file"
-                        }
-                      }
-                    }
-                  }
-                },
-                "Tes Asdos Kalkulus I": {
-                  "type": "folder",
-                  "children": {
-                    "Tes Asdos Ganjil.tex": {
-                      "type": "file"
-                    }
-                  }
-                }
-              }
-            },
-            "PPT Kalkulus": {
-              "type": "folder",
-              "children": {
-                "Gambar & Logo": {
-                  "type": "folder",
-                  "children": {
-                    "ITS.png": {
-                      "type": "file"
-                    },
-                    "M.png": {
-                      "type": "file"
-                    },
-                    "Slide_Matematika_Statistika (5).pdf": {
-                      "type": "file"
-                    },
-                    "WoN ML.png": {
-                      "type": "file"
-                    },
-                    "arona class.jpg": {
-                      "type": "file"
-                    },
-                    "motivated.jpg": {
-                      "type": "file"
-                    },
-                    "sudah saatnya.jpg": {
-                      "type": "file"
-                    },
-                    "yuuka s.jpeg": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "Kalkulus 1": {
-                  "type": "folder",
-                  "children": {
-                    "Bab 1": {
-                      "type": "folder",
-                      "children": {
-                        "PPT Kalkulus 1 Bab1.pdf": {
-                          "type": "file"
-                        },
-                        "PPT Kalkulus 1 Bab1.run.xml": {
-                          "type": "file"
-                        },
-                        "PPT Kalkulus 1 Bab1.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Bab 2": {
-                      "type": "folder",
-                      "children": {
-                        "Fungsi.pdf": {
-                          "type": "file"
-                        },
-                        "Fungsi.tex": {
-                          "type": "file"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "Template Soal Evaluasi": {
-              "type": "folder",
-              "children": {
-                "Template SKPB #1": {
-                  "type": "folder",
-                  "children": {
-                    "Template SKPB.pdf": {
-                      "type": "file"
-                    },
-                    "Template SKPB.tex": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "Template SKPB #2": {
-                  "type": "folder",
-                  "children": {
-                    "Template SKPB.pdf": {
-                      "type": "file"
-                    },
-                    "Template SKPB.tex": {
-                      "type": "file"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "Asisten Laboratorium": {
-          "type": "folder",
-          "children": {
-            "Alpro 1": {
-              "type": "folder",
-              "children": {
-                "Assigment": {
-                  "type": "folder",
-                  "children": {
-                    "Mock EAS": {
-                      "type": "folder",
-                      "children": {
-                        "Mock EAS Alpro 1.pdf": {
-                          "type": "file"
-                        },
-                        "Mock EAS Alpro 1.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 1 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 1.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 1.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 2 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 2.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 2.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 3 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 3.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 3.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 4 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 4.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 4.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 5 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 5.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 5.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 6 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 6.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 6.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 7 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 7.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 7.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 8 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 8.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 8.tex": {
-                          "type": "file"
-                        }
-                      }
-                    }
-                  }
-                },
-                "PPT": {
-                  "type": "folder",
-                  "children": {
-                    "Array": {
-                      "type": "folder",
-                      "children": {
-                        "Array.pdf": {
-                          "type": "file"
-                        },
-                        "Array.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Control Flow": {
-                      "type": "folder",
-                      "children": {
-                        "Control Flow.pdf": {
-                          "type": "file"
-                        },
-                        "Control Flow.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Graphicx": {
-                      "type": "folder",
-                      "children": {
-                        "Arisu Dance": {
-                          "type": "folder",
-                          "children": {
-                            "Arisu Dance-0.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-1.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-10.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-100.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-101.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-102.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-103.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-104.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-105.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-106.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-107.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-108.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-109.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-11.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-110.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-111.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-112.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-113.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-114.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-115.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-116.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-117.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-118.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-119.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-12.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-120.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-121.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-122.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-123.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-124.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-125.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-126.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-127.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-128.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-129.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-13.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-130.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-131.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-132.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-133.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-134.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-135.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-136.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-137.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-138.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-139.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-14.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-140.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-141.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-142.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-143.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-144.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-145.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-146.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-147.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-148.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-149.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-15.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-150.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-151.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-152.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-153.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-154.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-155.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-156.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-157.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-158.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-159.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-16.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-160.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-161.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-162.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-163.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-164.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-165.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-166.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-167.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-168.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-169.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-17.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-170.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-171.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-172.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-173.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-174.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-175.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-176.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-177.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-178.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-179.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-18.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-180.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-181.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-182.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-183.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-184.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-185.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-186.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-19.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-2.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-20.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-21.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-22.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-23.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-24.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-25.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-26.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-27.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-28.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-29.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-3.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-30.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-31.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-32.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-33.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-34.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-35.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-36.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-37.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-38.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-39.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-4.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-40.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-41.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-42.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-43.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-44.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-45.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-46.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-47.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-48.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-49.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-5.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-50.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-51.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-52.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-53.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-54.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-55.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-56.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-57.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-58.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-59.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-6.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-60.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-61.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-62.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-63.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-64.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-65.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-66.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-67.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-68.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-69.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-7.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-70.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-71.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-72.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-73.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-74.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-75.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-76.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-77.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-78.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-79.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-8.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-80.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-81.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-82.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-83.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-84.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-85.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-86.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-87.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-88.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-89.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-9.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-90.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-91.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-92.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-93.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-94.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-95.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-96.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-97.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-98.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance-99.png": {
-                              "type": "file"
-                            },
-                            "Arisu Dance.gif": {
-                              "type": "file"
-                            }
-                          }
-                        },
-                        "Java bg.jpg": {
-                          "type": "file"
-                        },
-                        "Java code.jpg": {
-                          "type": "file"
-                        },
-                        "Java logo.png": {
-                          "type": "file"
-                        },
-                        "M.png": {
-                          "type": "file"
-                        },
-                        "Provicom.png": {
-                          "type": "file"
-                        },
-                        "bg_2.png": {
-                          "type": "file"
-                        },
-                        "bg_22.jpg": {
-                          "type": "file"
-                        },
-                        "choice.jpg": {
-                          "type": "file"
-                        },
-                        "code_bg.jpeg": {
-                          "type": "file"
-                        },
-                        "genshin showcase.png": {
-                          "type": "file"
-                        },
-                        "heker.jpg": {
-                          "type": "file"
-                        },
-                        "jojo.jpg": {
-                          "type": "file"
-                        },
-                        "motivated.jpg": {
-                          "type": "file"
-                        },
-                        "plana class.jpg": {
-                          "type": "file"
-                        },
-                        "soro soro jikanda.jpg": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Input & Casting": {
-                      "type": "folder",
-                      "children": {
-                        "InputCasting.pdf": {
-                          "type": "file"
-                        },
-                        "InputCasting.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Introduction Java": {
-                      "type": "folder",
-                      "children": {
-                        "Data Bahasa Pemrograman.jpg": {
-                          "type": "file"
-                        },
-                        "Intro Java.pdf": {
-                          "type": "file"
-                        },
-                        "Intro Java.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Looping": {
-                      "type": "folder",
-                      "children": {
-                        "Looping.pdf": {
-                          "type": "file"
-                        },
-                        "Looping.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Method": {
-                      "type": "folder",
-                      "children": {
-                        "Method.pdf": {
-                          "type": "file"
-                        },
-                        "Method.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Struktur Kontrol": {
-                      "type": "folder",
-                      "children": {
-                        "Struktur Kontrol.pdf": {
-                          "type": "file"
-                        },
-                        "Struktur Kontrol.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Variable": {
-                      "type": "folder",
-                      "children": {
-                        "Variable.pdf": {
-                          "type": "file"
-                        },
-                        "Variable.tex": {
-                          "type": "file"
-                        },
-                        "genshin.mp4": {
-                          "type": "file"
-                        }
-                      }
-                    }
-                  }
-                },
-                "Solution": {
-                  "type": "folder",
-                  "children": {
-                    "Mock EAS Solution": {
-                      "type": "folder",
-                      "children": {
-                        "Solusi Latihan EAS Kelompok 1 Alpro 1.pdf": {
-                          "type": "file"
-                        },
-                        "Solusi Latihan EAS Kelompok 1 Alpro 1.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 2 Solution": {
-                      "type": "folder",
-                      "children": {
-                        "No1.java": {
-                          "type": "file"
-                        },
-                        "No2.java": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 5 Solution": {
-                      "type": "folder",
-                      "children": {
-                        "Energy.java": {
-                          "type": "file"
-                        },
-                        "Hypergeometric.java": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 6 Solution": {
-                      "type": "folder",
-                      "children": {
-                        "NormalDistribution.java": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 7 Solution": {
-                      "type": "folder",
-                      "children": {
-                        "CekGaris.java": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 8 Solution": {
-                      "type": "folder",
-                      "children": {
-                        "Derivative.java": {
-                          "type": "file"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "Alpro 2": {
-              "type": "folder",
-              "children": {
-                "Assigment": {
-                  "type": "folder",
-                  "children": {
-                    "Week 1 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 1.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 1.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 2 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 2.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 2.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 3 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 3.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 3.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 4 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 4.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 4.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 5 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 5.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 5.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week 7 Assigment": {
-                      "type": "folder",
-                      "children": {
-                        "Tugas 7.pdf": {
-                          "type": "file"
-                        },
-                        "Tugas 7.tex": {
-                          "type": "file"
-                        }
-                      }
-                    }
-                  }
-                },
-                "PPT": {
-                  "type": "folder",
-                  "children": {
-                    "Abstract Class & Interface": {
-                      "type": "folder",
-                      "children": {
-                        "Abstract Class & Interface.pdf": {
-                          "type": "file"
-                        },
-                        "Abstract Class & Interface.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Analisis Algoritma": {
-                      "type": "folder",
-                      "children": {
-                        "Analisis Algoritma.pdf": {
-                          "type": "file"
-                        },
-                        "Analisis Algoritma.tex": {
-                          "type": "file"
-                        },
-                        "Nilai Siakad.png": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Class & Object": {
-                      "type": "folder",
-                      "children": {
-                        "Class & Object.pdf": {
-                          "type": "file"
-                        },
-                        "Class & Object.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Enkapsulasi": {
-                      "type": "folder",
-                      "children": {
-                        "Enkapsulasi.pdf": {
-                          "type": "file"
-                        },
-                        "Enkapsulasi.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Exception Handling": {
-                      "type": "folder",
-                      "children": {
-                        "Exception Handling.pdf": {
-                          "type": "file"
-                        },
-                        "Exception Handling.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Inheritance & Polymorphism": {
-                      "type": "folder",
-                      "children": {
-                        "Inheritance & Polymorphism.pdf": {
-                          "type": "file"
-                        },
-                        "Inheritance & Polymorphism.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Kompleksitas": {
-                      "type": "folder",
-                      "children": {
-                        "Kompleksitas.pdf": {
-                          "type": "file"
-                        },
-                        "Kompleksitas.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Searching & Sorting": {
-                      "type": "folder",
-                      "children": {
-                        "Searching & Sorting.pdf": {
-                          "type": "file"
-                        },
-                        "Searching & Sorting.tex": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "praktikum-ppt.cls": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "Solution": {
-                  "type": "folder",
-                  "children": {
-                    "Week_1_Solution": {
-                      "type": "folder",
-                      "children": {
-                        "FiboMatrix.java": {
-                          "type": "file"
-                        },
-                        "GCD_LCM.java": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week_4_Solution": {
-                      "type": "folder",
-                      "children": {
-                        "TryCatch.java": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Week_5_Solution": {
-                      "type": "folder",
-                      "children": {
-                        "Main.java": {
-                          "type": "file"
-                        },
-                        "Matriks2x2.java": {
-                          "type": "file"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
       "name": "Tugas-Kuliah",
-      "description": null,
-      "url": "https://github.com/TetewHeroez/Tugas-Kuliah",
+      "description": "A collection of assignments from my undergraduate and master's studies.",
       "stars": 2,
       "forks": 0,
       "languages": {
@@ -1586,6 +19,23 @@
         "Python": 5909,
         "MATLAB": 5776
       },
+      "html_url": "https://github.com/TetewHeroez/Tugas-Kuliah",
+      "homepage": "",
+      "topics": [
+        "academic",
+        "algebra",
+        "calculus",
+        "complex-analysis",
+        "differential-equations",
+        "linear-algebra",
+        "mathematics",
+        "probability",
+        "programming",
+        "real-analysis",
+        "school",
+        "statistics"
+      ],
+      "readmeContent": "# 🎓 ITS Mathematics Coursework Repository\n<!-- PORTFOLIO-START: detailedDescription -->\nThis repository contains various academic assignments and coursework I completed throughout my undergraduate studies in the **Department of Mathematics**, Institut Teknologi Sepuluh Nopember (ITS). Most of the documents are written in **LaTeX** and exported as PDF files.\n<!-- PORTFOLIO-END: detailedDescription -->\n## 🖋 Why LaTeX?\n<!-- PORTFOLIO-START: detailedDescription -->\nI first got introduced to $\\LaTeX$ while working as a **Staff Partner for OMITS 16th** in the Quality Management division. As someone who doesn’t enjoy handwriting (and often makes typos too!), LaTeX has become a game-changer in how I handle assignments—especially since my third semester. It offers clean, professional formatting and allows me to focus on content without worrying about layout.\n\nSince then, LaTeX has been my primary tool for writing mathematical reports, papers, and homework assignments.\n<!-- PORTFOLIO-END: detailedDescription -->\n## 📂 What’s Inside?\n\nThis repository is organized into folders, each representing a different course. Inside each folder, you'll typically find:\n<!-- PORTFOLIO-START: features -->\n- **`.tex` source files**\n- **Final `.pdf` versions**\n- **Supporting figures or code (if applicable)**\n<!-- PORTFOLIO-END: features -->\nCourses include, but are not limited to:\n\n- **Calculus**\n- **Linear Algebra**\n- **Real Analysis**\n- **Numerical Methods**\n- **Abstract Algebra**\n- **Probability & Statistics**\n- **Mathematical Modeling**\n\nI’ve also included short descriptions or reflections in some folders to help readers understand the focus and learning outcomes of each course.\n\n## 📌 Notes\n\n- All files are for educational and archival purposes only.\n- Please don’t copy-paste the work directly. Instead, use it as a reference or inspiration.\n- If you’re a fellow math student, I hope you find something helpful here!\n\n## 📜 License\n\nThis repository is open-source and shared under the MIT License. Feel free to explore, learn, and build upon the work here—with credit appreciated.\n",
       "tree": {
         "README.md": {
           "type": "file"
@@ -4855,6 +3305,1590 @@
               "type": "file"
             }
           }
+        }
+      }
+    },
+    {
+      "name": "Asisten-things",
+      "description": "Assigment and material for my assistance to students ",
+      "stars": 1,
+      "forks": 0,
+      "languages": {
+        "TeX": 607852,
+        "Java": 14143
+      },
+      "html_url": "https://github.com/TetewHeroez/Asisten-things",
+      "homepage": "",
+      "topics": [
+        "algorithm",
+        "book",
+        "calculus",
+        "lecture",
+        "material",
+        "notes",
+        "programming",
+        "work"
+      ],
+      "readmeContent": "# 📘 Academic Assistant Materials Repository\n\n<!-- PORTFOLIO-START: detailedDescription -->\nThis repository serves as a personal archive of academic resources that I created and compiled during my tenure as a **teaching assistant** for two university-level courses: **Calculus** and **Programming Algorithm**.\n\nAll materials in this repository were developed using **LaTeX**, particularly the Beamer document class for presentations, to ensure professional layout, clarity, and consistency. The use of LaTeX allows for precise formatting of mathematical notation and structured document design, making the content suitable for academic and teaching purposes.\n<!-- PORTFOLIO-END: detailedDescription -->\n\n## 📂 Contents\n<!-- PORTFOLIO-START: features -->\n- 📊 **Lecture Presentations**  \n  Carefully crafted Beamer-based presentation slides used to deliver or assist in class explanations. These materials are designed to be visually clear, concise, and pedagogically effective.\n\n- 📝 **Assignments and Exercises**  \n  Various problem sets and assignments, either given to students or used for practice sessions.\n\n- ✅ **Solution Discussions**  \n  Fully worked-out solutions and walkthroughs for selected problems, including explanations of the reasoning and methodology behind each solution.\n\n- 🧠 **Supplementary Notes**  \n  Additional summaries or concept explanations that were used to support students' understanding beyond what was covered in lectures.\n  <!-- PORTFOLIO-END: features -->\n\n<p align=\"center\">\n  <img src=\"https://github.com/user-attachments/assets/bce9d7f1-f1d9-4c9b-9f66-390606327f60\" width=\"600\"/>\n  <br/><br/>\n  <img src=\"https://github.com/user-attachments/assets/82cbf678-37a5-49c8-bf16-67c3912d20ca\" width=\"600\"/>\n</p>\n\n## 🛠️ Technical Info\n\nThese materials were written primarily in **LaTeX** and are organized by course and topic. They reflect my effort to enhance the learning experience of students, encourage critical thinking, and provide structured resources for independent study.\n\n> 📌 **Note**: This repository does not include any confidential or unpublished course material from the institution. All shared content is either created independently or adapted with permission.\n\n<p align=\"center\">\n  <img src=\"https://github.com/user-attachments/assets/54898da8-bcc4-4639-afe9-e58675b83069\" width=\"250\" style=\"margin: 5px;\" />\n  <img src=\"https://github.com/user-attachments/assets/49e3310a-c04c-421a-a4b8-233bd4521ed2\" width=\"250\" style=\"margin: 5px;\" />\n  <img src=\"https://github.com/user-attachments/assets/0433fe9a-466e-4b34-8575-509d1de028d7\" width=\"250\" style=\"margin: 5px;\" />\n</p>\n",
+      "tree": {
+        ".gitignore": {
+          "type": "file"
+        },
+        "Asisten Dosen": {
+          "type": "folder",
+          "children": {
+            "Bahas Soal": {
+              "type": "folder",
+              "children": {
+                "Soal Evaluasi": {
+                  "type": "folder",
+                  "children": {
+                    "EAS Kalkulus I 2023": {
+                      "type": "folder",
+                      "children": {
+                        "EAS Kalkulus I 2023.pdf": {
+                          "type": "file"
+                        },
+                        "EAS Kalkulus I 2023.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "EAS Kalkulus I 2024": {
+                      "type": "folder",
+                      "children": {
+                        "EAS Kalkulus 1 2024.pdf": {
+                          "type": "file"
+                        },
+                        "EAS Kalkulus 1 2024.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "EAS Kalkulus II 2023": {
+                      "type": "folder",
+                      "children": {
+                        "EAS Kalkulus II 2023.pdf": {
+                          "type": "file"
+                        },
+                        "EAS Kalkulus II 2023.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "ETS Kalkulus I 2023": {
+                      "type": "folder",
+                      "children": {
+                        "ETS Kalkulus I 2023.pdf": {
+                          "type": "file"
+                        },
+                        "ETS Kalkulus I 2023.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "ETS Kalkulus II 2023": {
+                      "type": "folder",
+                      "children": {
+                        "ETS Kalkulus II 2023.pdf": {
+                          "type": "file"
+                        },
+                        "ETS Kalkulus II 2023.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Quis 2 Kalkulus I-30": {
+                      "type": "folder",
+                      "children": {
+                        "Quis 2 Kalkulus I-30.pdf": {
+                          "type": "file"
+                        },
+                        "Quis 2 Kalkulus I-30.tex": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "Soal-soal Buku": {
+                  "type": "folder",
+                  "children": {
+                    "Pembahasan Video YouTube": {
+                      "type": "folder",
+                      "children": {
+                        "PembahasanYT.pdf": {
+                          "type": "file"
+                        },
+                        "PembahasanYT.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Script Video Asdos": {
+                      "type": "folder",
+                      "children": {
+                        "Script Video Asdos.pdf": {
+                          "type": "file"
+                        },
+                        "Script Video Asdos.tex": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "Tes Asdos Kalkulus I": {
+                  "type": "folder",
+                  "children": {
+                    "Tes Asdos Ganjil.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "PPT Kalkulus": {
+              "type": "folder",
+              "children": {
+                "Gambar & Logo": {
+                  "type": "folder",
+                  "children": {
+                    "ITS.png": {
+                      "type": "file"
+                    },
+                    "M.png": {
+                      "type": "file"
+                    },
+                    "Slide_Matematika_Statistika (5).pdf": {
+                      "type": "file"
+                    },
+                    "WoN ML.png": {
+                      "type": "file"
+                    },
+                    "arona class.jpg": {
+                      "type": "file"
+                    },
+                    "motivated.jpg": {
+                      "type": "file"
+                    },
+                    "sudah saatnya.jpg": {
+                      "type": "file"
+                    },
+                    "yuuka s.jpeg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kalkulus 1": {
+                  "type": "folder",
+                  "children": {
+                    "Bab 1": {
+                      "type": "folder",
+                      "children": {
+                        "PPT Kalkulus 1 Bab1.pdf": {
+                          "type": "file"
+                        },
+                        "PPT Kalkulus 1 Bab1.run.xml": {
+                          "type": "file"
+                        },
+                        "PPT Kalkulus 1 Bab1.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Bab 2": {
+                      "type": "folder",
+                      "children": {
+                        "Fungsi.pdf": {
+                          "type": "file"
+                        },
+                        "Fungsi.tex": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Template Soal Evaluasi": {
+              "type": "folder",
+              "children": {
+                "Template SKPB #1": {
+                  "type": "folder",
+                  "children": {
+                    "Template SKPB.pdf": {
+                      "type": "file"
+                    },
+                    "Template SKPB.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Template SKPB #2": {
+                  "type": "folder",
+                  "children": {
+                    "Template SKPB.pdf": {
+                      "type": "file"
+                    },
+                    "Template SKPB.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Asisten Laboratorium": {
+          "type": "folder",
+          "children": {
+            "Alpro 1": {
+              "type": "folder",
+              "children": {
+                "Assigment": {
+                  "type": "folder",
+                  "children": {
+                    "Mock EAS": {
+                      "type": "folder",
+                      "children": {
+                        "Mock EAS Alpro 1.pdf": {
+                          "type": "file"
+                        },
+                        "Mock EAS Alpro 1.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 1 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 1.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 1.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 2 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 2.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 2.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 3 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 3.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 3.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 4 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 4.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 4.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 5 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 5.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 5.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 6 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 6.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 6.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 7 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 7.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 7.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 8 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 8.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 8.tex": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "PPT": {
+                  "type": "folder",
+                  "children": {
+                    "Array": {
+                      "type": "folder",
+                      "children": {
+                        "Array.pdf": {
+                          "type": "file"
+                        },
+                        "Array.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Control Flow": {
+                      "type": "folder",
+                      "children": {
+                        "Control Flow.pdf": {
+                          "type": "file"
+                        },
+                        "Control Flow.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Graphicx": {
+                      "type": "folder",
+                      "children": {
+                        "Arisu Dance": {
+                          "type": "folder",
+                          "children": {
+                            "Arisu Dance-0.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-1.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-10.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-100.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-101.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-102.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-103.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-104.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-105.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-106.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-107.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-108.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-109.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-11.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-110.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-111.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-112.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-113.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-114.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-115.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-116.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-117.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-118.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-119.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-12.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-120.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-121.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-122.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-123.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-124.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-125.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-126.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-127.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-128.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-129.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-13.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-130.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-131.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-132.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-133.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-134.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-135.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-136.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-137.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-138.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-139.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-14.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-140.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-141.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-142.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-143.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-144.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-145.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-146.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-147.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-148.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-149.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-15.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-150.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-151.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-152.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-153.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-154.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-155.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-156.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-157.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-158.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-159.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-16.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-160.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-161.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-162.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-163.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-164.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-165.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-166.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-167.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-168.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-169.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-17.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-170.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-171.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-172.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-173.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-174.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-175.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-176.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-177.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-178.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-179.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-18.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-180.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-181.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-182.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-183.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-184.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-185.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-186.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-19.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-2.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-20.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-21.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-22.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-23.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-24.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-25.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-26.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-27.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-28.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-29.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-3.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-30.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-31.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-32.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-33.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-34.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-35.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-36.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-37.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-38.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-39.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-4.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-40.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-41.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-42.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-43.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-44.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-45.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-46.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-47.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-48.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-49.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-5.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-50.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-51.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-52.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-53.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-54.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-55.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-56.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-57.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-58.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-59.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-6.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-60.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-61.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-62.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-63.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-64.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-65.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-66.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-67.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-68.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-69.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-7.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-70.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-71.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-72.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-73.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-74.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-75.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-76.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-77.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-78.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-79.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-8.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-80.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-81.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-82.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-83.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-84.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-85.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-86.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-87.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-88.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-89.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-9.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-90.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-91.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-92.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-93.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-94.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-95.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-96.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-97.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-98.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance-99.png": {
+                              "type": "file"
+                            },
+                            "Arisu Dance.gif": {
+                              "type": "file"
+                            }
+                          }
+                        },
+                        "Java bg.jpg": {
+                          "type": "file"
+                        },
+                        "Java code.jpg": {
+                          "type": "file"
+                        },
+                        "Java logo.png": {
+                          "type": "file"
+                        },
+                        "M.png": {
+                          "type": "file"
+                        },
+                        "Provicom.png": {
+                          "type": "file"
+                        },
+                        "bg_2.png": {
+                          "type": "file"
+                        },
+                        "bg_22.jpg": {
+                          "type": "file"
+                        },
+                        "choice.jpg": {
+                          "type": "file"
+                        },
+                        "code_bg.jpeg": {
+                          "type": "file"
+                        },
+                        "genshin showcase.png": {
+                          "type": "file"
+                        },
+                        "heker.jpg": {
+                          "type": "file"
+                        },
+                        "jojo.jpg": {
+                          "type": "file"
+                        },
+                        "motivated.jpg": {
+                          "type": "file"
+                        },
+                        "plana class.jpg": {
+                          "type": "file"
+                        },
+                        "soro soro jikanda.jpg": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Input & Casting": {
+                      "type": "folder",
+                      "children": {
+                        "InputCasting.pdf": {
+                          "type": "file"
+                        },
+                        "InputCasting.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Introduction Java": {
+                      "type": "folder",
+                      "children": {
+                        "Data Bahasa Pemrograman.jpg": {
+                          "type": "file"
+                        },
+                        "Intro Java.pdf": {
+                          "type": "file"
+                        },
+                        "Intro Java.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Looping": {
+                      "type": "folder",
+                      "children": {
+                        "Looping.pdf": {
+                          "type": "file"
+                        },
+                        "Looping.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Method": {
+                      "type": "folder",
+                      "children": {
+                        "Method.pdf": {
+                          "type": "file"
+                        },
+                        "Method.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Struktur Kontrol": {
+                      "type": "folder",
+                      "children": {
+                        "Struktur Kontrol.pdf": {
+                          "type": "file"
+                        },
+                        "Struktur Kontrol.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Variable": {
+                      "type": "folder",
+                      "children": {
+                        "Variable.pdf": {
+                          "type": "file"
+                        },
+                        "Variable.tex": {
+                          "type": "file"
+                        },
+                        "genshin.mp4": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "Solution": {
+                  "type": "folder",
+                  "children": {
+                    "Mock EAS Solution": {
+                      "type": "folder",
+                      "children": {
+                        "Solusi Latihan EAS Kelompok 1 Alpro 1.pdf": {
+                          "type": "file"
+                        },
+                        "Solusi Latihan EAS Kelompok 1 Alpro 1.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 2 Solution": {
+                      "type": "folder",
+                      "children": {
+                        "No1.java": {
+                          "type": "file"
+                        },
+                        "No2.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 5 Solution": {
+                      "type": "folder",
+                      "children": {
+                        "Energy.java": {
+                          "type": "file"
+                        },
+                        "Hypergeometric.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 6 Solution": {
+                      "type": "folder",
+                      "children": {
+                        "NormalDistribution.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 7 Solution": {
+                      "type": "folder",
+                      "children": {
+                        "CekGaris.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 8 Solution": {
+                      "type": "folder",
+                      "children": {
+                        "Derivative.java": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Alpro 2": {
+              "type": "folder",
+              "children": {
+                "Assigment": {
+                  "type": "folder",
+                  "children": {
+                    "Week 1 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 1.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 1.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 2 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 2.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 2.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 3 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 3.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 3.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 4 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 4.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 4.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 5 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 5.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 5.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week 7 Assigment": {
+                      "type": "folder",
+                      "children": {
+                        "Tugas 7.pdf": {
+                          "type": "file"
+                        },
+                        "Tugas 7.tex": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "PPT": {
+                  "type": "folder",
+                  "children": {
+                    "Abstract Class & Interface": {
+                      "type": "folder",
+                      "children": {
+                        "Abstract Class & Interface.pdf": {
+                          "type": "file"
+                        },
+                        "Abstract Class & Interface.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Analisis Algoritma": {
+                      "type": "folder",
+                      "children": {
+                        "Analisis Algoritma.pdf": {
+                          "type": "file"
+                        },
+                        "Analisis Algoritma.tex": {
+                          "type": "file"
+                        },
+                        "Nilai Siakad.png": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Class & Object": {
+                      "type": "folder",
+                      "children": {
+                        "Class & Object.pdf": {
+                          "type": "file"
+                        },
+                        "Class & Object.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Enkapsulasi": {
+                      "type": "folder",
+                      "children": {
+                        "Enkapsulasi.pdf": {
+                          "type": "file"
+                        },
+                        "Enkapsulasi.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Exception Handling": {
+                      "type": "folder",
+                      "children": {
+                        "Exception Handling.pdf": {
+                          "type": "file"
+                        },
+                        "Exception Handling.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Inheritance & Polymorphism": {
+                      "type": "folder",
+                      "children": {
+                        "Inheritance & Polymorphism.pdf": {
+                          "type": "file"
+                        },
+                        "Inheritance & Polymorphism.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Kompleksitas": {
+                      "type": "folder",
+                      "children": {
+                        "Kompleksitas.pdf": {
+                          "type": "file"
+                        },
+                        "Kompleksitas.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Searching & Sorting": {
+                      "type": "folder",
+                      "children": {
+                        "Searching & Sorting.pdf": {
+                          "type": "file"
+                        },
+                        "Searching & Sorting.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "praktikum-ppt.cls": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Solution": {
+                  "type": "folder",
+                  "children": {
+                    "Week_1_Solution": {
+                      "type": "folder",
+                      "children": {
+                        "FiboMatrix.java": {
+                          "type": "file"
+                        },
+                        "GCD_LCM.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week_4_Solution": {
+                      "type": "folder",
+                      "children": {
+                        "TryCatch.java": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Week_5_Solution": {
+                      "type": "folder",
+                      "children": {
+                        "Main.java": {
+                          "type": "file"
+                        },
+                        "Matriks2x2.java": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "README.md": {
+          "type": "file"
+        }
+      }
+    },
+    {
+      "name": "CP-Training",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "languages": {
+        "TeX": 104055,
+        "C++": 4685
+      },
+      "html_url": "https://github.com/TetewHeroez/CP-Training",
+      "homepage": null,
+      "topics": [],
+      "readmeContent": "# Memory Tipe Data Primitif\n## Bilangan Bulat\n| Tipe Data | Bits | Interval | $10^n$ |\n| ------ | ------ | ------ | ------ | \n| char | 8 | $[0,255]$ | $10^2$ | \n| short | 16 | $[0,65.535]$ | $10^4$ | \n| int | 32 | $[0,4.294.967.295]$ | $10^9$ | \n| long | 64 | $[0,18.446.744.073.709.551.616]$ | $10^{20}$ | \n\n## Bilangan Real\n| Tipe Data | Bits | Interval | $10^n$ |\n| ------ | ------ | ------ | ------ | \n| float | 32 | $[-1.7\\times 10^{38},1.7\\times 10^{38}]$ | $10^{38}$ | \n| double | 64 | $[-1.7\\times 10^{308},1.7\\times 10^{308}]$ | $10^{308}$ | \n",
+      "tree": {
+        "Gemastik 2024": {
+          "type": "folder",
+          "children": {
+            "[A] Makan Lumpia": {
+              "type": "folder",
+              "children": {
+                "MakanLumpia.cpp": {
+                  "type": "file"
+                },
+                "MakanLumpia.exe": {
+                  "type": "file"
+                }
+              }
+            },
+            "[B] Lumpia Rebung": {
+              "type": "folder",
+              "children": {
+                "LumpiaRebung.cpp": {
+                  "type": "file"
+                },
+                "LumpiaRebung.exe": {
+                  "type": "file"
+                }
+              }
+            },
+            "[C] Piknik": {
+              "type": "folder",
+              "children": {
+                "Piknik.cpp": {
+                  "type": "file"
+                },
+                "Piknik.exe": {
+                  "type": "file"
+                }
+              }
+            },
+            "[D] Biner": {
+              "type": "folder",
+              "children": {
+                "Biner.cpp": {
+                  "type": "file"
+                },
+                "Biner.exe": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "Math": {
+          "type": "folder",
+          "children": {
+            "Combinatoric": {
+              "type": "folder",
+              "children": {
+                "Combinatoric.cpp": {
+                  "type": "file"
+                },
+                "Combinatoric.exe": {
+                  "type": "file"
+                }
+              }
+            },
+            "PascalTriangle": {
+              "type": "folder",
+              "children": {
+                "PascalTriangle.cpp": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "Pembinaan OSK SMA Puri": {
+          "type": "folder",
+          "children": {
+            "Aritmatika Modular": {
+              "type": "folder",
+              "children": {
+                "Aritmatika Modular.nav": {
+                  "type": "file"
+                },
+                "Aritmatika Modular.pdf": {
+                  "type": "file"
+                },
+                "Aritmatika Modular.snm": {
+                  "type": "file"
+                },
+                "Aritmatika Modular.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Graf": {
+              "type": "folder",
+              "children": {
+                "Graf.nav": {
+                  "type": "file"
+                },
+                "Graf.pdf": {
+                  "type": "file"
+                },
+                "Graf.snm": {
+                  "type": "file"
+                },
+                "Graf.tex": {
+                  "type": "file"
+                },
+                "Ilustrasi Jembatan.png": {
+                  "type": "file"
+                },
+                "Seven Bridges of Konigsberg.png": {
+                  "type": "file"
+                }
+              }
+            },
+            "Kombinatorika": {
+              "type": "folder",
+              "children": {
+                "Kombinatorika.nav": {
+                  "type": "file"
+                },
+                "Kombinatorika.pdf": {
+                  "type": "file"
+                },
+                "Kombinatorika.snm": {
+                  "type": "file"
+                },
+                "Kombinatorika.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Pigeonhole Principle": {
+              "type": "folder",
+              "children": {
+                "Pigeonhole Principle.nav": {
+                  "type": "file"
+                },
+                "Pigeonhole Principle.pdf": {
+                  "type": "file"
+                },
+                "Pigeonhole Principle.snm": {
+                  "type": "file"
+                },
+                "Pigeonhole Principle.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Soal-soal": {
+              "type": "folder",
+              "children": {
+                "Aritmatika Modular": {
+                  "type": "folder",
+                  "children": {
+                    "Soal Latihan OSK TIK.pdf": {
+                      "type": "file"
+                    },
+                    "Soal Latihan OSK TIK.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Graf & Pohon": {
+                  "type": "folder",
+                  "children": {
+                    "Graf & Pohon.pdf": {
+                      "type": "file"
+                    },
+                    "Graf & Pohon.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Kombinatorik": {
+                  "type": "folder",
+                  "children": {
+                    "Soal latihan kombin.pdf": {
+                      "type": "file"
+                    },
+                    "Soal latihan kombin.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Pigeonhole Principle": {
+                  "type": "folder",
+                  "children": {
+                    "Soal Latihan PHP.pdf": {
+                      "type": "file"
+                    },
+                    "Soal Latihan PHP.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Try out 1": {
+                  "type": "folder",
+                  "children": {
+                    "Try out1.pdf": {
+                      "type": "file"
+                    },
+                    "Try out1.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Try out 2": {
+                  "type": "folder",
+                  "children": {
+                    "Try out 2.pdf": {
+                      "type": "file"
+                    },
+                    "Try out 2.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "README.md": {
+          "type": "file"
         }
       }
     }
