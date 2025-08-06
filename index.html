@@ -5,8 +5,17 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Kisah</title>
-    <script type="module" crossorigin src="/assets/index-IcuTPoWy.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-SAGML7KD.css">
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-Bq3_RGO6.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-W5bdC59A.css">
   </head>
   <body>
     <div id="root"></div>
