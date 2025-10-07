@@ -79,32 +79,5 @@
     "github": "https://github.com/TetewHeroez/CP-Training",
     "homepage": null,
     "icon": "user"
-  },
-  {
-    "id": 4,
-    "title": "KP SKPB",
-    "description": "Interactive Calculus learning website built with vanilla HTML, CSS, JS. Equipped with KaTeX for math rendering and CortexJS for reactive modules.",
-    "detailedDescription": "This repository contains the source code for a lightweight, responsive educational website designed to help first-year university students understand Calculus concepts interactively. Built using vanilla HTML, CSS, and JavaScript, the site integrates KaTeX for high-quality math rendering and CortexJS for reactive user interaction.\n\nThis website was developed as part of a mandatory internship program (*Kerja Praktik*) in the Department of Mathematics, Institut Teknologi Sepuluh Nopember (ITS). The purpose of the program is to allow students to contribute to academic or institutional needs through practical, real-world projects.\n\nThe idea for this website emerged from observations that many new students struggle to grasp basic Calculus concepts such as limits, derivatives, and integrals. These difficulties are often due to abstract explanations and a lack of interactive, accessible learning media.",
-    "features": [
-      "Rich, readable content on core Calculus topics",
-      "Math rendering with KaTeX for clarity and precision",
-      "Reactive components using CortexJS",
-      "Practice exercises with immediate feedback"
-    ],
-    "images": [
-      "https://raw.githubusercontent.com/TetewHeroez/Tugas-Kuliah/refs/heads/main/Semester%206/Kerja%20Praktek/Laporan%20KP/foto/KomponenWeb.png",
-      "https://raw.githubusercontent.com/TetewHeroez/Tugas-Kuliah/refs/heads/main/Semester%206/Kerja%20Praktek/PPT%20KP/figs/Hasil1.png",
-      "https://raw.githubusercontent.com/TetewHeroez/Tugas-Kuliah/refs/heads/main/Semester%206/Kerja%20Praktek/PPT%20KP/figs/Hasil2.png",
-      "https://raw.githubusercontent.com/TetewHeroez/Tugas-Kuliah/refs/heads/main/Semester%206/Kerja%20Praktek/PPT%20KP/figs/Hasil3.png",
-      "https://raw.githubusercontent.com/TetewHeroez/Tugas-Kuliah/refs/heads/main/Semester%206/Kerja%20Praktek/PPT%20KP/figs/Hasil4.png"
-    ],
-    "category": "work",
-    "tags": [
-      "website"
-    ],
-    "link": "https://github.com/KP-SKPB/KP-SKPB.github.io",
-    "github": "https://github.com/KP-SKPB/KP-SKPB.github.io",
-    "homepage": "https://kp-skpb.github.io/",
-    "icon": "user"
   }
 ]
