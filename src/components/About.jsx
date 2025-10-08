@@ -682,6 +682,74 @@ const Achievements = ({ isVisible }) => (
   </div>
 );
 
+// --- PHOTO SLIDER COMPONENT ---
+
+const PhotoSlider = ({ isVisible }) => {
+  // Array foto dari folder onmipa dan math22
+  const photos = [
+    getImagePath("onmipa/1.png"),
+    getImagePath("onmipa/2.png"),
+    getImagePath("onmipa/4.png"),
+    getImagePath("onmipa/5.png"),
+    getImagePath("math22/2.JPG"),
+    getImagePath("math22/3.png"),
+    getImagePath("math22/4.png"),
+  ];
+
+  // Duplicate photos untuk continuous loop
+  const extendedPhotos = [...photos, ...photos, ...photos];
+
+  return (
+    <div
+      className={`transition-all duration-1000 ${
+        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+      }`}
+      data-animate-id="photo-slider"
+    >
+      <div className="text-center mb-8">
+        <h3 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-cyan-600 to-sky-600 bg-clip-text text-transparent mb-4">
+          My Journey in Pictures
+        </h3>
+        <div className="w-24 h-0.5 bg-gradient-to-r from-blue-500 via-cyan-500 to-sky-500 mx-auto rounded-full"></div>
+      </div>
+
+      <div className="relative overflow-hidden rounded-2xl bg-white/20 backdrop-blur-sm border border-white/30 shadow-2xl">
+        <div
+          className="flex continuous-slider"
+          style={{
+            width: `${extendedPhotos.length * (100 / 3)}%`,
+          }}
+        >
+          {extendedPhotos.map((photo, index) => (
+            <div
+              key={index}
+              className="flex-shrink-0 p-2"
+              style={{ width: `${100 / extendedPhotos.length}%` }}
+            >
+              <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                <div
+                  className="relative w-full"
+                  style={{ aspectRatio: "16/9" }}
+                >
+                  <img
+                    src={photo}
+                    alt={`Memory ${(index % photos.length) + 1}`}
+                    className="absolute inset-0 w-full h-full object-cover"
+                    onError={(e) => {
+                      e.target.style.display = "none";
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 // --- MAIN ABOUT COMPONENT ---
 const About = () => {
   const [visibleElements, setVisibleElements] = useState(new Set());
@@ -732,6 +800,24 @@ const About = () => {
       <style>{`
           .rotate-y-180 { transform: rotateY(180deg); }
           .backface-hidden { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+          
+          @keyframes slideProgress {
+            from { width: 0%; }
+            to { width: 100%; }
+          }
+          
+          @keyframes continuousSlide {
+            0% {
+              transform: translateX(0%);
+            }
+            100% {
+              transform: translateX(-33.333%);
+            }
+          }
+          
+          .continuous-slider {
+            animation: continuousSlide 24s linear infinite;
+          }
       `}</style>
       <div
         id="about"
@@ -758,6 +844,11 @@ const About = () => {
                 onExperienceClick={handleExperienceClick}
               />
             </div>
+          </div>
+
+          {/* Photo Slider Section */}
+          <div className="mt-20">
+            <PhotoSlider isVisible={visibleElements.has("photo-slider")} />
           </div>
         </div>
       </div>

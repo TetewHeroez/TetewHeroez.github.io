@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/" element={<App />} />
 
         {/* Rute dinamis untuk halaman detail proyek */}
-        <Route path="/project/:projectName" element={<ProjectDetailPage />} />
+        <Route path="/:projectName" element={<ProjectDetailPage />} />
 
         {/* Rute fallback jika halaman tidak ditemukan */}
         <Route path="*" element={<NotFoundPage />} />

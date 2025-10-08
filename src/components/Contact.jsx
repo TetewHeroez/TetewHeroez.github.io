@@ -67,10 +67,10 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen py-20 pt-32 bg-gradient-to-br from-cyan-900 via-teal-800 to-blue-900 relative overflow-hidden"
+      className="min-h-screen py-20 pt-32 bg-gradient-to-br from-cyan-900 via-sky-800 to-blue-900 relative overflow-hidden"
     >
       {/* Animated Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-cyan-800/60 via-teal-700/40 to-blue-800/50 opacity-80 animate-pulse-slow"></div>
+      <div className="absolute inset-0 bg-gradient-to-tr from-cyan-800/60 via-sky-700/40 to-blue-800/50 opacity-80 animate-pulse-slow"></div>
 
       {/* Live Animated Gradient Layers */}
       <div
@@ -101,7 +101,7 @@ const Contact = () => {
           ∫
         </div>
         <div
-          className="absolute bottom-32 right-8 text-9xl text-teal-400/15 font-light animate-bounce"
+          className="absolute bottom-32 right-8 text-9xl text-sky-400/15 font-light animate-bounce"
           style={{ animationDuration: "3s" }}
         >
           ∑
@@ -119,7 +119,7 @@ const Contact = () => {
           ∂
         </div>
         <div
-          className="absolute bottom-20 left-20 text-5xl text-teal-300/15 font-light animate-bounce"
+          className="absolute bottom-20 left-20 text-5xl text-sky-300/15 font-light animate-bounce"
           style={{ animationDuration: "4s", animationDelay: "1s" }}
         >
           π
@@ -184,10 +184,10 @@ const Contact = () => {
           }`}
           data-animate-id="contact-header"
         >
-          <h2 className="text-4xl md:text-5xl font-light bg-gradient-to-r from-cyan-300 via-teal-300 to-blue-300 bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl md:text-5xl font-light bg-gradient-to-r from-cyan-300 via-sky-300 to-blue-300 bg-clip-text text-transparent mb-6">
             Let's Connect
           </h2>
-          <div className="w-16 h-px bg-gradient-to-r from-cyan-400 to-teal-400 mx-auto mb-6"></div>
+          <div className="w-16 h-px bg-gradient-to-r from-cyan-400 to-sky-400 mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-xl mx-auto font-light text-lg">
             Ready to explore mathematical solutions together?
           </p>
@@ -204,7 +204,7 @@ const Contact = () => {
             }`}
             data-animate-id="contact-form"
           >
-            <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-cyan-200/20 shadow-2xl">
+            <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 backdrop-blur-lg rounded-2xl p-8 border border-cyan-200/25 shadow-xl hover:shadow-2xl transition-all duration-300">
               <form onSubmit={handleSubmit} className="space-y-8">
                 <div className="grid grid-cols-2 gap-6">
                   <div className="space-y-2">
@@ -254,7 +254,7 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="w-full py-4 bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-xl font-medium hover:scale-[1.02] transition-all duration-300 shadow-lg hover:from-cyan-400 hover:to-teal-400"
+                  className="w-full py-4 bg-gradient-to-r from-cyan-500 to-sky-500 text-white rounded-xl font-medium hover:scale-[1.02] transition-all duration-300 shadow-lg hover:from-cyan-400 hover:to-sky-400"
                 >
                   Send Message
                 </button>
@@ -272,67 +272,56 @@ const Contact = () => {
             data-animate-id="contact-info"
           >
             {/* Direct Contact */}
-            <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-cyan-200/20 shadow-2xl">
-              <h3 className="text-xl font-medium text-white mb-6">
+            <div className="bg-gradient-to-br from-cyan-500/10 to-sky-600/10 backdrop-blur-lg rounded-2xl p-6 border border-cyan-200/25 shadow-xl hover:shadow-2xl transition-all duration-300">
+              <h3 className="text-xl font-semibold text-white mb-6 text-center">
                 Direct Contact
               </h3>
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 bg-cyan-400/20 rounded-full flex items-center justify-center mt-1">
-                    <MapPin className="w-5 h-5 text-cyan-300" />
+              <div className="space-y-5">
+                <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 to-cyan-500 rounded-xl flex items-center justify-center shadow-lg flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-white" />
                   </div>
-                  <div>
-                    <p className="text-white font-medium">
+                  <div className="flex-1 min-w-0">
+                    <p className="text-white font-semibold text-base sm:text-lg">
                       Surabaya, Indonesia
                     </p>
-                    <p className="text-gray-300 text-sm text-left">East Java</p>
+                    <p className="text-cyan-200/80 text-sm">East Java</p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 bg-teal-400/20 rounded-full flex items-center justify-center mt-1">
-                    <Mail className="w-5 h-5 text-teal-300" />
+                <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-br from-sky-400 to-sky-500 rounded-xl flex items-center justify-center shadow-lg flex-shrink-0">
+                    <Mail className="w-6 h-6 text-white" />
                   </div>
-                  <div>
-                    <p className="text-white font-medium">
-                      depichan18@gmail.com
+                  <div className="flex-1 min-w-0">
+                    <p className="text-white font-semibold text-sm sm:text-base leading-tight break-all">
+                      5002221132
                     </p>
-                    <p className="text-gray-300 text-sm text-left">
-                      Email me anytime
+                    <p className="text-white font-semibold text-sm sm:text-base leading-tight break-all">
+                      @student.its.ac.id
                     </p>
+                    <p className="text-sky-200/80 text-sm">Email me anytime</p>
                   </div>
                 </div>
-
-                {/* <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 bg-blue-400/20 rounded-full flex items-center justify-center mt-1">
-                    <Phone className="w-5 h-5 text-blue-300" />
-                  </div>
-                  <div>
-                    <p className="text-white font-medium">+62 851-5630-2120</p>
-                    <p className="text-gray-300 text-sm text-left">
-                      Available 9AM - 6PM
-                    </p>
-                  </div>
-                </div> */}
               </div>
             </div>
 
             {/* Social Links */}
-            <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-cyan-200/20 shadow-2xl">
-              <h3 className="text-xl font-medium text-white mb-6">
+            <div className="bg-gradient-to-br from-purple-500/10 to-pink-600/10 backdrop-blur-lg rounded-2xl p-6 border border-purple-200/25 shadow-xl hover:shadow-2xl transition-all duration-300">
+              <h3 className="text-xl font-semibold text-white mb-6 text-center">
                 Social Links
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-3">
                 <a
                   href="https://github.com/TetewHeroez"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-col items-center gap-3 p-4 rounded-xl border border-gray-400/20 hover:border-gray-300/40 hover:bg-white/20 transition-all duration-300 group"
+                  className="flex flex-col items-center gap-2 p-4 rounded-xl border border-gray-400/20 hover:border-gray-300/50 hover:bg-gray-500/20 transition-all duration-300 group hover:scale-105"
                 >
-                  <div className="w-12 h-12 bg-gray-400/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <Github className="w-6 h-6 text-gray-300" />
+                  <div className="w-10 h-10 bg-gradient-to-br from-gray-400 to-gray-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <Github className="w-5 h-5 text-white" />
                   </div>
-                  <span className="text-sm font-medium text-gray-300">
+                  <span className="text-xs font-medium text-gray-200">
                     GitHub
                   </span>
                 </a>
@@ -341,24 +330,24 @@ const Contact = () => {
                   href="https://linkedin.com/in/teosofihidayahagung"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-col items-center gap-3 p-4 rounded-xl border border-cyan-200/20 hover:border-cyan-300/40 hover:bg-cyan-500/20 transition-all duration-300 group"
+                  className="flex flex-col items-center gap-2 p-4 rounded-xl border border-blue-200/20 hover:border-blue-300/50 hover:bg-blue-500/20 transition-all duration-300 group hover:scale-105"
                 >
-                  <div className="w-12 h-12 bg-cyan-400/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <Linkedin className="w-6 h-6 text-cyan-300" />
+                  <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <Linkedin className="w-5 h-5 text-white" />
                   </div>
-                  <span className="text-sm font-medium text-cyan-300">
+                  <span className="text-xs font-medium text-blue-200">
                     LinkedIn
                   </span>
                 </a>
 
                 <a
                   href="mailto:teosofihidayahagung@gmail.com"
-                  className="flex flex-col items-center gap-3 p-4 rounded-xl border border-teal-200/20 hover:border-teal-300/40 hover:bg-teal-500/20 transition-all duration-300 group"
+                  className="flex flex-col items-center gap-2 p-4 rounded-xl border border-green-200/20 hover:border-green-300/50 hover:bg-green-500/20 transition-all duration-300 group hover:scale-105"
                 >
-                  <div className="w-12 h-12 bg-teal-400/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <Mail className="w-6 h-6 text-teal-300" />
+                  <div className="w-10 h-10 bg-gradient-to-br from-green-400 to-green-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <Mail className="w-5 h-5 text-white" />
                   </div>
-                  <span className="text-sm font-medium text-teal-300">
+                  <span className="text-xs font-medium text-green-200">
                     Email
                   </span>
                 </a>
@@ -367,12 +356,12 @@ const Contact = () => {
                   href="https://instagram.com/tetewheroez"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-col items-center gap-3 p-4 rounded-xl border border-pink-200/20 hover:border-pink-300/40 hover:bg-pink-500/20 transition-all duration-300 group"
+                  className="flex flex-col items-center gap-2 p-4 rounded-xl border border-pink-200/20 hover:border-pink-300/50 hover:bg-pink-500/20 transition-all duration-300 group hover:scale-105"
                 >
-                  <div className="w-12 h-12 bg-pink-400/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <Instagram className="w-6 h-6 text-pink-300" />
+                  <div className="w-10 h-10 bg-gradient-to-br from-pink-400 to-pink-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <Instagram className="w-5 h-5 text-white" />
                   </div>
-                  <span className="text-sm font-medium text-pink-300">
+                  <span className="text-xs font-medium text-pink-200">
                     Instagram
                   </span>
                 </a>
@@ -396,7 +385,7 @@ const Contact = () => {
               "Mathematics is the most beautiful and most powerful creation of
               the human spirit."
             </p>
-            <span className="text-2xl text-teal-400">∫</span>
+            <span className="text-2xl text-sky-400">∫</span>
           </div>
           <p className="text-sm text-gray-400 mt-2">- Stefan Banach</p>
         </div>
