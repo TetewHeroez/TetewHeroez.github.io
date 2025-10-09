@@ -82,6 +82,7 @@ const transformApiDataToProjects = (githubApiData) => {
   };
 
   return githubApiData
+    .filter((repo) => repo !== null && repo !== undefined) // Filter null values
     .sort((a, b) => (b.stargazers_count || 0) - (a.stargazers_count || 0))
     .map((repo, index) => {
       const readme = repo.readmeContent || "";

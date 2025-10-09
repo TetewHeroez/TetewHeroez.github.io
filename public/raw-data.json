@@ -1,10 +1,11 @@
 {
+  "fetchedAt": "2025-10-09T14:25:01.128Z",
   "profile": {
     "name": "Teosofi Hidayah Agung",
     "avatar_url": "https://avatars.githubusercontent.com/u/132694090?v=4",
     "bio": "NPC who wants to become MC",
     "followers": 13,
-    "following": 10
+    "following": 11
   },
   "repos": [
     {
@@ -13,11 +14,15 @@
       "stars": 2,
       "forks": 0,
       "languages": {
-        "TeX": 1161791,
+        "TeX": 1358111,
         "Java": 198199,
         "Jupyter Notebook": 69830,
-        "Python": 5909,
-        "MATLAB": 5776
+        "JavaScript": 42290,
+        "HTML": 13345,
+        "Python": 6728,
+        "MATLAB": 5776,
+        "CSS": 3609,
+        "Scilab": 141
       },
       "html_url": "https://github.com/TetewHeroez/Tugas-Kuliah",
       "homepage": "",
@@ -35,7 +40,7 @@
         "school",
         "statistics"
       ],
-      "readmeContent": "# 🎓 ITS Mathematics Coursework Repository\n<!-- PORTFOLIO-START: detailedDescription -->\nThis repository contains various academic assignments and coursework I completed throughout my undergraduate studies in the **Department of Mathematics**, Institut Teknologi Sepuluh Nopember (ITS). Most of the documents are written in **LaTeX** and exported as PDF files.\n<!-- PORTFOLIO-END: detailedDescription -->\n## 🖋 Why LaTeX?\n<!-- PORTFOLIO-START: detailedDescription -->\nI first got introduced to $\\LaTeX$ while working as a **Staff Partner for OMITS 16th** in the Quality Management division. As someone who doesn’t enjoy handwriting (and often makes typos too!), LaTeX has become a game-changer in how I handle assignments—especially since my third semester. It offers clean, professional formatting and allows me to focus on content without worrying about layout.\n\nSince then, LaTeX has been my primary tool for writing mathematical reports, papers, and homework assignments.\n<!-- PORTFOLIO-END: detailedDescription -->\n## 📂 What’s Inside?\n\nThis repository is organized into folders, each representing a different course. Inside each folder, you'll typically find:\n<!-- PORTFOLIO-START: features -->\n- **`.tex` source files**\n- **Final `.pdf` versions**\n- **Supporting figures or code (if applicable)**\n<!-- PORTFOLIO-END: features -->\nCourses include, but are not limited to:\n\n- **Calculus**\n- **Linear Algebra**\n- **Real Analysis**\n- **Numerical Methods**\n- **Abstract Algebra**\n- **Probability & Statistics**\n- **Mathematical Modeling**\n\nI’ve also included short descriptions or reflections in some folders to help readers understand the focus and learning outcomes of each course.\n\n## 📌 Notes\n\n- All files are for educational and archival purposes only.\n- Please don’t copy-paste the work directly. Instead, use it as a reference or inspiration.\n- If you’re a fellow math student, I hope you find something helpful here!\n\n## 📜 License\n\nThis repository is open-source and shared under the MIT License. Feel free to explore, learn, and build upon the work here—with credit appreciated.\n",
+      "readmeContent": "# 🎓 ITS Mathematics Coursework Repository\n<!-- PORTFOLIO-START: detailedDescription -->\nThis repository contains various academic assignments and coursework I completed throughout my undergraduate studies in the **Department of Mathematics**, Institut Teknologi Sepuluh Nopember (ITS). Most of the documents are written in **LaTeX** and exported as PDF files.\n<!-- PORTFOLIO-END: detailedDescription -->\n## 🖋 Why LaTeX?\n<!-- PORTFOLIO-START: detailedDescription -->\nI first got introduced to $\\LaTeX$ while working as a **Staff Partner for OMITS 16th** in the Quality Management division. As someone who doesn’t enjoy handwriting (and often makes typos too!), LaTeX has become a game-changer in how I handle assignments—especially since my third semester. It offers clean, professional formatting and allows me to focus on content without worrying about layout.\n\nSince then, LaTeX has been my primary tool for writing mathematical reports, papers, and homework assignments.\n<!-- PORTFOLIO-END: detailedDescription -->\n## 📂 What’s Inside?\n\nThis repository is organized into folders, each representing a different course. Inside each folder, you'll typically find:\n<!-- PORTFOLIO-START: features -->\n- **`.tex` source files**\n- **Final `.pdf` versions**\n- **Supporting figures or code (if applicable)**\n<!-- PORTFOLIO-END: features -->\nCourses include, but are not limited to:\n\n- **Calculus**\n- **Linear Algebra**\n- **Real Analysis**\n- **Numerical Methods**\n- **Abstract Algebra**\n- **Probability & Statistics**\n- **Mathematical Modeling**\n\nI’ve also included short descriptions or reflections in some folders to help readers understand the focus and learning outcomes of each course.\n\n## 📌 Notes\n\n- All files are for educational and archival purposes only.\n- Please don’t copy-paste the work directly. Instead, use it as a reference or inspiration.\n- If you’re a fellow math student, I hope you find something helpful here!\n\n<p align=\"center\">\n  <img width=\"400\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/48ea5864-651c-4476-951d-02987535363e\" />\n  <img width=\"400\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/b924f133-112e-42d5-9188-9b869b04fb7d\" />\n  <img width=\"400\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/4279e09a-6fcb-4180-b7ee-e9449488eb7a\" />\n  <img width=\"400\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/08d63419-f7bb-4042-9c89-c6ac337fc123\" />\n  <img width=\"400\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/71d604df-34e9-4a99-a46d-292762e695ec\" />\n</p>\n\n\n",
       "tree": {
         "README.md": {
           "type": "file"
@@ -826,6 +831,17 @@
                     }
                   }
                 },
+                "Tugas Dey #1": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas Dey 1.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas Dey 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "Tugas Video": {
                   "type": "folder",
                   "children": {
@@ -886,6 +902,33 @@
                       "type": "file"
                     }
                   }
+                },
+                "Tugas Dey #1": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas Dey 1.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas Dey 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Kalkulus Peubah Banyak": {
+              "type": "folder",
+              "children": {
+                "ETS KPB 2024": {
+                  "type": "folder",
+                  "children": {
+                    "ETS KPB 2024.pdf": {
+                      "type": "file"
+                    },
+                    "ETS KPB 2024.tex": {
+                      "type": "file"
+                    }
+                  }
                 }
               }
             },
@@ -933,6 +976,17 @@
             "Persamaan Diferensial Biasa": {
               "type": "folder",
               "children": {
+                "ETS 2024": {
+                  "type": "folder",
+                  "children": {
+                    "ETS PDB 2024.pdf": {
+                      "type": "file"
+                    },
+                    "ETS PDB 2024.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "Solusi akar kembar": {
                   "type": "folder",
                   "children": {
@@ -1418,6 +1472,17 @@
             "Aljabar Linear": {
               "type": "folder",
               "children": {
+                "ETS Alin 2024": {
+                  "type": "folder",
+                  "children": {
+                    "ETS Alin 2024.pdf": {
+                      "type": "file"
+                    },
+                    "ETS Alin 2024.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "Orthogonality": {
                   "type": "folder",
                   "children": {
@@ -1887,6 +1952,9 @@
                         "LogoPerusahaan.png": {
                           "type": "file"
                         },
+                        "Overleaf1.png": {
+                          "type": "file"
+                        },
                         "SidebarBuka.png": {
                           "type": "file"
                         },
@@ -2135,6 +2203,17 @@
             "Pengantar Analisis Fungsional": {
               "type": "folder",
               "children": {
+                "Cheatsheet Anfung": {
+                  "type": "folder",
+                  "children": {
+                    "Cheatsheet Anfung.pdf": {
+                      "type": "file"
+                    },
+                    "Cheatsheet Anfung.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "EAS": {
                   "type": "folder",
                   "children": {
@@ -2304,6 +2383,209 @@
                       "type": "file"
                     },
                     "Exercise 3.1 & 3.5.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Semester 7": {
+          "type": "folder",
+          "children": {
+            "Aljabar Max-Plus": {
+              "type": "folder",
+              "children": {
+                "Kripto Max-Plus": {
+                  "type": "folder",
+                  "children": {
+                    "README.md": {
+                      "type": "file"
+                    },
+                    "index.html": {
+                      "type": "file"
+                    },
+                    "main.js": {
+                      "type": "file"
+                    },
+                    "style.css": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Laporan Tugas": {
+                  "type": "folder",
+                  "children": {
+                    "MatriksLDLP.sci": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "PPT Tugas Aplikasi Max-Plus": {
+                  "type": "folder",
+                  "children": {
+                    "Aplikasi Tropical.nav": {
+                      "type": "file"
+                    },
+                    "Aplikasi Tropical.pdf": {
+                      "type": "file"
+                    },
+                    "Aplikasi Tropical.snm": {
+                      "type": "file"
+                    },
+                    "Aplikasi Tropical.tex": {
+                      "type": "file"
+                    },
+                    "Aplikasi Tropical.vrb": {
+                      "type": "file"
+                    },
+                    "DiffieHellman.png": {
+                      "type": "file"
+                    },
+                    "reference.bib": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Analisis Fungsional": {
+              "type": "folder",
+              "children": {
+                "Tugas 1": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 1.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Pengantar Teori Aproksimasi": {
+              "type": "folder",
+              "children": {
+                "Tugas 1": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 1.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Tugas Akhir": {
+              "type": "folder",
+              "children": {
+                "Proposal TA": {
+                  "type": "folder",
+                  "children": {
+                    "Baca Panduan": {
+                      "type": "folder",
+                      "children": {
+                        "Buku Panduan Format Buku Tugas Akhir.docx": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Format Proposal TA.pdf": {
+                      "type": "file"
+                    },
+                    "Format Proposal TA.tex": {
+                      "type": "file"
+                    },
+                    "Inti": {
+                      "type": "folder",
+                      "children": {
+                        "abstrakeng.tex": {
+                          "type": "file"
+                        },
+                        "abstrakind.tex": {
+                          "type": "file"
+                        },
+                        "bab 1.tex": {
+                          "type": "file"
+                        },
+                        "bab 2.tex": {
+                          "type": "file"
+                        },
+                        "bab 3.tex": {
+                          "type": "file"
+                        },
+                        "bab 4.tex": {
+                          "type": "file"
+                        },
+                        "bab 5.tex": {
+                          "type": "file"
+                        },
+                        "daftar simbol.tex": {
+                          "type": "file"
+                        },
+                        "lampiran.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "file": {
+                      "type": "folder",
+                      "children": {
+                        "TA-ITS.cls": {
+                          "type": "file"
+                        },
+                        "TA-data.tex": {
+                          "type": "file"
+                        },
+                        "code.py": {
+                          "type": "file"
+                        },
+                        "daftarPustaka.bib": {
+                          "type": "file"
+                        },
+                        "picins.sty": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "foto": {
+                      "type": "folder",
+                      "children": {
+                        "Diagram Alir Penelitian Blue.png": {
+                          "type": "file"
+                        },
+                        "logoITS.png": {
+                          "type": "file"
+                        },
+                        "logoITSBiru.png": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "Referensi": {
+                  "type": "folder",
+                  "children": {
+                    "MODIFYING THE TROPICAL VERSION OF STICKELS KEY.pdf": {
+                      "type": "file"
+                    },
+                    "Max-plus_Algebra_and_Application_to_Matrix_Operati.pdf": {
+                      "type": "file"
+                    },
+                    "On implementation of Stickel’s key exchange protocol.pdf": {
+                      "type": "file"
+                    },
+                    "On the security of the initial tropical Stickel protocol.pdf": {
+                      "type": "file"
+                    },
+                    "Revisi_Tugas_Akhir_Muhammad_Zulfikar_Zufar_06111940000108___.pdf": {
                       "type": "file"
                     }
                   }
@@ -3314,7 +3596,7 @@
       "stars": 1,
       "forks": 0,
       "languages": {
-        "TeX": 607852,
+        "TeX": 1018326,
         "Java": 14143
       },
       "html_url": "https://github.com/TetewHeroez/Asisten-things",
@@ -3329,7 +3611,7 @@
         "programming",
         "work"
       ],
-      "readmeContent": "# 📘 Academic Assistant Materials Repository\n\n<!-- PORTFOLIO-START: detailedDescription -->\nThis repository serves as a personal archive of academic resources that I created and compiled during my tenure as a **teaching assistant** for two university-level courses: **Calculus** and **Programming Algorithm**.\n\nAll materials in this repository were developed using **LaTeX**, particularly the Beamer document class for presentations, to ensure professional layout, clarity, and consistency. The use of LaTeX allows for precise formatting of mathematical notation and structured document design, making the content suitable for academic and teaching purposes.\n<!-- PORTFOLIO-END: detailedDescription -->\n\n## 📂 Contents\n<!-- PORTFOLIO-START: features -->\n- 📊 **Lecture Presentations**  \n  Carefully crafted Beamer-based presentation slides used to deliver or assist in class explanations. These materials are designed to be visually clear, concise, and pedagogically effective.\n\n- 📝 **Assignments and Exercises**  \n  Various problem sets and assignments, either given to students or used for practice sessions.\n\n- ✅ **Solution Discussions**  \n  Fully worked-out solutions and walkthroughs for selected problems, including explanations of the reasoning and methodology behind each solution.\n\n- 🧠 **Supplementary Notes**  \n  Additional summaries or concept explanations that were used to support students' understanding beyond what was covered in lectures.\n  <!-- PORTFOLIO-END: features -->\n\n<p align=\"center\">\n  <img src=\"https://github.com/user-attachments/assets/bce9d7f1-f1d9-4c9b-9f66-390606327f60\" width=\"600\"/>\n  <br/><br/>\n  <img src=\"https://github.com/user-attachments/assets/82cbf678-37a5-49c8-bf16-67c3912d20ca\" width=\"600\"/>\n</p>\n\n## 🛠️ Technical Info\n\nThese materials were written primarily in **LaTeX** and are organized by course and topic. They reflect my effort to enhance the learning experience of students, encourage critical thinking, and provide structured resources for independent study.\n\n> 📌 **Note**: This repository does not include any confidential or unpublished course material from the institution. All shared content is either created independently or adapted with permission.\n\n<p align=\"center\">\n  <img src=\"https://github.com/user-attachments/assets/54898da8-bcc4-4639-afe9-e58675b83069\" width=\"250\" style=\"margin: 5px;\" />\n  <img src=\"https://github.com/user-attachments/assets/49e3310a-c04c-421a-a4b8-233bd4521ed2\" width=\"250\" style=\"margin: 5px;\" />\n  <img src=\"https://github.com/user-attachments/assets/0433fe9a-466e-4b34-8575-509d1de028d7\" width=\"250\" style=\"margin: 5px;\" />\n</p>\n",
+      "readmeContent": "# 📘 Academic Assistant Materials Repository\n\n<!-- PORTFOLIO-START: detailedDescription -->\nThis repository serves as a personal archive of academic resources that I created and compiled during my tenure as a **teaching assistant** for two university-level courses: **Calculus** and **Programming Algorithm**.\n\nAll materials in this repository were developed using **LaTeX**, particularly the Beamer document class for presentations, to ensure professional layout, clarity, and consistency. The use of LaTeX allows for precise formatting of mathematical notation and structured document design, making the content suitable for academic and teaching purposes.\n<!-- PORTFOLIO-END: detailedDescription -->\n\n## 📂 Contents\n<!-- PORTFOLIO-START: features -->\n- 📊 **Lecture Presentations**  \n  Carefully crafted Beamer-based presentation slides used to deliver or assist in class explanations. These materials are designed to be visually clear, concise, and pedagogically effective.\n\n- 📝 **Assignments and Exercises**  \n  Various problem sets and assignments, either given to students or used for practice sessions.\n\n- ✅ **Solution Discussions**  \n  Fully worked-out solutions and walkthroughs for selected problems, including explanations of the reasoning and methodology behind each solution.\n\n- 🧠 **Supplementary Notes**  \n  Additional summaries or concept explanations that were used to support students' understanding beyond what was covered in lectures.\n  <!-- PORTFOLIO-END: features -->\n\n<p align=\"center\">\n  <img src=\"https://github.com/user-attachments/assets/bce9d7f1-f1d9-4c9b-9f66-390606327f60\" width=\"600\"/>\n  <br/><br/>\n  <img width=\"600\" src=\"https://github.com/user-attachments/assets/16ca6e90-6805-4c94-b948-fcb5762e1f90\" />\n  <br/><br/>\n  <img src=\"https://github.com/user-attachments/assets/82cbf678-37a5-49c8-bf16-67c3912d20ca\" width=\"600\"/>\n</p>\n\n## 🛠️ Technical Info\n\nThese materials were written primarily in **LaTeX** and are organized by course and topic. They reflect my effort to enhance the learning experience of students, encourage critical thinking, and provide structured resources for independent study.\n\n> 📌 **Note**: This repository does not include any confidential or unpublished course material from the institution. All shared content is either created independently or adapted with permission.\n\n<p align=\"center\">\n  <img src=\"https://github.com/user-attachments/assets/54898da8-bcc4-4639-afe9-e58675b83069\" width=\"250\" style=\"margin: 5px;\" />\n  <img src=\"https://github.com/user-attachments/assets/49e3310a-c04c-421a-a4b8-233bd4521ed2\" width=\"250\" style=\"margin: 5px;\" />\n  <img src=\"https://github.com/user-attachments/assets/0433fe9a-466e-4b34-8575-509d1de028d7\" width=\"250\" style=\"margin: 5px;\" />\n  <img width=\"250\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/73d49eb0-9a1b-41b6-92ee-f8f6558edef9\" />\n  <img width=\"250\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/9dbd4ccb-21ef-4228-9a3e-b0b975f4adc1\" />\n</p>\n",
       "tree": {
         ".gitignore": {
           "type": "file"
@@ -3387,6 +3669,17 @@
                         }
                       }
                     },
+                    "ETS Kalkulus I 2024": {
+                      "type": "folder",
+                      "children": {
+                        "ETS Kalkulus I 2024.pdf": {
+                          "type": "file"
+                        },
+                        "ETS Kalkulus I 2024.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
                     "ETS Kalkulus II 2023": {
                       "type": "folder",
                       "children": {
@@ -3438,11 +3731,22 @@
                     }
                   }
                 },
-                "Tes Asdos Kalkulus I": {
+                "Tes Asdos Kalkulus": {
                   "type": "folder",
                   "children": {
-                    "Tes Asdos Ganjil.tex": {
-                      "type": "file"
+                    "Ganjil 2025-2026": {
+                      "type": "folder",
+                      "children": {
+                        "Ganjil 2025-2026.pdf": {
+                          "type": "file"
+                        },
+                        "Ganjil 2025-2026.tex": {
+                          "type": "file"
+                        },
+                        "Ganjil 2025-2026.xdv": {
+                          "type": "file"
+                        }
+                      }
                     }
                   }
                 }
@@ -3469,6 +3773,9 @@
                     "arona class.jpg": {
                       "type": "file"
                     },
+                    "limitless.jpg": {
+                      "type": "file"
+                    },
                     "motivated.jpg": {
                       "type": "file"
                     },
@@ -3486,13 +3793,13 @@
                     "Bab 1": {
                       "type": "folder",
                       "children": {
-                        "PPT Kalkulus 1 Bab1.pdf": {
-                          "type": "file"
-                        },
                         "PPT Kalkulus 1 Bab1.run.xml": {
                           "type": "file"
                         },
-                        "PPT Kalkulus 1 Bab1.tex": {
+                        "Sistem Bilangan Real.pdf": {
+                          "type": "file"
+                        },
+                        "Sistem Bilangan Real.tex": {
                           "type": "file"
                         }
                       }
@@ -3507,8 +3814,22 @@
                           "type": "file"
                         }
                       }
+                    },
+                    "Bab 3": {
+                      "type": "folder",
+                      "children": {
+                        "Limit dan Kekontinuan.pdf": {
+                          "type": "file"
+                        },
+                        "Limit dan Kekontinuan.tex": {
+                          "type": "file"
+                        }
+                      }
                     }
                   }
+                },
+                "kalkulus-ppt.cls": {
+                  "type": "file"
                 }
               }
             },
@@ -4603,6 +4924,9 @@
                     },
                     "praktikum-ppt.cls": {
                       "type": "file"
+                    },
+                    "tikz-uml.sty": {
+                      "type": "file"
                     }
                   }
                 },
@@ -4647,6 +4971,632 @@
         },
         "README.md": {
           "type": "file"
+        }
+      }
+    },
+    {
+      "name": "Olympiad",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "languages": {
+        "TeX": 143009
+      },
+      "html_url": "https://github.com/TetewHeroez/Olympiad",
+      "homepage": null,
+      "topics": [],
+      "readmeContent": "",
+      "tree": {
+        "Abstract Algebra": {
+          "type": "folder",
+          "children": {
+            "Part 1": {
+              "type": "folder",
+              "children": {
+                "Aljabar part 1.pdf": {
+                  "type": "file"
+                },
+                "Aljabar part 1.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Part 2": {
+              "type": "folder",
+              "children": {
+                "Aljabar part 2.pdf": {
+                  "type": "file"
+                },
+                "Aljabar part 2.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Part 3": {
+              "type": "folder",
+              "children": {
+                "part 3.pdf": {
+                  "type": "file"
+                },
+                "part 3.tex": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "Combinatorics": {
+          "type": "folder",
+          "children": {
+            "part 1": {
+              "type": "folder",
+              "children": {
+                "part 1.pdf": {
+                  "type": "file"
+                },
+                "part 1.tex": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "Complex Analysis": {
+          "type": "folder",
+          "children": {
+            "part 1": {
+              "type": "folder",
+              "children": {
+                "part 1.pdf": {
+                  "type": "file"
+                },
+                "part 1.tex": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "Linear Algebra": {
+          "type": "folder",
+          "children": {
+            "Cayley-Hamilton Theorem": {
+              "type": "folder",
+              "children": {
+                "cayley-hamilton.pdf": {
+                  "type": "file"
+                },
+                "cayley-hamilton.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Linear Transformation Space": {
+              "type": "folder",
+              "children": {
+                "Linear Transformation Space.pdf": {
+                  "type": "file"
+                },
+                "Linear Transformation Space.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "part 1": {
+              "type": "folder",
+              "children": {
+                "part 1.pdf": {
+                  "type": "file"
+                },
+                "part 1.tex": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "Real Analysis": {
+          "type": "folder",
+          "children": {
+            "Part 1": {
+              "type": "folder",
+              "children": {
+                "Real Analysis Part 1.pdf": {
+                  "type": "file"
+                },
+                "Real Analysis part 1.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Part 2": {
+              "type": "folder",
+              "children": {
+                "Real Analysis part 2.pdf": {
+                  "type": "file"
+                },
+                "Real Analysis part 2.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Part 3": {
+              "type": "folder",
+              "children": {
+                "Part 3.pdf": {
+                  "type": "file"
+                },
+                "Part 3.tex": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "Seleksi UGM 2025": {
+          "type": "folder",
+          "children": {
+            "Tahap 1": {
+              "type": "folder",
+              "children": {
+                "Internal UGM.pdf": {
+                  "type": "file"
+                },
+                "Internal UGM.tex": {
+                  "type": "file"
+                }
+              }
+            },
+            "Tahap 2": {
+              "type": "folder",
+              "children": {
+                "Seleksi 5 Perwakilan.pdf": {
+                  "type": "file"
+                },
+                "Seleksi 5 Perwakilan.tex": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "Simulation #2": {
+          "type": "folder",
+          "children": {
+            "Simulation 2.pdf": {
+              "type": "file"
+            },
+            "Simulation 2.tex": {
+              "type": "file"
+            }
+          }
+        },
+        "Simulation #3": {
+          "type": "folder",
+          "children": {
+            "Simulation 3.pdf": {
+              "type": "file"
+            },
+            "Simulation 3.tex": {
+              "type": "file"
+            }
+          }
+        },
+        "Upgrading Latex": {
+          "type": "folder",
+          "children": {
+            "EAS METMAT 2023.pdf": {
+              "type": "file"
+            },
+            "FondasiAljabar.jpg": {
+              "type": "file"
+            },
+            "LatexEQ.png": {
+              "type": "file"
+            },
+            "LatexLogo.png": {
+              "type": "file"
+            },
+            "LatihanDisplay.pdf": {
+              "type": "file"
+            },
+            "LatihanTikz.pdf": {
+              "type": "file"
+            },
+            "LogoOMITS.png": {
+              "type": "file"
+            },
+            "MikTex.png": {
+              "type": "file"
+            },
+            "Overleaf.png": {
+              "type": "file"
+            },
+            "PPT_pak_fahim.png": {
+              "type": "file"
+            },
+            "Segitiga.pdf": {
+              "type": "file"
+            },
+            "Upgrading Latex.pdf": {
+              "type": "file"
+            },
+            "Upgrading Latex.tex": {
+              "type": "file"
+            },
+            "WordEQ.png": {
+              "type": "file"
+            },
+            "bgPPT.jpg": {
+              "type": "file"
+            },
+            "bgakhir.png": {
+              "type": "file"
+            },
+            "compile.png": {
+              "type": "file"
+            },
+            "contohDisplay.pdf": {
+              "type": "file"
+            },
+            "contohEnumerate.pdf": {
+              "type": "file"
+            },
+            "resultLatex.png": {
+              "type": "file"
+            },
+            "sourceLatex.png": {
+              "type": "file"
+            },
+            "texstudio.png": {
+              "type": "file"
+            },
+            "titleppt.png": {
+              "type": "file"
+            },
+            "vscode.png": {
+              "type": "file"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Gagas-Database",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "languages": {
+        "JavaScript": 173840,
+        "CSS": 1636,
+        "HTML": 364
+      },
+      "html_url": "https://github.com/TetewHeroez/Gagas-Database",
+      "homepage": "https://gagas-database.vercel.app",
+      "topics": [],
+      "readmeContent": "# Gagas Database Management System\n\nA comprehensive document management system built with **Node.js**, **Express**, **MongoDB**, and **React**. This system provides secure document storage, user management, and role-based access control with advanced features like forgot password functionality.\n\n![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)\n![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)\n![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)\n![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)\n![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)\n\n## 🚀 Features\n\n### Core Features\n\n- **📄 Document Management**: Upload, view, edit, and delete documents\n- **👥 User Management**: Admin can manage users and their permissions\n- **🔐 Authentication & Authorization**: JWT-based authentication with role-based access\n- **🔍 Advanced Search**: Search documents by title, type, or content\n- **📊 Dashboard**: Comprehensive dashboard with statistics and recent activities\n- **🌙 Dark Mode**: Toggle between light and dark themes\n- **📱 Responsive Design**: Works seamlessly on desktop and mobile devices\n\n### Security Features\n\n- **🔒 Forgot Password**: Email-based password reset functionality\n- **🛡️ Token-based Authentication**: Secure JWT implementation\n- **👮 Role-based Access Control**: Admin and user roles with different permissions\n- **🔐 Password Hashing**: Secure password storage with bcrypt\n- **⏰ Session Management**: Automatic token expiration and refresh\n- **🔑 Database Admin Auto-Access**: Database Admin role has automatic access to all documents\n\n### Document Features\n\n- **☁️ Cloud Storage**: Integration with Cloudinary for file storage\n- **📎 Multiple File Types**: Support for various document formats\n- **🏷️ Document Categories**: Organize documents by type and division\n- **📋 Document Permissions**: Control who can view and edit documents\n- **📈 Document Analytics**: Track document views and downloads\n- **🚀 Auto-Permission System**: Database Admin automatically gets access to new document types\n\n## 🛠️ Tech Stack\n\n### Backend\n\n- **Node.js** - Runtime environment\n- **Express.js** - Web framework\n- **MongoDB** - NoSQL database\n- **Mongoose** - MongoDB object modeling\n- **JWT** - Authentication tokens\n- **Bcrypt** - Password hashing\n- **Nodemailer** - Email service\n- **Cloudinary** - Cloud storage for files\n- **Multer** - File upload handling\n\n### Frontend\n\n- **React** - Frontend library\n- **Vite** - Build tool and dev server\n- **React Router** - Client-side routing\n- **Tailwind CSS** - Utility-first CSS framework\n- **Lucide React** - Icon library\n- **Axios** - HTTP client\n\n## 📋 Prerequisites\n\nBefore running this application, make sure you have the following installed:\n\n- **Node.js** (v16 or higher)\n- **pnpm** (recommended) or npm\n- **MongoDB** (local installation or MongoDB Atlas account)\n- **Git**\n\n## ⚙️ Installation & Setup\n\n### 1. Clone the Repository\n\n```bash\ngit clone https://github.com/TetewHeroez/Gagas-Database.git\ncd Gagas-Database\n```\n\n### 2. Backend Setup\n\n```bash\ncd backend\npnpm install\n```\n\n### 3. Frontend Setup\n\n```bash\ncd ../frontend\npnpm install\n```\n\n### 4. Environment Configuration\n\nCreate a `.env` file in the `backend` directory:\n\n```env\n# Server Configuration\nPORT=5000\n\n# Database Configuration\nMONGO_URI=\"your-mongodb-connection-string\"\nJWT_SECRET=\"your-jwt-secret-key\"\n\n# Cloudinary Configuration (for file storage)\nCLOUDINARY_CLOUD_NAME=\"your-cloudinary-cloud-name\"\nCLOUDINARY_API_KEY=\"your-cloudinary-api-key\"\nCLOUDINARY_API_SECRET=\"your-cloudinary-api-secret\"\n\n# Default Admin Configuration\nADMIN_USERNAME=\"admin_super\"\nADMIN_EMAIL=\"admin@company.com\"\nADMIN_NAMA_LENGKAP=\"System Administrator\"\nADMIN_PASSWORD=\"SecureAdminPassword123!\"\nADMIN_DIVISI=\"IT Department\"\n\n# Email Configuration (for forgot password feature)\nEMAIL_USER=\"your-email@gmail.com\"\nEMAIL_PASS=\"your-app-password\"\n\n# Frontend URL\nFRONTEND_URL=\"http://localhost:5173\"\n```\n\n### 5. Database Setup\n\n#### Option A: MongoDB Atlas (Recommended)\n\n1. Create a free account at [MongoDB Atlas](https://cloud.mongodb.com/)\n2. Create a new cluster\n3. Get your connection string\n4. Add your IP address to the whitelist\n5. Update `MONGO_URI` in your `.env` file\n\n#### Option B: Local MongoDB\n\n1. Install MongoDB locally\n2. Start MongoDB service\n3. Use local connection string: `mongodb://localhost:27017/gagas-database`\n\n### 6. Cloudinary Setup\n\n1. Create a free account at [Cloudinary](https://cloudinary.com/)\n2. Get your cloud name, API key, and API secret from the dashboard\n3. Update the Cloudinary variables in your `.env` file\n\n### 7. Email Setup (Optional for Development)\n\n#### For Development (Default)\n\n- Leave email configuration as is\n- Emails will be logged to console instead of being sent\n\n#### For Production (Gmail)\n\n1. Enable 2-Factor Authentication on your Gmail account\n2. Generate an App Password:\n   - Go to Google Account Settings\n   - Security → 2-Step Verification → App passwords\n   - Select \"Mail\" and generate password\n3. Update `EMAIL_USER` and `EMAIL_PASS` in `.env`\n\n#### For Production (Other Providers)\n\n```env\n# For Outlook/Hotmail\nEMAIL_USER=\"your-email@outlook.com\"\nEMAIL_PASS=\"your-password\"\n\n# For Yahoo\nEMAIL_USER=\"your-email@yahoo.com\"\nEMAIL_PASS=\"your-password\"\n```\n\n## 🚀 Running the Application\n\n### Development Mode\n\n1. **Start Backend Server**:\n\n```bash\ncd backend\npnpm run dev\n```\n\nThe backend will run on `http://localhost:5000`\n\n2. **Start Frontend Development Server**:\n\n```bash\ncd frontend\npnpm run dev\n```\n\nThe frontend will run on `http://localhost:5173` (or next available port)\n\n### Production Mode\n\n1. **Build Frontend**:\n\n```bash\ncd frontend\npnpm run build\n```\n\n2. **Start Backend**:\n\n```bash\ncd backend\npnpm start\n```\n\n## 📁 Project Structure\n\n```\nGagas-Database/\n├── backend/\n│   ├── src/\n│   │   ├── config/\n│   │   │   └── db.js                 # Database connection\n│   │   ├── controllers/\n│   │   │   ├── authController.js     # Authentication logic\n│   │   │   ├── documentController.js # Document CRUD operations\n│   │   │   ├── userController.js     # User management\n│   │   │   └── ...\n│   │   ├── middleware/\n│   │   │   ├── authMiddleware.js     # JWT verification\n│   │   │   └── uploadMiddleware.js   # File upload handling\n│   │   ├── models/\n│   │   │   ├── User.js               # User schema\n│   │   │   ├── Document.js           # Document schema\n│   │   │   └── Permission.js         # Permission schema\n│   │   ├── routes/\n│   │   │   ├── authRoutes.js         # Authentication routes\n│   │   │   ├── documentRoutes.js     # Document routes\n│   │   │   └── ...\n│   │   └── utils/\n│   │       ├── generateToken.js      # JWT utilities\n│   │       ├── emailService.js       # Email functionality\n│   │       └── seeder.js             # Database seeding\n│   ├── server.js                     # Main server file\n│   ├── package.json\n│   └── .env\n│\n├── frontend/\n│   ├── src/\n│   │   ├── components/               # Reusable components\n│   │   ├── pages/                    # Main pages\n│   │   ├── layouts/                  # Layout components\n│   │   ├── hooks/                    # Custom React hooks\n│   │   ├── context/                  # React context providers\n│   │   ├── api/                      # API utilities\n│   │   └── assets/                   # Static assets\n│   ├── public/\n│   ├── index.html\n│   ├── package.json\n│   └── vite.config.js\n│\n└── README.md\n```\n\n## 🔑 Default Admin Account\n\nAfter seeding the database, you can login with:\n\n- **Username**: `admin_super`\n- **Email**: `admin@company.com` (or as configured in .env)\n- **Password**: `SecureAdminPassword123!` (or as configured in .env)\n- **Division**: `Database Admin` (automatically gets access to all documents)\n\n## 📚 API Documentation\n\n### Authentication Endpoints\n\n| Method | Endpoint                          | Description               |\n| ------ | --------------------------------- | ------------------------- |\n| POST   | `/api/auth/login`                 | User login                |\n| POST   | `/api/auth/forgot-password`       | Request password reset    |\n| POST   | `/api/auth/reset-password/:token` | Reset password with token |\n\n### User Management Endpoints\n\n| Method | Endpoint             | Description                  |\n| ------ | -------------------- | ---------------------------- |\n| GET    | `/api/users`         | Get all users (Admin only)   |\n| GET    | `/api/users/profile` | Get current user profile     |\n| POST   | `/api/users`         | Create new user (Admin only) |\n| PUT    | `/api/users/:id`     | Update user (Admin only)     |\n| DELETE | `/api/users/:id`     | Delete user (Admin only)     |\n\n### Document Management Endpoints\n\n| Method | Endpoint             | Description         |\n| ------ | -------------------- | ------------------- |\n| GET    | `/api/documents`     | Get all documents   |\n| GET    | `/api/documents/:id` | Get document by ID  |\n| POST   | `/api/documents`     | Create new document |\n| PUT    | `/api/documents/:id` | Update document     |\n| DELETE | `/api/documents/:id` | Delete document     |\n\n### Dashboard Endpoints\n\n| Method | Endpoint                          | Description              |\n| ------ | --------------------------------- | ------------------------ |\n| GET    | `/api/dashboard/stats`            | Get dashboard statistics |\n| GET    | `/api/dashboard/recent-documents` | Get recent documents     |\n\n## 🔐 Forgot Password Feature\n\n### How it Works\n\n1. **Request Reset**: User enters email on forgot password page\n2. **Email Sent**: System generates secure token and sends email\n3. **Reset Password**: User clicks link in email and enters new password\n4. **Token Validation**: System validates token and updates password\n\n### Email Configuration Modes\n\n#### Development Mode\n\n- Emails are logged to backend console\n- Reset URLs are displayed in console for testing\n- No actual email sending required\n\n#### Production Mode\n\n- Emails are sent to user's inbox\n- Requires valid email service configuration\n- Supports Gmail, Outlook, Yahoo, and custom SMTP\n\n### Security Features\n\n- Tokens expire after 1 hour\n- Tokens are cryptographically hashed\n- Email validation before sending\n- Account status verification\n- Password strength validation\n\n## 🎨 Features Overview\n\n### User Roles\n\n#### Admin\n\n- Full access to all features\n- User management (create, edit, delete users)\n- Document management for all documents\n- Permission management\n- Dashboard with full statistics\n\n#### Regular User\n\n- View and manage assigned documents\n- Profile management\n- Limited dashboard access\n- Document search and filtering\n\n#### Database Admin (Special Role)\n\n- **Automatic access** to all document types (existing and future)\n- **Cannot be modified** in permission management\n- **Hidden from permission settings** to prevent accidental changes\n- **Future-proof access** - automatically gets access to new document types\n- All admin privileges plus unrestricted document access\n\n### Document Types\n\n- Surat Masuk (Incoming Letters)\n- Surat Keluar (Outgoing Letters)\n- Memo Internal (Internal Memos)\n- Laporan (Reports)\n- Kontrak (Contracts)\n- Invoice\n- SOP (Standard Operating Procedures)\n- Lainnya (Others)\n\n### Divisions\n\n- Direktur (Director)\n- Manager\n- Supervisor\n- Staff\n- Admin\n- IT\n- HR\n- Finance\n- Marketing\n- Operations\n\n## 🎯 Permission System\n\n### How Permissions Work\n\n- **Regular Users**: Access controlled by permission settings in admin panel\n- **Admin Users**: Can access all documents and manage permissions\n- **Database Admin**: Special role with automatic access to all documents\n\n### Database Admin Features\n\n- **Automatic Permission**: Gets access to all document types without manual configuration\n- **Future-Proof**: Automatically receives access to newly added document types\n- **Protected Settings**: Cannot be modified in permission management interface\n- **Hidden from UI**: Does not appear in permission management to prevent confusion\n\n### Permission Management\n\n- Admins can set document type permissions for each division\n- Permissions are granted per division (not per individual user)\n- Database Admin division is automatically excluded from permission management\n- Real-time permission updates across the system\n\n## 🛡️ Security Best Practices\n\n- **Environment Variables**: All sensitive data stored in environment variables\n- **Password Hashing**: Passwords hashed using bcrypt with salt\n- **JWT Tokens**: Secure token-based authentication\n- **Input Validation**: Server-side validation for all inputs\n- **File Upload Security**: Secure file handling with Cloudinary\n- **CORS Protection**: Configured CORS for frontend-backend communication\n- **Rate Limiting**: Consider implementing rate limiting for production\n\n## 🚀 Deployment\n\n### Frontend Deployment (Vercel/Netlify)\n\n1. Build the frontend:\n\n```bash\ncd frontend\npnpm run build\n```\n\n2. Deploy the `dist` folder to your hosting service\n\n### Backend Deployment (Railway/Heroku/DigitalOcean)\n\n1. Ensure all environment variables are set\n2. Update `FRONTEND_URL` to your deployed frontend URL\n3. Deploy the backend folder to your hosting service\n\n### Environment Variables for Production\n\nMake sure to set all required environment variables in your production environment:\n\n- `MONGO_URI`\n- `JWT_SECRET`\n- `CLOUDINARY_CLOUD_NAME`\n- `CLOUDINARY_API_KEY`\n- `CLOUDINARY_API_SECRET`\n- `EMAIL_USER`\n- `EMAIL_PASS`\n- `FRONTEND_URL`\n\n## 🤝 Contributing\n\n1. Fork the repository\n2. Create your feature branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## 📝 License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## 👥 Authors\n\n- **TetewHeroez** - _Initial work_ - [TetewHeroez](https://github.com/TetewHeroez)\n\n## 🙏 Acknowledgments\n\n- Thanks to all contributors who helped with this project\n- Inspiration from modern document management systems\n- Built with love using open-source technologies\n\n## 📞 Support\n\nIf you have any questions or need help with setup, please:\n\n1. Check the documentation above\n2. Search existing issues on GitHub\n3. Create a new issue if your problem isn't covered\n\n---\n\n**Happy coding!** 🎉\n",
+      "tree": {
+        ".gitignore": {
+          "type": "file"
+        },
+        "README.md": {
+          "type": "file"
+        },
+        "backend": {
+          "type": "folder",
+          "children": {
+            "package.json": {
+              "type": "file"
+            },
+            "pnpm-lock.yaml": {
+              "type": "file"
+            },
+            "server.js": {
+              "type": "file"
+            },
+            "src": {
+              "type": "folder",
+              "children": {
+                "config": {
+                  "type": "folder",
+                  "children": {
+                    "db.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "constants": {
+                  "type": "folder",
+                  "children": {
+                    "documentConstants.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "controllers": {
+                  "type": "folder",
+                  "children": {
+                    "authController.js": {
+                      "type": "file"
+                    },
+                    "dashboardController.js": {
+                      "type": "file"
+                    },
+                    "documentController.js": {
+                      "type": "file"
+                    },
+                    "permissionController.js": {
+                      "type": "file"
+                    },
+                    "userController.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "middleware": {
+                  "type": "folder",
+                  "children": {
+                    "authMiddleware.js": {
+                      "type": "file"
+                    },
+                    "uploadMiddleware.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "models": {
+                  "type": "folder",
+                  "children": {
+                    "Document.js": {
+                      "type": "file"
+                    },
+                    "Permission.js": {
+                      "type": "file"
+                    },
+                    "User.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "routes": {
+                  "type": "folder",
+                  "children": {
+                    "authRoutes.js": {
+                      "type": "file"
+                    },
+                    "dashboardRoutes.js": {
+                      "type": "file"
+                    },
+                    "documentRoutes.js": {
+                      "type": "file"
+                    },
+                    "permissionRoutes.js": {
+                      "type": "file"
+                    },
+                    "userRoutes.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "utils": {
+                  "type": "folder",
+                  "children": {
+                    "emailService.js": {
+                      "type": "file"
+                    },
+                    "generateToken.js": {
+                      "type": "file"
+                    },
+                    "seeder.js": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "frontend": {
+          "type": "folder",
+          "children": {
+            ".gitignore": {
+              "type": "file"
+            },
+            "README.md": {
+              "type": "file"
+            },
+            "eslint.config.js": {
+              "type": "file"
+            },
+            "index.html": {
+              "type": "file"
+            },
+            "jsconfig.json": {
+              "type": "file"
+            },
+            "package.json": {
+              "type": "file"
+            },
+            "pnpm-lock.yaml": {
+              "type": "file"
+            },
+            "public": {
+              "type": "folder",
+              "children": {
+                "gagas.png": {
+                  "type": "file"
+                },
+                "vite.svg": {
+                  "type": "file"
+                }
+              }
+            },
+            "src": {
+              "type": "folder",
+              "children": {
+                "App.css": {
+                  "type": "file"
+                },
+                "App.jsx": {
+                  "type": "file"
+                },
+                "api": {
+                  "type": "folder",
+                  "children": {
+                    "api.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "assets": {
+                  "type": "folder",
+                  "children": {
+                    "react.svg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "components": {
+                  "type": "folder",
+                  "children": {
+                    "AddDocumentModal.jsx": {
+                      "type": "file"
+                    },
+                    "AddUserModal.jsx": {
+                      "type": "file"
+                    },
+                    "ConfirmationModal.jsx": {
+                      "type": "file"
+                    },
+                    "EditDocumentModal.jsx": {
+                      "type": "file"
+                    },
+                    "EditUserModal.jsx": {
+                      "type": "file"
+                    },
+                    "Header.jsx": {
+                      "type": "file"
+                    },
+                    "Pagination.jsx": {
+                      "type": "file"
+                    },
+                    "PasswordInput.jsx": {
+                      "type": "file"
+                    },
+                    "ProtectedRoute.jsx": {
+                      "type": "file"
+                    },
+                    "Sidebar.jsx": {
+                      "type": "file"
+                    },
+                    "SortableHeader.jsx": {
+                      "type": "file"
+                    },
+                    "ThemeToggle.jsx": {
+                      "type": "file"
+                    },
+                    "UndoToast.jsx": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "constants": {
+                  "type": "folder",
+                  "children": {
+                    "divisions.js": {
+                      "type": "file"
+                    },
+                    "documentTypes.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "context": {
+                  "type": "folder",
+                  "children": {
+                    "ThemeContext.jsx": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "hooks": {
+                  "type": "folder",
+                  "children": {
+                    "useUndo.jsx": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "index.css": {
+                  "type": "file"
+                },
+                "layouts": {
+                  "type": "folder",
+                  "children": {
+                    "DashboardLayout.jsx": {
+                      "type": "file"
+                    },
+                    "PublicLayout.jsx": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "main.jsx": {
+                  "type": "file"
+                },
+                "pages": {
+                  "type": "folder",
+                  "children": {
+                    "DashboardContent.jsx": {
+                      "type": "file"
+                    },
+                    "DashboardPage.jsx": {
+                      "type": "file"
+                    },
+                    "DocumentDetailPage.jsx": {
+                      "type": "file"
+                    },
+                    "DocumentListPage.jsx": {
+                      "type": "file"
+                    },
+                    "DocumentsPage.jsx": {
+                      "type": "file"
+                    },
+                    "ForgotPasswordPage.jsx": {
+                      "type": "file"
+                    },
+                    "LoginPage.jsx": {
+                      "type": "file"
+                    },
+                    "NotFoundPage.jsx": {
+                      "type": "file"
+                    },
+                    "PermissionManagementPage.jsx": {
+                      "type": "file"
+                    },
+                    "ProfilePage.jsx": {
+                      "type": "file"
+                    },
+                    "ResetPasswordPage.jsx": {
+                      "type": "file"
+                    },
+                    "SearchResultsPage.jsx": {
+                      "type": "file"
+                    },
+                    "UserManagementPage.jsx": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "vercel.json": {
+              "type": "file"
+            },
+            "vite.config.js": {
+              "type": "file"
+            }
+          }
         }
       }
     },

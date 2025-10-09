@@ -10,7 +10,11 @@
       "Supporting figures or code (if applicable)"
     ],
     "images": [
-      "https://placehold.co/600x400/cccccc/000000?text=Tugas-Kuliah"
+      "https://github.com/user-attachments/assets/48ea5864-651c-4476-951d-02987535363e",
+      "https://github.com/user-attachments/assets/b924f133-112e-42d5-9188-9b869b04fb7d",
+      "https://github.com/user-attachments/assets/4279e09a-6fcb-4180-b7ee-e9449488eb7a",
+      "https://github.com/user-attachments/assets/08d63419-f7bb-4042-9c89-c6ac337fc123",
+      "https://github.com/user-attachments/assets/71d604df-34e9-4a99-a46d-292762e695ec"
     ],
     "category": "academic",
     "tags": [
@@ -44,10 +48,13 @@
     ],
     "images": [
       "https://github.com/user-attachments/assets/bce9d7f1-f1d9-4c9b-9f66-390606327f60",
+      "https://github.com/user-attachments/assets/16ca6e90-6805-4c94-b948-fcb5762e1f90",
       "https://github.com/user-attachments/assets/82cbf678-37a5-49c8-bf16-67c3912d20ca",
       "https://github.com/user-attachments/assets/54898da8-bcc4-4639-afe9-e58675b83069",
       "https://github.com/user-attachments/assets/49e3310a-c04c-421a-a4b8-233bd4521ed2",
-      "https://github.com/user-attachments/assets/0433fe9a-466e-4b34-8575-509d1de028d7"
+      "https://github.com/user-attachments/assets/0433fe9a-466e-4b34-8575-509d1de028d7",
+      "https://github.com/user-attachments/assets/73d49eb0-9a1b-41b6-92ee-f8f6558edef9",
+      "https://github.com/user-attachments/assets/9dbd4ccb-21ef-4228-9a3e-b0b975f4adc1"
     ],
     "category": "work",
     "tags": [
@@ -66,6 +73,42 @@
   },
   {
     "id": 3,
+    "title": "Olympiad",
+    "description": "No description provided.",
+    "detailedDescription": "For more details, please see the repository's README.",
+    "features": [],
+    "images": [
+      "https://placehold.co/600x400/cccccc/000000?text=Olympiad"
+    ],
+    "category": "personal",
+    "tags": [],
+    "link": "https://github.com/TetewHeroez/Olympiad",
+    "github": "https://github.com/TetewHeroez/Olympiad",
+    "homepage": null,
+    "icon": "user"
+  },
+  {
+    "id": 4,
+    "title": "Gagas Database",
+    "description": "No description provided.",
+    "detailedDescription": "For more details, please see the repository's README.",
+    "features": [],
+    "images": [
+      "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white",
+      "https://img.shields.io/badge/Express.js-404D59?style=for-the-badge",
+      "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white",
+      "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+      "https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"
+    ],
+    "category": "personal",
+    "tags": [],
+    "link": "https://github.com/TetewHeroez/Gagas-Database",
+    "github": "https://github.com/TetewHeroez/Gagas-Database",
+    "homepage": "https://gagas-database.vercel.app",
+    "icon": "user"
+  },
+  {
+    "id": 5,
     "title": "CP Training",
     "description": "No description provided.",
     "detailedDescription": "For more details, please see the repository's README.",
