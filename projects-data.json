@@ -37,6 +37,22 @@
   },
   {
     "id": 2,
+    "title": "Template Math Depart",
+    "description": "No description provided.",
+    "detailedDescription": "For more details, please see the repository's README.",
+    "features": [],
+    "images": [
+      "https://placehold.co/600x400/cccccc/000000?text=Template-Math-Depart"
+    ],
+    "category": "personal",
+    "tags": [],
+    "link": "https://github.com/TetewHeroez/Template-Math-Depart",
+    "github": "https://github.com/TetewHeroez/Template-Math-Depart",
+    "homepage": null,
+    "icon": "user"
+  },
+  {
+    "id": 3,
     "title": "Asisten Things",
     "description": "Assigment and material for my assistance to students ",
     "detailedDescription": "This repository serves as a personal archive of academic resources that I created and compiled during my tenure as a teaching assistant for two university-level courses: Calculus and Programming Algorithm.\n\nAll materials in this repository were developed using LaTeX, particularly the Beamer document class for presentations, to ensure professional layout, clarity, and consistency. The use of LaTeX allows for precise formatting of mathematical notation and structured document design, making the content suitable for academic and teaching purposes.",
@@ -72,7 +88,7 @@
     "icon": "book"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Olympiad",
     "description": "No description provided.",
     "detailedDescription": "For more details, please see the repository's README.",
@@ -88,11 +104,20 @@
     "icon": "user"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Gagas Database",
     "description": "No description provided.",
-    "detailedDescription": "For more details, please see the repository's README.",
-    "features": [],
+    "detailedDescription": "A comprehensive document management system built with Node.js, Express, MongoDB, and React. This system provides secure document storage, user management, and role-based access control with advanced features like forgot password functionality.",
+    "features": [
+      "📄 Document Management",
+      "👥 User Management",
+      "🔐 Authentication & Authorization",
+      "🔍 Advanced Search",
+      "🔒 Forgot Password",
+      "☁️ Cloud Storage",
+      "📎 Multiple File Types",
+      "🏷️ Document Categories"
+    ],
     "images": [
       "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white",
       "https://img.shields.io/badge/Express.js-404D59?style=for-the-badge",
@@ -108,7 +133,26 @@
     "icon": "user"
   },
   {
-    "id": 5,
+    "id": 6,
+    "title": "My Himatika",
+    "description": "No description provided.",
+    "detailedDescription": "For more details, please see the repository's README.",
+    "features": [],
+    "images": [
+      "https://img.shields.io/badge/Laravel-11.x-red.svg",
+      "https://img.shields.io/badge/PHP-8.2+-blue.svg",
+      "https://img.shields.io/badge/Tailwind-v4-38bdf8.svg",
+      "https://img.shields.io/badge/Cloudinary-Enabled-3448c5.svg"
+    ],
+    "category": "personal",
+    "tags": [],
+    "link": "https://github.com/TetewHeroez/my-himatika",
+    "github": "https://github.com/TetewHeroez/my-himatika",
+    "homepage": "https://myhimatika.vercel.app",
+    "icon": "user"
+  },
+  {
+    "id": 7,
     "title": "CP Training",
     "description": "No description provided.",
     "detailedDescription": "For more details, please see the repository's README.",
