@@ -12,15 +12,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        {/* Rute untuk halaman utama */}
         <Route path="/" element={<App />} />
 
-        {/* Rute dinamis untuk halaman detail proyek */}
         <Route path="/:projectName" element={<ProjectDetailPage />} />
 
-        {/* Rute fallback jika halaman tidak ditemukan */}
         <Route path="*" element={<NotFoundPage />} />
+
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
