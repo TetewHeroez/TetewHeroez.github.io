@@ -1,479 +1,431 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback, useMemo } from "react";
 import { useParams, Link } from "react-router-dom";
-import { Card, CardContent } from "../components/ui/card.jsx";
 import { Button } from "../components/ui/Button.jsx";
 import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "../components/ui/Tabs.jsx";
-import { ScrollArea } from "../components/ui/ScrollArea.jsx";
-import {
-  BookOpen,
-  Calculator,
-  Code,
-  FileType,
-  GraduationCap,
-  Download,
-  FolderOpen,
-  Sigma,
-  Pi,
-  Infinity,
-  X,
-  Home,
-  Github,
-  Copy,
-  Check,
-  ChevronRight,
-  ChevronDown,
-  Folder,
-  File,
+  BookOpen, Calculator, Code, FileType, GraduationCap,
+  FolderOpen, Sigma, Home, Github, Copy, Check, Download,
+  ArrowLeft,
 } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import NotFoundPage from "./NotFoundPage.jsx";
 import Squares from "../components/anim/Squares.jsx";
+import FlipBook from "../components/ui/FlipBook.jsx";
 
-// --- SUB-KOMPONEN UNTUK KETERBACAAN ---
+// ─── Helpers ──────────────────────────────────────────────────────────────────
 
-const getFileIcon = (filename) => {
-  const ext = filename.toLowerCase().split(".").pop();
-  switch (ext) {
-    case "java":
-      return <Code className="w-5 h-5 text-orange-500" />;
-    case "py":
-      return <Code className="w-5 h-5 text-yellow-500" />;
-    case "cpp":
-      return <Code className="w-5 h-5 text-blue-600" />;
-    case "js":
-    case "ts":
-      return <Code className="w-5 h-5 text-yellow-400" />;
-    case "html":
-      return <Code className="w-5 h-5 text-orange-600" />;
-    case "css":
-      return <Code className="w-5 h-5 text-blue-500" />;
-    case "pdf":
-      return <FileType className="w-5 h-5 text-red-500" />;
-    case "tex":
-    case "md":
-      return <FileType className="w-5 h-5 text-green-600" />;
-    default:
-      return <FileType className="w-5 h-5 text-slate-500" />;
-  }
+const ACCENT = "#0ea5e9";
+
+const getBookIcon = (name, size = 32) => {
+  const n = name.toLowerCase();
+  const s = { width: size, height: size, color: ACCENT };
+  if (n.includes("matematika") || n.includes("kalkulus")) return <Calculator style={s} />;
+  if (n.includes("statistik") || n.includes("probabilitas")) return <Sigma style={s} />;
+  if (n.includes("algoritma") || n.includes("programming")) return <Code style={s} />;
+  return <GraduationCap style={s} />;
 };
 
-const FileViewer = ({ file, owner, repoName }) => {
-  const [content, setContent] = useState("");
-  const [isLoading, setIsLoading] = useState(true);
-  const [lineCount, setLineCount] = useState(0);
+const getFileExt = (name) => name.toLowerCase().split(".").pop();
+const isPdf = (name) => getFileExt(name) === "pdf";
+const SKIP_EXTS = new Set(["class", "doc", "docx"]);
+const isViewable = (name) => !SKIP_EXTS.has(getFileExt(name));
+
+/** Returns an icon color based on file extension */
+const getFileIconColor = (name) => {
+  const ext = getFileExt(name);
+  if (ext === "pdf") return "#ef4444";       // red
+  if (ext === "tex") return "#22c55e";       // green
+  if (ext === "py") return "#eab308";        // yellow
+  if (ext === "java") return "#f97316";      // orange
+  if (ext === "js" || ext === "jsx") return "#facc15"; // yellow
+  if (ext === "ts" || ext === "tsx") return "#3b82f6"; // blue
+  if (ext === "html") return "#f97316";      // orange
+  if (ext === "css") return "#8b5cf6";       // purple
+  return "#0284c7";                          // sky-600 default
+};
+
+// ─── BookPanel — matches yangbener.jsx's BookPanel exactly ────────────────────
+
+/**
+ * Full-width list panel that sorts folders first, then files.
+ * Title + list of clickable items. Used for BOTH left and right pages.
+ */
+function BookPanel({ title, items, onItemClick, highlightPath, showBackButton, onBack, backLabel }) {
+  const sorted = useMemo(() => {
+    if (!items) return [];
+    return [...items].sort((a, b) => {
+      if (a.type === b.type) return a.name.localeCompare(b.name);
+      return a.type === "dir" ? -1 : 1;
+    });
+  }, [items]);
+
+  return (
+    <div style={{
+      width: "100%", height: "100%",
+      padding: "1.5rem",
+      overflowY: "auto",
+      position: "relative",
+      scrollbarWidth: "thin",
+      scrollbarColor: "#c7c7c7 transparent",
+    }}>
+      {/* Back button */}
+      {showBackButton && (
+        <button
+          onClick={onBack}
+          style={{
+            display: "flex", alignItems: "center", gap: "0.4rem",
+            background: "none", border: "none", cursor: "pointer",
+            color: ACCENT, fontSize: "0.9rem", fontWeight: 500,
+            marginBottom: "0.75rem", padding: 0,
+            transition: "color 0.15s",
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.color = "#0369a1")}
+          onMouseLeave={(e) => (e.currentTarget.style.color = ACCENT)}
+        >
+          <ArrowLeft style={{ width: 16, height: 16 }} />
+          Kembali ke &apos;{backLabel}&apos;
+        </button>
+      )}
+
+      {/* Title */}
+      <h2 style={{
+        fontSize: "1.4rem", fontWeight: 700, color: "#0c4a6e",
+        textTransform: "capitalize", paddingBottom: "0.75rem",
+        marginBottom: "1rem",
+        borderBottom: `2px solid ${ACCENT}33`,
+        position: "sticky", top: 0,
+        background: "inherit",
+        zIndex: 2,
+      }}>
+        {title?.replace(/[-_]/g, " ")}
+      </h2>
+
+      {/* Items list */}
+      {sorted.length === 0 && (
+        <p style={{ color: "#a8a29e", fontSize: "0.95rem" }}>Folder ini kosong.</p>
+      )}
+      <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.35rem" }}>
+        {sorted.map((item) => {
+          const isActive = highlightPath && item.name === highlightPath;
+          return (
+            <li key={item.path}>
+              <button
+                onClick={() => onItemClick(item)}
+                style={{
+                  display: "flex", alignItems: "center", gap: "0.75rem",
+                  width: "100%", padding: "0.7rem 0.85rem", borderRadius: "10px",
+                  border: "none", textAlign: "left",
+                  cursor: "pointer",
+                  fontSize: "0.95rem", fontWeight: isActive ? 600 : 400,
+                  color: isActive ? "#0369a1" : "#334155",
+                  background: isActive ? "#e0f2fe" : "transparent",
+                  transition: "all 0.15s",
+                }}
+                onMouseEnter={(e) => { if (!isActive) { e.currentTarget.style.background = `${ACCENT}14`; e.currentTarget.style.color = "#0c4a6e"; }}}
+                onMouseLeave={(e) => { if (!isActive) { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = "#334155"; }}}
+              >
+                {item.type === "dir"
+                  ? <FolderOpen style={{ width: 22, height: 22, color: ACCENT, flexShrink: 0 }} />
+                  : <FileType style={{ width: 22, height: 22, color: getFileIconColor(item.name), flexShrink: 0 }} />
+                }
+                <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                  {item.name}
+                </span>
+              </button>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+}
+
+// ─── Inline file viewers ──────────────────────────────────────────────────────
+
+function CodeFilePage({ file, owner, repoName }) {
+  const [content, setContent] = useState(null);
   const [copied, setCopied] = useState(false);
 
   const encodedPath = file.path.split("/").map(encodeURIComponent).join("/");
-  const downloadUrl = `https://raw.githubusercontent.com/${owner}/${repoName}/main/${encodedPath}`;
-  const githubPagesUrl = `https://${owner.toLowerCase()}.github.io/${repoName}/${encodedPath}`;
-
-  const handleCopy = async () => {
-    try {
-      await navigator.clipboard.writeText(content);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch (err) {
-      console.error("Failed to copy:", err);
-    }
-  };
+  const rawUrl = `https://raw.githubusercontent.com/${owner}/${repoName}/main/${encodedPath}`;
 
   useEffect(() => {
-    if (file.type !== "pdf") {
-      const fetchContent = async () => {
-        setIsLoading(true);
-        try {
-          const response = await fetch(downloadUrl);
-          if (!response.ok) throw new Error("Gagal mengambil konten file.");
-          const text = await response.text();
-          const lines = text.split("\n");
-          console.log(
-            `File: ${file.title}, Lines: ${lines.length}, Length: ${text.length}`
-          );
-          setContent(text);
-          setLineCount(lines.length);
-        } catch (error) {
-          console.error("Gagal memuat konten file:", error);
-          setContent("Gagal memuat konten file.");
-          setLineCount(1);
-        } finally {
-          setIsLoading(false);
-        }
-      };
-      fetchContent();
-    }
-  }, [file, downloadUrl]);
+    setContent(null);
+    fetch(rawUrl)
+      .then((r) => (r.ok ? r.text() : Promise.reject()))
+      .then(setContent)
+      .catch(() => setContent("// Gagal memuat konten file."));
+  }, [rawUrl]);
 
-  if (file.type === "pdf") {
-    return (
-      <div className="h-full w-full flex flex-col bg-slate-100">
-        <div className="flex items-center justify-between gap-2 p-2 border-b border-sky-200/50 flex-shrink-0 bg-white">
-          <div className="flex items-center gap-2">
-            <FileType className="w-5 h-5 text-red-500 ml-2" />
-            <span className="font-medium text-slate-800 text-sm">
-              {file.title}
-            </span>
-          </div>
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={() => window.open(downloadUrl, "_blank")}
-          >
-            <Download className="w-4 h-4 mr-2" /> Download
-          </Button>
-        </div>
-        <div className="flex-1">
-          <iframe
-            src={githubPagesUrl}
-            className="w-full h-full border-0"
-            title={file.title}
-          />
-        </div>
-      </div>
-    );
-  }
+  const handleCopy = async () => {
+    if (!content) return;
+    await navigator.clipboard.writeText(content).catch(() => {});
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
-  // Untuk file code, tampilkan dalam pre/code dengan scroll yang proper
   return (
-    <div className="h-full w-full flex flex-col bg-slate-100">
-      <div className="flex items-center justify-between gap-2 p-2 border-b border-sky-200/50 flex-shrink-0 bg-white">
-        <div className="flex items-center gap-2">
-          {getFileIcon(file.title)}
-          <span className="font-medium text-slate-800 text-sm">
-            {file.title}
-          </span>
-        </div>
-        <div className="flex gap-2">
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={handleCopy}
-            className="flex items-center gap-2"
-          >
-            {copied ? (
-              <>
-                <Check className="w-4 h-4" />
-                Copied!
-              </>
-            ) : (
-              <>
-                <Copy className="w-4 h-4" />
-                Copy
-              </>
-            )}
-          </Button>
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={() => window.open(downloadUrl, "_blank")}
-          >
-            <Download className="w-4 h-4 mr-2" /> Download
-          </Button>
+    <div style={{ height: "100%", display: "flex", flexDirection: "column", overflow: "hidden", background: "#1c1917" }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0.65rem 1rem", background: "#292524", flexShrink: 0 }}>
+        <span style={{ fontSize: "0.9rem", fontWeight: 600, color: "#a8a29e", overflow: "hidden", textOverflow: "ellipsis", flex: 1, whiteSpace: "nowrap" }}>
+          {file.name}
+        </span>
+        <div style={{ display: "flex", gap: "0.5rem", flexShrink: 0 }}>
+          <button onClick={handleCopy} style={{ background: "none", border: "none", cursor: "pointer", color: "#78716c", display: "flex", alignItems: "center", padding: "4px 6px", borderRadius: "4px" }}>
+            {copied
+              ? <Check style={{ width: 14, height: 14, color: "#4ade80" }} />
+              : <Copy style={{ width: 14, height: 14 }} />}
+          </button>
+          <a href={rawUrl} target="_blank" rel="noopener noreferrer" style={{ color: "#78716c", display: "flex", alignItems: "center" }}>
+            <Download style={{ width: 14, height: 14 }} />
+          </a>
         </div>
       </div>
-      <div className="flex-1 bg-white m-2 rounded-lg border border-slate-200 relative overflow-hidden">
-        <div
-          className="absolute inset-0 overflow-auto"
-          style={{
-            scrollbarWidth: "thin",
-            scrollbarColor: "#cbd5e1 #f1f5f9",
-          }}
-        >
-          <div className="flex">
-            {/* Line numbers - sticky */}
-            <div className="bg-slate-50 border-r border-slate-200 px-3 py-4 text-sm font-mono text-slate-500 select-none flex-shrink-0 min-w-[3rem] sticky left-0 z-10">
-              {isLoading ? (
-                <div className="leading-relaxed text-right h-5">1</div>
-              ) : (
-                <div>
-                  {Array.from({ length: lineCount }, (_, index) => (
-                    <div
-                      key={index}
-                      className="leading-relaxed text-right h-5 flex items-center justify-end"
-                    >
-                      {index + 1}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            {/* Code content */}
-            <div className="flex-1 min-w-0">
-              <pre className="p-4 text-sm font-mono whitespace-pre break-words overflow-x-auto">
-                <code className="block">
-                  {isLoading ? "Memuat konten..." : content}
-                </code>
-              </pre>
-            </div>
-          </div>
-        </div>
+      <div style={{ flex: 1, overflowY: "auto", overflowX: "auto", scrollbarWidth: "thin", scrollbarColor: "#44403c #1c1917" }}>
+        <pre style={{ margin: 0, padding: "1rem", fontSize: "0.85rem", lineHeight: 1.7, color: "#e7e5e4", fontFamily: "ui-monospace, Consolas, monospace", whiteSpace: "pre" }}>
+          <code>{content === null ? "Memuat…" : content}</code>
+        </pre>
       </div>
     </div>
   );
-};
+}
 
-const TaskWindow = ({ taskFolder, owner, repoName, onClose }) => {
-  const [tabs, setTabs] = useState([]);
-  const [activeTab, setActiveTab] = useState("");
-
-  useEffect(() => {
-    if (taskFolder && taskFolder.children) {
-      const fileTabs = Object.entries(taskFolder.children)
-        .filter(([name, item]) => {
-          const ext = name.split(".").pop();
-          return (
-            item.type === "file" &&
-            ext !== "class" &&
-            ext !== "doc" &&
-            ext !== "docx"
-          );
-        })
-        .map(([name]) => ({
-          id: `${taskFolder.path}/${name}`,
-          title: name,
-          path: `${taskFolder.path}/${name}`,
-          type: name.split(".").pop() || "text",
-        }));
-      setTabs(fileTabs);
-      if (fileTabs.length > 0) setActiveTab(fileTabs[0].id);
-    }
-  }, [taskFolder]);
+function PdfFilePage({ file, owner, repoName }) {
+  const encodedPath = file.path.split("/").map(encodeURIComponent).join("/");
+  const pagesUrl = `https://${owner.toLowerCase()}.github.io/${repoName}/${encodedPath}`;
+  const rawUrl = `https://raw.githubusercontent.com/${owner}/${repoName}/main/${encodedPath}`;
 
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4"
-      onClick={onClose}
-    >
-      <motion.div
-        initial={{ scale: 0.9, y: 20 }}
-        animate={{ scale: 1, y: 0 }}
-        exit={{ scale: 0.9, y: 20 }}
-        transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="w-full max-w-6xl h-[80vh]"
-        onClick={(e) => e.stopPropagation()}
-      >
-        <Card className="h-full bg-white border-sky-200/70 flex flex-col">
-          <div className="flex items-center justify-between p-4 border-b border-sky-200/50 flex-shrink-0">
-            <h3 className="text-lg font-semibold text-sky-900">
-              {taskFolder.name}
-            </h3>
-            <Button variant="ghost" size="sm" onClick={onClose}>
-              <X className="w-4 h-4" />
-            </Button>
-          </div>
-          {tabs.length > 0 ? (
-            <Tabs
-              value={activeTab}
-              onValueChange={setActiveTab}
-              className="flex-grow flex flex-col"
-            >
-              <div className="border-b border-sky-200/50 p-2 flex-shrink-0">
-                <TabsList>
-                  {tabs.map((tab) => (
-                    <TabsTrigger
-                      key={tab.id}
-                      value={tab.id}
-                      className="px-4 py-2 text-sm"
-                    >
-                      {tab.title}
-                    </TabsTrigger>
-                  ))}
-                </TabsList>
-              </div>
-              <AnimatePresence mode="wait">
-                {tabs.map(
-                  (tab) =>
-                    activeTab === tab.id && (
-                      <TabsContent
-                        key={tab.id}
-                        value={tab.id}
-                        className="flex-grow p-0"
-                      >
-                        <motion.div
-                          initial={{ opacity: 0, y: 10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ duration: 0.2 }}
-                          className="h-full"
-                        >
-                          <FileViewer
-                            file={tab}
-                            owner={owner}
-                            repoName={repoName}
-                          />
-                        </motion.div>
-                      </TabsContent>
-                    )
-                )}
-              </AnimatePresence>
-            </Tabs>
-          ) : (
-            <div className="flex items-center justify-center h-full">
-              <p className="text-slate-500">
-                Tidak ada file yang bisa ditampilkan di folder ini.
-              </p>
-            </div>
-          )}
-        </Card>
-      </motion.div>
-    </motion.div>
+    <div style={{ height: "100%", display: "flex", flexDirection: "column", overflow: "hidden" }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0.6rem 1rem", background: "#fafaf9", borderBottom: "1px solid #e7e5e4", flexShrink: 0 }}>
+        <span style={{ fontSize: "0.9rem", fontWeight: 600, color: "#44403c", flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+          {file.name}
+        </span>
+        <a href={rawUrl} target="_blank" rel="noopener noreferrer" style={{ color: "#78716c", display: "flex", alignItems: "center", flexShrink: 0, textDecoration: "none" }}>
+          <Download style={{ width: 14, height: 14 }} />
+        </a>
+      </div>
+      <iframe src={pagesUrl} style={{ flex: 1, border: "none", width: "100%" }} title={file.name} />
+    </div>
   );
-};
+}
 
-// --- KOMPONEN UTAMA ---
+// ─── Decorative cover (when no parent to show) ────────────────────────────────
+
+function CoverPage({ bookName }) {
+  return (
+    <div style={{
+      height: "100%", display: "flex", flexDirection: "column",
+      alignItems: "center", justifyContent: "center",
+      padding: "2rem", gap: "1rem",
+      background: "linear-gradient(145deg, #fafaf9, #f5f5f4)",
+    }}>
+      {getBookIcon(bookName, 56)}
+      <h2 style={{ fontSize: "1.5rem", fontWeight: 800, color: "#292524", textAlign: "center", lineHeight: 1.4 }}>
+        {bookName}
+      </h2>
+      <p style={{ fontSize: "0.9rem", color: "#a8a29e" }}>
+        Klik folder di halaman kanan →
+      </p>
+    </div>
+  );
+}
+
+// ─── Main page ────────────────────────────────────────────────────────────────
+
 export default function ProjectDetailPage() {
-  const { projectName } = useParams(); // Mengambil nama repo dari URL
+  const { projectName } = useParams();
   const [repoData, setRepoData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-  const [openedBook, setOpenedBook] = useState(null);
-  const [selectedSubject, setSelectedSubject] = useState(null);
-  const [showTaskWindow, setShowTaskWindow] = useState(false);
 
+  // FlipBook state
+  const [flipBookOpen, setFlipBookOpen] = useState(false);
+  const [openedBook, setOpenedBook] = useState(null);
+
+  // navStack: [{path, title, items[]}]
+  const [navStack, setNavStack] = useState([]);
+  const [selectedFile, setSelectedFile] = useState(null);
+
+  // Flip animation
+  const [flipKey, setFlipKey] = useState(0);
+  const [flipDirection, setFlipDirection] = useState(1);
+
+  // Load repo data
   useEffect(() => {
-    const loadRepoData = async () => {
+    const load = async () => {
       setLoading(true);
-      setError("");
       try {
-        const response = await fetch("/raw-data.json");
-        if (!response.ok) throw new Error("Failed to load repository data");
-        const data = await response.json();
-        const foundRepo = data.repos.find(
-          (repo) => repo.name.toLowerCase() === projectName.toLowerCase()
-        );
-        if (!foundRepo)
-          throw new Error(`Repository '${projectName}' not found.`);
-        setRepoData(foundRepo);
-      } catch (err) {
-        console.error("Error loading repo data:", err);
-        setError(err.message);
+        const res = await fetch("/raw-data.json");
+        if (!res.ok) throw new Error("Failed to load");
+        const data = await res.json();
+        const repo = data.repos.find((r) => r.name.toLowerCase() === projectName.toLowerCase());
+        if (!repo) throw new Error("Not found");
+        setRepoData(repo);
+      } catch (e) {
+        setError(e.message);
       } finally {
         setLoading(false);
       }
     };
-    loadRepoData();
+    load();
   }, [projectName]);
 
-  // Helper function to extract owner from GitHub URL
-  const getOwnerFromRepoData = (repoData) => {
-    if (repoData && repoData.html_url) {
-      const match = repoData.html_url.match(/github\.com\/([^\/]+)\//);
-      return match ? match[1] : "TetewHeroez"; // fallback to known owner
+  const owner = useMemo(() => {
+    if (repoData?.html_url) {
+      const m = repoData.html_url.match(/github\.com\/([^/]+)\//);
+      return m ? m[1] : "TetewHeroez";
     }
-    return "TetewHeroez"; // fallback
-  };
+    return "TetewHeroez";
+  }, [repoData]);
 
-  const getBookIcon = (name) => {
-    const lowerName = name.toLowerCase();
-    if (lowerName.includes("matematika") || lowerName.includes("kalkulus"))
-      return <Calculator className="w-8 h-8 text-sky-600" />;
-    if (lowerName.includes("statistik") || lowerName.includes("probabilitas"))
-      return <Sigma className="w-8 h-8 text-sky-600" />;
-    if (lowerName.includes("algoritma") || lowerName.includes("programming"))
-      return <Code className="w-8 h-8 text-sky-600" />;
-    return <GraduationCap className="w-8 h-8 text-sky-600" />;
-  };
-
-  const getDirectoryContents = (path = "") => {
-    if (!repoData || !repoData.tree) return [];
-    let targetNode = repoData.tree;
+  // Traverse tree by path
+  const getDirItems = useCallback((path = "") => {
+    if (!repoData?.tree) return [];
+    let node = repoData.tree;
     if (path) {
-      const pathParts = path.split("/");
-      for (const part of pathParts) {
-        if (targetNode && (targetNode[part] || targetNode.children?.[part])) {
-          targetNode = targetNode[part] || targetNode.children[part];
-        } else {
-          return [];
-        }
+      for (const part of path.split("/")) {
+        node = node?.[part] ?? node?.children?.[part];
+        if (!node) return [];
       }
     }
-    const nodeToTraverse = targetNode.children || targetNode;
-    return Object.entries(nodeToTraverse).map(([name, item]) => ({
-      ...item,
-      name,
+    const src = node.children ?? node;
+    return Object.entries(src).map(([name, item]) => ({
+      ...item, name,
       path: path ? `${path}/${name}` : name,
       type: item.type === "folder" ? "dir" : "file",
     }));
-  };
+  }, [repoData]);
 
-  const books = repoData
-    ? getDirectoryContents().filter((item) => item.type === "dir")
-    : [];
-  const subjectFolders = selectedSubject
-    ? getDirectoryContents(selectedSubject.path).filter(
-        (item) => item.type === "dir"
-      )
-    : [];
+  const books = repoData ? getDirItems().filter((i) => i.type === "dir") : [];
+
+  // ── Navigation ──────────────────────────────────────────────────────────────
+
+  const navigateForward = useCallback((dir) => {
+    const children = getDirItems(dir.path);
+    setNavStack((prev) => [...prev, { path: dir.path, title: dir.name, items: children }]);
+    setSelectedFile(null);
+    setFlipDirection(1);
+    setFlipKey((k) => k + 1);
+  }, [getDirItems]);
+
+  const navigateBack = useCallback(() => {
+    setNavStack((prev) => prev.length > 1 ? prev.slice(0, -1) : prev);
+    setSelectedFile(null);
+    setFlipDirection(-1);
+    setFlipKey((k) => k + 1);
+  }, []);
+
+  const viewFile = useCallback((file) => {
+    setSelectedFile(file);
+    setFlipDirection(1);
+    setFlipKey((k) => k + 1);
+  }, []);
 
   const handleOpenBook = (book) => {
-    if (openedBook?.path === book.path) {
+    if (openedBook?.path === book.path && flipBookOpen) {
+      setFlipBookOpen(false);
       setOpenedBook(null);
-      setSelectedSubject(null);
+      setNavStack([]);
+      setSelectedFile(null);
     } else {
-      const subjects = getDirectoryContents(book.path).filter(
-        (item) => item.type === "dir"
-      );
-      setOpenedBook({ ...book, subjects });
-      setSelectedSubject(null);
+      const topItems = getDirItems(book.path);
+      setOpenedBook(book);
+      setNavStack([{ path: book.path, title: book.name, items: topItems }]);
+      setSelectedFile(null);
+      setFlipKey(0);
+      setFlipDirection(1);
+      setFlipBookOpen(true);
     }
   };
 
-  const handleSelectSubject = (subject) => {
-    if (selectedSubject?.path === subject.path) {
-      setSelectedSubject(null);
-    } else {
-      setSelectedSubject(subject);
-    }
+  const handleClose = () => {
+    setFlipBookOpen(false);
+    setOpenedBook(null);
+    setNavStack([]);
+    setSelectedFile(null);
   };
 
-  if (loading)
+  // ── Derive left/right content ───────────────────────────────────────────────
+
+  const currentLevel = navStack[navStack.length - 1];
+  const parentLevel = navStack[navStack.length - 2];
+  const grandparentLevel = navStack[navStack.length - 3];
+
+  // LEFT page = parent directory items (like yangbener)
+  const leftContent = useMemo(() => {
+    if (!openedBook) return null;
+
+    if (!parentLevel) {
+      // At root level — show decorative cover
+      return <CoverPage bookName={openedBook.name} />;
+    }
+
+    // Show parent level items as a clickable list
     return (
-      <div className="min-h-screen flex items-center justify-center bg-slate-50">
-        <p className="text-sky-700">Memuat Repositori...</p>
-      </div>
+      <BookPanel
+        title={parentLevel.title}
+        items={parentLevel.items}
+        highlightPath={currentLevel?.title}
+        showBackButton={!!grandparentLevel}
+        onBack={navigateBack}
+        backLabel={grandparentLevel?.title?.replace(/[-_]/g, " ")}
+        onItemClick={(item) => {
+          if (item.type === "dir") navigateForward(item);
+          else viewFile(item);
+        }}
+      />
     );
+  }, [openedBook, parentLevel, currentLevel, grandparentLevel, navigateBack, navigateForward, viewFile]);
+
+  // RIGHT page = current directory items or file viewer
+  const rightContent = useMemo(() => {
+    if (!currentLevel) return null;
+
+    if (selectedFile) {
+      return isPdf(selectedFile.name)
+        ? <PdfFilePage file={selectedFile} owner={owner} repoName={repoData?.name} />
+        : <CodeFilePage file={selectedFile} owner={owner} repoName={repoData?.name} />;
+    }
+
+    return (
+      <BookPanel
+        title={currentLevel.title}
+        items={currentLevel.items}
+        onItemClick={(item) => {
+          if (item.type === "dir") navigateForward(item);
+          else viewFile(item);
+        }}
+      />
+    );
+  }, [currentLevel, selectedFile, owner, repoData, navigateForward, viewFile]);
+
+  // ── Render ──────────────────────────────────────────────────────────────────
+
+  if (loading) return (
+    <div className="min-h-screen flex items-center justify-center bg-slate-50">
+      <p className="text-sky-700 text-lg">Memuat Repositori…</p>
+    </div>
+  );
   if (error || !repoData) return <NotFoundPage />;
 
   return (
     <>
       <div className="fixed inset-0 z-[-1]">
-        <Squares
-          speed={0.5}
-          squareSize={40}
-          direction="diagonal" // up, down, left, right, diagonal
-          borderColor="#000000"
-          hoverFillColor="#53eafd"
-        />
+        <Squares speed={0.5} squareSize={40} direction="diagonal" borderColor="#000000" hoverFillColor="#53eafd" />
       </div>
+
       <div className="min-h-screen bg-sky-200/50 p-6">
         <div className="max-w-7xl mx-auto">
+
           <header className="flex justify-between items-center mb-8">
             <Link to="/">
-              <motion.div
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <Button variant="outline">
-                  <Home className="w-4 h-4 mr-2" /> Kembali
-                </Button>
+              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                <Button variant="outline"><Home className="w-4 h-4 mr-2" /> Kembali</Button>
               </motion.div>
             </Link>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <a
-                href={repoData.html_url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button>
-                  <Github className="w-4 h-4 mr-2" /> Lihat di GitHub
-                </Button>
+              <a href={repoData.html_url} target="_blank" rel="noopener noreferrer">
+                <Button><Github className="w-4 h-4 mr-2" /> Lihat di GitHub</Button>
               </a>
             </motion.div>
           </header>
@@ -482,163 +434,52 @@ export default function ProjectDetailPage() {
             <h1 className="text-4xl py-1 font-bold bg-gradient-to-r from-sky-600 to-cyan-600 bg-clip-text text-transparent">
               {repoData.name.replace(/-/g, " ")}
             </h1>
-            <p className="text-slate-500 mt-2">{repoData.description}</p>
+            <p className="text-slate-500 mt-2 text-lg">{repoData.description}</p>
           </div>
 
-          <AnimatePresence>
-            {openedBook && (
-              <motion.div
-                layout
-                initial={{ opacity: 0, height: 0 }}
-                animate={{ opacity: 1, height: "auto" }}
-                exit={{ opacity: 0, height: 0 }}
-                className="mb-8 overflow-hidden"
-              >
-                <Card className="bg-white/60 backdrop-blur-sm border-sky-200/70 shadow-xl">
-                  <CardContent className="p-8">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 min-h-[400px]">
-                      <div className="flex flex-col justify-center items-center bg-slate-50/50 rounded-lg p-8 border-r border-sky-200/50">
-                        <div className="text-center">
-                          <h2 className="text-2xl font-bold mt-4 mb-2 text-sky-900 inline-flex items-center gap-2">
-                            {getBookIcon(openedBook.name)}
-                            {openedBook.name}
-                          </h2>
-                          <div className="flex items-center justify-center gap-4 mt-6 text-sky-300/80">
-                            <Sigma className="w-6 h-6" />{" "}
-                            <Pi className="w-6 h-6" />
-                            <Calculator className="w-6 h-6" />{" "}
-                            <Infinity className="w-6 h-6" />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="bg-slate-50/50 rounded-lg p-6">
-                        <h3 className="text-xl font-semibold mb-4 text-sky-900">
-                          Mata Kuliah
-                        </h3>
-                        <ScrollArea className="h-[300px] -mr-4 pr-4">
-                          <div className="space-y-2">
-                            {openedBook.subjects.map((subject) => (
-                              <motion.div
-                                key={subject.path}
-                                whileTap={{ scale: 0.98 }}
-                                className={`cursor-pointer rounded-lg transition-all duration-200 border ${
-                                  selectedSubject?.path === subject.path
-                                    ? "bg-sky-100 border-sky-400 shadow-md"
-                                    : "bg-white border-slate-200/80 hover:border-sky-300 hover:bg-sky-50"
-                                }`}
-                                onClick={() => handleSelectSubject(subject)}
-                              >
-                                <div className="p-4 flex items-center gap-3">
-                                  <BookOpen
-                                    className={`w-5 h-5 transition-colors ${
-                                      selectedSubject?.path === subject.path
-                                        ? "text-sky-600"
-                                        : "text-slate-500"
-                                    }`}
-                                  />
-                                  <span
-                                    className={`font-medium transition-colors ${
-                                      selectedSubject?.path === subject.path
-                                        ? "text-sky-800"
-                                        : "text-slate-700"
-                                    }`}
-                                  >
-                                    {subject.name}
-                                  </span>
-                                </div>
-                              </motion.div>
-                            ))}
-                          </div>
-                        </ScrollArea>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            )}
-          </AnimatePresence>
+          {/* FlipBook */}
+          <FlipBook
+            isOpen={flipBookOpen}
+            onClose={handleClose}
+            accentColor={ACCENT}
+            leftContent={leftContent}
+            rightContent={rightContent}
+            flipKey={flipKey}
+            flipDirection={flipDirection}
+          />
 
-          {selectedSubject && (
-            <motion.div
-              layout
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="mb-8"
-            >
-              <h3 className="text-xl font-semibold mb-4 text-sky-900">
-                Folder - {selectedSubject.name}
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                {subjectFolders.map((folder) => (
-                  <motion.div
-                    key={folder.path}
-                    whileHover={{ y: -5, zIndex: 10 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="relative"
-                  >
-                    <Card
-                      className="cursor-pointer shadow-sm hover:shadow-lg transition-all duration-200 border-sky-200/70 group h-full"
-                      onClick={() => setShowTaskWindow(folder)}
-                    >
-                      <CardContent className="p-6 text-center flex flex-col items-center justify-center">
-                        <FolderOpen className="w-12 h-12 mx-auto mb-3 text-sky-500 group-hover:text-sky-600 transition-colors" />
-                        <p className="font-medium text-sm text-slate-700">
-                          {folder.name}
-                        </p>
-                      </CardContent>
-                    </Card>
-                  </motion.div>
-                ))}
-              </div>
-            </motion.div>
-          )}
-
-          <AnimatePresence>
-            {showTaskWindow && (
-              <TaskWindow
-                taskFolder={showTaskWindow}
-                owner={getOwnerFromRepoData(repoData)}
-                repoName={repoData.name}
-                onClose={() => setShowTaskWindow(false)}
-              />
-            )}
-          </AnimatePresence>
-
+          {/* Book cards grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {books.map((book) => (
               <motion.div
                 key={book.path}
-                className="relative"
                 whileHover={{ y: -8, zIndex: 10 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <Card
-                  className={`cursor-pointer transition-all duration-300 border-sky-200/70 group ${
-                    openedBook?.path === book.path
-                      ? "ring-2 ring-sky-500 shadow-2xl shadow-sky-200/50"
-                      : "hover:shadow-xl"
+                <div
+                  className={`cursor-pointer rounded-2xl transition-all duration-300 bg-white/80 backdrop-blur-sm border overflow-hidden relative ${
+                    openedBook?.path === book.path && flipBookOpen
+                      ? "ring-2 ring-sky-500 shadow-2xl shadow-sky-200/60 border-sky-300"
+                      : "border-sky-200/70 hover:shadow-xl hover:border-sky-300"
                   }`}
                   onClick={() => handleOpenBook(book)}
                 >
-                  <CardContent className="p-8 text-center relative overflow-hidden">
-                    <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-b from-sky-400 to-cyan-500"></div>
-                    <div className="mb-4">{getBookIcon(book.name)}</div>
-                    <h3 className="font-bold text-lg mb-2 text-sky-900 group-hover:text-sky-600 transition-colors">
-                      {book.name}
-                    </h3>
-                    <div className="absolute bottom-2 right-2 opacity-30">
-                      <div className="flex flex-col gap-1">
-                        <div className="w-8 h-1 bg-slate-400 rounded"></div>
-                        <div className="w-6 h-1 bg-slate-400 rounded"></div>
-                        <div className="w-4 h-1 bg-slate-400 rounded"></div>
-                      </div>
+                  <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-b from-sky-400 to-cyan-500 rounded-l-2xl" />
+                  <div className="p-8 text-center">
+                    <div className="mb-4">{getBookIcon(book.name, 32)}</div>
+                    <h3 className="font-bold text-lg text-sky-900 leading-snug">{book.name}</h3>
+                    <div className="absolute bottom-3 right-3 opacity-20 flex flex-col gap-1">
+                      <div className="w-7 h-0.5 bg-slate-400 rounded" />
+                      <div className="w-5 h-0.5 bg-slate-400 rounded" />
+                      <div className="w-3 h-0.5 bg-slate-400 rounded" />
                     </div>
-                  </CardContent>
-                </Card>
+                  </div>
+                </div>
               </motion.div>
             ))}
           </div>
+
         </div>
       </div>
     </>

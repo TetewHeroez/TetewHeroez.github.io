@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2025-10-09T14:25:01.128Z",
+  "fetchedAt": "2026-02-05T11:22:35.690Z",
   "profile": {
     "name": "Teosofi Hidayah Agung",
     "avatar_url": "https://avatars.githubusercontent.com/u/132694090?v=4",
     "bio": "NPC who wants to become MC",
-    "followers": 13,
-    "following": 11
+    "followers": 16,
+    "following": 13
   },
   "repos": [
     {
@@ -14,15 +14,13 @@
       "stars": 2,
       "forks": 0,
       "languages": {
-        "TeX": 1358111,
+        "TeX": 1624544,
         "Java": 198199,
-        "Jupyter Notebook": 69830,
+        "Python": 127290,
         "JavaScript": 42290,
-        "HTML": 13345,
-        "Python": 6728,
+        "HTML": 40015,
         "MATLAB": 5776,
-        "CSS": 3609,
-        "Scilab": 141
+        "CSS": 3609
       },
       "html_url": "https://github.com/TetewHeroez/Tugas-Kuliah",
       "homepage": "",
@@ -42,6 +40,12 @@
       ],
       "readmeContent": "# 🎓 ITS Mathematics Coursework Repository\n<!-- PORTFOLIO-START: detailedDescription -->\nThis repository contains various academic assignments and coursework I completed throughout my undergraduate studies in the **Department of Mathematics**, Institut Teknologi Sepuluh Nopember (ITS). Most of the documents are written in **LaTeX** and exported as PDF files.\n<!-- PORTFOLIO-END: detailedDescription -->\n## 🖋 Why LaTeX?\n<!-- PORTFOLIO-START: detailedDescription -->\nI first got introduced to $\\LaTeX$ while working as a **Staff Partner for OMITS 16th** in the Quality Management division. As someone who doesn’t enjoy handwriting (and often makes typos too!), LaTeX has become a game-changer in how I handle assignments—especially since my third semester. It offers clean, professional formatting and allows me to focus on content without worrying about layout.\n\nSince then, LaTeX has been my primary tool for writing mathematical reports, papers, and homework assignments.\n<!-- PORTFOLIO-END: detailedDescription -->\n## 📂 What’s Inside?\n\nThis repository is organized into folders, each representing a different course. Inside each folder, you'll typically find:\n<!-- PORTFOLIO-START: features -->\n- **`.tex` source files**\n- **Final `.pdf` versions**\n- **Supporting figures or code (if applicable)**\n<!-- PORTFOLIO-END: features -->\nCourses include, but are not limited to:\n\n- **Calculus**\n- **Linear Algebra**\n- **Real Analysis**\n- **Numerical Methods**\n- **Abstract Algebra**\n- **Probability & Statistics**\n- **Mathematical Modeling**\n\nI’ve also included short descriptions or reflections in some folders to help readers understand the focus and learning outcomes of each course.\n\n## 📌 Notes\n\n- All files are for educational and archival purposes only.\n- Please don’t copy-paste the work directly. Instead, use it as a reference or inspiration.\n- If you’re a fellow math student, I hope you find something helpful here!\n\n<p align=\"center\">\n  <img width=\"400\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/48ea5864-651c-4476-951d-02987535363e\" />\n  <img width=\"400\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/b924f133-112e-42d5-9188-9b869b04fb7d\" />\n  <img width=\"400\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/4279e09a-6fcb-4180-b7ee-e9449488eb7a\" />\n  <img width=\"400\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/08d63419-f7bb-4042-9c89-c6ac337fc123\" />\n  <img width=\"400\" style=\"margin: 5px;\" src=\"https://github.com/user-attachments/assets/71d604df-34e9-4a99-a46d-292762e695ec\" />\n</p>\n\n\n",
       "tree": {
+        ".gitattributes": {
+          "type": "file"
+        },
+        ".gitignore": {
+          "type": "file"
+        },
         "README.md": {
           "type": "file"
         },
@@ -713,9 +717,6 @@
                     "EAS Aljabar 2024.pdf": {
                       "type": "file"
                     },
-                    "EAS Aljabar 2024.synctex(busy)": {
-                      "type": "file"
-                    },
                     "EAS Aljabar 2024.tex": {
                       "type": "file"
                     }
@@ -845,13 +846,7 @@
                 "Tugas Video": {
                   "type": "folder",
                   "children": {
-                    "Tugas Video.nav": {
-                      "type": "file"
-                    },
                     "Tugas Video.pdf": {
-                      "type": "file"
-                    },
-                    "Tugas Video.snm": {
                       "type": "file"
                     },
                     "Tugas Video.tex": {
@@ -864,6 +859,17 @@
             "Analisis I": {
               "type": "folder",
               "children": {
+                "EAS 2024": {
+                  "type": "folder",
+                  "children": {
+                    "EAS 2024.pdf": {
+                      "type": "file"
+                    },
+                    "EAS 2024.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "ETS 2023": {
                   "type": "folder",
                   "children": {
@@ -871,12 +877,6 @@
                       "type": "file"
                     },
                     "ETS.tex": {
-                      "type": "file"
-                    },
-                    "ITS.png": {
-                      "type": "file"
-                    },
-                    "M.png": {
                       "type": "file"
                     }
                   }
@@ -919,6 +919,17 @@
             "Kalkulus Peubah Banyak": {
               "type": "folder",
               "children": {
+                "EAS KPB 2024": {
+                  "type": "folder",
+                  "children": {
+                    "EAS KPB 2024.pdf": {
+                      "type": "file"
+                    },
+                    "EAS KPB 2024.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "ETS KPB 2024": {
                   "type": "folder",
                   "children": {
@@ -976,6 +987,17 @@
             "Persamaan Diferensial Biasa": {
               "type": "folder",
               "children": {
+                "EAS 2024": {
+                  "type": "folder",
+                  "children": {
+                    "EAS PDB 2024.pdf": {
+                      "type": "file"
+                    },
+                    "EAS PDB 2024.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "ETS 2024": {
                   "type": "folder",
                   "children": {
@@ -1218,13 +1240,7 @@
                     "GAMBAR 7.png": {
                       "type": "file"
                     },
-                    "PPT Bab 4.nav": {
-                      "type": "file"
-                    },
                     "PPT Bab 4.pdf": {
-                      "type": "file"
-                    },
-                    "PPT Bab 4.snm": {
                       "type": "file"
                     },
                     "PPT Bab 4.tex": {
@@ -1472,6 +1488,17 @@
             "Aljabar Linear": {
               "type": "folder",
               "children": {
+                "EAS Alin 2024": {
+                  "type": "folder",
+                  "children": {
+                    "EAS Alin 2024.pdf": {
+                      "type": "file"
+                    },
+                    "EAS Alin 2024.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "ETS Alin 2024": {
                   "type": "folder",
                   "children": {
@@ -1486,13 +1513,7 @@
                 "Orthogonality": {
                   "type": "folder",
                   "children": {
-                    "Theorem 6.nav": {
-                      "type": "file"
-                    },
                     "Theorem 6.pdf": {
-                      "type": "file"
-                    },
-                    "Theorem 6.snm": {
                       "type": "file"
                     },
                     "Theorem 6.tex": {
@@ -1736,13 +1757,7 @@
                 "PPT TA": {
                   "type": "folder",
                   "children": {
-                    "PPT_TA.nav": {
-                      "type": "file"
-                    },
                     "PPT_TA.pdf": {
-                      "type": "file"
-                    },
-                    "PPT_TA.snm": {
                       "type": "file"
                     },
                     "PPT_TA.tex": {
@@ -1781,9 +1796,6 @@
                 "Proposal Tugas Akhir": {
                   "type": "folder",
                   "children": {
-                    "TA Tetew.lof": {
-                      "type": "file"
-                    },
                     "TA Tetew.pdf": {
                       "type": "file"
                     },
@@ -1887,6 +1899,9 @@
                       "type": "file"
                     }
                   }
+                },
+                "IntroductoryCombinatorics.pdf": {
+                  "type": "file"
                 }
               }
             },
@@ -1896,9 +1911,6 @@
                 "Laporan KP": {
                   "type": "folder",
                   "children": {
-                    "5002221132_Teosofi Hidayah Agung_Laporan KP.lof": {
-                      "type": "file"
-                    },
                     "5002221132_Teosofi Hidayah Agung_Laporan KP.pdf": {
                       "type": "file"
                     },
@@ -1974,13 +1986,7 @@
                 "PPT KP": {
                   "type": "folder",
                   "children": {
-                    "PPT KP.nav": {
-                      "type": "file"
-                    },
                     "PPT KP.pdf": {
-                      "type": "file"
-                    },
-                    "PPT KP.snm": {
                       "type": "file"
                     },
                     "PPT KP.tex": {
@@ -2144,9 +2150,6 @@
                     "EASproject.py": {
                       "type": "file"
                     },
-                    "Record.mkv": {
-                      "type": "file"
-                    },
                     "Report": {
                       "type": "folder",
                       "children": {
@@ -2239,13 +2242,7 @@
                 "Kuis 1": {
                   "type": "folder",
                   "children": {
-                    "Kuis 1 Anfung.nav": {
-                      "type": "file"
-                    },
                     "Kuis 1 Anfung.pdf": {
-                      "type": "file"
-                    },
-                    "Kuis 1 Anfung.snm": {
                       "type": "file"
                     },
                     "Kuis 1 Anfung.tex": {
@@ -2256,13 +2253,7 @@
                 "Kuis 2": {
                   "type": "folder",
                   "children": {
-                    "Kuis 2 Anfung.nav": {
-                      "type": "file"
-                    },
                     "Kuis 2 Anfung.pdf": {
-                      "type": "file"
-                    },
-                    "Kuis 2 Anfung.snm": {
                       "type": "file"
                     },
                     "Kuis 2 Anfung.tex": {
@@ -2397,6 +2388,34 @@
             "Aljabar Max-Plus": {
               "type": "folder",
               "children": {
+                "Aplikasi Max-Plus": {
+                  "type": "folder",
+                  "children": {
+                    "Aplikasi Tropical.pdf": {
+                      "type": "file"
+                    },
+                    "Aplikasi Tropical.tex": {
+                      "type": "file"
+                    },
+                    "DiffieHellman.png": {
+                      "type": "file"
+                    },
+                    "reference.bib": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "BukuMinMaxPlusAljabar.pdf": {
+                  "type": "file"
+                },
+                "ETS 2025": {
+                  "type": "folder",
+                  "children": {
+                    "ETS Max-Plus 2025.ipynb": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "Kripto Max-Plus": {
                   "type": "folder",
                   "children": {
@@ -2414,36 +2433,19 @@
                     }
                   }
                 },
-                "Laporan Tugas": {
+                "Neural Network Petri Net": {
                   "type": "folder",
                   "children": {
-                    "MatriksLDLP.sci": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "PPT Tugas Aplikasi Max-Plus": {
-                  "type": "folder",
-                  "children": {
-                    "Aplikasi Tropical.nav": {
+                    "PetriNet.ipynb": {
                       "type": "file"
                     },
-                    "Aplikasi Tropical.pdf": {
+                    "README.md": {
                       "type": "file"
                     },
-                    "Aplikasi Tropical.snm": {
+                    "robot_model.png": {
                       "type": "file"
                     },
-                    "Aplikasi Tropical.tex": {
-                      "type": "file"
-                    },
-                    "Aplikasi Tropical.vrb": {
-                      "type": "file"
-                    },
-                    "DiffieHellman.png": {
-                      "type": "file"
-                    },
-                    "reference.bib": {
+                    "robot_petri_net.png": {
                       "type": "file"
                     }
                   }
@@ -2453,6 +2455,28 @@
             "Analisis Fungsional": {
               "type": "folder",
               "children": {
+                "EAS": {
+                  "type": "folder",
+                  "children": {
+                    "EAS anfung.pdf": {
+                      "type": "file"
+                    },
+                    "EAS anfung.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "ETS 2024-2025": {
+                  "type": "folder",
+                  "children": {
+                    "ETS anfung.pdf": {
+                      "type": "file"
+                    },
+                    "ETS anfung.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "Tugas 1": {
                   "type": "folder",
                   "children": {
@@ -2460,6 +2484,17 @@
                       "type": "file"
                     },
                     "Tugas 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 2": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 2.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 2.tex": {
                       "type": "file"
                     }
                   }
@@ -2469,6 +2504,222 @@
             "Pengantar Teori Aproksimasi": {
               "type": "folder",
               "children": {
+                "Makalah EAS": {
+                  "type": "folder",
+                  "children": {
+                    "Makalah EAS.pdf": {
+                      "type": "file"
+                    },
+                    "Makalah EAS.tex": {
+                      "type": "file"
+                    },
+                    "code.ipynb": {
+                      "type": "file"
+                    },
+                    "img": {
+                      "type": "folder",
+                      "children": {
+                        "CDF 5_3 (bior2.2).png": {
+                          "type": "file"
+                        },
+                        "CDF 9_7 (bior4.4).png": {
+                          "type": "file"
+                        },
+                        "Cg.png": {
+                          "type": "file"
+                        },
+                        "Co.png": {
+                          "type": "file"
+                        },
+                        "MSE vs Rate.png": {
+                          "type": "file"
+                        },
+                        "PSNR vs Rate.png": {
+                          "type": "file"
+                        },
+                        "SSIM vs Rate.png": {
+                          "type": "file"
+                        },
+                        "Wavelet Pyramid Level 1.png": {
+                          "type": "file"
+                        },
+                        "Wavelet Pyramid Level 2.png": {
+                          "type": "file"
+                        },
+                        "Wavelet Pyramid Level 3.png": {
+                          "type": "file"
+                        },
+                        "Y.png": {
+                          "type": "file"
+                        },
+                        "kita_shine.png": {
+                          "type": "file"
+                        },
+                        "mybini.png": {
+                          "type": "file"
+                        },
+                        "seiza_ni_naretara.png": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "ref": {
+                      "type": "folder",
+                      "children": {
+                        "Decoding_compression_with_reversible_embedded_wave.pdf": {
+                          "type": "file"
+                        },
+                        "Mathematical properties of the jpeg2000 wavelet filters.pdf": {
+                          "type": "file"
+                        },
+                        "OPTIMIZED RATE ALLOCATION OF HYPERSPECTRAL IMAGES IN COMPRESSED DOMAIN UNDER JPEG2000 PART 2.pdf": {
+                          "type": "file"
+                        },
+                        "Stephane Mallat - A Wavelet Tour of Signal Processing_ The Sparse Way (2009, Academic Press) - libgen.li.pdf": {
+                          "type": "file"
+                        },
+                        "T-REC-T.800-201511-S!!PDF-E.pdf": {
+                          "type": "file"
+                        },
+                        "visually_lossless.pdf": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "references.bib": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Makalah ETS": {
+                  "type": "folder",
+                  "children": {
+                    "Makalah ETS.pdf": {
+                      "type": "file"
+                    },
+                    "Makalah ETS.tex": {
+                      "type": "file"
+                    },
+                    "code.ipynb": {
+                      "type": "file"
+                    },
+                    "img": {
+                      "type": "folder",
+                      "children": {
+                        "100.jpg": {
+                          "type": "file"
+                        },
+                        "25.jpg": {
+                          "type": "file"
+                        },
+                        "50.jpg": {
+                          "type": "file"
+                        },
+                        "75.jpg": {
+                          "type": "file"
+                        },
+                        "Cb.png": {
+                          "type": "file"
+                        },
+                        "Cb_100.jpg": {
+                          "type": "file"
+                        },
+                        "Cr.png": {
+                          "type": "file"
+                        },
+                        "Cr_100.jpg": {
+                          "type": "file"
+                        },
+                        "DCTbasis.png": {
+                          "type": "file"
+                        },
+                        "Y.png": {
+                          "type": "file"
+                        },
+                        "Y100.png": {
+                          "type": "file"
+                        },
+                        "Y_100.jpg": {
+                          "type": "file"
+                        },
+                        "graph.png": {
+                          "type": "file"
+                        },
+                        "nijika1.jpg": {
+                          "type": "file"
+                        },
+                        "nijika2.jpg": {
+                          "type": "file"
+                        },
+                        "nijika3.jpg": {
+                          "type": "file"
+                        },
+                        "partition1.png": {
+                          "type": "file"
+                        },
+                        "partition2.png": {
+                          "type": "file"
+                        },
+                        "partition3.png": {
+                          "type": "file"
+                        },
+                        "png.png": {
+                          "type": "file"
+                        },
+                        "strip.png": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "references.bib": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Makalah Kuis 2": {
+                  "type": "folder",
+                  "children": {
+                    "Audio_Denoising_Simulasi.ipynb": {
+                      "type": "file"
+                    },
+                    "Makalah Kuis 2.pdf": {
+                      "type": "file"
+                    },
+                    "Makalah Kuis 2.tex": {
+                      "type": "file"
+                    },
+                    "Selamat Berjuang! Sukses. Pak Jokowi.mp3": {
+                      "type": "file"
+                    },
+                    "makalah-kuis-2.bib": {
+                      "type": "file"
+                    },
+                    "noise_profile_analysis.png": {
+                      "type": "file"
+                    },
+                    "output_gating.wav": {
+                      "type": "file"
+                    },
+                    "output_subtraction.wav": {
+                      "type": "file"
+                    },
+                    "output_wiener.wav": {
+                      "type": "file"
+                    },
+                    "spectro_original.png": {
+                      "type": "file"
+                    },
+                    "spectro_wiener.png": {
+                      "type": "file"
+                    },
+                    "spectrograms_comparison.png": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Ole Christensen, Khadija Laghrida Christensen - Approximation Theory_ From Taylor Polynomials to Wavelets.pdf": {
+                  "type": "file"
+                },
                 "Tugas 1": {
                   "type": "folder",
                   "children": {
@@ -2481,34 +2732,42 @@
                   }
                 }
               }
-            },
+            }
+          }
+        },
+        "Semester 8": {
+          "type": "folder",
+          "children": {
             "Tugas Akhir": {
               "type": "folder",
               "children": {
+                ".gitignore": {
+                  "type": "file"
+                },
+                "Eksperimen": {
+                  "type": "folder",
+                  "children": {
+                    "CekPermutasiMatriks.ipynb": {
+                      "type": "file"
+                    },
+                    "RisetTA.ipynb": {
+                      "type": "file"
+                    },
+                    "TestInPemod.ipynb": {
+                      "type": "file"
+                    },
+                    "maxplus_latin.py": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "Proposal TA": {
                   "type": "folder",
                   "children": {
-                    "Baca Panduan": {
-                      "type": "folder",
-                      "children": {
-                        "Buku Panduan Format Buku Tugas Akhir.docx": {
-                          "type": "file"
-                        }
-                      }
-                    },
-                    "Format Proposal TA.pdf": {
-                      "type": "file"
-                    },
-                    "Format Proposal TA.tex": {
-                      "type": "file"
-                    },
                     "Inti": {
                       "type": "folder",
                       "children": {
-                        "abstrakeng.tex": {
-                          "type": "file"
-                        },
-                        "abstrakind.tex": {
+                        "abstrak.tex": {
                           "type": "file"
                         },
                         "bab 1.tex": {
@@ -2520,12 +2779,6 @@
                         "bab 3.tex": {
                           "type": "file"
                         },
-                        "bab 4.tex": {
-                          "type": "file"
-                        },
-                        "bab 5.tex": {
-                          "type": "file"
-                        },
                         "daftar simbol.tex": {
                           "type": "file"
                         },
@@ -2534,6 +2787,12 @@
                         }
                       }
                     },
+                    "Proposal TA.pdf": {
+                      "type": "file"
+                    },
+                    "Proposal TA.tex": {
+                      "type": "file"
+                    },
                     "file": {
                       "type": "folder",
                       "children": {
@@ -2541,9 +2800,6 @@
                           "type": "file"
                         },
                         "TA-data.tex": {
-                          "type": "file"
-                        },
-                        "code.py": {
                           "type": "file"
                         },
                         "daftarPustaka.bib": {
@@ -2557,9 +2813,6 @@
                     "foto": {
                       "type": "folder",
                       "children": {
-                        "Diagram Alir Penelitian Blue.png": {
-                          "type": "file"
-                        },
                         "logoITS.png": {
                           "type": "file"
                         },
@@ -2573,10 +2826,34 @@
                 "Referensi": {
                   "type": "folder",
                   "children": {
+                    "ANALYSIS OF FOUR PROTOCOLS BASED ON TROPICAL.pdf": {
+                      "type": "file"
+                    },
+                    "A_new_semiring_and_its_cryptographic_applications.pdf": {
+                      "type": "file"
+                    },
+                    "An Efficient Algorithm for Eigenvalue Problem of Latin Squares in a Bipartite Min-Max-Plus System.pdf": {
+                      "type": "file"
+                    },
+                    "An Efficient Algorithm for Nontrivial Eigenvectors in Max-Plus Algebra.pdf": {
+                      "type": "file"
+                    },
+                    "BukuFondasiAljabar_2022-1.pdf": {
+                      "type": "file"
+                    },
+                    "Cryptography_Based_on_Idempotent_Semirings_Abandon.pdf": {
+                      "type": "file"
+                    },
+                    "EIGENVALUES AND EIGENVECTORS OF LATIN SQUARES IN MAX-PLUS ALGEBRA.pdf": {
+                      "type": "file"
+                    },
                     "MODIFYING THE TROPICAL VERSION OF STICKELS KEY.pdf": {
                       "type": "file"
                     },
                     "Max-plus_Algebra_and_Application_to_Matrix_Operati.pdf": {
+                      "type": "file"
+                    },
+                    "Michael Artin - Algebra (1991, Prentice Hall) - libgen.li.pdf": {
                       "type": "file"
                     },
                     "On implementation of Stickel’s key exchange protocol.pdf": {
@@ -2585,1018 +2862,373 @@
                     "On the security of the initial tropical Stickel protocol.pdf": {
                       "type": "file"
                     },
+                    "On_the_tropical_two_sided_discrete_log_problem_and_a_key_exchange_protocol_based_on_the_tropical_algebra_of_pairs__Revision_.pdf": {
+                      "type": "file"
+                    },
+                    "Paulsen William - Abstract algebra An interactive approach.pdf": {
+                      "type": "file"
+                    },
                     "Revisi_Tugas_Akhir_Muhammad_Zulfikar_Zufar_06111940000108___.pdf": {
+                      "type": "file"
+                    },
+                    "Synchronization_and_Linearity_-_An_Algebra_for_Dis.pdf": {
+                      "type": "file"
+                    },
+                    "Trivial and Nontrivial Eigenvectors for Latin Squares in Max-Plus Algebra.pdf": {
+                      "type": "file"
+                    },
+                    "[Discrete mathematics and its applications] George, John Clay_ Wallis, W. D. - Introduction to combinatorics (2017, CRC press, Taylor & Francis) - libgen.li.pdf": {
+                      "type": "file"
+                    },
+                    "on-derangements-in-simple-permutation-groups.pdf": {
                       "type": "file"
                     }
                   }
-                }
-              }
-            }
-          }
-        },
-        "Template Math Depart": {
-          "type": "folder",
-          "children": {
-            "HIMATIKA ITS.png": {
-              "type": "file"
-            },
-            "Honey Pie": {
-              "type": "folder",
-              "children": {
-                "honey pie-0.png": {
-                  "type": "file"
                 },
-                "honey pie-1.png": {
-                  "type": "file"
-                },
-                "honey pie-10.png": {
-                  "type": "file"
-                },
-                "honey pie-11.png": {
-                  "type": "file"
-                },
-                "honey pie-12.png": {
-                  "type": "file"
-                },
-                "honey pie-13.png": {
-                  "type": "file"
-                },
-                "honey pie-14.png": {
-                  "type": "file"
-                },
-                "honey pie-15.png": {
-                  "type": "file"
-                },
-                "honey pie-16.png": {
-                  "type": "file"
-                },
-                "honey pie-17.png": {
-                  "type": "file"
-                },
-                "honey pie-18.png": {
-                  "type": "file"
-                },
-                "honey pie-19.png": {
-                  "type": "file"
-                },
-                "honey pie-2.png": {
-                  "type": "file"
-                },
-                "honey pie-20.png": {
-                  "type": "file"
-                },
-                "honey pie-21.png": {
-                  "type": "file"
-                },
-                "honey pie-22.png": {
-                  "type": "file"
-                },
-                "honey pie-23.png": {
-                  "type": "file"
-                },
-                "honey pie-24.png": {
-                  "type": "file"
-                },
-                "honey pie-25.png": {
-                  "type": "file"
-                },
-                "honey pie-26.png": {
-                  "type": "file"
-                },
-                "honey pie-27.png": {
-                  "type": "file"
-                },
-                "honey pie-28.png": {
-                  "type": "file"
-                },
-                "honey pie-29.png": {
-                  "type": "file"
-                },
-                "honey pie-3.png": {
-                  "type": "file"
-                },
-                "honey pie-30.png": {
-                  "type": "file"
-                },
-                "honey pie-31.png": {
-                  "type": "file"
-                },
-                "honey pie-32.png": {
-                  "type": "file"
-                },
-                "honey pie-33.png": {
-                  "type": "file"
-                },
-                "honey pie-34.png": {
-                  "type": "file"
-                },
-                "honey pie-35.png": {
-                  "type": "file"
-                },
-                "honey pie-36.png": {
-                  "type": "file"
-                },
-                "honey pie-37.png": {
-                  "type": "file"
-                },
-                "honey pie-38.png": {
-                  "type": "file"
-                },
-                "honey pie-39.png": {
-                  "type": "file"
-                },
-                "honey pie-4.png": {
-                  "type": "file"
-                },
-                "honey pie-40.png": {
-                  "type": "file"
-                },
-                "honey pie-41.png": {
-                  "type": "file"
-                },
-                "honey pie-42.png": {
-                  "type": "file"
-                },
-                "honey pie-43.png": {
-                  "type": "file"
-                },
-                "honey pie-44.png": {
-                  "type": "file"
-                },
-                "honey pie-45.png": {
-                  "type": "file"
-                },
-                "honey pie-46.png": {
-                  "type": "file"
-                },
-                "honey pie-47.png": {
-                  "type": "file"
-                },
-                "honey pie-48.png": {
-                  "type": "file"
-                },
-                "honey pie-49.png": {
-                  "type": "file"
-                },
-                "honey pie-5.png": {
-                  "type": "file"
-                },
-                "honey pie-6.png": {
-                  "type": "file"
-                },
-                "honey pie-7.png": {
-                  "type": "file"
-                },
-                "honey pie-8.png": {
-                  "type": "file"
-                },
-                "honey pie-9.png": {
-                  "type": "file"
-                },
-                "honey pie.gif": {
-                  "type": "file"
-                }
-              }
-            },
-            "ITS.png": {
-              "type": "file"
-            },
-            "Kita Ikuyo Doodle": {
-              "type": "folder",
-              "children": {
-                "Kita Ikuyo Doodle-0.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-1.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-10.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-11.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-12.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-13.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-14.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-15.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-16.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-17.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-18.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-19.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-2.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-20.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-21.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-22.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-23.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-24.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-25.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-26.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-27.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-28.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-29.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-3.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-30.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-31.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-32.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-33.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-34.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-35.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-36.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-37.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-38.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-39.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-4.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-40.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-41.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-42.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-43.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-44.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-45.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-46.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-47.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-48.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-49.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-5.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-50.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-51.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-52.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-53.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-54.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-55.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-56.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-57.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-58.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-59.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-6.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-60.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-61.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-62.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-63.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-64.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-65.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-66.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-67.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-68.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-69.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-7.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-70.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-71.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-72.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-73.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-74.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-75.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-76.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-77.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-78.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-79.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-8.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-80.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-81.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-82.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-83.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-84.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-85.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle-9.png": {
-                  "type": "file"
-                },
-                "Kita Ikuyo Doodle.gif": {
+                "Seminar Proposal": {
+                  "type": "folder",
+                  "children": {
+                    "index.html": {
+                      "type": "file"
+                    },
+                    "index_assets": {
+                      "type": "folder",
+                      "children": {
+                        "05c70dedfb28dfe1fca4e75211854e7c678c7b83eb74bedec2a01fc16859361e.mp4": {
+                          "type": "file"
+                        },
+                        "0e5f7c888821bf6f044d73a2984d38b1e5671f1254a5e041e690c4449a4ee8fe.mp4": {
+                          "type": "file"
+                        },
+                        "1546bdb21827094ece311dc06faed0f95816af273f3746c2b5412d6efb6551bd.mp4": {
+                          "type": "file"
+                        },
+                        "155137aa809c416b8f68086a37e5ec1a76814eaf5b6240ea7a42599ab55407e6.mp4": {
+                          "type": "file"
+                        },
+                        "163997e318ccc9d29df758ded37d88db1a1f2e17c716469278d0890ae2496c1d.mp4": {
+                          "type": "file"
+                        },
+                        "1db01675453f706f9935e020ef8ce0f4d89f35877f4ce6bd77fd777be3ac01de.mp4": {
+                          "type": "file"
+                        },
+                        "1de19a52abe3c2ee7d21783c742f3da06726e68901125ec14eb3c4b51f8b3c28.mp4": {
+                          "type": "file"
+                        },
+                        "22cfc22651c170f4685a7e628bfb5f9b1c3c9bdd8afeb52ed0e4167274e9cb3f.mp4": {
+                          "type": "file"
+                        },
+                        "2eafdc89a45b9d795bbd4580edd78a0fa2f8e3f40886d8694d86a6b77cb28c1c.mp4": {
+                          "type": "file"
+                        },
+                        "303fd41cd96ecb6794ce4462e222b3f3f1294c30382848ba367a38237459bf17.mp4": {
+                          "type": "file"
+                        },
+                        "391dacd8838f547a6ffef1177117321bd7e3e541acdfeb8a9dbfab844cced86d.mp4": {
+                          "type": "file"
+                        },
+                        "392851f9566a4fbac34ef1ace1e0434009cccf1ce9a41cd52edeb968e14aaaf7.mp4": {
+                          "type": "file"
+                        },
+                        "3e9cc980ab73025bd996736a3c78251bfc2c72a16968d94ecd8e72035367ce36.mp4": {
+                          "type": "file"
+                        },
+                        "402b04a9d13dae0239a1107c132be90c81cf34716e1c1e9034741e534b665004.mp4": {
+                          "type": "file"
+                        },
+                        "418e3e544172d035a1675be29d3893f9862bd5397e1a4d05e0a1559cdf08dc85.mp4": {
+                          "type": "file"
+                        },
+                        "4851801468de7cb8ddc0cebc191397d27636a52e62bb7d8ae837e7747541db90.mp4": {
+                          "type": "file"
+                        },
+                        "4913d62ea2021a1510aa9e75f1f144d8350034a15a9624301ad033883ce885ef.mp4": {
+                          "type": "file"
+                        },
+                        "4af1c143ca635aef89fda2beac68f216c6a421cc80c31bc25f1552b614755b3d.mp4": {
+                          "type": "file"
+                        },
+                        "52b4949396307d8c719153aeb7fe0e70e981863790ea02fa9f4caf95961dfb43.mp4": {
+                          "type": "file"
+                        },
+                        "572f797b4de6044ae80903247c5052ce784ffeee17c235c564e42ffe1f097030.mp4": {
+                          "type": "file"
+                        },
+                        "590abdac4865b3a20e5f776180b37fb9c18b345efc1ee08fb4bdc5daccb1ad09.mp4": {
+                          "type": "file"
+                        },
+                        "5bce7d0be68c24fc46dd49410c0da81b2e7a1e1cf946a091103b6f56e62ddd74.mp4": {
+                          "type": "file"
+                        },
+                        "5c3d64d2ae6d1bb6f3994a1a28b32f063012600d1d1bb29451f9be0f7a99ccd6.mp4": {
+                          "type": "file"
+                        },
+                        "5f071f0afb2582f7153e4182958403ca5fa5fa0ed02e9dc5d8cd079786c76dc6.mp4": {
+                          "type": "file"
+                        },
+                        "68b4453a54d6cd50ead71f357d70ca1dfefcfb6f106731b6ea2bc5958e5d863c.mp4": {
+                          "type": "file"
+                        },
+                        "6da002e6a2c8d585a71c49267007e4fe792b93a1a326c3d63d211bb89a40ab8f.mp4": {
+                          "type": "file"
+                        },
+                        "7027c876165a9f450fc8ab569aee34d20f99f110ec51cdd3c1d1e9150a1fc872.mp4": {
+                          "type": "file"
+                        },
+                        "75a10d37d5a577ae7719b388bddfe064d561c0f7c6ebc0f9afa97d2d5a9b7d81.mp4": {
+                          "type": "file"
+                        },
+                        "766a3613220e5c42bd9434d50b373dbb0597cd0e55851bf76bcdec6f98e649ee.mp4": {
+                          "type": "file"
+                        },
+                        "7759c4709d230db441c7b88d1b1bfe1eddd02fd1618aeb3c7caf8801620cc025.mp4": {
+                          "type": "file"
+                        },
+                        "7879d7a35b4d71ce68bb77a9315e1ec88a4052980418d56495b186d0ca007b32.mp4": {
+                          "type": "file"
+                        },
+                        "7e9d51cf899be879b72e14304dfe18e058947c59f202abee5c0881c56a3f36a1.mp4": {
+                          "type": "file"
+                        },
+                        "85389fb6a11e40c9ff19c492f444b4e38eb20bf4fc9e558bbc3036a0c9d4d04d.mp4": {
+                          "type": "file"
+                        },
+                        "878f85193fa71f3cba80196a406787bfea073cf5f93634d39bc4f764889f1fb1.mp4": {
+                          "type": "file"
+                        },
+                        "8d098ebb04600f20a94b53e1e64bcd9b46b78688e677cf2763e6b102b4d003f9.mp4": {
+                          "type": "file"
+                        },
+                        "8de818e0e8c32cac77ca7d7658d8c2aa4404bbad540b761a7b7427c4109aa5c2.mp4": {
+                          "type": "file"
+                        },
+                        "8fd0f7afdb11dfc89a2d40757a5b3f4a021ad4f20a00b6077dca3698bd5b6094.mp4": {
+                          "type": "file"
+                        },
+                        "9082f4ca616f2665d6c1d8b361a92b847d02372ba440ecbe6fc1a5d9a1c7bcc1.mp4": {
+                          "type": "file"
+                        },
+                        "993fff1e196d5aef16df038d83daacb54553af4e72576027f1fca33c0459b271.mp4": {
+                          "type": "file"
+                        },
+                        "9ca9940ed090c8d445b514e6cd39286c3f15dfdfe56cbcdf24fbefbd5d9c3f61.mp4": {
+                          "type": "file"
+                        },
+                        "a18119aef8613f6e4302a3cafe8f90a71681fabbbe1328ad10aa05efdb0c6d8e.mp4": {
+                          "type": "file"
+                        },
+                        "a32332ddacf57e988b273746a4f44ab9c8e82d810ef9c81ca27bef3b0d1bfdb7.mp4": {
+                          "type": "file"
+                        },
+                        "ac6e149d889fde325203f90fcf09998cc1b2107cced57ed9d6ca244a927d21b3.mp4": {
+                          "type": "file"
+                        },
+                        "bec2a51a9a242506fd2a025e41e33899fc246d352bb8597cf7624dee728bd89f.mp4": {
+                          "type": "file"
+                        },
+                        "c3a0a208a4ee5cc6907bef8f5c46a3b8505582353a7e859ecf0a86b4e086826c.mp4": {
+                          "type": "file"
+                        },
+                        "cfee0f5da24c5e2ad26eedb7047fc032525d0a5190da9f64f25f51afaf83237d.mp4": {
+                          "type": "file"
+                        },
+                        "d5b0dd4af157d150288ea9b534156efe33eca6b40ec9d9e182c378cc1f11555c.mp4": {
+                          "type": "file"
+                        },
+                        "dcf1876239cf589a9d53c14504b68330426ccca47b907ad1aaa2b7a33def53c9.mp4": {
+                          "type": "file"
+                        },
+                        "df09ae1d9d600f2b38c21009cabd5a5bcf8ff2ce98350437385cd6abb5ae97e3.mp4": {
+                          "type": "file"
+                        },
+                        "df30d558d266460f08204f43b308204dcc1bc03117cc1da7c5c2241d5c1f8c92.mp4": {
+                          "type": "file"
+                        },
+                        "df53a693e403c11d3455c2677993c9be77e7abc9ae2e2d5ad0541925487a41ed.mp4": {
+                          "type": "file"
+                        },
+                        "e49827a5c623b62fb3885da88f9a7275574a886f274b3d970b3b8de248658825.mp4": {
+                          "type": "file"
+                        },
+                        "e6ea06f6db4184c5bf3b175ef7b2567ccc64b8315d1827c60bde21e421e18d82.mp4": {
+                          "type": "file"
+                        },
+                        "f23e6436a5909c446fdf03559d1070ed64cd6d1e3f3cfd39492fff2e885f62ca.mp4": {
+                          "type": "file"
+                        },
+                        "f53bb721781415079ebd12620ce21f7903d063588cbe78e69f7917021109d4cf.mp4": {
+                          "type": "file"
+                        },
+                        "f64a1d65abca9797aa0d69fa05586fa05f84f67c30571ce37599452fab221d81.mp4": {
+                          "type": "file"
+                        },
+                        "f97b4ab845ecdba1510b839f6d98c03506aa7f2eac3873cc58693e4be5799d66.mp4": {
+                          "type": "file"
+                        },
+                        "fa2da1db4e59c4b0a23adbbdf7f922377233f1a53623ad7a69ad0040cd766b07.mp4": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "lib": {
+                      "type": "folder",
+                      "children": {
+                        "__init__.py": {
+                          "type": "file"
+                        },
+                        "maxplus.py": {
+                          "type": "file"
+                        },
+                        "slide_tracker.py": {
+                          "type": "file"
+                        },
+                        "video_mobject.py": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "main.py": {
+                      "type": "file"
+                    },
+                    "reference.bib": {
+                      "type": "file"
+                    },
+                    "scenes": {
+                      "type": "folder",
+                      "children": {
+                        "__init__.py": {
+                          "type": "file"
+                        },
+                        "content.py": {
+                          "type": "file"
+                        },
+                        "judul.py": {
+                          "type": "file"
+                        },
+                        "metodologi.py": {
+                          "type": "file"
+                        },
+                        "pendahuluan.py": {
+                          "type": "file"
+                        },
+                        "penutup.py": {
+                          "type": "file"
+                        },
+                        "tinjauan_pustaka.py": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "sempro.pdf": {
+                      "type": "file"
+                    },
+                    "sempro.tex": {
+                      "type": "file"
+                    },
+                    "test.py": {
+                      "type": "file"
+                    },
+                    "thumbnail": {
+                      "type": "folder",
+                      "children": {
+                        "bab1.py": {
+                          "type": "file"
+                        },
+                        "bab2.py": {
+                          "type": "file"
+                        },
+                        "bab3.py": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "proposal.tex": {
                   "type": "file"
                 }
               }
-            },
-            "Kuru Kuru Herta": {
-              "type": "folder",
-              "children": {
-                "kuru kuru-0.png": {
-                  "type": "file"
-                },
-                "kuru kuru-1.png": {
-                  "type": "file"
-                },
-                "kuru kuru-2.png": {
-                  "type": "file"
-                },
-                "kuru kuru-3.png": {
-                  "type": "file"
-                },
-                "kuru kuru-4.png": {
-                  "type": "file"
-                },
-                "kuru kuru-5.png": {
-                  "type": "file"
-                },
-                "kuru kuru.gif": {
-                  "type": "file"
-                }
-              }
-            },
-            "LogoLatex.png": {
-              "type": "file"
-            },
-            "M.png": {
-              "type": "file"
-            },
-            "Provicom.png": {
-              "type": "file"
-            },
-            "Shiroko Wo Ai Ni": {
-              "type": "folder",
-              "children": {
-                "Shiroko Wo Ai Ni-0.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-1.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-10.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-100.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-101.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-102.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-103.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-104.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-105.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-106.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-107.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-108.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-109.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-11.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-110.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-111.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-112.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-113.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-114.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-115.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-116.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-117.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-118.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-119.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-12.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-120.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-121.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-122.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-123.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-124.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-125.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-126.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-127.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-128.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-129.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-13.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-130.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-131.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-132.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-133.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-134.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-135.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-136.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-137.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-138.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-139.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-14.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-140.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-141.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-142.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-143.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-144.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-145.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-146.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-147.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-148.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-149.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-15.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-150.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-151.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-152.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-153.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-154.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-155.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-156.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-157.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-16.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-17.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-18.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-19.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-2.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-20.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-21.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-22.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-23.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-24.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-25.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-26.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-27.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-28.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-29.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-3.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-30.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-31.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-32.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-33.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-34.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-35.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-36.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-37.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-38.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-39.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-4.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-40.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-41.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-42.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-43.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-44.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-45.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-46.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-47.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-48.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-49.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-5.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-50.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-51.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-52.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-53.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-54.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-55.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-56.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-57.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-58.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-59.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-6.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-60.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-61.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-62.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-63.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-64.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-65.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-66.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-67.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-68.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-69.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-7.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-70.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-71.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-72.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-73.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-74.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-75.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-76.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-77.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-78.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-79.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-8.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-80.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-81.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-82.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-83.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-84.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-85.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-86.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-87.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-88.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-89.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-9.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-90.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-91.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-92.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-93.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-94.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-95.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-96.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-97.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-98.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni-99.png": {
-                  "type": "file"
-                },
-                "Shiroko Wo Ai Ni.gif": {
-                  "type": "file"
-                }
-              }
-            },
-            "Template 0": {
-              "type": "folder",
-              "children": {
-                "Template Word.pdf": {
-                  "type": "file"
-                },
-                "Template Word.tex": {
-                  "type": "file"
-                }
-              }
-            },
-            "Template 1": {
-              "type": "folder",
-              "children": {
-                "Template Math ITS.pdf": {
-                  "type": "file"
-                },
-                "Template Math ITS.tex": {
-                  "type": "file"
-                }
-              }
-            },
-            "Template 2": {
-              "type": "folder",
-              "children": {
-                "Template Math #2.pdf": {
-                  "type": "file"
-                },
-                "Template Math #2.tex": {
-                  "type": "file"
-                }
-              }
-            },
-            "logoITS.png": {
-              "type": "file"
-            },
-            "logoITSBiru.png": {
-              "type": "file"
-            },
-            "provicomIG.png": {
-              "type": "file"
             }
           }
         }
       }
     },
     {
-      "name": "Asisten-things",
-      "description": "Assigment and material for my assistance to students ",
-      "stars": 1,
+      "name": "Template-Math-Depart",
+      "description": null,
+      "stars": 0,
       "forks": 0,
       "languages": {
-        "TeX": 1018326,
+        "TeX": 96
+      },
+      "html_url": "https://github.com/TetewHeroez/Template-Math-Depart",
+      "homepage": null,
+      "topics": [],
+      "readmeContent": "",
+      "tree": {
+        "M.png": {
+          "type": "file"
+        },
+        "Template 0": {
+          "type": "folder",
+          "children": {
+            "Template Word.aux": {
+              "type": "file"
+            },
+            "Template Word.log": {
+              "type": "file"
+            },
+            "Template Word.synctex.gz": {
+              "type": "file"
+            },
+            "indent.log": {
+              "type": "file"
+            }
+          }
+        },
+        "Template 1": {
+          "type": "folder",
+          "children": {
+            "Template Math ITS.aux": {
+              "type": "file"
+            },
+            "Template Math ITS.log": {
+              "type": "file"
+            },
+            "Template Math ITS.synctex.gz": {
+              "type": "file"
+            }
+          }
+        },
+        "Template 2": {
+          "type": "folder",
+          "children": {
+            "Template Math #2.aux": {
+              "type": "file"
+            },
+            "Template Math #2.log": {
+              "type": "file"
+            },
+            "Template Math #2.synctex.gz": {
+              "type": "file"
+            },
+            "indent.log": {
+              "type": "file"
+            }
+          }
+        },
+        "logoITS.png": {
+          "type": "file"
+        }
+      }
+    },
+    {
+      "name": "Asisten-things",
+      "description": "Assigment and material for my assistance to students ",
+      "stars": 2,
+      "forks": 0,
+      "languages": {
+        "TeX": 1124973,
         "Java": 14143
       },
       "html_url": "https://github.com/TetewHeroez/Asisten-things",
@@ -3676,6 +3308,9 @@
                           "type": "file"
                         },
                         "ETS Kalkulus I 2024.tex": {
+                          "type": "file"
+                        },
+                        "ETS Kalkulus I 2024.xdv": {
                           "type": "file"
                         }
                       }
@@ -3764,7 +3399,7 @@
                     "M.png": {
                       "type": "file"
                     },
-                    "Slide_Matematika_Statistika (5).pdf": {
+                    "TNIamerika.png": {
                       "type": "file"
                     },
                     "WoN ML.png": {
@@ -3822,6 +3457,17 @@
                           "type": "file"
                         },
                         "Limit dan Kekontinuan.tex": {
+                          "type": "file"
+                        }
+                      }
+                    },
+                    "Bab 5": {
+                      "type": "folder",
+                      "children": {
+                        "Aplikasi Turunan.pdf": {
+                          "type": "file"
+                        },
+                        "Aplikasi Turunan.tex": {
                           "type": "file"
                         }
                       }
@@ -4980,7 +4626,7 @@
       "stars": 0,
       "forks": 0,
       "languages": {
-        "TeX": 143009
+        "TeX": 134888
       },
       "html_url": "https://github.com/TetewHeroez/Olympiad",
       "homepage": null,
@@ -5022,6 +4668,315 @@
                   "type": "file"
                 }
               }
+            }
+          }
+        },
+        "Book": {
+          "type": "folder",
+          "children": {
+            "Andreescu T. Problems in Real Analysis - Advanced Calculus on the Real Axis (Springer 2009).pdf": {
+              "type": "file"
+            },
+            "Latihan Soal": {
+              "type": "folder",
+              "children": {
+                "Combinatorics": {
+                  "type": "folder",
+                  "children": {
+                    "By UGM": {
+                      "type": "folder",
+                      "children": {
+                        "2021 - Metode Grid, Bilangan Catalan, dan Soal Nasional.pdf": {
+                          "type": "file"
+                        },
+                        "2022 - Latihan 1.pdf": {
+                          "type": "file"
+                        },
+                        "2022 - Latihan 2.pdf": {
+                          "type": "file"
+                        },
+                        "2022 - Latihan 3.pdf": {
+                          "type": "file"
+                        },
+                        "2022 - Latihan 4.pdf": {
+                          "type": "file"
+                        },
+                        "2023 - Latihan 1.pdf": {
+                          "type": "file"
+                        },
+                        "2023 - Latihan 2.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Latihan 1 (1).pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Latihan 2 (1).pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Latihan 3 (1).pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Latihan 4 (1).pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Latihan 5 (1).pdf": {
+                          "type": "file"
+                        },
+                        "Materi Kombinatorika.pdf": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "Complex Analysis": {
+                  "type": "folder",
+                  "children": {
+                    "By UGM": {
+                      "type": "folder",
+                      "children": {
+                        "2021 - Bilangan Kompleks.pdf": {
+                          "type": "file"
+                        },
+                        "2021 - Cauchy’s Residue Theorem.pdf": {
+                          "type": "file"
+                        },
+                        "2021 - Deret Kuasa dan Beberapa Fungsi Elementer.pdf": {
+                          "type": "file"
+                        },
+                        "2021 - Deret Laurent dan Titik Singular.pdf": {
+                          "type": "file"
+                        },
+                        "2021 - Fungsi Analitik.pdf": {
+                          "type": "file"
+                        },
+                        "2021 - Integral Kompleks dan Teorema Cauchy.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Bilangan Kompleks.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Deret dan Residu.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Fungsi Bernilai Kompleks.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Integral Fungsi Kompleks.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Latihan ONMIPA 2024 Tingkat Wilayah.pdf": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "Linear Algebra": {
+                  "type": "folder",
+                  "children": {
+                    "By UGM": {
+                      "type": "folder",
+                      "children": {
+                        "2021 - Latihan Soal Nasional.pdf": {
+                          "type": "file"
+                        },
+                        "2021 - Latihan Soal Wilayah.pdf": {
+                          "type": "file"
+                        },
+                        "2022 - Persiapan Wilayah 1.pdf": {
+                          "type": "file"
+                        },
+                        "2022 - Persiapan Wilayah 2.pdf": {
+                          "type": "file"
+                        },
+                        "2023 - Persiapan Nasional.pdf": {
+                          "type": "file"
+                        },
+                        "2023 - Persiapan Wilayah 1.pdf": {
+                          "type": "file"
+                        },
+                        "2023 - Persiapan Wilayah 2.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Latihan 1.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Latihan 2.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Latihan 3.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Latihan 4.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Latihan 5.pdf": {
+                          "type": "file"
+                        },
+                        "Nilai Eigen dan Vektor Eigen.pdf": {
+                          "type": "file"
+                        },
+                        "Subruang.pdf": {
+                          "type": "file"
+                        },
+                        "Transformasi Linear.pdf": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "ONMIPA Archive": {
+                  "type": "folder",
+                  "children": {
+                    "Buku_ONMIPA_Nasional (1).pdf": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Real Analysis": {
+                  "type": "folder",
+                  "children": {
+                    "By UGM": {
+                      "type": "folder",
+                      "children": {
+                        "2021 - Deret, Limit Fungsi, dan Kekontinuan.pdf": {
+                          "type": "file"
+                        },
+                        "2021 - Infimum, Supremum, dan Barisan.pdf": {
+                          "type": "file"
+                        },
+                        "2021 - Integral dan Barisan Fungsi.pdf": {
+                          "type": "file"
+                        },
+                        "2021 - Turunan (Derivatif).pdf": {
+                          "type": "file"
+                        },
+                        "2022 - Kumpulan Soal Analisis Real.pdf": {
+                          "type": "file"
+                        },
+                        "2023 - Barisan Fungsi.pdf": {
+                          "type": "file"
+                        },
+                        "2023 - Infimum, Supremum, Barisan, dan Deret.pdf": {
+                          "type": "file"
+                        },
+                        "2023 - Integral Riemann.pdf": {
+                          "type": "file"
+                        },
+                        "2023 - Limit dan Fungsi Kontinu.pdf": {
+                          "type": "file"
+                        },
+                        "2023 - Turunan Fungsi.pdf": {
+                          "type": "file"
+                        },
+                        "2024 - Handout Pelatihan ONMIPA 2024 Analisis Real.pdf": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Putnam and beyond (Andreescu, Titu and Gelca, Rǎzvan) (2017)[1].pdf": {
+              "type": "file"
+            },
+            "References": {
+              "type": "folder",
+              "children": {
+                "Abstract Algebra": {
+                  "type": "folder",
+                  "children": {
+                    "Abstract Algebra - DS Dummit, RM Foote.pdf": {
+                      "type": "file"
+                    },
+                    "Abstract Algebra - IN Herstein.pdf": {
+                      "type": "file"
+                    },
+                    "BukuFondasiAljabar_2022 (1).pdf": {
+                      "type": "file"
+                    },
+                    "Fundamentals of Abstract Algebra - DS Malik, JN Mordeson, MK Sen.pdf": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Combinatorics": {
+                  "type": "folder",
+                  "children": {
+                    "Richard A. Brualdi - Introductory Combinatorics (5th Edition) (2009) (1).pdf": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Complex Analysis": {
+                  "type": "folder",
+                  "children": {
+                    "Complex Number from A to Z - T Andreescu, D Andrica.pdf": {
+                      "type": "file"
+                    },
+                    "Complex Variables and Applications - JW Brown, RV Churchill.pdf": {
+                      "type": "file"
+                    },
+                    "Introduction to Complex Analysis - RP Agarwal, K Perera, S Pinelas.pdf": {
+                      "type": "file"
+                    },
+                    "Schaum Complex Variables by Spiegel.pdf": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Linear Algebra": {
+                  "type": "folder",
+                  "children": {
+                    "Linear Algebra Challenging Problems for Students - F Zhang.pdf": {
+                      "type": "file"
+                    },
+                    "Matrix Analysis and Applied Linear Algebra - CD Meyer.pdf": {
+                      "type": "file"
+                    },
+                    "Matrix Theory Basic Results and Techniques - F Zhang.pdf": {
+                      "type": "file"
+                    },
+                    "Problems and Theorems in Linear Algebra.pdf": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Others": {
+                  "type": "folder",
+                  "children": {
+                    "Putnam and beyond (Andreescu, Titu and Gelca, Rǎzvan) (2017).pdf": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Real Analysis": {
+                  "type": "folder",
+                  "children": {
+                    "Introduction to Real Analysis - RG Bartle, DR Sherbert.pdf": {
+                      "type": "file"
+                    },
+                    "Problems in Mathematical Analysis I Real Number, Sequences, and Series - WJ Kaczor, MT Nowak.pdf": {
+                      "type": "file"
+                    },
+                    "Problems in Mathematical Analysis II Continuity and Differentiation - WJ Kaczor, MT Nowak.pdf": {
+                      "type": "file"
+                    },
+                    "Problems in Mathematical Analysis III Integration - WJ Kaczor, MT Nowak.pdf": {
+                      "type": "file"
+                    },
+                    "Problems in Real Analysis Advanced Calculus on The Real Axis - TLT Radulescu, VD Radulescu, T Andreescu.pdf": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "berkeley-problems-in-mathematics.pdf": {
+              "type": "file"
             }
           }
         },
@@ -5160,6 +5115,17 @@
             }
           }
         },
+        "Simulasi ONMIPA Nasional 2025 (UGM)": {
+          "type": "folder",
+          "children": {
+            "Simulasi ONMIPA Nasional 2025 (UGM).pdf": {
+              "type": "file"
+            },
+            "Simulasi ONMIPA Nasional 2025 (UGM).tex": {
+              "type": "file"
+            }
+          }
+        },
         "Simulation #2": {
           "type": "folder",
           "children": {
@@ -5181,83 +5147,6 @@
               "type": "file"
             }
           }
-        },
-        "Upgrading Latex": {
-          "type": "folder",
-          "children": {
-            "EAS METMAT 2023.pdf": {
-              "type": "file"
-            },
-            "FondasiAljabar.jpg": {
-              "type": "file"
-            },
-            "LatexEQ.png": {
-              "type": "file"
-            },
-            "LatexLogo.png": {
-              "type": "file"
-            },
-            "LatihanDisplay.pdf": {
-              "type": "file"
-            },
-            "LatihanTikz.pdf": {
-              "type": "file"
-            },
-            "LogoOMITS.png": {
-              "type": "file"
-            },
-            "MikTex.png": {
-              "type": "file"
-            },
-            "Overleaf.png": {
-              "type": "file"
-            },
-            "PPT_pak_fahim.png": {
-              "type": "file"
-            },
-            "Segitiga.pdf": {
-              "type": "file"
-            },
-            "Upgrading Latex.pdf": {
-              "type": "file"
-            },
-            "Upgrading Latex.tex": {
-              "type": "file"
-            },
-            "WordEQ.png": {
-              "type": "file"
-            },
-            "bgPPT.jpg": {
-              "type": "file"
-            },
-            "bgakhir.png": {
-              "type": "file"
-            },
-            "compile.png": {
-              "type": "file"
-            },
-            "contohDisplay.pdf": {
-              "type": "file"
-            },
-            "contohEnumerate.pdf": {
-              "type": "file"
-            },
-            "resultLatex.png": {
-              "type": "file"
-            },
-            "sourceLatex.png": {
-              "type": "file"
-            },
-            "texstudio.png": {
-              "type": "file"
-            },
-            "titleppt.png": {
-              "type": "file"
-            },
-            "vscode.png": {
-              "type": "file"
-            }
-          }
         }
       }
     },
@@ -5267,14 +5156,14 @@
       "stars": 0,
       "forks": 0,
       "languages": {
-        "JavaScript": 173840,
+        "JavaScript": 178078,
         "CSS": 1636,
         "HTML": 364
       },
       "html_url": "https://github.com/TetewHeroez/Gagas-Database",
       "homepage": "https://gagas-database.vercel.app",
       "topics": [],
-      "readmeContent": "# Gagas Database Management System\n\nA comprehensive document management system built with **Node.js**, **Express**, **MongoDB**, and **React**. This system provides secure document storage, user management, and role-based access control with advanced features like forgot password functionality.\n\n![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)\n![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)\n![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)\n![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)\n![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)\n\n## 🚀 Features\n\n### Core Features\n\n- **📄 Document Management**: Upload, view, edit, and delete documents\n- **👥 User Management**: Admin can manage users and their permissions\n- **🔐 Authentication & Authorization**: JWT-based authentication with role-based access\n- **🔍 Advanced Search**: Search documents by title, type, or content\n- **📊 Dashboard**: Comprehensive dashboard with statistics and recent activities\n- **🌙 Dark Mode**: Toggle between light and dark themes\n- **📱 Responsive Design**: Works seamlessly on desktop and mobile devices\n\n### Security Features\n\n- **🔒 Forgot Password**: Email-based password reset functionality\n- **🛡️ Token-based Authentication**: Secure JWT implementation\n- **👮 Role-based Access Control**: Admin and user roles with different permissions\n- **🔐 Password Hashing**: Secure password storage with bcrypt\n- **⏰ Session Management**: Automatic token expiration and refresh\n- **🔑 Database Admin Auto-Access**: Database Admin role has automatic access to all documents\n\n### Document Features\n\n- **☁️ Cloud Storage**: Integration with Cloudinary for file storage\n- **📎 Multiple File Types**: Support for various document formats\n- **🏷️ Document Categories**: Organize documents by type and division\n- **📋 Document Permissions**: Control who can view and edit documents\n- **📈 Document Analytics**: Track document views and downloads\n- **🚀 Auto-Permission System**: Database Admin automatically gets access to new document types\n\n## 🛠️ Tech Stack\n\n### Backend\n\n- **Node.js** - Runtime environment\n- **Express.js** - Web framework\n- **MongoDB** - NoSQL database\n- **Mongoose** - MongoDB object modeling\n- **JWT** - Authentication tokens\n- **Bcrypt** - Password hashing\n- **Nodemailer** - Email service\n- **Cloudinary** - Cloud storage for files\n- **Multer** - File upload handling\n\n### Frontend\n\n- **React** - Frontend library\n- **Vite** - Build tool and dev server\n- **React Router** - Client-side routing\n- **Tailwind CSS** - Utility-first CSS framework\n- **Lucide React** - Icon library\n- **Axios** - HTTP client\n\n## 📋 Prerequisites\n\nBefore running this application, make sure you have the following installed:\n\n- **Node.js** (v16 or higher)\n- **pnpm** (recommended) or npm\n- **MongoDB** (local installation or MongoDB Atlas account)\n- **Git**\n\n## ⚙️ Installation & Setup\n\n### 1. Clone the Repository\n\n```bash\ngit clone https://github.com/TetewHeroez/Gagas-Database.git\ncd Gagas-Database\n```\n\n### 2. Backend Setup\n\n```bash\ncd backend\npnpm install\n```\n\n### 3. Frontend Setup\n\n```bash\ncd ../frontend\npnpm install\n```\n\n### 4. Environment Configuration\n\nCreate a `.env` file in the `backend` directory:\n\n```env\n# Server Configuration\nPORT=5000\n\n# Database Configuration\nMONGO_URI=\"your-mongodb-connection-string\"\nJWT_SECRET=\"your-jwt-secret-key\"\n\n# Cloudinary Configuration (for file storage)\nCLOUDINARY_CLOUD_NAME=\"your-cloudinary-cloud-name\"\nCLOUDINARY_API_KEY=\"your-cloudinary-api-key\"\nCLOUDINARY_API_SECRET=\"your-cloudinary-api-secret\"\n\n# Default Admin Configuration\nADMIN_USERNAME=\"admin_super\"\nADMIN_EMAIL=\"admin@company.com\"\nADMIN_NAMA_LENGKAP=\"System Administrator\"\nADMIN_PASSWORD=\"SecureAdminPassword123!\"\nADMIN_DIVISI=\"IT Department\"\n\n# Email Configuration (for forgot password feature)\nEMAIL_USER=\"your-email@gmail.com\"\nEMAIL_PASS=\"your-app-password\"\n\n# Frontend URL\nFRONTEND_URL=\"http://localhost:5173\"\n```\n\n### 5. Database Setup\n\n#### Option A: MongoDB Atlas (Recommended)\n\n1. Create a free account at [MongoDB Atlas](https://cloud.mongodb.com/)\n2. Create a new cluster\n3. Get your connection string\n4. Add your IP address to the whitelist\n5. Update `MONGO_URI` in your `.env` file\n\n#### Option B: Local MongoDB\n\n1. Install MongoDB locally\n2. Start MongoDB service\n3. Use local connection string: `mongodb://localhost:27017/gagas-database`\n\n### 6. Cloudinary Setup\n\n1. Create a free account at [Cloudinary](https://cloudinary.com/)\n2. Get your cloud name, API key, and API secret from the dashboard\n3. Update the Cloudinary variables in your `.env` file\n\n### 7. Email Setup (Optional for Development)\n\n#### For Development (Default)\n\n- Leave email configuration as is\n- Emails will be logged to console instead of being sent\n\n#### For Production (Gmail)\n\n1. Enable 2-Factor Authentication on your Gmail account\n2. Generate an App Password:\n   - Go to Google Account Settings\n   - Security → 2-Step Verification → App passwords\n   - Select \"Mail\" and generate password\n3. Update `EMAIL_USER` and `EMAIL_PASS` in `.env`\n\n#### For Production (Other Providers)\n\n```env\n# For Outlook/Hotmail\nEMAIL_USER=\"your-email@outlook.com\"\nEMAIL_PASS=\"your-password\"\n\n# For Yahoo\nEMAIL_USER=\"your-email@yahoo.com\"\nEMAIL_PASS=\"your-password\"\n```\n\n## 🚀 Running the Application\n\n### Development Mode\n\n1. **Start Backend Server**:\n\n```bash\ncd backend\npnpm run dev\n```\n\nThe backend will run on `http://localhost:5000`\n\n2. **Start Frontend Development Server**:\n\n```bash\ncd frontend\npnpm run dev\n```\n\nThe frontend will run on `http://localhost:5173` (or next available port)\n\n### Production Mode\n\n1. **Build Frontend**:\n\n```bash\ncd frontend\npnpm run build\n```\n\n2. **Start Backend**:\n\n```bash\ncd backend\npnpm start\n```\n\n## 📁 Project Structure\n\n```\nGagas-Database/\n├── backend/\n│   ├── src/\n│   │   ├── config/\n│   │   │   └── db.js                 # Database connection\n│   │   ├── controllers/\n│   │   │   ├── authController.js     # Authentication logic\n│   │   │   ├── documentController.js # Document CRUD operations\n│   │   │   ├── userController.js     # User management\n│   │   │   └── ...\n│   │   ├── middleware/\n│   │   │   ├── authMiddleware.js     # JWT verification\n│   │   │   └── uploadMiddleware.js   # File upload handling\n│   │   ├── models/\n│   │   │   ├── User.js               # User schema\n│   │   │   ├── Document.js           # Document schema\n│   │   │   └── Permission.js         # Permission schema\n│   │   ├── routes/\n│   │   │   ├── authRoutes.js         # Authentication routes\n│   │   │   ├── documentRoutes.js     # Document routes\n│   │   │   └── ...\n│   │   └── utils/\n│   │       ├── generateToken.js      # JWT utilities\n│   │       ├── emailService.js       # Email functionality\n│   │       └── seeder.js             # Database seeding\n│   ├── server.js                     # Main server file\n│   ├── package.json\n│   └── .env\n│\n├── frontend/\n│   ├── src/\n│   │   ├── components/               # Reusable components\n│   │   ├── pages/                    # Main pages\n│   │   ├── layouts/                  # Layout components\n│   │   ├── hooks/                    # Custom React hooks\n│   │   ├── context/                  # React context providers\n│   │   ├── api/                      # API utilities\n│   │   └── assets/                   # Static assets\n│   ├── public/\n│   ├── index.html\n│   ├── package.json\n│   └── vite.config.js\n│\n└── README.md\n```\n\n## 🔑 Default Admin Account\n\nAfter seeding the database, you can login with:\n\n- **Username**: `admin_super`\n- **Email**: `admin@company.com` (or as configured in .env)\n- **Password**: `SecureAdminPassword123!` (or as configured in .env)\n- **Division**: `Database Admin` (automatically gets access to all documents)\n\n## 📚 API Documentation\n\n### Authentication Endpoints\n\n| Method | Endpoint                          | Description               |\n| ------ | --------------------------------- | ------------------------- |\n| POST   | `/api/auth/login`                 | User login                |\n| POST   | `/api/auth/forgot-password`       | Request password reset    |\n| POST   | `/api/auth/reset-password/:token` | Reset password with token |\n\n### User Management Endpoints\n\n| Method | Endpoint             | Description                  |\n| ------ | -------------------- | ---------------------------- |\n| GET    | `/api/users`         | Get all users (Admin only)   |\n| GET    | `/api/users/profile` | Get current user profile     |\n| POST   | `/api/users`         | Create new user (Admin only) |\n| PUT    | `/api/users/:id`     | Update user (Admin only)     |\n| DELETE | `/api/users/:id`     | Delete user (Admin only)     |\n\n### Document Management Endpoints\n\n| Method | Endpoint             | Description         |\n| ------ | -------------------- | ------------------- |\n| GET    | `/api/documents`     | Get all documents   |\n| GET    | `/api/documents/:id` | Get document by ID  |\n| POST   | `/api/documents`     | Create new document |\n| PUT    | `/api/documents/:id` | Update document     |\n| DELETE | `/api/documents/:id` | Delete document     |\n\n### Dashboard Endpoints\n\n| Method | Endpoint                          | Description              |\n| ------ | --------------------------------- | ------------------------ |\n| GET    | `/api/dashboard/stats`            | Get dashboard statistics |\n| GET    | `/api/dashboard/recent-documents` | Get recent documents     |\n\n## 🔐 Forgot Password Feature\n\n### How it Works\n\n1. **Request Reset**: User enters email on forgot password page\n2. **Email Sent**: System generates secure token and sends email\n3. **Reset Password**: User clicks link in email and enters new password\n4. **Token Validation**: System validates token and updates password\n\n### Email Configuration Modes\n\n#### Development Mode\n\n- Emails are logged to backend console\n- Reset URLs are displayed in console for testing\n- No actual email sending required\n\n#### Production Mode\n\n- Emails are sent to user's inbox\n- Requires valid email service configuration\n- Supports Gmail, Outlook, Yahoo, and custom SMTP\n\n### Security Features\n\n- Tokens expire after 1 hour\n- Tokens are cryptographically hashed\n- Email validation before sending\n- Account status verification\n- Password strength validation\n\n## 🎨 Features Overview\n\n### User Roles\n\n#### Admin\n\n- Full access to all features\n- User management (create, edit, delete users)\n- Document management for all documents\n- Permission management\n- Dashboard with full statistics\n\n#### Regular User\n\n- View and manage assigned documents\n- Profile management\n- Limited dashboard access\n- Document search and filtering\n\n#### Database Admin (Special Role)\n\n- **Automatic access** to all document types (existing and future)\n- **Cannot be modified** in permission management\n- **Hidden from permission settings** to prevent accidental changes\n- **Future-proof access** - automatically gets access to new document types\n- All admin privileges plus unrestricted document access\n\n### Document Types\n\n- Surat Masuk (Incoming Letters)\n- Surat Keluar (Outgoing Letters)\n- Memo Internal (Internal Memos)\n- Laporan (Reports)\n- Kontrak (Contracts)\n- Invoice\n- SOP (Standard Operating Procedures)\n- Lainnya (Others)\n\n### Divisions\n\n- Direktur (Director)\n- Manager\n- Supervisor\n- Staff\n- Admin\n- IT\n- HR\n- Finance\n- Marketing\n- Operations\n\n## 🎯 Permission System\n\n### How Permissions Work\n\n- **Regular Users**: Access controlled by permission settings in admin panel\n- **Admin Users**: Can access all documents and manage permissions\n- **Database Admin**: Special role with automatic access to all documents\n\n### Database Admin Features\n\n- **Automatic Permission**: Gets access to all document types without manual configuration\n- **Future-Proof**: Automatically receives access to newly added document types\n- **Protected Settings**: Cannot be modified in permission management interface\n- **Hidden from UI**: Does not appear in permission management to prevent confusion\n\n### Permission Management\n\n- Admins can set document type permissions for each division\n- Permissions are granted per division (not per individual user)\n- Database Admin division is automatically excluded from permission management\n- Real-time permission updates across the system\n\n## 🛡️ Security Best Practices\n\n- **Environment Variables**: All sensitive data stored in environment variables\n- **Password Hashing**: Passwords hashed using bcrypt with salt\n- **JWT Tokens**: Secure token-based authentication\n- **Input Validation**: Server-side validation for all inputs\n- **File Upload Security**: Secure file handling with Cloudinary\n- **CORS Protection**: Configured CORS for frontend-backend communication\n- **Rate Limiting**: Consider implementing rate limiting for production\n\n## 🚀 Deployment\n\n### Frontend Deployment (Vercel/Netlify)\n\n1. Build the frontend:\n\n```bash\ncd frontend\npnpm run build\n```\n\n2. Deploy the `dist` folder to your hosting service\n\n### Backend Deployment (Railway/Heroku/DigitalOcean)\n\n1. Ensure all environment variables are set\n2. Update `FRONTEND_URL` to your deployed frontend URL\n3. Deploy the backend folder to your hosting service\n\n### Environment Variables for Production\n\nMake sure to set all required environment variables in your production environment:\n\n- `MONGO_URI`\n- `JWT_SECRET`\n- `CLOUDINARY_CLOUD_NAME`\n- `CLOUDINARY_API_KEY`\n- `CLOUDINARY_API_SECRET`\n- `EMAIL_USER`\n- `EMAIL_PASS`\n- `FRONTEND_URL`\n\n## 🤝 Contributing\n\n1. Fork the repository\n2. Create your feature branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## 📝 License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## 👥 Authors\n\n- **TetewHeroez** - _Initial work_ - [TetewHeroez](https://github.com/TetewHeroez)\n\n## 🙏 Acknowledgments\n\n- Thanks to all contributors who helped with this project\n- Inspiration from modern document management systems\n- Built with love using open-source technologies\n\n## 📞 Support\n\nIf you have any questions or need help with setup, please:\n\n1. Check the documentation above\n2. Search existing issues on GitHub\n3. Create a new issue if your problem isn't covered\n\n---\n\n**Happy coding!** 🎉\n",
+      "readmeContent": "# Gagas Database Management System\n\n<!-- PORTFOLIO-START: detailedDescription -->\n\nA comprehensive document management system built with **Node.js**, **Express**, **MongoDB**, and **React**. This system provides secure document storage, user management, and role-based access control with advanced features like forgot password functionality.\n\n<!-- PORTFOLIO-END: detailedDescription -->\n\n![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)\n![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)\n![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)\n![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)\n![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)\n\n## 🚀 Features\n\n### Core Features\n\n<!-- PORTFOLIO-START: features -->\n\n- **📄 Document Management**: Upload, view, edit, and delete documents\n- **👥 User Management**: Admin can manage users and their permissions\n- **🔐 Authentication & Authorization**: JWT-based authentication with role-based access\n- **🔍 Advanced Search**: Search documents by title, type, or content <!-- PORTFOLIO-END: features -->\n- **📊 Dashboard**: Comprehensive dashboard with statistics and recent activities\n- **🌙 Dark Mode**: Toggle between light and dark themes\n- **📱 Responsive Design**: Works seamlessly on desktop and mobile devices\n\n### Security Features\n\n<!-- PORTFOLIO-START: features -->\n\n- **🔒 Forgot Password**: Email-based password reset functionality <!-- PORTFOLIO-END: features -->\n- **🛡️ Token-based Authentication**: Secure JWT implementation\n- **👮 Role-based Access Control**: Admin and user roles with different permissions\n- **🔐 Password Hashing**: Secure password storage with bcrypt\n- **⏰ Session Management**: Automatic token expiration and refresh\n- **🔑 Database Admin Auto-Access**: Database Admin role has automatic access to all documents\n\n### Document Features\n\n<!-- PORTFOLIO-START: features -->\n\n- **☁️ Cloud Storage**: Integration with Cloudinary for file storage\n- **📎 Multiple File Types**: Support for various document formats\n- **🏷️ Document Categories**: Organize documents by type and division <!-- PORTFOLIO-END: features -->\n- **📋 Document Permissions**: Control who can view and edit documents\n- **📈 Document Analytics**: Track document views and downloads\n- **🚀 Auto-Permission System**: Database Admin automatically gets access to new document types\n\n## 🛠️ Tech Stack\n\n### Backend\n\n- **Node.js** - Runtime environment\n- **Express.js** - Web framework\n- **MongoDB** - NoSQL database\n- **Mongoose** - MongoDB object modeling\n- **JWT** - Authentication tokens\n- **Bcrypt** - Password hashing\n- **Nodemailer** - Email service\n- **Cloudinary** - Cloud storage for files\n- **Multer** - File upload handling\n\n### Frontend\n\n- **React** - Frontend library\n- **Vite** - Build tool and dev server\n- **React Router** - Client-side routing\n- **Tailwind CSS** - Utility-first CSS framework\n- **Lucide React** - Icon library\n- **Axios** - HTTP client\n\n## 📋 Prerequisites\n\nBefore running this application, make sure you have the following installed:\n\n- **Node.js** (v16 or higher)\n- **pnpm** (recommended) or npm\n- **MongoDB** (local installation or MongoDB Atlas account)\n- **Git**\n\n## ⚙️ Installation & Setup\n\n### 1. Clone the Repository\n\n```bash\ngit clone https://github.com/TetewHeroez/Gagas-Database.git\ncd Gagas-Database\n```\n\n### 2. Backend Setup\n\n```bash\ncd backend\npnpm install\n```\n\n### 3. Frontend Setup\n\n```bash\ncd ../frontend\npnpm install\n```\n\n### 4. Environment Configuration\n\nCreate a `.env` file in the `backend` directory:\n\n```env\n# Server Configuration\nPORT=5000\n\n# Database Configuration\nMONGO_URI=\"your-mongodb-connection-string\"\nJWT_SECRET=\"your-jwt-secret-key\"\n\n# Cloudinary Configuration (for file storage)\nCLOUDINARY_CLOUD_NAME=\"your-cloudinary-cloud-name\"\nCLOUDINARY_API_KEY=\"your-cloudinary-api-key\"\nCLOUDINARY_API_SECRET=\"your-cloudinary-api-secret\"\n\n# Default Admin Configuration\nADMIN_USERNAME=\"admin_super\"\nADMIN_EMAIL=\"admin@company.com\"\nADMIN_NAMA_LENGKAP=\"System Administrator\"\nADMIN_PASSWORD=\"SecureAdminPassword123!\"\nADMIN_DIVISI=\"IT Department\"\n\n# Email Configuration (for forgot password feature)\nEMAIL_USER=\"your-email@gmail.com\"\nEMAIL_PASS=\"your-app-password\"\n\n# Frontend URL\nFRONTEND_URL=\"http://localhost:5173\"\n```\n\n### 5. Database Setup\n\n#### Option A: MongoDB Atlas (Recommended)\n\n1. Create a free account at [MongoDB Atlas](https://cloud.mongodb.com/)\n2. Create a new cluster\n3. Get your connection string\n4. Add your IP address to the whitelist\n5. Update `MONGO_URI` in your `.env` file\n\n#### Option B: Local MongoDB\n\n1. Install MongoDB locally\n2. Start MongoDB service\n3. Use local connection string: `mongodb://localhost:27017/gagas-database`\n\n### 6. Cloudinary Setup\n\n1. Create a free account at [Cloudinary](https://cloudinary.com/)\n2. Get your cloud name, API key, and API secret from the dashboard\n3. Update the Cloudinary variables in your `.env` file\n\n### 7. Email Setup (Optional for Development)\n\n#### For Development (Default)\n\n- Leave email configuration as is\n- Emails will be logged to console instead of being sent\n\n#### For Production (Gmail)\n\n1. Enable 2-Factor Authentication on your Gmail account\n2. Generate an App Password:\n   - Go to Google Account Settings\n   - Security → 2-Step Verification → App passwords\n   - Select \"Mail\" and generate password\n3. Update `EMAIL_USER` and `EMAIL_PASS` in `.env`\n\n#### For Production (Other Providers)\n\n```env\n# For Outlook/Hotmail\nEMAIL_USER=\"your-email@outlook.com\"\nEMAIL_PASS=\"your-password\"\n\n# For Yahoo\nEMAIL_USER=\"your-email@yahoo.com\"\nEMAIL_PASS=\"your-password\"\n```\n\n## 🚀 Running the Application\n\n### Development Mode\n\n1. **Start Backend Server**:\n\n```bash\ncd backend\npnpm run dev\n```\n\nThe backend will run on `http://localhost:5000`\n\n2. **Start Frontend Development Server**:\n\n```bash\ncd frontend\npnpm run dev\n```\n\nThe frontend will run on `http://localhost:5173` (or next available port)\n\n### Production Mode\n\n1. **Build Frontend**:\n\n```bash\ncd frontend\npnpm run build\n```\n\n2. **Start Backend**:\n\n```bash\ncd backend\npnpm start\n```\n\n## 📁 Project Structure\n\n```\nGagas-Database/\n├── backend/\n│   ├── src/\n│   │   ├── config/\n│   │   │   └── db.js                 # Database connection\n│   │   ├── controllers/\n│   │   │   ├── authController.js     # Authentication logic\n│   │   │   ├── documentController.js # Document CRUD operations\n│   │   │   ├── userController.js     # User management\n│   │   │   └── ...\n│   │   ├── middleware/\n│   │   │   ├── authMiddleware.js     # JWT verification\n│   │   │   └── uploadMiddleware.js   # File upload handling\n│   │   ├── models/\n│   │   │   ├── User.js               # User schema\n│   │   │   ├── Document.js           # Document schema\n│   │   │   └── Permission.js         # Permission schema\n│   │   ├── routes/\n│   │   │   ├── authRoutes.js         # Authentication routes\n│   │   │   ├── documentRoutes.js     # Document routes\n│   │   │   └── ...\n│   │   └── utils/\n│   │       ├── generateToken.js      # JWT utilities\n│   │       ├── emailService.js       # Email functionality\n│   │       └── seeder.js             # Database seeding\n│   ├── server.js                     # Main server file\n│   ├── package.json\n│   └── .env\n│\n├── frontend/\n│   ├── src/\n│   │   ├── components/               # Reusable components\n│   │   ├── pages/                    # Main pages\n│   │   ├── layouts/                  # Layout components\n│   │   ├── hooks/                    # Custom React hooks\n│   │   ├── context/                  # React context providers\n│   │   ├── api/                      # API utilities\n│   │   └── assets/                   # Static assets\n│   ├── public/\n│   ├── index.html\n│   ├── package.json\n│   └── vite.config.js\n│\n└── README.md\n```\n\n## 🔑 Default Admin Account\n\nAfter seeding the database, you can login with:\n\n- **Username**: `admin_super`\n- **Email**: `admin@company.com` (or as configured in .env)\n- **Password**: `SecureAdminPassword123!` (or as configured in .env)\n- **Division**: `Database Admin` (automatically gets access to all documents)\n\n## 📚 API Documentation\n\n### Authentication Endpoints\n\n| Method | Endpoint                          | Description               |\n| ------ | --------------------------------- | ------------------------- |\n| POST   | `/api/auth/login`                 | User login                |\n| POST   | `/api/auth/forgot-password`       | Request password reset    |\n| POST   | `/api/auth/reset-password/:token` | Reset password with token |\n\n### User Management Endpoints\n\n| Method | Endpoint             | Description                  |\n| ------ | -------------------- | ---------------------------- |\n| GET    | `/api/users`         | Get all users (Admin only)   |\n| GET    | `/api/users/profile` | Get current user profile     |\n| POST   | `/api/users`         | Create new user (Admin only) |\n| PUT    | `/api/users/:id`     | Update user (Admin only)     |\n| DELETE | `/api/users/:id`     | Delete user (Admin only)     |\n\n### Document Management Endpoints\n\n| Method | Endpoint             | Description         |\n| ------ | -------------------- | ------------------- |\n| GET    | `/api/documents`     | Get all documents   |\n| GET    | `/api/documents/:id` | Get document by ID  |\n| POST   | `/api/documents`     | Create new document |\n| PUT    | `/api/documents/:id` | Update document     |\n| DELETE | `/api/documents/:id` | Delete document     |\n\n### Dashboard Endpoints\n\n| Method | Endpoint                          | Description              |\n| ------ | --------------------------------- | ------------------------ |\n| GET    | `/api/dashboard/stats`            | Get dashboard statistics |\n| GET    | `/api/dashboard/recent-documents` | Get recent documents     |\n\n## 🔐 Forgot Password Feature\n\n### How it Works\n\n1. **Request Reset**: User enters email on forgot password page\n2. **Email Sent**: System generates secure token and sends email\n3. **Reset Password**: User clicks link in email and enters new password\n4. **Token Validation**: System validates token and updates password\n\n### Email Configuration Modes\n\n#### Development Mode\n\n- Emails are logged to backend console\n- Reset URLs are displayed in console for testing\n- No actual email sending required\n\n#### Production Mode\n\n- Emails are sent to user's inbox\n- Requires valid email service configuration\n- Supports Gmail, Outlook, Yahoo, and custom SMTP\n\n### Security Features\n\n- Tokens expire after 1 hour\n- Tokens are cryptographically hashed\n- Email validation before sending\n- Account status verification\n- Password strength validation\n\n## 🎨 Features Overview\n\n### User Roles\n\n#### Admin\n\n- Full access to all features\n- User management (create, edit, delete users)\n- Document management for all documents\n- Permission management\n- Dashboard with full statistics\n\n#### Regular User\n\n- View and manage assigned documents\n- Profile management\n- Limited dashboard access\n- Document search and filtering\n\n#### Database Admin (Special Role)\n\n- **Automatic access** to all document types (existing and future)\n- **Cannot be modified** in permission management\n- **Hidden from permission settings** to prevent accidental changes\n- **Future-proof access** - automatically gets access to new document types\n- All admin privileges plus unrestricted document access\n\n### Document Types\n\n- Surat Masuk (Incoming Letters)\n- Surat Keluar (Outgoing Letters)\n- Memo Internal (Internal Memos)\n- Laporan (Reports)\n- Kontrak (Contracts)\n- Invoice\n- SOP (Standard Operating Procedures)\n- Lainnya (Others)\n\n### Divisions\n\n- Direktur (Director)\n- Manager\n- Supervisor\n- Staff\n- Admin\n- IT\n- HR\n- Finance\n- Marketing\n- Operations\n\n## 🎯 Permission System\n\n### How Permissions Work\n\n- **Regular Users**: Access controlled by permission settings in admin panel\n- **Admin Users**: Can access all documents and manage permissions\n- **Database Admin**: Special role with automatic access to all documents\n\n### Database Admin Features\n\n- **Automatic Permission**: Gets access to all document types without manual configuration\n- **Future-Proof**: Automatically receives access to newly added document types\n- **Protected Settings**: Cannot be modified in permission management interface\n- **Hidden from UI**: Does not appear in permission management to prevent confusion\n\n### Permission Management\n\n- Admins can set document type permissions for each division\n- Permissions are granted per division (not per individual user)\n- Database Admin division is automatically excluded from permission management\n- Real-time permission updates across the system\n\n## 🛡️ Security Best Practices\n\n- **Environment Variables**: All sensitive data stored in environment variables\n- **Password Hashing**: Passwords hashed using bcrypt with salt\n- **JWT Tokens**: Secure token-based authentication\n- **Input Validation**: Server-side validation for all inputs\n- **File Upload Security**: Secure file handling with Cloudinary\n- **CORS Protection**: Configured CORS for frontend-backend communication\n- **Rate Limiting**: Consider implementing rate limiting for production\n\n## 🚀 Deployment\n\n### Frontend Deployment (Vercel/Netlify)\n\n1. Build the frontend:\n\n```bash\ncd frontend\npnpm run build\n```\n\n2. Deploy the `dist` folder to your hosting service\n\n### Backend Deployment (Railway/Heroku/DigitalOcean)\n\n1. Ensure all environment variables are set\n2. Update `FRONTEND_URL` to your deployed frontend URL\n3. Deploy the backend folder to your hosting service\n\n### Environment Variables for Production\n\nMake sure to set all required environment variables in your production environment:\n\n- `MONGO_URI`\n- `JWT_SECRET`\n- `CLOUDINARY_CLOUD_NAME`\n- `CLOUDINARY_API_KEY`\n- `CLOUDINARY_API_SECRET`\n- `EMAIL_USER`\n- `EMAIL_PASS`\n- `FRONTEND_URL`\n\n## 🤝 Contributing\n\n1. Fork the repository\n2. Create your feature branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## 📝 License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## 👥 Authors\n\n- **TetewHeroez** - _Initial work_ - [TetewHeroez](https://github.com/TetewHeroez)\n",
       "tree": {
         ".gitignore": {
           "type": "file"
@@ -5399,9 +5288,6 @@
         "frontend": {
           "type": "folder",
           "children": {
-            ".gitignore": {
-              "type": "file"
-            },
             "README.md": {
               "type": "file"
             },
@@ -5597,6 +5483,735 @@
               "type": "file"
             }
           }
+        }
+      }
+    },
+    {
+      "name": "my-himatika",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "languages": {
+        "Blade": 454646,
+        "PHP": 186738,
+        "JavaScript": 4315,
+        "CSS": 3415,
+        "Batchfile": 1496
+      },
+      "html_url": "https://github.com/TetewHeroez/my-himatika",
+      "homepage": "https://myhimatika.vercel.app",
+      "topics": [],
+      "readmeContent": "# MyHIMATIKA - Padamu HIMATIKA ITS\n\n**HIMATIKA ITS** stands for _Himpunan Mahasiswa Matematika ITS_ (Mathematics Student Association, Institut Teknologi Sepuluh Nopember, Indonesia). This is a comprehensive information management system for Cadreritation/Regeneration of HIMATIKA ITS, providing full-featured tools to manage member data, attendance, assignments, and scoring.\n\n[![Laravel](https://img.shields.io/badge/Laravel-11.x-red.svg)](https://laravel.com)\n[![PHP](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38bdf8.svg)](https://tailwindcss.com)\n[![Cloudinary](https://img.shields.io/badge/Cloudinary-Enabled-3448c5.svg)](https://cloudinary.com)\n\n---\n\n## 📋 Table of Contents\n\n-   [Key Features](#key-features)\n-   [Tech Stack](#tech-stack)\n-   [Installation](#installation)\n-   [Configuration](#configuration)\n-   [Cloudinary Upload (Photo/PDF)](#cloudinary-upload-photopdf)\n-   [Troubleshooting](#troubleshooting)\n-   [Deployment](#deployment)\n-   [Contributing](#contributing)\n\n---\n\n## 🚀 Key Features\n\n### 📊 Dashboard & Analytics\n\n-   Interactive dashboard with real-time statistics\n-   Visual charts for attendance, assignments, and member performance\n-   Full dark mode support\n\n### 👥 User Management\n\n-   **Member**: Complete profile (personal data, address, parents, health)\n-   **Admin**: Member data management, Excel import\n-   **Superadmin**: Full system control\n\n### 📸 Cloudinary Upload\n\n-   ✅ Profile photo upload to Cloudinary CDN\n-   ✅ Real-time validation (size, format)\n-   ✅ Status indicators (loading, success, failure)\n-   ✅ Auto-resize & optimization (500x500, auto-quality, WebP/AVIF)\n-   ✅ Auto-delete old photos\n-   📄 Ready to extend for PDF uploads (report cards, transcripts, etc.)\n\n### 📅 Attendance Management\n\n-   Check-in/check-out system\n-   Attendance history per member\n-   Export attendance reports\n\n### 📝 Assignment & Submission\n\n-   Assignment management with weighted scores\n-   Submission upload with deadlines\n-   Automatic scoring system\n\n### 🎯 GDK (Cadreritation Grand Design)\n\n-   Contract system\n-   Flowchart of Methods\n-   Visual hierarchy for task prioritization\n-   Progress tracking\n\n---\n\n## 🛠️ Tech Stack\n\n| Category            | Technology                                  |\n| ------------------- | ------------------------------------------- |\n| **Backend**         | Laravel 11.x (PHP 8.2+)                     |\n| **Frontend**        | Blade Templates, Tailwind CSS v4, Alpine.js |\n| **Database**        | MySQL (Aiven Cloud, PlanetScale, Railway)   |\n| **Storage**         | Cloudinary CDN                              |\n| **Icons**           | Feather Icons                               |\n| **Package Manager** | Composer, npm                               |\n| **Dev Tools**       | Laravel Tinker, Vite                        |\n\n### Main Dependencies\n\n````json\n{\n    \"laravel/framework\": \"^11.0\",\n    \"maatwebsite/excel\": \"^3.1\",\n    \"cloudinary-labs/cloudinary-laravel\": \"^2.0\"\n}\n````\n\n## 📦 Installation\n\n### Requirements\n\n- PHP >= 8.2\n- Composer\n- Node.js & npm\n- MySQL\n- Cloudinary Account (Free tier)\n\n### Step-by-Step\n\n1. **Clone the Repository**\n\n```bash\ngit clone https://github.com/TetewHeroez/ETS-web.git\ncd ETS-web\n```\n\n2. **Install Dependencies**\n\n```bash\ncomposer install\nnpm install\n```\n\n3. **Setup Environment**\n\n```bash\ncp .env.example .env\nphp artisan key:generate\n```\n\n4. **Configure Database & Cloudinary** (edit `.env`)\n\n```env\n# Database (Aiven Cloud, PlanetScale, Railway, or Local)\nDB_CONNECTION=mysql\nDB_HOST=your-host.aivencloud.com\nDB_PORT=13530\nDB_DATABASE=defaultdb\nDB_USERNAME=your-username\nDB_PASSWORD=your-password\n\n# Cloudinary Configuration\nCLOUDINARY_CLOUD_NAME=your-cloud-name\nCLOUDINARY_API_KEY=your-api-key\nCLOUDINARY_API_SECRET=your-api-secret\nCLOUDINARY_URL=cloudinary://api_key:api_secret@cloud_name\n```\n\n5. **Run Migrations & Seeders**\n\n```bash\nphp artisan migrate --seed\n```\n\n6. **Build Frontend Assets**\n\n```bash\nnpm run build\n# For development:\nMember:\n```\n\n7. **Start the Server**\n\n```bash\nphp artisan serve\n```\n\n8. **Access the Application**\n\n```\nhttp://localhost:8000\n```\n\n### Default Login Credentials\n\n```\nSuperadmin:\n- Email: superadmin@himatika.its.ac.id\n- Password: superadmin123\n\nAdmin:\n- Email: admin@himatika.its.ac.id\n- Password: admin123\n\nMember:\n- Email: member@himatika.its.ac.id\n- Password: member123\n```\n\n---\n\n\n## ⚙️ Configuration\n\n### Cloudinary Setup\n\n1. **Create a Cloudinary Account** (Free Tier)\n    - Register: https://cloudinary.com/users/register_free\n    - Dashboard: https://cloudinary.com/console\n2. **Get Your Credentials**\n    - Cloud Name: Shown in dashboard\n    - API Key: Settings → Security → API Keys\n    - API Secret: Settings → Security → API Keys\n3. **Add to `.env`**\n\n```env\nCLOUDINARY_CLOUD_NAME=your-cloud-name\nCLOUDINARY_API_KEY=your-api-key\nCLOUDINARY_API_SECRET=your-api-secret\nCLOUDINARY_URL=cloudinary://api_key:api_secret@cloud_name\n````\n\n4. **Clear Config Cache**\n\n```bash\nphp artisan config:clear\n```\n\n5. **Test Connection**\n\n```\nhttp://localhost:8000/test-cloudinary.php\n```\n\n### Database Configuration\n\n#### Aiven Cloud (Production)\n\n```env\nDB_CONNECTION=mysql\nDB_HOST=padamu-himatika-2024-tetewheroez.i.aivencloud.com\nDB_PORT=13530\nDB_DATABASE=defaultdb\nDB_USERNAME=avnadmin\nDB_PASSWORD=your-password\n```\n\n#### Local Development\n\n```env\nDB_CONNECTION=mysql\nDB_HOST=127.0.0.1\nDB_PORT=3306\nDB_DATABASE=myhimatika_db\nDB_USERNAME=root\nDB_PASSWORD=\n```\n\n---\n\n## 📤 Cloudinary Upload (Photo/PDF)\n\n### Implemented Upload Features\n\n#### ✅ Real-time Status Indicators\n\n**1. File Validation (On File Selection)**\n\n```\n✅ Ready to upload: profile.jpg (256 KB) - Click \"Save Changes\" to upload to Cloudinary\n❌ Failed: File too large (3.5MB). Maximum 2MB.\n❌ Failed: Invalid file format. Only JPG, PNG, or GIF allowed.\n```\n\n**2. Upload Status (On Submit)**\n\n```\n⏳ Uploading to Cloudinary... Please wait, do not close this page.\n[Button: 🔄 Uploading to Cloudinary...] (disabled)\n```\n\n**3. Upload Result**\n\n-   **Success**: Redirects to profile page with new photo\n-   **Failure**: Detailed error message with alert icon:\n    ```\n    ⚠️ Failed to upload photo to Cloudinary: Connection timeout\n    ⚠️ Failed to upload photo to Cloudinary: Cloudinary configuration not found\n    ⚠️ Failed to upload photo to Cloudinary: Invalid credentials\n    ```\n\n### How to Test Upload\n\n#### 1. Test Configuration\n\n```\nhttp://localhost:8000/test-cloudinary.php\n```\n\n**Expected Output:**\n\n-   ✅ Cloudinary Config OK!\n-   ✅ Successfully connected to Cloudinary API!\n\n#### 2. Test Upload in Edit Profile\n\n**Step 1: Select File**\n\n-   Open: http://localhost:8000/profile/edit\n-   Click \"Choose File\" in the Profile Photo form\n-   Select a photo (max 2MB, JPG/PNG/GIF)\n\n**Step 2: View Validation**\n\n-   ✅ Valid file → Green status: \"✅ Ready to upload...\"\n-   ❌ Invalid file → Red status: \"❌ Failed: ...\" + input auto-cleared\n\n**Step 3: Submit Form**\n\n-   Click \"Save Changes\"\n-   Button changes: Disabled + Spinner + \"Uploading to Cloudinary...\"\n-   Status text: \"⏳ Uploading to Cloudinary...\"\n\n**Step 4: Check Result**\n\n-   **Success**: Redirects to `/profile` with new photo\n-   **Failure**: Remains on page with error message\n\n#### 3. Check Logs (If Failed)\n\n**Windows PowerShell:**\n\n```powershell\nGet-Content \"storage/logs/laravel.log\" -Tail 50\n```\n\n**Linux/Mac:**\n\n```bash\ntail -f storage/logs/laravel.log\n```\n\n**Look for keywords:**\n\n-   `Cloudinary config loaded` → Config loaded successfully\n-   `Profile photo upload started` → Info about uploaded file\n-   `Profile photo uploaded successfully` → Cloudinary URL\n-   `Failed to upload profile photo` → Error details + stack trace\n\n### Involved Files\n\n```\nresources/views/profile/edit.blade.php\n├── Input file with ID: profile_photo_member / profile_photo_admin\n├── Status element: <p id=\"file-info-member\">\n└── Error display: @error('profile_photo')\n\npublic/js/profile-upload.js\n├── validateAndPreviewFile() → Size & format validation\n└── Form submit handler → Loading state\n\napp/Http/Controllers/ProfileController.php\n├── Validation: 'profile_photo' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'\n├── Upload to Cloudinary with transformation\n├── Auto-delete old photo\n└── Enhanced logging & error handling\n\npublic/test-cloudinary.php\n└── Test page to verify config & connection\n```\n\n---\n\n## 🐛 Troubleshooting\n\n### ❌ \"Gagal upload foto ke Cloudinary: Trying to access array offset on null\"\n\n**Penyebab**: Cloudinary config tidak dimuat atau response invalid\n\n**Solusi**:\n\n```bash\n# 1. Cek .env\ncat .env | grep CLOUDINARY\n\n# 2. Clear cache\nphp artisan config:clear\nphp artisan cache:clear\n\n# 3. Restart server\nphp artisan serve\n\n# 4. Test config\nphp artisan tinker\n>>> config('cloudinary.cloud_name')\n=> \"dg71hpqya\"\n```\n\n**Jika masih null, pastikan `.env` ada:**\n\n```env\nCLOUDINARY_CLOUD_NAME=dg71hpqya\nCLOUDINARY_API_KEY=943565982761512\nCLOUDINARY_API_SECRET=6-rASrAKEmaqPXa52wWwnn_IPNQ\n```\n\n### ❌ \"Failed to upload photo to Cloudinary: Connection timeout\"\n\n**Cause**: Slow internet connection or Cloudinary is down\n\n**Solution**:\n\n1. Check your internet connection\n2. Test ping: `ping api.cloudinary.com`\n3. Try uploading a smaller file\n\n````\n\n'rapor_pdf' => 'nullable|mimes:pdf|max:5120', // 5MB\n\n## 🚀 Deployment\n\n### Pre-Deployment Checklist\n\n```bash\n# 1. Update .env for production\nAPP_ENV=production\nAPP_DEBUG=false\nAPP_URL=https://your-domain.com\n\n# 2. Clear & cache config\nphp artisan config:clear\nphp artisan config:cache\nphp artisan route:cache\nphp artisan view:cache\n\n# 3. Optimize autoloader\ncomposer install --optimize-autoloader --no-dev\n\n# 4. Build assets\nnpm run build\n\n# 5. Set permissions (Linux)\nchmod -R 755 storage\nchmod -R 755 bootstrap/cache\n\n# 6. Test upload\n# Open: https://your-domain.com/test-cloudinary.php\n````\n\n### Environment Variables (Production)\n\n```env\nAPP_NAME=\"MyHIMATIKA\"\nAPP_ENV=production\nAPP_DEBUG=false\nAPP_URL=https://myhimatika.himatika.its.ac.id\n\nDB_CONNECTION=mysql\nDB_HOST=your-prod-host.aivencloud.com\nDB_PORT=13530\nDB_DATABASE=myhimatika_production\nDB_USERNAME=your-prod-user\nDB_PASSWORD=your-prod-password\n\nCLOUDINARY_CLOUD_NAME=your-cloud-name\nCLOUDINARY_API_KEY=your-api-key\nCLOUDINARY_API_SECRET=your-api-secret\nCLOUDINARY_URL=cloudinary://api_key:api_secret@cloud_name\n\nSESSION_DRIVER=database\nQUEUE_CONNECTION=database\n\nMAIL_MAILER=smtp\nMAIL_HOST=smtp.gmail.com\nMAIL_PORT=587\nMAIL_USERNAME=your-email@gmail.com\nMAIL_PASSWORD=your-app-password\n```\n\n### Deploy to cPanel\n\n1. **Upload Files**\n    - Zip project: `zip -r myhimatika.zip . -x \"node_modules/*\" -x \".git/*\"`\n    - Upload via File Manager or FTP\n    - Extract in `public_html/myhimatika`\n2. **Setup Database**\n    - Create database in cPanel → MySQL Databases\n    - Import SQL or run migration:\n    ```bash\n    php artisan migrate --force\n    ```\n3. **Configure .env**\n    - Copy `.env.example` to `.env`\n    - Update database credentials\n    - Generate key: `php artisan key:generate`\n4. **Set Public Directory**\n    - cPanel → Domains → Setup\n    - Document Root: `/home/username/public_html/myhimatika/public`\n5. **Test Upload**\n    - Open: `https://your-domain.com/test-cloudinary.php`\n    - Test photo upload at `/profile/edit`\n\n### Deploy to VPS (Ubuntu)\n\n```bash\n# 1. Clone repository\n\ncd ETS-web\n\n# 2. Install dependencies\ncomposer install --optimize-autoloader --no-dev\nnpm install && npm run build\n\n# 3. Setup .env\ncp .env.example .env\nnano .env  # Edit database & cloudinary config\n\n# 4. Generate key\nphp artisan key:generate\n\n# 5. Run migration\nphp artisan migrate --force\n\n# 6. Set permissions\nsudo chown -R www-data:www-data storage bootstrap/cache\nsudo chmod -R 775 storage bootstrap/cache\n\n# 7. Setup Nginx/Apache\nsudo nano /etc/nginx/sites-available/myhimatika\n# Configure virtual host\n\n# 8. Restart services\nsudo systemctl restart nginx\nsudo systemctl restart php8.2-fpm\n\n# 9. Test upload\ncurl https://your-domain.com/test-cloudinary.php\n```\n\n### Monitoring Production\n\n````bash\n# Check error log\n```php\n\n# Check Nginx/Apache log\n// Handle PDF upload\n\n# Monitor upload\nif ($request->hasFile('rapor_pdf') && $request->file('rapor_pdf')->isValid()) {\n\n# Check Cloudinary usage\n# Login: https://cloudinary.com/console\n````\n\n    try {\n        $uploadedFile = Cloudinary::upload($request->file('rapor_pdf')->getRealPath(), [\n            'folder' => 'myhimatika/documents',\n            'resource_type' => 'raw', // PENTING: untuk PDF/DOC\n            'format' => 'pdf'\n        ]);\n\n        $validated['rapor_pdf'] = $uploadedFile->getSecurePath();\n    } catch (\\Exception $e) {\n        \\Log::error('Failed to upload PDF: ' . $e->getMessage());\n        return redirect()->back()->withErrors(['rapor_pdf' => 'Gagal upload PDF: ' . $e->getMessage()]);\n    }\n\n}\n\n````\n\n### 5. Update View\n\n```blade\n{{-- resources/views/profile/edit.blade.php --}}\n<div>\n    <label class=\"block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2\">\n        Rapor (PDF)\n    </label>\n    <input type=\"file\" name=\"rapor_pdf\" id=\"rapor_pdf\" accept=\".pdf\"\n        class=\"w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg ...\"\n        onchange=\"validateAndPreviewPDF(this, 'rapor')\">\n    <p id=\"pdf-info-rapor\" class=\"text-xs text-slate-500 dark:text-slate-400 mt-1\">\n        PDF (max 5MB)\n    </p>\n    @error('rapor_pdf')\n        <p class=\"text-red-500 text-sm mt-2 flex items-center gap-1\">\n            <i data-feather=\"alert-circle\" class=\"w-4 h-4\"></i>\n            {{ $message }}\n        </p>\n    @enderror\n</div>\n````\n\n### 6. Update JavaScript\n\n```javascript\n// public/js/profile-upload.js\nfunction validateAndPreviewPDF(input, section) {\n    const file = input.files[0];\n    const fileInfo = document.getElementById(`pdf-info-${section}`);\n\n    if (!file) {\n        fileInfo.textContent = \"PDF (max 5MB)\";\n        fileInfo.className = \"text-xs text-slate-500 dark:text-slate-400 mt-1\";\n        return;\n    }\n\n    const maxSize = 5 * 1024 * 1024; // 5MB\n    if (file.size > maxSize) {\n        fileInfo.innerHTML =\n            \"❌ <strong>Gagal:</strong> File terlalu besar. Maksimal 5MB.\";\n        fileInfo.className =\n            \"text-xs text-red-600 dark:text-red-400 mt-1 font-medium\";\n        input.value = \"\";\n        return;\n    }\n\n    if (file.type !== \"application/pdf\") {\n        fileInfo.innerHTML =\n            \"❌ <strong>Gagal:</strong> Hanya file PDF yang diizinkan.\";\n        fileInfo.className =\n            \"text-xs text-red-600 dark:text-red-400 mt-1 font-medium\";\n        input.value = \"\";\n        return;\n    }\n\n    const sizeKB = (file.size / 1024).toFixed(2);\n    fileInfo.innerHTML =\n        \"✅ <strong>Siap diupload:</strong> \" +\n        file.name +\n        \" (\" +\n        sizeKB +\n        \" KB)\";\n    fileInfo.className =\n        \"text-xs text-green-600 dark:text-green-400 mt-1 font-medium\";\n}\n```\n\n---\n\n## 📊 Cloudinary Quota Monitor\n\n### Free Tier Limits\n\n-   ✅ Storage: 25 GB\n-   ✅ Bandwidth: 25 GB/month\n-   ✅ Transformations: 25,000 credits/month\n\n### Cara Cek Usage\n\n1. Login: https://cloudinary.com/console\n2. Dashboard → Usage\n3. Monitor:\n    - Storage used (GB)\n    - Bandwidth (GB/month)\n    - Transformation credits\n\n### Quota Saving Tips\n\n-   Compress photos before uploading\n-   Use transformations (auto-quality, auto-format)\n-   Delete unused old photos:\n\n```bash\nphp artisan profile:clean-old-photos\n```\n\n-   Set auto-delete for temporary files\n\n### Upgrade Plan (If Needed)\n\n-   **Plus Plan**: $99/month → 100 GB storage, 100 GB bandwidth\n-   **Advanced Plan**: $249/month → 300 GB storage, 300 GB bandwidth\n-   More info: https://cloudinary.com/pricing\n\n### Upgrade Plan (Jika Perlu)\n\n-   **Plus Plan**: $99/bulan → 100 GB storage, 100 GB bandwidth\n-   **Advanced Plan**: $249/bulan → 300 GB storage, 300 GB bandwidth\n-   Info: https://cloudinary.com/pricing\n\n---\n\n## 🚀 Deployment\n\n### Pre-Deployment Checklist\n\n```bash\n# 1. Update .env untuk production\nAPP_ENV=production\nAPP_DEBUG=false\nAPP_URL=https://your-domain.com\n\n# 2. Clear & cache config\nphp artisan config:clear\nphp artisan config:cache\nphp artisan route:cache\nphp artisan view:cache\n\n# 3. Optimize autoloader\ncomposer install --optimize-autoloader --no-dev\n\n# 4. Build assets\nnpm run build\n\n# 5. Set permissions (Linux)\nchmod -R 755 storage\nchmod -R 755 bootstrap/cache\n\n# 6. Test upload\n# Buka: https://your-domain.com/test-cloudinary.php\n```\n\n### Environment Variables (Production)\n\n```env\nAPP_NAME=\"MyHIMATIKA\"\nAPP_ENV=production\nAPP_DEBUG=false\nAPP_URL=https://myhimatika.himatika.its.ac.id\n\nDB_CONNECTION=mysql\nDB_HOST=your-prod-host.aivencloud.com\nDB_PORT=13530\nDB_DATABASE=myhimatika_production\nDB_USERNAME=your-prod-user\nDB_PASSWORD=your-prod-password\n\nCLOUDINARY_CLOUD_NAME=dg71hpqya\nCLOUDINARY_API_KEY=943565982761512\nCLOUDINARY_API_SECRET=6-rASrAKEmaqPXa52wWwnn_IPNQ\n\nSESSION_DRIVER=database\nQUEUE_CONNECTION=database\n\nMAIL_MAILER=smtp\nMAIL_HOST=smtp.gmail.com\nMAIL_PORT=587\nMAIL_USERNAME=your-email@gmail.com\nMAIL_PASSWORD=your-app-password\n```\n\n### Deploy to cPanel\n\n1. **Upload Files**\n    - Zip the project: `zip -r myhimatika.zip . -x \"node_modules/*\" -x \".git/*\"`\n    - Upload via File Manager or FTP\n    - Extract in `public_html/myhimatika`\n2. **Setup Database**\n    - Create a database in cPanel → MySQL Databases\n    - Import SQL or run migration:\n    ```bash\n    php artisan migrate --force\n    ```\n3. **Configure .env**\n    - Copy `.env.example` to `.env`\n    - Update database credentials\n    - Generate key: `php artisan key:generate`\n4. **Set Public Directory**\n    - cPanel → Domains → Setup\n    - Document Root: `/home/username/public_html/myhimatika/public`\n5. **Test Upload**\n    - Open: `https://your-domain.com/test-cloudinary.php`\n    - Test photo upload at `/profile/edit`\n\n### Deploy to VPS (Ubuntu)\n\n```bash\n# 1. Clone repository\ngit clone https://github.com/TetewHeroez/ETS-web.git\ncd ETS-web\n\n# 2. Install dependencies\ncomposer install --optimize-autoloader --no-dev\nnpm install && npm run build\n\n# 3. Setup .env\ncp .env.example .env\nnano .env  # Edit database & cloudinary config\n\n# 4. Generate key\nphp artisan key:generate\n\n# 5. Run migration\nphp artisan migrate --force\n\n# 6. Set permissions\nsudo chown -R www-data:www-data storage bootstrap/cache\nsudo chmod -R 775 storage bootstrap/cache\n\n# 7. Setup Nginx/Apache\nsudo nano /etc/nginx/sites-available/myhimatika\n# Configure virtual host\n\n# 8. Restart services\nsudo systemctl restart nginx\nsudo systemctl restart php8.2-fpm\n\n# 9. Test upload\ncurl https://your-domain.com/test-cloudinary.php\n```\n\n### Monitoring Production\n\n```bash\n# Check error log\ntail -f storage/logs/laravel.log\n\n# Check Nginx/Apache log\ntail -f /var/log/nginx/error.log\n\n# Monitor upload\ngrep \"Profile photo upload\" storage/logs/laravel.log\n\n# Check Cloudinary usage\n# Login: https://cloudinary.com/console\n```\n\n---\n\n## 🤝 Contributing\n\nContributions are very welcome! To contribute:\n\n1. Fork this repository\n2. Create a feature branch: `git checkout -b feature/AmazingFeature`\n3. Commit your changes: `git commit -m 'Add some AmazingFeature'`\n4. Push to the branch: `git push origin feature/AmazingFeature`\n5. Open a Pull Request\n\n### Coding Standards\n\n-   Follow the PSR-12 coding standard\n-   Write clear commit messages\n-   Add comments for complex code\n-   Test before pushing\n\n---\n\n### Useful Links\n\n-   Cloudinary Dashboard: https://cloudinary.com/console\n-   Laravel Docs: https://laravel.com/docs/11.x\n-   Tailwind CSS: https://tailwindcss.com/docs\n-   Feather Icons: https://feathericons.com\n\n---\n\n## 📜 License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n---\n\n## 🙏 Acknowledgments\n\n-   Laravel Framework\n-   Cloudinary for CDN storage\n-   Aiven for MySQL hosting\n-   HIMATIKA ITS 2024/2025 (Mathematics Student Association, ITS)\n\n---\n\n**Last Updated**: October 28, 2025\n**Version**: 1.0.0\n**Status**: Production Ready ✅\n\n## Code of Conduct\n\nTo ensure the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).\n\n## Security Vulnerabilities\n\nIf you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.\n\n## License\n\nThe Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).\n",
+      "tree": {
+        ".editorconfig": {
+          "type": "file"
+        },
+        ".env.example": {
+          "type": "file"
+        },
+        ".gitattributes": {
+          "type": "file"
+        },
+        ".gitignore": {
+          "type": "file"
+        },
+        "README.md": {
+          "type": "file"
+        },
+        "api": {
+          "type": "folder",
+          "children": {
+            "index.php": {
+              "type": "file"
+            }
+          }
+        },
+        "app": {
+          "type": "folder",
+          "children": {
+            "Console": {
+              "type": "folder",
+              "children": {
+                "Commands": {
+                  "type": "folder",
+                  "children": {
+                    "CleanOldProfilePhotos.php": {
+                      "type": "file"
+                    },
+                    "TestCloudinaryUpload.php": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Http": {
+              "type": "folder",
+              "children": {
+                "Controllers": {
+                  "type": "folder",
+                  "children": {
+                    "AssignmentController.php": {
+                      "type": "file"
+                    },
+                    "AttendanceController.php": {
+                      "type": "file"
+                    },
+                    "AttendanceScheduleController.php": {
+                      "type": "file"
+                    },
+                    "ContractController.php": {
+                      "type": "file"
+                    },
+                    "Controller.php": {
+                      "type": "file"
+                    },
+                    "GdkController.php": {
+                      "type": "file"
+                    },
+                    "KpiController.php": {
+                      "type": "file"
+                    },
+                    "LoginController.php": {
+                      "type": "file"
+                    },
+                    "ProfileController.php": {
+                      "type": "file"
+                    },
+                    "ScoreController.php": {
+                      "type": "file"
+                    },
+                    "SubmissionController.php": {
+                      "type": "file"
+                    },
+                    "UserController.php": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Middleware": {
+                  "type": "folder",
+                  "children": {
+                    "CheckRole.php": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Imports": {
+              "type": "folder",
+              "children": {
+                "UsersImport.php": {
+                  "type": "file"
+                }
+              }
+            },
+            "Models": {
+              "type": "folder",
+              "children": {
+                "Assignment.php": {
+                  "type": "file"
+                },
+                "Attendance.php": {
+                  "type": "file"
+                },
+                "AttendanceSchedule.php": {
+                  "type": "file"
+                },
+                "Contract.php": {
+                  "type": "file"
+                },
+                "GdkFlowchart.php": {
+                  "type": "file"
+                },
+                "GdkMateri.php": {
+                  "type": "file"
+                },
+                "GdkMetode.php": {
+                  "type": "file"
+                },
+                "GdkNilai.php": {
+                  "type": "file"
+                },
+                "Score.php": {
+                  "type": "file"
+                },
+                "Submission.php": {
+                  "type": "file"
+                },
+                "User.php": {
+                  "type": "file"
+                }
+              }
+            },
+            "Providers": {
+              "type": "folder",
+              "children": {
+                "AppServiceProvider.php": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "artisan": {
+          "type": "file"
+        },
+        "bootstrap": {
+          "type": "folder",
+          "children": {
+            "app.php": {
+              "type": "file"
+            },
+            "cache": {
+              "type": "folder",
+              "children": {
+                ".gitignore": {
+                  "type": "file"
+                }
+              }
+            },
+            "providers.php": {
+              "type": "file"
+            }
+          }
+        },
+        "composer.json": {
+          "type": "file"
+        },
+        "composer.lock": {
+          "type": "file"
+        },
+        "config": {
+          "type": "folder",
+          "children": {
+            "app.php": {
+              "type": "file"
+            },
+            "auth.php": {
+              "type": "file"
+            },
+            "cache.php": {
+              "type": "file"
+            },
+            "cloudinary.php": {
+              "type": "file"
+            },
+            "database.php": {
+              "type": "file"
+            },
+            "filesystems.php": {
+              "type": "file"
+            },
+            "logging.php": {
+              "type": "file"
+            },
+            "mail.php": {
+              "type": "file"
+            },
+            "queue.php": {
+              "type": "file"
+            },
+            "services.php": {
+              "type": "file"
+            },
+            "session.php": {
+              "type": "file"
+            }
+          }
+        },
+        "database": {
+          "type": "folder",
+          "children": {
+            ".gitignore": {
+              "type": "file"
+            },
+            "factories": {
+              "type": "folder",
+              "children": {
+                "UserFactory.php": {
+                  "type": "file"
+                }
+              }
+            },
+            "migrations": {
+              "type": "folder",
+              "children": {
+                "0001_01_01_000000_create_users_table.php": {
+                  "type": "file"
+                },
+                "2024_01_01_000001_create_assignments_table.php": {
+                  "type": "file"
+                },
+                "2024_01_01_000002_create_submissions_table.php": {
+                  "type": "file"
+                },
+                "2025_10_16_144934_create_attendances_table.php": {
+                  "type": "file"
+                },
+                "2025_10_16_152644_add_profile_fields_to_users_table.php": {
+                  "type": "file"
+                },
+                "2025_10_16_152723_rename_nim_to_nrp_in_users_table.php": {
+                  "type": "file"
+                },
+                "2025_10_16_170944_add_weight_to_assignments_table.php": {
+                  "type": "file"
+                },
+                "2025_10_18_044431_create_scores_table.php": {
+                  "type": "file"
+                },
+                "2025_10_21_073919_drop_cache_and_jobs_tables.php": {
+                  "type": "file"
+                },
+                "2025_10_21_073922_drop_cache_and_jobs_tables.php": {
+                  "type": "file"
+                },
+                "2025_10_21_082729_add_kelompok_to_users_table.php": {
+                  "type": "file"
+                },
+                "2025_10_21_090150_add_hobi_to_users_table.php": {
+                  "type": "file"
+                },
+                "2025_10_21_124214_add_status_to_users_table.php": {
+                  "type": "file"
+                },
+                "2025_10_21_124219_add_status_to_users_table.php": {
+                  "type": "file"
+                },
+                "2025_10_21_130026_add_jabatan_to_users_table.php": {
+                  "type": "file"
+                },
+                "2025_10_21_131601_update_existing_members_jabatan.php": {
+                  "type": "file"
+                },
+                "2025_10_23_160255_create_contracts_table.php": {
+                  "type": "file"
+                },
+                "2025_10_23_161752_create_attendance_schedules_table.php": {
+                  "type": "file"
+                },
+                "2025_10_23_161816_add_schedule_id_to_attendances_table.php": {
+                  "type": "file"
+                },
+                "2025_10_23_182011_add_pj_number_to_users_table.php": {
+                  "type": "file"
+                },
+                "2025_10_23_190727_create_gdk_nilai_table.php": {
+                  "type": "file"
+                },
+                "2025_10_23_190735_create_gdk_materi_table.php": {
+                  "type": "file"
+                },
+                "2025_10_23_190743_create_gdk_metode_table.php": {
+                  "type": "file"
+                },
+                "2025_10_23_190751_create_gdk_flowchart_table.php": {
+                  "type": "file"
+                },
+                "2025_10_23_215015_add_profile_photo_to_users_table.php": {
+                  "type": "file"
+                },
+                "2025_10_25_000000_add_submission_type_to_assignments_table.php": {
+                  "type": "file"
+                },
+                "2025_10_25_000001_add_gdk_flowchart_id_to_assignments_table.php": {
+                  "type": "file"
+                },
+                "2025_10_25_000002_remove_is_active_from_assignments_table.php": {
+                  "type": "file"
+                },
+                "2025_10_25_000003_remove_weight_and_is_active_from_assignments.php": {
+                  "type": "file"
+                },
+                "2025_10_25_153816_update_gdk_flowchart_and_scores_tables.php": {
+                  "type": "file"
+                }
+              }
+            },
+            "seeders": {
+              "type": "folder",
+              "children": {
+                "AssignmentSeeder.php": {
+                  "type": "file"
+                },
+                "ContractSeeder.php": {
+                  "type": "file"
+                },
+                "DatabaseSeeder.php": {
+                  "type": "file"
+                },
+                "GdkSeeder.php": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "package-lock.json": {
+          "type": "file"
+        },
+        "package.json": {
+          "type": "file"
+        },
+        "phpunit.xml": {
+          "type": "file"
+        },
+        "pnpm-lock.yaml": {
+          "type": "file"
+        },
+        "public": {
+          "type": "folder",
+          "children": {
+            ".htaccess": {
+              "type": "file"
+            },
+            "build": {
+              "type": "folder",
+              "children": {
+                "assets": {
+                  "type": "folder",
+                  "children": {
+                    "app-BB96Jbtq.css": {
+                      "type": "file"
+                    },
+                    "app-Bj43h_rG.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "manifest.json": {
+                  "type": "file"
+                }
+              }
+            },
+            "favicon.ico": {
+              "type": "file"
+            },
+            "images": {
+              "type": "folder",
+              "children": {
+                "login_page.png": {
+                  "type": "file"
+                },
+                "logohimatika.png": {
+                  "type": "file"
+                }
+              }
+            },
+            "index.php": {
+              "type": "file"
+            },
+            "js": {
+              "type": "folder",
+              "children": {
+                "profile-upload.js": {
+                  "type": "file"
+                }
+              }
+            },
+            "robots.txt": {
+              "type": "file"
+            }
+          }
+        },
+        "render.yaml": {
+          "type": "file"
+        },
+        "resources": {
+          "type": "folder",
+          "children": {
+            "css": {
+              "type": "folder",
+              "children": {
+                "app.css": {
+                  "type": "file"
+                }
+              }
+            },
+            "js": {
+              "type": "folder",
+              "children": {
+                "app.js": {
+                  "type": "file"
+                },
+                "bootstrap.js": {
+                  "type": "file"
+                }
+              }
+            },
+            "views": {
+              "type": "folder",
+              "children": {
+                "assignments": {
+                  "type": "folder",
+                  "children": {
+                    "create.blade.php": {
+                      "type": "file"
+                    },
+                    "edit.blade.php": {
+                      "type": "file"
+                    },
+                    "index.blade.php": {
+                      "type": "file"
+                    },
+                    "select.blade.php": {
+                      "type": "file"
+                    },
+                    "submissions-progress.blade.php": {
+                      "type": "file"
+                    },
+                    "upload.blade.php": {
+                      "type": "file"
+                    },
+                    "user-submissions.blade.php": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "attendances": {
+                  "type": "folder",
+                  "children": {
+                    "index.blade.php": {
+                      "type": "file"
+                    },
+                    "my-attendance.blade.php": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "auth": {
+                  "type": "folder",
+                  "children": {
+                    "login.blade.php": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "components": {
+                  "type": "folder",
+                  "children": {
+                    "navbar.blade.php": {
+                      "type": "file"
+                    },
+                    "sidebar.blade.php": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "contracts": {
+                  "type": "folder",
+                  "children": {
+                    "edit.blade.php": {
+                      "type": "file"
+                    },
+                    "index.blade.php": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "dashboard.blade.php": {
+                  "type": "file"
+                },
+                "gdk": {
+                  "type": "folder",
+                  "children": {
+                    "index.blade.php": {
+                      "type": "file"
+                    },
+                    "modals": {
+                      "type": "folder",
+                      "children": {
+                        "edit-materi.blade.php": {
+                          "type": "file"
+                        },
+                        "edit-metode.blade.php": {
+                          "type": "file"
+                        },
+                        "edit-nilai.blade.php": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "kpi": {
+                  "type": "folder",
+                  "children": {
+                    "index.blade.php": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "layouts": {
+                  "type": "folder",
+                  "children": {
+                    "app.blade.php": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "profile": {
+                  "type": "folder",
+                  "children": {
+                    "edit.blade.php": {
+                      "type": "file"
+                    },
+                    "show.blade.php": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "users": {
+                  "type": "folder",
+                  "children": {
+                    "create.blade.php": {
+                      "type": "file"
+                    },
+                    "edit.blade.php": {
+                      "type": "file"
+                    },
+                    "index.blade.php": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "routes": {
+          "type": "folder",
+          "children": {
+            "console.php": {
+              "type": "file"
+            },
+            "web.php": {
+              "type": "file"
+            }
+          }
+        },
+        "setup-dev.bat": {
+          "type": "file"
+        },
+        "start-server.bat": {
+          "type": "file"
+        },
+        "storage": {
+          "type": "folder",
+          "children": {
+            "app": {
+              "type": "folder",
+              "children": {
+                ".gitignore": {
+                  "type": "file"
+                },
+                "private": {
+                  "type": "folder",
+                  "children": {
+                    ".gitignore": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "public": {
+                  "type": "folder",
+                  "children": {
+                    ".gitignore": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "framework": {
+              "type": "folder",
+              "children": {
+                ".gitignore": {
+                  "type": "file"
+                },
+                "cache": {
+                  "type": "folder",
+                  "children": {
+                    ".gitignore": {
+                      "type": "file"
+                    },
+                    "data": {
+                      "type": "folder",
+                      "children": {
+                        ".gitignore": {
+                          "type": "file"
+                        }
+                      }
+                    }
+                  }
+                },
+                "sessions": {
+                  "type": "folder",
+                  "children": {
+                    ".gitignore": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "testing": {
+                  "type": "folder",
+                  "children": {
+                    ".gitignore": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "views": {
+                  "type": "folder",
+                  "children": {
+                    ".gitignore": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "logs": {
+              "type": "folder",
+              "children": {
+                ".gitignore": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "tests": {
+          "type": "folder",
+          "children": {
+            "Feature": {
+              "type": "folder",
+              "children": {
+                "ExampleTest.php": {
+                  "type": "file"
+                }
+              }
+            },
+            "TestCase.php": {
+              "type": "file"
+            },
+            "Unit": {
+              "type": "folder",
+              "children": {
+                "ExampleTest.php": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "vercel.json": {
+          "type": "file"
+        },
+        "vite.config.js": {
+          "type": "file"
         }
       }
     },
