@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-05T11:22:35.690Z",
+  "fetchedAt": "2026-03-26T01:47:12.726Z",
   "profile": {
     "name": "Teosofi Hidayah Agung",
     "avatar_url": "https://avatars.githubusercontent.com/u/132694090?v=4",
@@ -9,14 +9,90 @@
   },
   "repos": [
     {
+      "name": "wa-sticker-bot",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "languages": {
+        "JavaScript": 20467
+      },
+      "html_url": "https://github.com/TetewHeroez/wa-sticker-bot",
+      "homepage": null,
+      "topics": [],
+      "readmeContent": "# WhatsApp Sticker Bot\n\nBot WhatsApp untuk mengkonversi gambar dan video menjadi sticker.\n\n## Fitur\n\n- 📸 Kirim **gambar** → Sticker statis\n- 🎥 Kirim **video** (maks 6 detik) → Sticker animasi\n- 📊 Ketik **stats** → Lihat statistik bot\n- ✨ Auto-delete file setelah 60 detik\n- 🔄 Processing indicator\n\n## Requirements\n\n- Node.js 18+\n- FFmpeg (untuk konversi media)\n- WhatsApp Business API access\n\n## Instalasi\n\n1. Clone repo:\n\n   ```bash\n   git clone https://github.com/username/wa-sticker-bot.git\n   cd wa-sticker-bot\n   ```\n\n2. Install dependencies:\n\n   ```bash\n   npm install\n   ```\n\n3. Install FFmpeg:\n   - **Windows**: `winget install FFmpeg`\n   - **Mac**: `brew install ffmpeg`\n   - **Linux**: `sudo apt install ffmpeg`\n\n4. Copy `.env.example` ke `.env` dan isi konfigurasi:\n\n   ```bash\n   cp .env.example .env\n   ```\n\n5. Jalankan bot:\n\n   ```bash\n   npm start\n   ```\n\n   Atau dengan auto-restart saat file berubah:\n\n   ```bash\n   npm run dev\n   ```\n\n## Konfigurasi\n\nEdit file `.env`:\n\n| Variable          | Deskripsi                                  |\n| ----------------- | ------------------------------------------ |\n| `PORT`            | Port server (default: 3000)                |\n| `BASE_URL`        | URL publik server (untuk sticker delivery) |\n| `TOKEN`           | WhatsApp Cloud API token                   |\n| `PHONE_NUMBER_ID` | ID nomor WhatsApp Business                 |\n| `VERIFY_TOKEN`    | Token verifikasi webhook (bebas)           |\n\n## Webhook Setup\n\n1. Buka [Meta Developer Console](https://developers.facebook.com)\n2. Pilih App → WhatsApp → Configuration\n3. Setup webhook:\n   - URL: `https://your-domain.com/webhook`\n   - Verify Token: sesuai `.env`\n4. Subscribe ke field: `messages`\n\n## Tunnel untuk Development\n\nJika hosting di PC lokal, gunakan Cloudflare Tunnel:\n\n```bash\ncloudflared tunnel --url http://localhost:3000 --protocol http2\n```\n\n## License\n\nMIT\n",
+      "tree": {
+        ".env.example": {
+          "type": "file"
+        },
+        ".gitignore": {
+          "type": "file"
+        },
+        "README.md": {
+          "type": "file"
+        },
+        "ai.js": {
+          "type": "file"
+        },
+        "convert.js": {
+          "type": "file"
+        },
+        "index.js": {
+          "type": "file"
+        },
+        "media": {
+          "type": "folder",
+          "children": {
+            "input": {
+              "type": "folder",
+              "children": {
+                ".gitkeep": {
+                  "type": "file"
+                }
+              }
+            },
+            "output": {
+              "type": "folder",
+              "children": {
+                ".gitkeep": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "package-lock.json": {
+          "type": "file"
+        },
+        "package.json": {
+          "type": "file"
+        },
+        "public": {
+          "type": "folder",
+          "children": {
+            "stickers": {
+              "type": "folder",
+              "children": {
+                ".gitkeep": {
+                  "type": "file"
+                }
+              }
+            }
+          }
+        },
+        "templates.js": {
+          "type": "file"
+        }
+      }
+    },
+    {
       "name": "Tugas-Kuliah",
       "description": "A collection of assignments from my undergraduate and master's studies.",
       "stars": 2,
       "forks": 0,
       "languages": {
-        "TeX": 1624544,
+        "TeX": 57684760,
         "Java": 198199,
-        "Python": 127290,
+        "Python": 122570,
         "JavaScript": 42290,
         "HTML": 40015,
         "MATLAB": 5776,
@@ -700,6 +776,9 @@
             "Aljabar I": {
               "type": "folder",
               "children": {
+                "BukuFondasiAljabar_2022-1.pdf": {
+                  "type": "file"
+                },
                 "EAS 2023": {
                   "type": "folder",
                   "children": {
@@ -2738,26 +2817,142 @@
         "Semester 8": {
           "type": "folder",
           "children": {
+            "Kalkulus Stokastik": {
+              "type": "folder",
+              "children": {
+                "Tugas 1": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 1.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 1.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "Tugas 2": {
+                  "type": "folder",
+                  "children": {
+                    "Tugas 2.pdf": {
+                      "type": "file"
+                    },
+                    "Tugas 2.tex": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "Teori Modul": {
+              "type": "folder",
+              "children": {
+                "Advanced Linear Algebra Third Edition.pdf": {
+                  "type": "file"
+                },
+                "BukuTeoriModul2022.pdf": {
+                  "type": "file"
+                }
+              }
+            },
             "Tugas Akhir": {
               "type": "folder",
               "children": {
                 ".gitignore": {
                   "type": "file"
                 },
+                "Check up": {
+                  "type": "folder",
+                  "children": {
+                    "PPTcheckup.pdf": {
+                      "type": "file"
+                    },
+                    "PPTcheckup.tex": {
+                      "type": "file"
+                    }
+                  }
+                },
                 "Eksperimen": {
                   "type": "folder",
                   "children": {
-                    "CekPermutasiMatriks.ipynb": {
-                      "type": "file"
+                    "Catatan": {
+                      "type": "folder",
+                      "children": {
+                        "checkup.pdf": {
+                          "type": "file"
+                        },
+                        "checkup.tex": {
+                          "type": "file"
+                        },
+                        "orde 3.pdf": {
+                          "type": "file"
+                        },
+                        "orde 3.tex": {
+                          "type": "file"
+                        }
+                      }
                     },
-                    "RisetTA.ipynb": {
-                      "type": "file"
-                    },
-                    "TestInPemod.ipynb": {
-                      "type": "file"
-                    },
-                    "maxplus_latin.py": {
-                      "type": "file"
+                    "Koding": {
+                      "type": "folder",
+                      "children": {
+                        "SupertropicalTest.ipynb": {
+                          "type": "file"
+                        },
+                        "TropicalTest.ipynb": {
+                          "type": "file"
+                        },
+                        "latin_square_commutative_pairs_order_3.tex": {
+                          "type": "file"
+                        },
+                        "latin_square_commutative_pairs_order_4.tex": {
+                          "type": "file"
+                        },
+                        "latin_square_order_3.tex": {
+                          "type": "file"
+                        },
+                        "latin_square_order_4.tex": {
+                          "type": "file"
+                        },
+                        "latin_square_order_5.tex": {
+                          "type": "file"
+                        },
+                        "main_order_3.pdf": {
+                          "type": "file"
+                        },
+                        "main_order_3.tex": {
+                          "type": "file"
+                        },
+                        "main_order_4.pdf": {
+                          "type": "file"
+                        },
+                        "main_order_4.tex": {
+                          "type": "file"
+                        },
+                        "main_order_5.pdf": {
+                          "type": "file"
+                        },
+                        "main_order_5.tex": {
+                          "type": "file"
+                        },
+                        "main_supertropical.pdf": {
+                          "type": "file"
+                        },
+                        "main_supertropical.tex": {
+                          "type": "file"
+                        },
+                        "supertropical_commutative_ghost_order_3.tex": {
+                          "type": "file"
+                        },
+                        "supertropical_commutative_ghost_order_4.tex": {
+                          "type": "file"
+                        },
+                        "supertropical_commutative_tangible_order_3.tex": {
+                          "type": "file"
+                        },
+                        "supertropical_commutative_tangible_order_4.tex": {
+                          "type": "file"
+                        }
+                      }
                     }
                   }
                 },
@@ -2786,9 +2981,6 @@
                           "type": "file"
                         }
                       }
-                    },
-                    "Proposal TA.pdf": {
-                      "type": "file"
                     },
                     "Proposal TA.tex": {
                       "type": "file"
@@ -2820,68 +3012,6 @@
                           "type": "file"
                         }
                       }
-                    }
-                  }
-                },
-                "Referensi": {
-                  "type": "folder",
-                  "children": {
-                    "ANALYSIS OF FOUR PROTOCOLS BASED ON TROPICAL.pdf": {
-                      "type": "file"
-                    },
-                    "A_new_semiring_and_its_cryptographic_applications.pdf": {
-                      "type": "file"
-                    },
-                    "An Efficient Algorithm for Eigenvalue Problem of Latin Squares in a Bipartite Min-Max-Plus System.pdf": {
-                      "type": "file"
-                    },
-                    "An Efficient Algorithm for Nontrivial Eigenvectors in Max-Plus Algebra.pdf": {
-                      "type": "file"
-                    },
-                    "BukuFondasiAljabar_2022-1.pdf": {
-                      "type": "file"
-                    },
-                    "Cryptography_Based_on_Idempotent_Semirings_Abandon.pdf": {
-                      "type": "file"
-                    },
-                    "EIGENVALUES AND EIGENVECTORS OF LATIN SQUARES IN MAX-PLUS ALGEBRA.pdf": {
-                      "type": "file"
-                    },
-                    "MODIFYING THE TROPICAL VERSION OF STICKELS KEY.pdf": {
-                      "type": "file"
-                    },
-                    "Max-plus_Algebra_and_Application_to_Matrix_Operati.pdf": {
-                      "type": "file"
-                    },
-                    "Michael Artin - Algebra (1991, Prentice Hall) - libgen.li.pdf": {
-                      "type": "file"
-                    },
-                    "On implementation of Stickel’s key exchange protocol.pdf": {
-                      "type": "file"
-                    },
-                    "On the security of the initial tropical Stickel protocol.pdf": {
-                      "type": "file"
-                    },
-                    "On_the_tropical_two_sided_discrete_log_problem_and_a_key_exchange_protocol_based_on_the_tropical_algebra_of_pairs__Revision_.pdf": {
-                      "type": "file"
-                    },
-                    "Paulsen William - Abstract algebra An interactive approach.pdf": {
-                      "type": "file"
-                    },
-                    "Revisi_Tugas_Akhir_Muhammad_Zulfikar_Zufar_06111940000108___.pdf": {
-                      "type": "file"
-                    },
-                    "Synchronization_and_Linearity_-_An_Algebra_for_Dis.pdf": {
-                      "type": "file"
-                    },
-                    "Trivial and Nontrivial Eigenvectors for Latin Squares in Max-Plus Algebra.pdf": {
-                      "type": "file"
-                    },
-                    "[Discrete mathematics and its applications] George, John Clay_ Wallis, W. D. - Introduction to combinatorics (2017, CRC press, Taylor & Francis) - libgen.li.pdf": {
-                      "type": "file"
-                    },
-                    "on-derangements-in-simple-permutation-groups.pdf": {
-                      "type": "file"
                     }
                   }
                 },
@@ -3148,6 +3278,342 @@
                   "type": "file"
                 }
               }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Gagas-Database",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "languages": {
+        "JavaScript": 178091,
+        "CSS": 1636,
+        "HTML": 364
+      },
+      "html_url": "https://github.com/TetewHeroez/Gagas-Database",
+      "homepage": "https://gagas-database.vercel.app",
+      "topics": [],
+      "readmeContent": "# Gagas Database Management System\n\n<!-- PORTFOLIO-START: detailedDescription -->\n\nA comprehensive document management system built with **Node.js**, **Express**, **MongoDB**, and **React**. This system provides secure document storage, user management, and role-based access control with advanced features like forgot password functionality.\n\n<!-- PORTFOLIO-END: detailedDescription -->\n\n![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)\n![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)\n![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)\n![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)\n![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)\n\n## 🚀 Features\n\n### Core Features\n\n<!-- PORTFOLIO-START: features -->\n\n- **📄 Document Management**: Upload, view, edit, and delete documents\n- **👥 User Management**: Admin can manage users and their permissions\n- **🔐 Authentication & Authorization**: JWT-based authentication with role-based access\n- **🔍 Advanced Search**: Search documents by title, type, or content <!-- PORTFOLIO-END: features -->\n- **📊 Dashboard**: Comprehensive dashboard with statistics and recent activities\n- **🌙 Dark Mode**: Toggle between light and dark themes\n- **📱 Responsive Design**: Works seamlessly on desktop and mobile devices\n\n### Security Features\n\n<!-- PORTFOLIO-START: features -->\n\n- **🔒 Forgot Password**: Email-based password reset functionality <!-- PORTFOLIO-END: features -->\n- **🛡️ Token-based Authentication**: Secure JWT implementation\n- **👮 Role-based Access Control**: Admin and user roles with different permissions\n- **🔐 Password Hashing**: Secure password storage with bcrypt\n- **⏰ Session Management**: Automatic token expiration and refresh\n- **🔑 Database Admin Auto-Access**: Database Admin role has automatic access to all documents\n\n### Document Features\n\n<!-- PORTFOLIO-START: features -->\n\n- **☁️ Cloud Storage**: Integration with Cloudinary for file storage\n- **📎 Multiple File Types**: Support for various document formats\n- **🏷️ Document Categories**: Organize documents by type and division <!-- PORTFOLIO-END: features -->\n- **📋 Document Permissions**: Control who can view and edit documents\n- **📈 Document Analytics**: Track document views and downloads\n- **🚀 Auto-Permission System**: Database Admin automatically gets access to new document types\n\n## 🛠️ Tech Stack\n\n### Backend\n\n- **Node.js** - Runtime environment\n- **Express.js** - Web framework\n- **MongoDB** - NoSQL database\n- **Mongoose** - MongoDB object modeling\n- **JWT** - Authentication tokens\n- **Bcrypt** - Password hashing\n- **Nodemailer** - Email service\n- **Cloudinary** - Cloud storage for files\n- **Multer** - File upload handling\n\n### Frontend\n\n- **React** - Frontend library\n- **Vite** - Build tool and dev server\n- **React Router** - Client-side routing\n- **Tailwind CSS** - Utility-first CSS framework\n- **Lucide React** - Icon library\n- **Axios** - HTTP client\n\n## 📋 Prerequisites\n\nBefore running this application, make sure you have the following installed:\n\n- **Node.js** (v16 or higher)\n- **pnpm** (recommended) or npm\n- **MongoDB** (local installation or MongoDB Atlas account)\n- **Git**\n\n## ⚙️ Installation & Setup\n\n### 1. Clone the Repository\n\n```bash\ngit clone https://github.com/TetewHeroez/Gagas-Database.git\ncd Gagas-Database\n```\n\n### 2. Backend Setup\n\n```bash\ncd backend\npnpm install\n```\n\n### 3. Frontend Setup\n\n```bash\ncd ../frontend\npnpm install\n```\n\n### 4. Environment Configuration\n\nCreate a `.env` file in the `backend` directory:\n\n```env\n# Server Configuration\nPORT=5000\n\n# Database Configuration\nMONGO_URI=\"your-mongodb-connection-string\"\nJWT_SECRET=\"your-jwt-secret-key\"\n\n# Cloudinary Configuration (for file storage)\nCLOUDINARY_CLOUD_NAME=\"your-cloudinary-cloud-name\"\nCLOUDINARY_API_KEY=\"your-cloudinary-api-key\"\nCLOUDINARY_API_SECRET=\"your-cloudinary-api-secret\"\n\n# Default Admin Configuration\nADMIN_USERNAME=\"admin_super\"\nADMIN_EMAIL=\"admin@company.com\"\nADMIN_NAMA_LENGKAP=\"System Administrator\"\nADMIN_PASSWORD=\"SecureAdminPassword123!\"\nADMIN_DIVISI=\"IT Department\"\n\n# Email Configuration (for forgot password feature)\nEMAIL_USER=\"your-email@gmail.com\"\nEMAIL_PASS=\"your-app-password\"\n\n# Frontend URL\nFRONTEND_URL=\"http://localhost:5173\"\n```\n\n### 5. Database Setup\n\n#### Option A: MongoDB Atlas (Recommended)\n\n1. Create a free account at [MongoDB Atlas](https://cloud.mongodb.com/)\n2. Create a new cluster\n3. Get your connection string\n4. Add your IP address to the whitelist\n5. Update `MONGO_URI` in your `.env` file\n\n#### Option B: Local MongoDB\n\n1. Install MongoDB locally\n2. Start MongoDB service\n3. Use local connection string: `mongodb://localhost:27017/gagas-database`\n\n### 6. Cloudinary Setup\n\n1. Create a free account at [Cloudinary](https://cloudinary.com/)\n2. Get your cloud name, API key, and API secret from the dashboard\n3. Update the Cloudinary variables in your `.env` file\n\n### 7. Email Setup (Optional for Development)\n\n#### For Development (Default)\n\n- Leave email configuration as is\n- Emails will be logged to console instead of being sent\n\n#### For Production (Gmail)\n\n1. Enable 2-Factor Authentication on your Gmail account\n2. Generate an App Password:\n   - Go to Google Account Settings\n   - Security → 2-Step Verification → App passwords\n   - Select \"Mail\" and generate password\n3. Update `EMAIL_USER` and `EMAIL_PASS` in `.env`\n\n#### For Production (Other Providers)\n\n```env\n# For Outlook/Hotmail\nEMAIL_USER=\"your-email@outlook.com\"\nEMAIL_PASS=\"your-password\"\n\n# For Yahoo\nEMAIL_USER=\"your-email@yahoo.com\"\nEMAIL_PASS=\"your-password\"\n```\n\n## 🚀 Running the Application\n\n### Development Mode\n\n1. **Start Backend Server**:\n\n```bash\ncd backend\npnpm run dev\n```\n\nThe backend will run on `http://localhost:5000`\n\n2. **Start Frontend Development Server**:\n\n```bash\ncd frontend\npnpm run dev\n```\n\nThe frontend will run on `http://localhost:5173` (or next available port)\n\n### Production Mode\n\n1. **Build Frontend**:\n\n```bash\ncd frontend\npnpm run build\n```\n\n2. **Start Backend**:\n\n```bash\ncd backend\npnpm start\n```\n\n## 📁 Project Structure\n\n```\nGagas-Database/\n├── backend/\n│   ├── src/\n│   │   ├── config/\n│   │   │   └── db.js                 # Database connection\n│   │   ├── controllers/\n│   │   │   ├── authController.js     # Authentication logic\n│   │   │   ├── documentController.js # Document CRUD operations\n│   │   │   ├── userController.js     # User management\n│   │   │   └── ...\n│   │   ├── middleware/\n│   │   │   ├── authMiddleware.js     # JWT verification\n│   │   │   └── uploadMiddleware.js   # File upload handling\n│   │   ├── models/\n│   │   │   ├── User.js               # User schema\n│   │   │   ├── Document.js           # Document schema\n│   │   │   └── Permission.js         # Permission schema\n│   │   ├── routes/\n│   │   │   ├── authRoutes.js         # Authentication routes\n│   │   │   ├── documentRoutes.js     # Document routes\n│   │   │   └── ...\n│   │   └── utils/\n│   │       ├── generateToken.js      # JWT utilities\n│   │       ├── emailService.js       # Email functionality\n│   │       └── seeder.js             # Database seeding\n│   ├── server.js                     # Main server file\n│   ├── package.json\n│   └── .env\n│\n├── frontend/\n│   ├── src/\n│   │   ├── components/               # Reusable components\n│   │   ├── pages/                    # Main pages\n│   │   ├── layouts/                  # Layout components\n│   │   ├── hooks/                    # Custom React hooks\n│   │   ├── context/                  # React context providers\n│   │   ├── api/                      # API utilities\n│   │   └── assets/                   # Static assets\n│   ├── public/\n│   ├── index.html\n│   ├── package.json\n│   └── vite.config.js\n│\n└── README.md\n```\n\n## 🔑 Default Admin Account\n\nAfter seeding the database, you can login with:\n\n- **Username**: `admin_super`\n- **Email**: `admin@company.com` (or as configured in .env)\n- **Password**: `SecureAdminPassword123!` (or as configured in .env)\n- **Division**: `Database Admin` (automatically gets access to all documents)\n\n## 📚 API Documentation\n\n### Authentication Endpoints\n\n| Method | Endpoint                          | Description               |\n| ------ | --------------------------------- | ------------------------- |\n| POST   | `/api/auth/login`                 | User login                |\n| POST   | `/api/auth/forgot-password`       | Request password reset    |\n| POST   | `/api/auth/reset-password/:token` | Reset password with token |\n\n### User Management Endpoints\n\n| Method | Endpoint             | Description                  |\n| ------ | -------------------- | ---------------------------- |\n| GET    | `/api/users`         | Get all users (Admin only)   |\n| GET    | `/api/users/profile` | Get current user profile     |\n| POST   | `/api/users`         | Create new user (Admin only) |\n| PUT    | `/api/users/:id`     | Update user (Admin only)     |\n| DELETE | `/api/users/:id`     | Delete user (Admin only)     |\n\n### Document Management Endpoints\n\n| Method | Endpoint             | Description         |\n| ------ | -------------------- | ------------------- |\n| GET    | `/api/documents`     | Get all documents   |\n| GET    | `/api/documents/:id` | Get document by ID  |\n| POST   | `/api/documents`     | Create new document |\n| PUT    | `/api/documents/:id` | Update document     |\n| DELETE | `/api/documents/:id` | Delete document     |\n\n### Dashboard Endpoints\n\n| Method | Endpoint                          | Description              |\n| ------ | --------------------------------- | ------------------------ |\n| GET    | `/api/dashboard/stats`            | Get dashboard statistics |\n| GET    | `/api/dashboard/recent-documents` | Get recent documents     |\n\n## 🔐 Forgot Password Feature\n\n### How it Works\n\n1. **Request Reset**: User enters email on forgot password page\n2. **Email Sent**: System generates secure token and sends email\n3. **Reset Password**: User clicks link in email and enters new password\n4. **Token Validation**: System validates token and updates password\n\n### Email Configuration Modes\n\n#### Development Mode\n\n- Emails are logged to backend console\n- Reset URLs are displayed in console for testing\n- No actual email sending required\n\n#### Production Mode\n\n- Emails are sent to user's inbox\n- Requires valid email service configuration\n- Supports Gmail, Outlook, Yahoo, and custom SMTP\n\n### Security Features\n\n- Tokens expire after 1 hour\n- Tokens are cryptographically hashed\n- Email validation before sending\n- Account status verification\n- Password strength validation\n\n## 🎨 Features Overview\n\n### User Roles\n\n#### Admin\n\n- Full access to all features\n- User management (create, edit, delete users)\n- Document management for all documents\n- Permission management\n- Dashboard with full statistics\n\n#### Regular User\n\n- View and manage assigned documents\n- Profile management\n- Limited dashboard access\n- Document search and filtering\n\n#### Database Admin (Special Role)\n\n- **Automatic access** to all document types (existing and future)\n- **Cannot be modified** in permission management\n- **Hidden from permission settings** to prevent accidental changes\n- **Future-proof access** - automatically gets access to new document types\n- All admin privileges plus unrestricted document access\n\n### Document Types\n\n- Surat Masuk (Incoming Letters)\n- Surat Keluar (Outgoing Letters)\n- Memo Internal (Internal Memos)\n- Laporan (Reports)\n- Kontrak (Contracts)\n- Invoice\n- SOP (Standard Operating Procedures)\n- Lainnya (Others)\n\n### Divisions\n\n- Direktur (Director)\n- Manager\n- Supervisor\n- Staff\n- Admin\n- IT\n- HR\n- Finance\n- Marketing\n- Operations\n\n## 🎯 Permission System\n\n### How Permissions Work\n\n- **Regular Users**: Access controlled by permission settings in admin panel\n- **Admin Users**: Can access all documents and manage permissions\n- **Database Admin**: Special role with automatic access to all documents\n\n### Database Admin Features\n\n- **Automatic Permission**: Gets access to all document types without manual configuration\n- **Future-Proof**: Automatically receives access to newly added document types\n- **Protected Settings**: Cannot be modified in permission management interface\n- **Hidden from UI**: Does not appear in permission management to prevent confusion\n\n### Permission Management\n\n- Admins can set document type permissions for each division\n- Permissions are granted per division (not per individual user)\n- Database Admin division is automatically excluded from permission management\n- Real-time permission updates across the system\n\n## 🛡️ Security Best Practices\n\n- **Environment Variables**: All sensitive data stored in environment variables\n- **Password Hashing**: Passwords hashed using bcrypt with salt\n- **JWT Tokens**: Secure token-based authentication\n- **Input Validation**: Server-side validation for all inputs\n- **File Upload Security**: Secure file handling with Cloudinary\n- **CORS Protection**: Configured CORS for frontend-backend communication\n- **Rate Limiting**: Consider implementing rate limiting for production\n\n## 🚀 Deployment\n\n### Frontend Deployment (Vercel/Netlify)\n\n1. Build the frontend:\n\n```bash\ncd frontend\npnpm run build\n```\n\n2. Deploy the `dist` folder to your hosting service\n\n### Backend Deployment (Railway/Heroku/DigitalOcean)\n\n1. Ensure all environment variables are set\n2. Update `FRONTEND_URL` to your deployed frontend URL\n3. Deploy the backend folder to your hosting service\n\n### Environment Variables for Production\n\nMake sure to set all required environment variables in your production environment:\n\n- `MONGO_URI`\n- `JWT_SECRET`\n- `CLOUDINARY_CLOUD_NAME`\n- `CLOUDINARY_API_KEY`\n- `CLOUDINARY_API_SECRET`\n- `EMAIL_USER`\n- `EMAIL_PASS`\n- `FRONTEND_URL`\n\n## 🤝 Contributing\n\n1. Fork the repository\n2. Create your feature branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## 📝 License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## 👥 Authors\n\n- **TetewHeroez** - _Initial work_ - [TetewHeroez](https://github.com/TetewHeroez)\n",
+      "tree": {
+        ".gitignore": {
+          "type": "file"
+        },
+        "README.md": {
+          "type": "file"
+        },
+        "backend": {
+          "type": "folder",
+          "children": {
+            "package.json": {
+              "type": "file"
+            },
+            "pnpm-lock.yaml": {
+              "type": "file"
+            },
+            "server.js": {
+              "type": "file"
+            },
+            "src": {
+              "type": "folder",
+              "children": {
+                "config": {
+                  "type": "folder",
+                  "children": {
+                    "db.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "constants": {
+                  "type": "folder",
+                  "children": {
+                    "documentConstants.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "controllers": {
+                  "type": "folder",
+                  "children": {
+                    "authController.js": {
+                      "type": "file"
+                    },
+                    "dashboardController.js": {
+                      "type": "file"
+                    },
+                    "documentController.js": {
+                      "type": "file"
+                    },
+                    "permissionController.js": {
+                      "type": "file"
+                    },
+                    "userController.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "middleware": {
+                  "type": "folder",
+                  "children": {
+                    "authMiddleware.js": {
+                      "type": "file"
+                    },
+                    "uploadMiddleware.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "models": {
+                  "type": "folder",
+                  "children": {
+                    "Document.js": {
+                      "type": "file"
+                    },
+                    "Permission.js": {
+                      "type": "file"
+                    },
+                    "User.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "routes": {
+                  "type": "folder",
+                  "children": {
+                    "authRoutes.js": {
+                      "type": "file"
+                    },
+                    "dashboardRoutes.js": {
+                      "type": "file"
+                    },
+                    "documentRoutes.js": {
+                      "type": "file"
+                    },
+                    "permissionRoutes.js": {
+                      "type": "file"
+                    },
+                    "userRoutes.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "utils": {
+                  "type": "folder",
+                  "children": {
+                    "emailService.js": {
+                      "type": "file"
+                    },
+                    "generateToken.js": {
+                      "type": "file"
+                    },
+                    "seeder.js": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "frontend": {
+          "type": "folder",
+          "children": {
+            "README.md": {
+              "type": "file"
+            },
+            "eslint.config.js": {
+              "type": "file"
+            },
+            "index.html": {
+              "type": "file"
+            },
+            "jsconfig.json": {
+              "type": "file"
+            },
+            "package.json": {
+              "type": "file"
+            },
+            "pnpm-lock.yaml": {
+              "type": "file"
+            },
+            "public": {
+              "type": "folder",
+              "children": {
+                "gagas.png": {
+                  "type": "file"
+                },
+                "vite.svg": {
+                  "type": "file"
+                }
+              }
+            },
+            "src": {
+              "type": "folder",
+              "children": {
+                "App.css": {
+                  "type": "file"
+                },
+                "App.jsx": {
+                  "type": "file"
+                },
+                "api": {
+                  "type": "folder",
+                  "children": {
+                    "api.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "assets": {
+                  "type": "folder",
+                  "children": {
+                    "react.svg": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "components": {
+                  "type": "folder",
+                  "children": {
+                    "AddDocumentModal.jsx": {
+                      "type": "file"
+                    },
+                    "AddUserModal.jsx": {
+                      "type": "file"
+                    },
+                    "ConfirmationModal.jsx": {
+                      "type": "file"
+                    },
+                    "EditDocumentModal.jsx": {
+                      "type": "file"
+                    },
+                    "EditUserModal.jsx": {
+                      "type": "file"
+                    },
+                    "Header.jsx": {
+                      "type": "file"
+                    },
+                    "Pagination.jsx": {
+                      "type": "file"
+                    },
+                    "PasswordInput.jsx": {
+                      "type": "file"
+                    },
+                    "ProtectedRoute.jsx": {
+                      "type": "file"
+                    },
+                    "Sidebar.jsx": {
+                      "type": "file"
+                    },
+                    "SortableHeader.jsx": {
+                      "type": "file"
+                    },
+                    "ThemeToggle.jsx": {
+                      "type": "file"
+                    },
+                    "UndoToast.jsx": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "constants": {
+                  "type": "folder",
+                  "children": {
+                    "divisions.js": {
+                      "type": "file"
+                    },
+                    "documentTypes.js": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "context": {
+                  "type": "folder",
+                  "children": {
+                    "ThemeContext.jsx": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "hooks": {
+                  "type": "folder",
+                  "children": {
+                    "useUndo.jsx": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "index.css": {
+                  "type": "file"
+                },
+                "layouts": {
+                  "type": "folder",
+                  "children": {
+                    "DashboardLayout.jsx": {
+                      "type": "file"
+                    },
+                    "PublicLayout.jsx": {
+                      "type": "file"
+                    }
+                  }
+                },
+                "main.jsx": {
+                  "type": "file"
+                },
+                "pages": {
+                  "type": "folder",
+                  "children": {
+                    "DashboardContent.jsx": {
+                      "type": "file"
+                    },
+                    "DashboardPage.jsx": {
+                      "type": "file"
+                    },
+                    "DocumentDetailPage.jsx": {
+                      "type": "file"
+                    },
+                    "DocumentListPage.jsx": {
+                      "type": "file"
+                    },
+                    "DocumentsPage.jsx": {
+                      "type": "file"
+                    },
+                    "ForgotPasswordPage.jsx": {
+                      "type": "file"
+                    },
+                    "LoginPage.jsx": {
+                      "type": "file"
+                    },
+                    "NotFoundPage.jsx": {
+                      "type": "file"
+                    },
+                    "PermissionManagementPage.jsx": {
+                      "type": "file"
+                    },
+                    "ProfilePage.jsx": {
+                      "type": "file"
+                    },
+                    "ResetPasswordPage.jsx": {
+                      "type": "file"
+                    },
+                    "SearchResultsPage.jsx": {
+                      "type": "file"
+                    },
+                    "UserManagementPage.jsx": {
+                      "type": "file"
+                    }
+                  }
+                }
+              }
+            },
+            "vercel.json": {
+              "type": "file"
+            },
+            "vite.config.js": {
+              "type": "file"
             }
           }
         }
@@ -5147,1071 +5613,6 @@
               "type": "file"
             }
           }
-        }
-      }
-    },
-    {
-      "name": "Gagas-Database",
-      "description": null,
-      "stars": 0,
-      "forks": 0,
-      "languages": {
-        "JavaScript": 178078,
-        "CSS": 1636,
-        "HTML": 364
-      },
-      "html_url": "https://github.com/TetewHeroez/Gagas-Database",
-      "homepage": "https://gagas-database.vercel.app",
-      "topics": [],
-      "readmeContent": "# Gagas Database Management System\n\n<!-- PORTFOLIO-START: detailedDescription -->\n\nA comprehensive document management system built with **Node.js**, **Express**, **MongoDB**, and **React**. This system provides secure document storage, user management, and role-based access control with advanced features like forgot password functionality.\n\n<!-- PORTFOLIO-END: detailedDescription -->\n\n![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)\n![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)\n![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)\n![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)\n![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)\n\n## 🚀 Features\n\n### Core Features\n\n<!-- PORTFOLIO-START: features -->\n\n- **📄 Document Management**: Upload, view, edit, and delete documents\n- **👥 User Management**: Admin can manage users and their permissions\n- **🔐 Authentication & Authorization**: JWT-based authentication with role-based access\n- **🔍 Advanced Search**: Search documents by title, type, or content <!-- PORTFOLIO-END: features -->\n- **📊 Dashboard**: Comprehensive dashboard with statistics and recent activities\n- **🌙 Dark Mode**: Toggle between light and dark themes\n- **📱 Responsive Design**: Works seamlessly on desktop and mobile devices\n\n### Security Features\n\n<!-- PORTFOLIO-START: features -->\n\n- **🔒 Forgot Password**: Email-based password reset functionality <!-- PORTFOLIO-END: features -->\n- **🛡️ Token-based Authentication**: Secure JWT implementation\n- **👮 Role-based Access Control**: Admin and user roles with different permissions\n- **🔐 Password Hashing**: Secure password storage with bcrypt\n- **⏰ Session Management**: Automatic token expiration and refresh\n- **🔑 Database Admin Auto-Access**: Database Admin role has automatic access to all documents\n\n### Document Features\n\n<!-- PORTFOLIO-START: features -->\n\n- **☁️ Cloud Storage**: Integration with Cloudinary for file storage\n- **📎 Multiple File Types**: Support for various document formats\n- **🏷️ Document Categories**: Organize documents by type and division <!-- PORTFOLIO-END: features -->\n- **📋 Document Permissions**: Control who can view and edit documents\n- **📈 Document Analytics**: Track document views and downloads\n- **🚀 Auto-Permission System**: Database Admin automatically gets access to new document types\n\n## 🛠️ Tech Stack\n\n### Backend\n\n- **Node.js** - Runtime environment\n- **Express.js** - Web framework\n- **MongoDB** - NoSQL database\n- **Mongoose** - MongoDB object modeling\n- **JWT** - Authentication tokens\n- **Bcrypt** - Password hashing\n- **Nodemailer** - Email service\n- **Cloudinary** - Cloud storage for files\n- **Multer** - File upload handling\n\n### Frontend\n\n- **React** - Frontend library\n- **Vite** - Build tool and dev server\n- **React Router** - Client-side routing\n- **Tailwind CSS** - Utility-first CSS framework\n- **Lucide React** - Icon library\n- **Axios** - HTTP client\n\n## 📋 Prerequisites\n\nBefore running this application, make sure you have the following installed:\n\n- **Node.js** (v16 or higher)\n- **pnpm** (recommended) or npm\n- **MongoDB** (local installation or MongoDB Atlas account)\n- **Git**\n\n## ⚙️ Installation & Setup\n\n### 1. Clone the Repository\n\n```bash\ngit clone https://github.com/TetewHeroez/Gagas-Database.git\ncd Gagas-Database\n```\n\n### 2. Backend Setup\n\n```bash\ncd backend\npnpm install\n```\n\n### 3. Frontend Setup\n\n```bash\ncd ../frontend\npnpm install\n```\n\n### 4. Environment Configuration\n\nCreate a `.env` file in the `backend` directory:\n\n```env\n# Server Configuration\nPORT=5000\n\n# Database Configuration\nMONGO_URI=\"your-mongodb-connection-string\"\nJWT_SECRET=\"your-jwt-secret-key\"\n\n# Cloudinary Configuration (for file storage)\nCLOUDINARY_CLOUD_NAME=\"your-cloudinary-cloud-name\"\nCLOUDINARY_API_KEY=\"your-cloudinary-api-key\"\nCLOUDINARY_API_SECRET=\"your-cloudinary-api-secret\"\n\n# Default Admin Configuration\nADMIN_USERNAME=\"admin_super\"\nADMIN_EMAIL=\"admin@company.com\"\nADMIN_NAMA_LENGKAP=\"System Administrator\"\nADMIN_PASSWORD=\"SecureAdminPassword123!\"\nADMIN_DIVISI=\"IT Department\"\n\n# Email Configuration (for forgot password feature)\nEMAIL_USER=\"your-email@gmail.com\"\nEMAIL_PASS=\"your-app-password\"\n\n# Frontend URL\nFRONTEND_URL=\"http://localhost:5173\"\n```\n\n### 5. Database Setup\n\n#### Option A: MongoDB Atlas (Recommended)\n\n1. Create a free account at [MongoDB Atlas](https://cloud.mongodb.com/)\n2. Create a new cluster\n3. Get your connection string\n4. Add your IP address to the whitelist\n5. Update `MONGO_URI` in your `.env` file\n\n#### Option B: Local MongoDB\n\n1. Install MongoDB locally\n2. Start MongoDB service\n3. Use local connection string: `mongodb://localhost:27017/gagas-database`\n\n### 6. Cloudinary Setup\n\n1. Create a free account at [Cloudinary](https://cloudinary.com/)\n2. Get your cloud name, API key, and API secret from the dashboard\n3. Update the Cloudinary variables in your `.env` file\n\n### 7. Email Setup (Optional for Development)\n\n#### For Development (Default)\n\n- Leave email configuration as is\n- Emails will be logged to console instead of being sent\n\n#### For Production (Gmail)\n\n1. Enable 2-Factor Authentication on your Gmail account\n2. Generate an App Password:\n   - Go to Google Account Settings\n   - Security → 2-Step Verification → App passwords\n   - Select \"Mail\" and generate password\n3. Update `EMAIL_USER` and `EMAIL_PASS` in `.env`\n\n#### For Production (Other Providers)\n\n```env\n# For Outlook/Hotmail\nEMAIL_USER=\"your-email@outlook.com\"\nEMAIL_PASS=\"your-password\"\n\n# For Yahoo\nEMAIL_USER=\"your-email@yahoo.com\"\nEMAIL_PASS=\"your-password\"\n```\n\n## 🚀 Running the Application\n\n### Development Mode\n\n1. **Start Backend Server**:\n\n```bash\ncd backend\npnpm run dev\n```\n\nThe backend will run on `http://localhost:5000`\n\n2. **Start Frontend Development Server**:\n\n```bash\ncd frontend\npnpm run dev\n```\n\nThe frontend will run on `http://localhost:5173` (or next available port)\n\n### Production Mode\n\n1. **Build Frontend**:\n\n```bash\ncd frontend\npnpm run build\n```\n\n2. **Start Backend**:\n\n```bash\ncd backend\npnpm start\n```\n\n## 📁 Project Structure\n\n```\nGagas-Database/\n├── backend/\n│   ├── src/\n│   │   ├── config/\n│   │   │   └── db.js                 # Database connection\n│   │   ├── controllers/\n│   │   │   ├── authController.js     # Authentication logic\n│   │   │   ├── documentController.js # Document CRUD operations\n│   │   │   ├── userController.js     # User management\n│   │   │   └── ...\n│   │   ├── middleware/\n│   │   │   ├── authMiddleware.js     # JWT verification\n│   │   │   └── uploadMiddleware.js   # File upload handling\n│   │   ├── models/\n│   │   │   ├── User.js               # User schema\n│   │   │   ├── Document.js           # Document schema\n│   │   │   └── Permission.js         # Permission schema\n│   │   ├── routes/\n│   │   │   ├── authRoutes.js         # Authentication routes\n│   │   │   ├── documentRoutes.js     # Document routes\n│   │   │   └── ...\n│   │   └── utils/\n│   │       ├── generateToken.js      # JWT utilities\n│   │       ├── emailService.js       # Email functionality\n│   │       └── seeder.js             # Database seeding\n│   ├── server.js                     # Main server file\n│   ├── package.json\n│   └── .env\n│\n├── frontend/\n│   ├── src/\n│   │   ├── components/               # Reusable components\n│   │   ├── pages/                    # Main pages\n│   │   ├── layouts/                  # Layout components\n│   │   ├── hooks/                    # Custom React hooks\n│   │   ├── context/                  # React context providers\n│   │   ├── api/                      # API utilities\n│   │   └── assets/                   # Static assets\n│   ├── public/\n│   ├── index.html\n│   ├── package.json\n│   └── vite.config.js\n│\n└── README.md\n```\n\n## 🔑 Default Admin Account\n\nAfter seeding the database, you can login with:\n\n- **Username**: `admin_super`\n- **Email**: `admin@company.com` (or as configured in .env)\n- **Password**: `SecureAdminPassword123!` (or as configured in .env)\n- **Division**: `Database Admin` (automatically gets access to all documents)\n\n## 📚 API Documentation\n\n### Authentication Endpoints\n\n| Method | Endpoint                          | Description               |\n| ------ | --------------------------------- | ------------------------- |\n| POST   | `/api/auth/login`                 | User login                |\n| POST   | `/api/auth/forgot-password`       | Request password reset    |\n| POST   | `/api/auth/reset-password/:token` | Reset password with token |\n\n### User Management Endpoints\n\n| Method | Endpoint             | Description                  |\n| ------ | -------------------- | ---------------------------- |\n| GET    | `/api/users`         | Get all users (Admin only)   |\n| GET    | `/api/users/profile` | Get current user profile     |\n| POST   | `/api/users`         | Create new user (Admin only) |\n| PUT    | `/api/users/:id`     | Update user (Admin only)     |\n| DELETE | `/api/users/:id`     | Delete user (Admin only)     |\n\n### Document Management Endpoints\n\n| Method | Endpoint             | Description         |\n| ------ | -------------------- | ------------------- |\n| GET    | `/api/documents`     | Get all documents   |\n| GET    | `/api/documents/:id` | Get document by ID  |\n| POST   | `/api/documents`     | Create new document |\n| PUT    | `/api/documents/:id` | Update document     |\n| DELETE | `/api/documents/:id` | Delete document     |\n\n### Dashboard Endpoints\n\n| Method | Endpoint                          | Description              |\n| ------ | --------------------------------- | ------------------------ |\n| GET    | `/api/dashboard/stats`            | Get dashboard statistics |\n| GET    | `/api/dashboard/recent-documents` | Get recent documents     |\n\n## 🔐 Forgot Password Feature\n\n### How it Works\n\n1. **Request Reset**: User enters email on forgot password page\n2. **Email Sent**: System generates secure token and sends email\n3. **Reset Password**: User clicks link in email and enters new password\n4. **Token Validation**: System validates token and updates password\n\n### Email Configuration Modes\n\n#### Development Mode\n\n- Emails are logged to backend console\n- Reset URLs are displayed in console for testing\n- No actual email sending required\n\n#### Production Mode\n\n- Emails are sent to user's inbox\n- Requires valid email service configuration\n- Supports Gmail, Outlook, Yahoo, and custom SMTP\n\n### Security Features\n\n- Tokens expire after 1 hour\n- Tokens are cryptographically hashed\n- Email validation before sending\n- Account status verification\n- Password strength validation\n\n## 🎨 Features Overview\n\n### User Roles\n\n#### Admin\n\n- Full access to all features\n- User management (create, edit, delete users)\n- Document management for all documents\n- Permission management\n- Dashboard with full statistics\n\n#### Regular User\n\n- View and manage assigned documents\n- Profile management\n- Limited dashboard access\n- Document search and filtering\n\n#### Database Admin (Special Role)\n\n- **Automatic access** to all document types (existing and future)\n- **Cannot be modified** in permission management\n- **Hidden from permission settings** to prevent accidental changes\n- **Future-proof access** - automatically gets access to new document types\n- All admin privileges plus unrestricted document access\n\n### Document Types\n\n- Surat Masuk (Incoming Letters)\n- Surat Keluar (Outgoing Letters)\n- Memo Internal (Internal Memos)\n- Laporan (Reports)\n- Kontrak (Contracts)\n- Invoice\n- SOP (Standard Operating Procedures)\n- Lainnya (Others)\n\n### Divisions\n\n- Direktur (Director)\n- Manager\n- Supervisor\n- Staff\n- Admin\n- IT\n- HR\n- Finance\n- Marketing\n- Operations\n\n## 🎯 Permission System\n\n### How Permissions Work\n\n- **Regular Users**: Access controlled by permission settings in admin panel\n- **Admin Users**: Can access all documents and manage permissions\n- **Database Admin**: Special role with automatic access to all documents\n\n### Database Admin Features\n\n- **Automatic Permission**: Gets access to all document types without manual configuration\n- **Future-Proof**: Automatically receives access to newly added document types\n- **Protected Settings**: Cannot be modified in permission management interface\n- **Hidden from UI**: Does not appear in permission management to prevent confusion\n\n### Permission Management\n\n- Admins can set document type permissions for each division\n- Permissions are granted per division (not per individual user)\n- Database Admin division is automatically excluded from permission management\n- Real-time permission updates across the system\n\n## 🛡️ Security Best Practices\n\n- **Environment Variables**: All sensitive data stored in environment variables\n- **Password Hashing**: Passwords hashed using bcrypt with salt\n- **JWT Tokens**: Secure token-based authentication\n- **Input Validation**: Server-side validation for all inputs\n- **File Upload Security**: Secure file handling with Cloudinary\n- **CORS Protection**: Configured CORS for frontend-backend communication\n- **Rate Limiting**: Consider implementing rate limiting for production\n\n## 🚀 Deployment\n\n### Frontend Deployment (Vercel/Netlify)\n\n1. Build the frontend:\n\n```bash\ncd frontend\npnpm run build\n```\n\n2. Deploy the `dist` folder to your hosting service\n\n### Backend Deployment (Railway/Heroku/DigitalOcean)\n\n1. Ensure all environment variables are set\n2. Update `FRONTEND_URL` to your deployed frontend URL\n3. Deploy the backend folder to your hosting service\n\n### Environment Variables for Production\n\nMake sure to set all required environment variables in your production environment:\n\n- `MONGO_URI`\n- `JWT_SECRET`\n- `CLOUDINARY_CLOUD_NAME`\n- `CLOUDINARY_API_KEY`\n- `CLOUDINARY_API_SECRET`\n- `EMAIL_USER`\n- `EMAIL_PASS`\n- `FRONTEND_URL`\n\n## 🤝 Contributing\n\n1. Fork the repository\n2. Create your feature branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n## 📝 License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## 👥 Authors\n\n- **TetewHeroez** - _Initial work_ - [TetewHeroez](https://github.com/TetewHeroez)\n",
-      "tree": {
-        ".gitignore": {
-          "type": "file"
-        },
-        "README.md": {
-          "type": "file"
-        },
-        "backend": {
-          "type": "folder",
-          "children": {
-            "package.json": {
-              "type": "file"
-            },
-            "pnpm-lock.yaml": {
-              "type": "file"
-            },
-            "server.js": {
-              "type": "file"
-            },
-            "src": {
-              "type": "folder",
-              "children": {
-                "config": {
-                  "type": "folder",
-                  "children": {
-                    "db.js": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "constants": {
-                  "type": "folder",
-                  "children": {
-                    "documentConstants.js": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "controllers": {
-                  "type": "folder",
-                  "children": {
-                    "authController.js": {
-                      "type": "file"
-                    },
-                    "dashboardController.js": {
-                      "type": "file"
-                    },
-                    "documentController.js": {
-                      "type": "file"
-                    },
-                    "permissionController.js": {
-                      "type": "file"
-                    },
-                    "userController.js": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "middleware": {
-                  "type": "folder",
-                  "children": {
-                    "authMiddleware.js": {
-                      "type": "file"
-                    },
-                    "uploadMiddleware.js": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "models": {
-                  "type": "folder",
-                  "children": {
-                    "Document.js": {
-                      "type": "file"
-                    },
-                    "Permission.js": {
-                      "type": "file"
-                    },
-                    "User.js": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "routes": {
-                  "type": "folder",
-                  "children": {
-                    "authRoutes.js": {
-                      "type": "file"
-                    },
-                    "dashboardRoutes.js": {
-                      "type": "file"
-                    },
-                    "documentRoutes.js": {
-                      "type": "file"
-                    },
-                    "permissionRoutes.js": {
-                      "type": "file"
-                    },
-                    "userRoutes.js": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "utils": {
-                  "type": "folder",
-                  "children": {
-                    "emailService.js": {
-                      "type": "file"
-                    },
-                    "generateToken.js": {
-                      "type": "file"
-                    },
-                    "seeder.js": {
-                      "type": "file"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "frontend": {
-          "type": "folder",
-          "children": {
-            "README.md": {
-              "type": "file"
-            },
-            "eslint.config.js": {
-              "type": "file"
-            },
-            "index.html": {
-              "type": "file"
-            },
-            "jsconfig.json": {
-              "type": "file"
-            },
-            "package.json": {
-              "type": "file"
-            },
-            "pnpm-lock.yaml": {
-              "type": "file"
-            },
-            "public": {
-              "type": "folder",
-              "children": {
-                "gagas.png": {
-                  "type": "file"
-                },
-                "vite.svg": {
-                  "type": "file"
-                }
-              }
-            },
-            "src": {
-              "type": "folder",
-              "children": {
-                "App.css": {
-                  "type": "file"
-                },
-                "App.jsx": {
-                  "type": "file"
-                },
-                "api": {
-                  "type": "folder",
-                  "children": {
-                    "api.js": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "assets": {
-                  "type": "folder",
-                  "children": {
-                    "react.svg": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "components": {
-                  "type": "folder",
-                  "children": {
-                    "AddDocumentModal.jsx": {
-                      "type": "file"
-                    },
-                    "AddUserModal.jsx": {
-                      "type": "file"
-                    },
-                    "ConfirmationModal.jsx": {
-                      "type": "file"
-                    },
-                    "EditDocumentModal.jsx": {
-                      "type": "file"
-                    },
-                    "EditUserModal.jsx": {
-                      "type": "file"
-                    },
-                    "Header.jsx": {
-                      "type": "file"
-                    },
-                    "Pagination.jsx": {
-                      "type": "file"
-                    },
-                    "PasswordInput.jsx": {
-                      "type": "file"
-                    },
-                    "ProtectedRoute.jsx": {
-                      "type": "file"
-                    },
-                    "Sidebar.jsx": {
-                      "type": "file"
-                    },
-                    "SortableHeader.jsx": {
-                      "type": "file"
-                    },
-                    "ThemeToggle.jsx": {
-                      "type": "file"
-                    },
-                    "UndoToast.jsx": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "constants": {
-                  "type": "folder",
-                  "children": {
-                    "divisions.js": {
-                      "type": "file"
-                    },
-                    "documentTypes.js": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "context": {
-                  "type": "folder",
-                  "children": {
-                    "ThemeContext.jsx": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "hooks": {
-                  "type": "folder",
-                  "children": {
-                    "useUndo.jsx": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "index.css": {
-                  "type": "file"
-                },
-                "layouts": {
-                  "type": "folder",
-                  "children": {
-                    "DashboardLayout.jsx": {
-                      "type": "file"
-                    },
-                    "PublicLayout.jsx": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "main.jsx": {
-                  "type": "file"
-                },
-                "pages": {
-                  "type": "folder",
-                  "children": {
-                    "DashboardContent.jsx": {
-                      "type": "file"
-                    },
-                    "DashboardPage.jsx": {
-                      "type": "file"
-                    },
-                    "DocumentDetailPage.jsx": {
-                      "type": "file"
-                    },
-                    "DocumentListPage.jsx": {
-                      "type": "file"
-                    },
-                    "DocumentsPage.jsx": {
-                      "type": "file"
-                    },
-                    "ForgotPasswordPage.jsx": {
-                      "type": "file"
-                    },
-                    "LoginPage.jsx": {
-                      "type": "file"
-                    },
-                    "NotFoundPage.jsx": {
-                      "type": "file"
-                    },
-                    "PermissionManagementPage.jsx": {
-                      "type": "file"
-                    },
-                    "ProfilePage.jsx": {
-                      "type": "file"
-                    },
-                    "ResetPasswordPage.jsx": {
-                      "type": "file"
-                    },
-                    "SearchResultsPage.jsx": {
-                      "type": "file"
-                    },
-                    "UserManagementPage.jsx": {
-                      "type": "file"
-                    }
-                  }
-                }
-              }
-            },
-            "vercel.json": {
-              "type": "file"
-            },
-            "vite.config.js": {
-              "type": "file"
-            }
-          }
-        }
-      }
-    },
-    {
-      "name": "my-himatika",
-      "description": null,
-      "stars": 0,
-      "forks": 0,
-      "languages": {
-        "Blade": 454646,
-        "PHP": 186738,
-        "JavaScript": 4315,
-        "CSS": 3415,
-        "Batchfile": 1496
-      },
-      "html_url": "https://github.com/TetewHeroez/my-himatika",
-      "homepage": "https://myhimatika.vercel.app",
-      "topics": [],
-      "readmeContent": "# MyHIMATIKA - Padamu HIMATIKA ITS\n\n**HIMATIKA ITS** stands for _Himpunan Mahasiswa Matematika ITS_ (Mathematics Student Association, Institut Teknologi Sepuluh Nopember, Indonesia). This is a comprehensive information management system for Cadreritation/Regeneration of HIMATIKA ITS, providing full-featured tools to manage member data, attendance, assignments, and scoring.\n\n[![Laravel](https://img.shields.io/badge/Laravel-11.x-red.svg)](https://laravel.com)\n[![PHP](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38bdf8.svg)](https://tailwindcss.com)\n[![Cloudinary](https://img.shields.io/badge/Cloudinary-Enabled-3448c5.svg)](https://cloudinary.com)\n\n---\n\n## 📋 Table of Contents\n\n-   [Key Features](#key-features)\n-   [Tech Stack](#tech-stack)\n-   [Installation](#installation)\n-   [Configuration](#configuration)\n-   [Cloudinary Upload (Photo/PDF)](#cloudinary-upload-photopdf)\n-   [Troubleshooting](#troubleshooting)\n-   [Deployment](#deployment)\n-   [Contributing](#contributing)\n\n---\n\n## 🚀 Key Features\n\n### 📊 Dashboard & Analytics\n\n-   Interactive dashboard with real-time statistics\n-   Visual charts for attendance, assignments, and member performance\n-   Full dark mode support\n\n### 👥 User Management\n\n-   **Member**: Complete profile (personal data, address, parents, health)\n-   **Admin**: Member data management, Excel import\n-   **Superadmin**: Full system control\n\n### 📸 Cloudinary Upload\n\n-   ✅ Profile photo upload to Cloudinary CDN\n-   ✅ Real-time validation (size, format)\n-   ✅ Status indicators (loading, success, failure)\n-   ✅ Auto-resize & optimization (500x500, auto-quality, WebP/AVIF)\n-   ✅ Auto-delete old photos\n-   📄 Ready to extend for PDF uploads (report cards, transcripts, etc.)\n\n### 📅 Attendance Management\n\n-   Check-in/check-out system\n-   Attendance history per member\n-   Export attendance reports\n\n### 📝 Assignment & Submission\n\n-   Assignment management with weighted scores\n-   Submission upload with deadlines\n-   Automatic scoring system\n\n### 🎯 GDK (Cadreritation Grand Design)\n\n-   Contract system\n-   Flowchart of Methods\n-   Visual hierarchy for task prioritization\n-   Progress tracking\n\n---\n\n## 🛠️ Tech Stack\n\n| Category            | Technology                                  |\n| ------------------- | ------------------------------------------- |\n| **Backend**         | Laravel 11.x (PHP 8.2+)                     |\n| **Frontend**        | Blade Templates, Tailwind CSS v4, Alpine.js |\n| **Database**        | MySQL (Aiven Cloud, PlanetScale, Railway)   |\n| **Storage**         | Cloudinary CDN                              |\n| **Icons**           | Feather Icons                               |\n| **Package Manager** | Composer, npm                               |\n| **Dev Tools**       | Laravel Tinker, Vite                        |\n\n### Main Dependencies\n\n````json\n{\n    \"laravel/framework\": \"^11.0\",\n    \"maatwebsite/excel\": \"^3.1\",\n    \"cloudinary-labs/cloudinary-laravel\": \"^2.0\"\n}\n````\n\n## 📦 Installation\n\n### Requirements\n\n- PHP >= 8.2\n- Composer\n- Node.js & npm\n- MySQL\n- Cloudinary Account (Free tier)\n\n### Step-by-Step\n\n1. **Clone the Repository**\n\n```bash\ngit clone https://github.com/TetewHeroez/ETS-web.git\ncd ETS-web\n```\n\n2. **Install Dependencies**\n\n```bash\ncomposer install\nnpm install\n```\n\n3. **Setup Environment**\n\n```bash\ncp .env.example .env\nphp artisan key:generate\n```\n\n4. **Configure Database & Cloudinary** (edit `.env`)\n\n```env\n# Database (Aiven Cloud, PlanetScale, Railway, or Local)\nDB_CONNECTION=mysql\nDB_HOST=your-host.aivencloud.com\nDB_PORT=13530\nDB_DATABASE=defaultdb\nDB_USERNAME=your-username\nDB_PASSWORD=your-password\n\n# Cloudinary Configuration\nCLOUDINARY_CLOUD_NAME=your-cloud-name\nCLOUDINARY_API_KEY=your-api-key\nCLOUDINARY_API_SECRET=your-api-secret\nCLOUDINARY_URL=cloudinary://api_key:api_secret@cloud_name\n```\n\n5. **Run Migrations & Seeders**\n\n```bash\nphp artisan migrate --seed\n```\n\n6. **Build Frontend Assets**\n\n```bash\nnpm run build\n# For development:\nMember:\n```\n\n7. **Start the Server**\n\n```bash\nphp artisan serve\n```\n\n8. **Access the Application**\n\n```\nhttp://localhost:8000\n```\n\n### Default Login Credentials\n\n```\nSuperadmin:\n- Email: superadmin@himatika.its.ac.id\n- Password: superadmin123\n\nAdmin:\n- Email: admin@himatika.its.ac.id\n- Password: admin123\n\nMember:\n- Email: member@himatika.its.ac.id\n- Password: member123\n```\n\n---\n\n\n## ⚙️ Configuration\n\n### Cloudinary Setup\n\n1. **Create a Cloudinary Account** (Free Tier)\n    - Register: https://cloudinary.com/users/register_free\n    - Dashboard: https://cloudinary.com/console\n2. **Get Your Credentials**\n    - Cloud Name: Shown in dashboard\n    - API Key: Settings → Security → API Keys\n    - API Secret: Settings → Security → API Keys\n3. **Add to `.env`**\n\n```env\nCLOUDINARY_CLOUD_NAME=your-cloud-name\nCLOUDINARY_API_KEY=your-api-key\nCLOUDINARY_API_SECRET=your-api-secret\nCLOUDINARY_URL=cloudinary://api_key:api_secret@cloud_name\n````\n\n4. **Clear Config Cache**\n\n```bash\nphp artisan config:clear\n```\n\n5. **Test Connection**\n\n```\nhttp://localhost:8000/test-cloudinary.php\n```\n\n### Database Configuration\n\n#### Aiven Cloud (Production)\n\n```env\nDB_CONNECTION=mysql\nDB_HOST=padamu-himatika-2024-tetewheroez.i.aivencloud.com\nDB_PORT=13530\nDB_DATABASE=defaultdb\nDB_USERNAME=avnadmin\nDB_PASSWORD=your-password\n```\n\n#### Local Development\n\n```env\nDB_CONNECTION=mysql\nDB_HOST=127.0.0.1\nDB_PORT=3306\nDB_DATABASE=myhimatika_db\nDB_USERNAME=root\nDB_PASSWORD=\n```\n\n---\n\n## 📤 Cloudinary Upload (Photo/PDF)\n\n### Implemented Upload Features\n\n#### ✅ Real-time Status Indicators\n\n**1. File Validation (On File Selection)**\n\n```\n✅ Ready to upload: profile.jpg (256 KB) - Click \"Save Changes\" to upload to Cloudinary\n❌ Failed: File too large (3.5MB). Maximum 2MB.\n❌ Failed: Invalid file format. Only JPG, PNG, or GIF allowed.\n```\n\n**2. Upload Status (On Submit)**\n\n```\n⏳ Uploading to Cloudinary... Please wait, do not close this page.\n[Button: 🔄 Uploading to Cloudinary...] (disabled)\n```\n\n**3. Upload Result**\n\n-   **Success**: Redirects to profile page with new photo\n-   **Failure**: Detailed error message with alert icon:\n    ```\n    ⚠️ Failed to upload photo to Cloudinary: Connection timeout\n    ⚠️ Failed to upload photo to Cloudinary: Cloudinary configuration not found\n    ⚠️ Failed to upload photo to Cloudinary: Invalid credentials\n    ```\n\n### How to Test Upload\n\n#### 1. Test Configuration\n\n```\nhttp://localhost:8000/test-cloudinary.php\n```\n\n**Expected Output:**\n\n-   ✅ Cloudinary Config OK!\n-   ✅ Successfully connected to Cloudinary API!\n\n#### 2. Test Upload in Edit Profile\n\n**Step 1: Select File**\n\n-   Open: http://localhost:8000/profile/edit\n-   Click \"Choose File\" in the Profile Photo form\n-   Select a photo (max 2MB, JPG/PNG/GIF)\n\n**Step 2: View Validation**\n\n-   ✅ Valid file → Green status: \"✅ Ready to upload...\"\n-   ❌ Invalid file → Red status: \"❌ Failed: ...\" + input auto-cleared\n\n**Step 3: Submit Form**\n\n-   Click \"Save Changes\"\n-   Button changes: Disabled + Spinner + \"Uploading to Cloudinary...\"\n-   Status text: \"⏳ Uploading to Cloudinary...\"\n\n**Step 4: Check Result**\n\n-   **Success**: Redirects to `/profile` with new photo\n-   **Failure**: Remains on page with error message\n\n#### 3. Check Logs (If Failed)\n\n**Windows PowerShell:**\n\n```powershell\nGet-Content \"storage/logs/laravel.log\" -Tail 50\n```\n\n**Linux/Mac:**\n\n```bash\ntail -f storage/logs/laravel.log\n```\n\n**Look for keywords:**\n\n-   `Cloudinary config loaded` → Config loaded successfully\n-   `Profile photo upload started` → Info about uploaded file\n-   `Profile photo uploaded successfully` → Cloudinary URL\n-   `Failed to upload profile photo` → Error details + stack trace\n\n### Involved Files\n\n```\nresources/views/profile/edit.blade.php\n├── Input file with ID: profile_photo_member / profile_photo_admin\n├── Status element: <p id=\"file-info-member\">\n└── Error display: @error('profile_photo')\n\npublic/js/profile-upload.js\n├── validateAndPreviewFile() → Size & format validation\n└── Form submit handler → Loading state\n\napp/Http/Controllers/ProfileController.php\n├── Validation: 'profile_photo' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'\n├── Upload to Cloudinary with transformation\n├── Auto-delete old photo\n└── Enhanced logging & error handling\n\npublic/test-cloudinary.php\n└── Test page to verify config & connection\n```\n\n---\n\n## 🐛 Troubleshooting\n\n### ❌ \"Gagal upload foto ke Cloudinary: Trying to access array offset on null\"\n\n**Penyebab**: Cloudinary config tidak dimuat atau response invalid\n\n**Solusi**:\n\n```bash\n# 1. Cek .env\ncat .env | grep CLOUDINARY\n\n# 2. Clear cache\nphp artisan config:clear\nphp artisan cache:clear\n\n# 3. Restart server\nphp artisan serve\n\n# 4. Test config\nphp artisan tinker\n>>> config('cloudinary.cloud_name')\n=> \"dg71hpqya\"\n```\n\n**Jika masih null, pastikan `.env` ada:**\n\n```env\nCLOUDINARY_CLOUD_NAME=dg71hpqya\nCLOUDINARY_API_KEY=943565982761512\nCLOUDINARY_API_SECRET=6-rASrAKEmaqPXa52wWwnn_IPNQ\n```\n\n### ❌ \"Failed to upload photo to Cloudinary: Connection timeout\"\n\n**Cause**: Slow internet connection or Cloudinary is down\n\n**Solution**:\n\n1. Check your internet connection\n2. Test ping: `ping api.cloudinary.com`\n3. Try uploading a smaller file\n\n````\n\n'rapor_pdf' => 'nullable|mimes:pdf|max:5120', // 5MB\n\n## 🚀 Deployment\n\n### Pre-Deployment Checklist\n\n```bash\n# 1. Update .env for production\nAPP_ENV=production\nAPP_DEBUG=false\nAPP_URL=https://your-domain.com\n\n# 2. Clear & cache config\nphp artisan config:clear\nphp artisan config:cache\nphp artisan route:cache\nphp artisan view:cache\n\n# 3. Optimize autoloader\ncomposer install --optimize-autoloader --no-dev\n\n# 4. Build assets\nnpm run build\n\n# 5. Set permissions (Linux)\nchmod -R 755 storage\nchmod -R 755 bootstrap/cache\n\n# 6. Test upload\n# Open: https://your-domain.com/test-cloudinary.php\n````\n\n### Environment Variables (Production)\n\n```env\nAPP_NAME=\"MyHIMATIKA\"\nAPP_ENV=production\nAPP_DEBUG=false\nAPP_URL=https://myhimatika.himatika.its.ac.id\n\nDB_CONNECTION=mysql\nDB_HOST=your-prod-host.aivencloud.com\nDB_PORT=13530\nDB_DATABASE=myhimatika_production\nDB_USERNAME=your-prod-user\nDB_PASSWORD=your-prod-password\n\nCLOUDINARY_CLOUD_NAME=your-cloud-name\nCLOUDINARY_API_KEY=your-api-key\nCLOUDINARY_API_SECRET=your-api-secret\nCLOUDINARY_URL=cloudinary://api_key:api_secret@cloud_name\n\nSESSION_DRIVER=database\nQUEUE_CONNECTION=database\n\nMAIL_MAILER=smtp\nMAIL_HOST=smtp.gmail.com\nMAIL_PORT=587\nMAIL_USERNAME=your-email@gmail.com\nMAIL_PASSWORD=your-app-password\n```\n\n### Deploy to cPanel\n\n1. **Upload Files**\n    - Zip project: `zip -r myhimatika.zip . -x \"node_modules/*\" -x \".git/*\"`\n    - Upload via File Manager or FTP\n    - Extract in `public_html/myhimatika`\n2. **Setup Database**\n    - Create database in cPanel → MySQL Databases\n    - Import SQL or run migration:\n    ```bash\n    php artisan migrate --force\n    ```\n3. **Configure .env**\n    - Copy `.env.example` to `.env`\n    - Update database credentials\n    - Generate key: `php artisan key:generate`\n4. **Set Public Directory**\n    - cPanel → Domains → Setup\n    - Document Root: `/home/username/public_html/myhimatika/public`\n5. **Test Upload**\n    - Open: `https://your-domain.com/test-cloudinary.php`\n    - Test photo upload at `/profile/edit`\n\n### Deploy to VPS (Ubuntu)\n\n```bash\n# 1. Clone repository\n\ncd ETS-web\n\n# 2. Install dependencies\ncomposer install --optimize-autoloader --no-dev\nnpm install && npm run build\n\n# 3. Setup .env\ncp .env.example .env\nnano .env  # Edit database & cloudinary config\n\n# 4. Generate key\nphp artisan key:generate\n\n# 5. Run migration\nphp artisan migrate --force\n\n# 6. Set permissions\nsudo chown -R www-data:www-data storage bootstrap/cache\nsudo chmod -R 775 storage bootstrap/cache\n\n# 7. Setup Nginx/Apache\nsudo nano /etc/nginx/sites-available/myhimatika\n# Configure virtual host\n\n# 8. Restart services\nsudo systemctl restart nginx\nsudo systemctl restart php8.2-fpm\n\n# 9. Test upload\ncurl https://your-domain.com/test-cloudinary.php\n```\n\n### Monitoring Production\n\n````bash\n# Check error log\n```php\n\n# Check Nginx/Apache log\n// Handle PDF upload\n\n# Monitor upload\nif ($request->hasFile('rapor_pdf') && $request->file('rapor_pdf')->isValid()) {\n\n# Check Cloudinary usage\n# Login: https://cloudinary.com/console\n````\n\n    try {\n        $uploadedFile = Cloudinary::upload($request->file('rapor_pdf')->getRealPath(), [\n            'folder' => 'myhimatika/documents',\n            'resource_type' => 'raw', // PENTING: untuk PDF/DOC\n            'format' => 'pdf'\n        ]);\n\n        $validated['rapor_pdf'] = $uploadedFile->getSecurePath();\n    } catch (\\Exception $e) {\n        \\Log::error('Failed to upload PDF: ' . $e->getMessage());\n        return redirect()->back()->withErrors(['rapor_pdf' => 'Gagal upload PDF: ' . $e->getMessage()]);\n    }\n\n}\n\n````\n\n### 5. Update View\n\n```blade\n{{-- resources/views/profile/edit.blade.php --}}\n<div>\n    <label class=\"block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2\">\n        Rapor (PDF)\n    </label>\n    <input type=\"file\" name=\"rapor_pdf\" id=\"rapor_pdf\" accept=\".pdf\"\n        class=\"w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg ...\"\n        onchange=\"validateAndPreviewPDF(this, 'rapor')\">\n    <p id=\"pdf-info-rapor\" class=\"text-xs text-slate-500 dark:text-slate-400 mt-1\">\n        PDF (max 5MB)\n    </p>\n    @error('rapor_pdf')\n        <p class=\"text-red-500 text-sm mt-2 flex items-center gap-1\">\n            <i data-feather=\"alert-circle\" class=\"w-4 h-4\"></i>\n            {{ $message }}\n        </p>\n    @enderror\n</div>\n````\n\n### 6. Update JavaScript\n\n```javascript\n// public/js/profile-upload.js\nfunction validateAndPreviewPDF(input, section) {\n    const file = input.files[0];\n    const fileInfo = document.getElementById(`pdf-info-${section}`);\n\n    if (!file) {\n        fileInfo.textContent = \"PDF (max 5MB)\";\n        fileInfo.className = \"text-xs text-slate-500 dark:text-slate-400 mt-1\";\n        return;\n    }\n\n    const maxSize = 5 * 1024 * 1024; // 5MB\n    if (file.size > maxSize) {\n        fileInfo.innerHTML =\n            \"❌ <strong>Gagal:</strong> File terlalu besar. Maksimal 5MB.\";\n        fileInfo.className =\n            \"text-xs text-red-600 dark:text-red-400 mt-1 font-medium\";\n        input.value = \"\";\n        return;\n    }\n\n    if (file.type !== \"application/pdf\") {\n        fileInfo.innerHTML =\n            \"❌ <strong>Gagal:</strong> Hanya file PDF yang diizinkan.\";\n        fileInfo.className =\n            \"text-xs text-red-600 dark:text-red-400 mt-1 font-medium\";\n        input.value = \"\";\n        return;\n    }\n\n    const sizeKB = (file.size / 1024).toFixed(2);\n    fileInfo.innerHTML =\n        \"✅ <strong>Siap diupload:</strong> \" +\n        file.name +\n        \" (\" +\n        sizeKB +\n        \" KB)\";\n    fileInfo.className =\n        \"text-xs text-green-600 dark:text-green-400 mt-1 font-medium\";\n}\n```\n\n---\n\n## 📊 Cloudinary Quota Monitor\n\n### Free Tier Limits\n\n-   ✅ Storage: 25 GB\n-   ✅ Bandwidth: 25 GB/month\n-   ✅ Transformations: 25,000 credits/month\n\n### Cara Cek Usage\n\n1. Login: https://cloudinary.com/console\n2. Dashboard → Usage\n3. Monitor:\n    - Storage used (GB)\n    - Bandwidth (GB/month)\n    - Transformation credits\n\n### Quota Saving Tips\n\n-   Compress photos before uploading\n-   Use transformations (auto-quality, auto-format)\n-   Delete unused old photos:\n\n```bash\nphp artisan profile:clean-old-photos\n```\n\n-   Set auto-delete for temporary files\n\n### Upgrade Plan (If Needed)\n\n-   **Plus Plan**: $99/month → 100 GB storage, 100 GB bandwidth\n-   **Advanced Plan**: $249/month → 300 GB storage, 300 GB bandwidth\n-   More info: https://cloudinary.com/pricing\n\n### Upgrade Plan (Jika Perlu)\n\n-   **Plus Plan**: $99/bulan → 100 GB storage, 100 GB bandwidth\n-   **Advanced Plan**: $249/bulan → 300 GB storage, 300 GB bandwidth\n-   Info: https://cloudinary.com/pricing\n\n---\n\n## 🚀 Deployment\n\n### Pre-Deployment Checklist\n\n```bash\n# 1. Update .env untuk production\nAPP_ENV=production\nAPP_DEBUG=false\nAPP_URL=https://your-domain.com\n\n# 2. Clear & cache config\nphp artisan config:clear\nphp artisan config:cache\nphp artisan route:cache\nphp artisan view:cache\n\n# 3. Optimize autoloader\ncomposer install --optimize-autoloader --no-dev\n\n# 4. Build assets\nnpm run build\n\n# 5. Set permissions (Linux)\nchmod -R 755 storage\nchmod -R 755 bootstrap/cache\n\n# 6. Test upload\n# Buka: https://your-domain.com/test-cloudinary.php\n```\n\n### Environment Variables (Production)\n\n```env\nAPP_NAME=\"MyHIMATIKA\"\nAPP_ENV=production\nAPP_DEBUG=false\nAPP_URL=https://myhimatika.himatika.its.ac.id\n\nDB_CONNECTION=mysql\nDB_HOST=your-prod-host.aivencloud.com\nDB_PORT=13530\nDB_DATABASE=myhimatika_production\nDB_USERNAME=your-prod-user\nDB_PASSWORD=your-prod-password\n\nCLOUDINARY_CLOUD_NAME=dg71hpqya\nCLOUDINARY_API_KEY=943565982761512\nCLOUDINARY_API_SECRET=6-rASrAKEmaqPXa52wWwnn_IPNQ\n\nSESSION_DRIVER=database\nQUEUE_CONNECTION=database\n\nMAIL_MAILER=smtp\nMAIL_HOST=smtp.gmail.com\nMAIL_PORT=587\nMAIL_USERNAME=your-email@gmail.com\nMAIL_PASSWORD=your-app-password\n```\n\n### Deploy to cPanel\n\n1. **Upload Files**\n    - Zip the project: `zip -r myhimatika.zip . -x \"node_modules/*\" -x \".git/*\"`\n    - Upload via File Manager or FTP\n    - Extract in `public_html/myhimatika`\n2. **Setup Database**\n    - Create a database in cPanel → MySQL Databases\n    - Import SQL or run migration:\n    ```bash\n    php artisan migrate --force\n    ```\n3. **Configure .env**\n    - Copy `.env.example` to `.env`\n    - Update database credentials\n    - Generate key: `php artisan key:generate`\n4. **Set Public Directory**\n    - cPanel → Domains → Setup\n    - Document Root: `/home/username/public_html/myhimatika/public`\n5. **Test Upload**\n    - Open: `https://your-domain.com/test-cloudinary.php`\n    - Test photo upload at `/profile/edit`\n\n### Deploy to VPS (Ubuntu)\n\n```bash\n# 1. Clone repository\ngit clone https://github.com/TetewHeroez/ETS-web.git\ncd ETS-web\n\n# 2. Install dependencies\ncomposer install --optimize-autoloader --no-dev\nnpm install && npm run build\n\n# 3. Setup .env\ncp .env.example .env\nnano .env  # Edit database & cloudinary config\n\n# 4. Generate key\nphp artisan key:generate\n\n# 5. Run migration\nphp artisan migrate --force\n\n# 6. Set permissions\nsudo chown -R www-data:www-data storage bootstrap/cache\nsudo chmod -R 775 storage bootstrap/cache\n\n# 7. Setup Nginx/Apache\nsudo nano /etc/nginx/sites-available/myhimatika\n# Configure virtual host\n\n# 8. Restart services\nsudo systemctl restart nginx\nsudo systemctl restart php8.2-fpm\n\n# 9. Test upload\ncurl https://your-domain.com/test-cloudinary.php\n```\n\n### Monitoring Production\n\n```bash\n# Check error log\ntail -f storage/logs/laravel.log\n\n# Check Nginx/Apache log\ntail -f /var/log/nginx/error.log\n\n# Monitor upload\ngrep \"Profile photo upload\" storage/logs/laravel.log\n\n# Check Cloudinary usage\n# Login: https://cloudinary.com/console\n```\n\n---\n\n## 🤝 Contributing\n\nContributions are very welcome! To contribute:\n\n1. Fork this repository\n2. Create a feature branch: `git checkout -b feature/AmazingFeature`\n3. Commit your changes: `git commit -m 'Add some AmazingFeature'`\n4. Push to the branch: `git push origin feature/AmazingFeature`\n5. Open a Pull Request\n\n### Coding Standards\n\n-   Follow the PSR-12 coding standard\n-   Write clear commit messages\n-   Add comments for complex code\n-   Test before pushing\n\n---\n\n### Useful Links\n\n-   Cloudinary Dashboard: https://cloudinary.com/console\n-   Laravel Docs: https://laravel.com/docs/11.x\n-   Tailwind CSS: https://tailwindcss.com/docs\n-   Feather Icons: https://feathericons.com\n\n---\n\n## 📜 License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n---\n\n## 🙏 Acknowledgments\n\n-   Laravel Framework\n-   Cloudinary for CDN storage\n-   Aiven for MySQL hosting\n-   HIMATIKA ITS 2024/2025 (Mathematics Student Association, ITS)\n\n---\n\n**Last Updated**: October 28, 2025\n**Version**: 1.0.0\n**Status**: Production Ready ✅\n\n## Code of Conduct\n\nTo ensure the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).\n\n## Security Vulnerabilities\n\nIf you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.\n\n## License\n\nThe Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).\n",
-      "tree": {
-        ".editorconfig": {
-          "type": "file"
-        },
-        ".env.example": {
-          "type": "file"
-        },
-        ".gitattributes": {
-          "type": "file"
-        },
-        ".gitignore": {
-          "type": "file"
-        },
-        "README.md": {
-          "type": "file"
-        },
-        "api": {
-          "type": "folder",
-          "children": {
-            "index.php": {
-              "type": "file"
-            }
-          }
-        },
-        "app": {
-          "type": "folder",
-          "children": {
-            "Console": {
-              "type": "folder",
-              "children": {
-                "Commands": {
-                  "type": "folder",
-                  "children": {
-                    "CleanOldProfilePhotos.php": {
-                      "type": "file"
-                    },
-                    "TestCloudinaryUpload.php": {
-                      "type": "file"
-                    }
-                  }
-                }
-              }
-            },
-            "Http": {
-              "type": "folder",
-              "children": {
-                "Controllers": {
-                  "type": "folder",
-                  "children": {
-                    "AssignmentController.php": {
-                      "type": "file"
-                    },
-                    "AttendanceController.php": {
-                      "type": "file"
-                    },
-                    "AttendanceScheduleController.php": {
-                      "type": "file"
-                    },
-                    "ContractController.php": {
-                      "type": "file"
-                    },
-                    "Controller.php": {
-                      "type": "file"
-                    },
-                    "GdkController.php": {
-                      "type": "file"
-                    },
-                    "KpiController.php": {
-                      "type": "file"
-                    },
-                    "LoginController.php": {
-                      "type": "file"
-                    },
-                    "ProfileController.php": {
-                      "type": "file"
-                    },
-                    "ScoreController.php": {
-                      "type": "file"
-                    },
-                    "SubmissionController.php": {
-                      "type": "file"
-                    },
-                    "UserController.php": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "Middleware": {
-                  "type": "folder",
-                  "children": {
-                    "CheckRole.php": {
-                      "type": "file"
-                    }
-                  }
-                }
-              }
-            },
-            "Imports": {
-              "type": "folder",
-              "children": {
-                "UsersImport.php": {
-                  "type": "file"
-                }
-              }
-            },
-            "Models": {
-              "type": "folder",
-              "children": {
-                "Assignment.php": {
-                  "type": "file"
-                },
-                "Attendance.php": {
-                  "type": "file"
-                },
-                "AttendanceSchedule.php": {
-                  "type": "file"
-                },
-                "Contract.php": {
-                  "type": "file"
-                },
-                "GdkFlowchart.php": {
-                  "type": "file"
-                },
-                "GdkMateri.php": {
-                  "type": "file"
-                },
-                "GdkMetode.php": {
-                  "type": "file"
-                },
-                "GdkNilai.php": {
-                  "type": "file"
-                },
-                "Score.php": {
-                  "type": "file"
-                },
-                "Submission.php": {
-                  "type": "file"
-                },
-                "User.php": {
-                  "type": "file"
-                }
-              }
-            },
-            "Providers": {
-              "type": "folder",
-              "children": {
-                "AppServiceProvider.php": {
-                  "type": "file"
-                }
-              }
-            }
-          }
-        },
-        "artisan": {
-          "type": "file"
-        },
-        "bootstrap": {
-          "type": "folder",
-          "children": {
-            "app.php": {
-              "type": "file"
-            },
-            "cache": {
-              "type": "folder",
-              "children": {
-                ".gitignore": {
-                  "type": "file"
-                }
-              }
-            },
-            "providers.php": {
-              "type": "file"
-            }
-          }
-        },
-        "composer.json": {
-          "type": "file"
-        },
-        "composer.lock": {
-          "type": "file"
-        },
-        "config": {
-          "type": "folder",
-          "children": {
-            "app.php": {
-              "type": "file"
-            },
-            "auth.php": {
-              "type": "file"
-            },
-            "cache.php": {
-              "type": "file"
-            },
-            "cloudinary.php": {
-              "type": "file"
-            },
-            "database.php": {
-              "type": "file"
-            },
-            "filesystems.php": {
-              "type": "file"
-            },
-            "logging.php": {
-              "type": "file"
-            },
-            "mail.php": {
-              "type": "file"
-            },
-            "queue.php": {
-              "type": "file"
-            },
-            "services.php": {
-              "type": "file"
-            },
-            "session.php": {
-              "type": "file"
-            }
-          }
-        },
-        "database": {
-          "type": "folder",
-          "children": {
-            ".gitignore": {
-              "type": "file"
-            },
-            "factories": {
-              "type": "folder",
-              "children": {
-                "UserFactory.php": {
-                  "type": "file"
-                }
-              }
-            },
-            "migrations": {
-              "type": "folder",
-              "children": {
-                "0001_01_01_000000_create_users_table.php": {
-                  "type": "file"
-                },
-                "2024_01_01_000001_create_assignments_table.php": {
-                  "type": "file"
-                },
-                "2024_01_01_000002_create_submissions_table.php": {
-                  "type": "file"
-                },
-                "2025_10_16_144934_create_attendances_table.php": {
-                  "type": "file"
-                },
-                "2025_10_16_152644_add_profile_fields_to_users_table.php": {
-                  "type": "file"
-                },
-                "2025_10_16_152723_rename_nim_to_nrp_in_users_table.php": {
-                  "type": "file"
-                },
-                "2025_10_16_170944_add_weight_to_assignments_table.php": {
-                  "type": "file"
-                },
-                "2025_10_18_044431_create_scores_table.php": {
-                  "type": "file"
-                },
-                "2025_10_21_073919_drop_cache_and_jobs_tables.php": {
-                  "type": "file"
-                },
-                "2025_10_21_073922_drop_cache_and_jobs_tables.php": {
-                  "type": "file"
-                },
-                "2025_10_21_082729_add_kelompok_to_users_table.php": {
-                  "type": "file"
-                },
-                "2025_10_21_090150_add_hobi_to_users_table.php": {
-                  "type": "file"
-                },
-                "2025_10_21_124214_add_status_to_users_table.php": {
-                  "type": "file"
-                },
-                "2025_10_21_124219_add_status_to_users_table.php": {
-                  "type": "file"
-                },
-                "2025_10_21_130026_add_jabatan_to_users_table.php": {
-                  "type": "file"
-                },
-                "2025_10_21_131601_update_existing_members_jabatan.php": {
-                  "type": "file"
-                },
-                "2025_10_23_160255_create_contracts_table.php": {
-                  "type": "file"
-                },
-                "2025_10_23_161752_create_attendance_schedules_table.php": {
-                  "type": "file"
-                },
-                "2025_10_23_161816_add_schedule_id_to_attendances_table.php": {
-                  "type": "file"
-                },
-                "2025_10_23_182011_add_pj_number_to_users_table.php": {
-                  "type": "file"
-                },
-                "2025_10_23_190727_create_gdk_nilai_table.php": {
-                  "type": "file"
-                },
-                "2025_10_23_190735_create_gdk_materi_table.php": {
-                  "type": "file"
-                },
-                "2025_10_23_190743_create_gdk_metode_table.php": {
-                  "type": "file"
-                },
-                "2025_10_23_190751_create_gdk_flowchart_table.php": {
-                  "type": "file"
-                },
-                "2025_10_23_215015_add_profile_photo_to_users_table.php": {
-                  "type": "file"
-                },
-                "2025_10_25_000000_add_submission_type_to_assignments_table.php": {
-                  "type": "file"
-                },
-                "2025_10_25_000001_add_gdk_flowchart_id_to_assignments_table.php": {
-                  "type": "file"
-                },
-                "2025_10_25_000002_remove_is_active_from_assignments_table.php": {
-                  "type": "file"
-                },
-                "2025_10_25_000003_remove_weight_and_is_active_from_assignments.php": {
-                  "type": "file"
-                },
-                "2025_10_25_153816_update_gdk_flowchart_and_scores_tables.php": {
-                  "type": "file"
-                }
-              }
-            },
-            "seeders": {
-              "type": "folder",
-              "children": {
-                "AssignmentSeeder.php": {
-                  "type": "file"
-                },
-                "ContractSeeder.php": {
-                  "type": "file"
-                },
-                "DatabaseSeeder.php": {
-                  "type": "file"
-                },
-                "GdkSeeder.php": {
-                  "type": "file"
-                }
-              }
-            }
-          }
-        },
-        "package-lock.json": {
-          "type": "file"
-        },
-        "package.json": {
-          "type": "file"
-        },
-        "phpunit.xml": {
-          "type": "file"
-        },
-        "pnpm-lock.yaml": {
-          "type": "file"
-        },
-        "public": {
-          "type": "folder",
-          "children": {
-            ".htaccess": {
-              "type": "file"
-            },
-            "build": {
-              "type": "folder",
-              "children": {
-                "assets": {
-                  "type": "folder",
-                  "children": {
-                    "app-BB96Jbtq.css": {
-                      "type": "file"
-                    },
-                    "app-Bj43h_rG.js": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "manifest.json": {
-                  "type": "file"
-                }
-              }
-            },
-            "favicon.ico": {
-              "type": "file"
-            },
-            "images": {
-              "type": "folder",
-              "children": {
-                "login_page.png": {
-                  "type": "file"
-                },
-                "logohimatika.png": {
-                  "type": "file"
-                }
-              }
-            },
-            "index.php": {
-              "type": "file"
-            },
-            "js": {
-              "type": "folder",
-              "children": {
-                "profile-upload.js": {
-                  "type": "file"
-                }
-              }
-            },
-            "robots.txt": {
-              "type": "file"
-            }
-          }
-        },
-        "render.yaml": {
-          "type": "file"
-        },
-        "resources": {
-          "type": "folder",
-          "children": {
-            "css": {
-              "type": "folder",
-              "children": {
-                "app.css": {
-                  "type": "file"
-                }
-              }
-            },
-            "js": {
-              "type": "folder",
-              "children": {
-                "app.js": {
-                  "type": "file"
-                },
-                "bootstrap.js": {
-                  "type": "file"
-                }
-              }
-            },
-            "views": {
-              "type": "folder",
-              "children": {
-                "assignments": {
-                  "type": "folder",
-                  "children": {
-                    "create.blade.php": {
-                      "type": "file"
-                    },
-                    "edit.blade.php": {
-                      "type": "file"
-                    },
-                    "index.blade.php": {
-                      "type": "file"
-                    },
-                    "select.blade.php": {
-                      "type": "file"
-                    },
-                    "submissions-progress.blade.php": {
-                      "type": "file"
-                    },
-                    "upload.blade.php": {
-                      "type": "file"
-                    },
-                    "user-submissions.blade.php": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "attendances": {
-                  "type": "folder",
-                  "children": {
-                    "index.blade.php": {
-                      "type": "file"
-                    },
-                    "my-attendance.blade.php": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "auth": {
-                  "type": "folder",
-                  "children": {
-                    "login.blade.php": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "components": {
-                  "type": "folder",
-                  "children": {
-                    "navbar.blade.php": {
-                      "type": "file"
-                    },
-                    "sidebar.blade.php": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "contracts": {
-                  "type": "folder",
-                  "children": {
-                    "edit.blade.php": {
-                      "type": "file"
-                    },
-                    "index.blade.php": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "dashboard.blade.php": {
-                  "type": "file"
-                },
-                "gdk": {
-                  "type": "folder",
-                  "children": {
-                    "index.blade.php": {
-                      "type": "file"
-                    },
-                    "modals": {
-                      "type": "folder",
-                      "children": {
-                        "edit-materi.blade.php": {
-                          "type": "file"
-                        },
-                        "edit-metode.blade.php": {
-                          "type": "file"
-                        },
-                        "edit-nilai.blade.php": {
-                          "type": "file"
-                        }
-                      }
-                    }
-                  }
-                },
-                "kpi": {
-                  "type": "folder",
-                  "children": {
-                    "index.blade.php": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "layouts": {
-                  "type": "folder",
-                  "children": {
-                    "app.blade.php": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "profile": {
-                  "type": "folder",
-                  "children": {
-                    "edit.blade.php": {
-                      "type": "file"
-                    },
-                    "show.blade.php": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "users": {
-                  "type": "folder",
-                  "children": {
-                    "create.blade.php": {
-                      "type": "file"
-                    },
-                    "edit.blade.php": {
-                      "type": "file"
-                    },
-                    "index.blade.php": {
-                      "type": "file"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "routes": {
-          "type": "folder",
-          "children": {
-            "console.php": {
-              "type": "file"
-            },
-            "web.php": {
-              "type": "file"
-            }
-          }
-        },
-        "setup-dev.bat": {
-          "type": "file"
-        },
-        "start-server.bat": {
-          "type": "file"
-        },
-        "storage": {
-          "type": "folder",
-          "children": {
-            "app": {
-              "type": "folder",
-              "children": {
-                ".gitignore": {
-                  "type": "file"
-                },
-                "private": {
-                  "type": "folder",
-                  "children": {
-                    ".gitignore": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "public": {
-                  "type": "folder",
-                  "children": {
-                    ".gitignore": {
-                      "type": "file"
-                    }
-                  }
-                }
-              }
-            },
-            "framework": {
-              "type": "folder",
-              "children": {
-                ".gitignore": {
-                  "type": "file"
-                },
-                "cache": {
-                  "type": "folder",
-                  "children": {
-                    ".gitignore": {
-                      "type": "file"
-                    },
-                    "data": {
-                      "type": "folder",
-                      "children": {
-                        ".gitignore": {
-                          "type": "file"
-                        }
-                      }
-                    }
-                  }
-                },
-                "sessions": {
-                  "type": "folder",
-                  "children": {
-                    ".gitignore": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "testing": {
-                  "type": "folder",
-                  "children": {
-                    ".gitignore": {
-                      "type": "file"
-                    }
-                  }
-                },
-                "views": {
-                  "type": "folder",
-                  "children": {
-                    ".gitignore": {
-                      "type": "file"
-                    }
-                  }
-                }
-              }
-            },
-            "logs": {
-              "type": "folder",
-              "children": {
-                ".gitignore": {
-                  "type": "file"
-                }
-              }
-            }
-          }
-        },
-        "tests": {
-          "type": "folder",
-          "children": {
-            "Feature": {
-              "type": "folder",
-              "children": {
-                "ExampleTest.php": {
-                  "type": "file"
-                }
-              }
-            },
-            "TestCase.php": {
-              "type": "file"
-            },
-            "Unit": {
-              "type": "folder",
-              "children": {
-                "ExampleTest.php": {
-                  "type": "file"
-                }
-              }
-            }
-          }
-        },
-        "vercel.json": {
-          "type": "file"
-        },
-        "vite.config.js": {
-          "type": "file"
         }
       }
     },

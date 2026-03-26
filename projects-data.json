@@ -1,6 +1,22 @@
 [
   {
     "id": 1,
+    "title": "Wa Sticker Bot",
+    "description": "No description provided.",
+    "detailedDescription": "For more details, please see the repository's README.",
+    "features": [],
+    "images": [
+      "https://placehold.co/600x400/cccccc/000000?text=wa-sticker-bot"
+    ],
+    "category": "personal",
+    "tags": [],
+    "link": "https://github.com/TetewHeroez/wa-sticker-bot",
+    "github": "https://github.com/TetewHeroez/wa-sticker-bot",
+    "homepage": null,
+    "icon": "user"
+  },
+  {
+    "id": 2,
     "title": "Tugas Kuliah",
     "description": "A collection of assignments from my undergraduate and master's studies.",
     "detailedDescription": "This repository contains various academic assignments and coursework I completed throughout my undergraduate studies in the Department of Mathematics, Institut Teknologi Sepuluh Nopember (ITS). Most of the documents are written in LaTeX and exported as PDF files.\n\nI first got introduced to $\\LaTeX$ while working as a Staff Partner for OMITS 16th in the Quality Management division. As someone who doesn’t enjoy handwriting (and often makes typos too!), LaTeX has become a game-changer in how I handle assignments—especially since my third semester. It offers clean, professional formatting and allows me to focus on content without worrying about layout.\n\nSince then, LaTeX has been my primary tool for writing mathematical reports, papers, and homework assignments.",
@@ -36,7 +52,36 @@
     "icon": "school"
   },
   {
-    "id": 2,
+    "id": 3,
+    "title": "Gagas Database",
+    "description": "No description provided.",
+    "detailedDescription": "A comprehensive document management system built with Node.js, Express, MongoDB, and React. This system provides secure document storage, user management, and role-based access control with advanced features like forgot password functionality.",
+    "features": [
+      "📄 Document Management",
+      "👥 User Management",
+      "🔐 Authentication & Authorization",
+      "🔍 Advanced Search",
+      "🔒 Forgot Password",
+      "☁️ Cloud Storage",
+      "📎 Multiple File Types",
+      "🏷️ Document Categories"
+    ],
+    "images": [
+      "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white",
+      "https://img.shields.io/badge/Express.js-404D59?style=for-the-badge",
+      "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white",
+      "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+      "https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"
+    ],
+    "category": "personal",
+    "tags": [],
+    "link": "https://github.com/TetewHeroez/Gagas-Database",
+    "github": "https://github.com/TetewHeroez/Gagas-Database",
+    "homepage": "https://gagas-database.vercel.app",
+    "icon": "user"
+  },
+  {
+    "id": 4,
     "title": "Template Math Depart",
     "description": "No description provided.",
     "detailedDescription": "For more details, please see the repository's README.",
@@ -52,7 +97,7 @@
     "icon": "user"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Asisten Things",
     "description": "Assigment and material for my assistance to students ",
     "detailedDescription": "This repository serves as a personal archive of academic resources that I created and compiled during my tenure as a teaching assistant for two university-level courses: Calculus and Programming Algorithm.\n\nAll materials in this repository were developed using LaTeX, particularly the Beamer document class for presentations, to ensure professional layout, clarity, and consistency. The use of LaTeX allows for precise formatting of mathematical notation and structured document design, making the content suitable for academic and teaching purposes.",
@@ -88,7 +133,7 @@
     "icon": "book"
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Olympiad",
     "description": "No description provided.",
     "detailedDescription": "For more details, please see the repository's README.",
@@ -101,54 +146,6 @@
     "link": "https://github.com/TetewHeroez/Olympiad",
     "github": "https://github.com/TetewHeroez/Olympiad",
     "homepage": null,
-    "icon": "user"
-  },
-  {
-    "id": 5,
-    "title": "Gagas Database",
-    "description": "No description provided.",
-    "detailedDescription": "A comprehensive document management system built with Node.js, Express, MongoDB, and React. This system provides secure document storage, user management, and role-based access control with advanced features like forgot password functionality.",
-    "features": [
-      "📄 Document Management",
-      "👥 User Management",
-      "🔐 Authentication & Authorization",
-      "🔍 Advanced Search",
-      "🔒 Forgot Password",
-      "☁️ Cloud Storage",
-      "📎 Multiple File Types",
-      "🏷️ Document Categories"
-    ],
-    "images": [
-      "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white",
-      "https://img.shields.io/badge/Express.js-404D59?style=for-the-badge",
-      "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white",
-      "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
-      "https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"
-    ],
-    "category": "personal",
-    "tags": [],
-    "link": "https://github.com/TetewHeroez/Gagas-Database",
-    "github": "https://github.com/TetewHeroez/Gagas-Database",
-    "homepage": "https://gagas-database.vercel.app",
-    "icon": "user"
-  },
-  {
-    "id": 6,
-    "title": "My Himatika",
-    "description": "No description provided.",
-    "detailedDescription": "For more details, please see the repository's README.",
-    "features": [],
-    "images": [
-      "https://img.shields.io/badge/Laravel-11.x-red.svg",
-      "https://img.shields.io/badge/PHP-8.2+-blue.svg",
-      "https://img.shields.io/badge/Tailwind-v4-38bdf8.svg",
-      "https://img.shields.io/badge/Cloudinary-Enabled-3448c5.svg"
-    ],
-    "category": "personal",
-    "tags": [],
-    "link": "https://github.com/TetewHeroez/my-himatika",
-    "github": "https://github.com/TetewHeroez/my-himatika",
-    "homepage": "https://myhimatika.vercel.app",
     "icon": "user"
   },
   {
